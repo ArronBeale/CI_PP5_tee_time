@@ -1,108 +1,1097 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Teetime
 
-Welcome Arron,
+![Am I Responsive]()
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+**Developer: Arron Beale**
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+💻 [Visit live website](https://ci-pp5-teetime.herokuapp.com/)
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+## Table of Contents
+  - [About](#about)
+  - [User Goals](#user-goals)
+  - [Site Owner Goals](#site-owner-goals)
+  - [User Experience](#user-experience)
+  - [User Stories](#user-stories)
+  - [Design](#design)
+    - [Colours](#colours)
+    - [Fonts](#fonts)
+    - [Structure](#structure)
+      - [Website pages](#website-pages)
+      - [Database](#database)
+    - [Wireframes](#wireframes)
+  - [Technologies Used](#technologies-used)
+  - [Features](#features)
+  - [Validation](#validation)
+  - [Testing](#testing)
+    - [Manual testing](#manual-testing)
+    - [Automated testing](#automated-testing)
+    - [Tests on various devices](#tests-on-various-devices)
+    - [Browser compatibility](#browser-compatibility)
+  - [Bugs](#bugs)
+  - [Heroku Deployment](#heroku-deployment)
+  - [Credits](#credits)
+  - [Acknowledgements](#acknowledgements)
 
-A blue button should appear to click: _Make Public_,
+### About
 
-Another blue button should appear to click: _Open Browser_.
+Teetime is a web app built for Golf Clubs and Golf Societies to use to list their golf courses and golf outings for members and guests.
+It allows Golf Courses to be listed on the app so Golfers can find and book a time to golf on their course whether they are a guest or a member.
+It is also an online eCommerce store that sells golf merchandise to customers.
+<hr>
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### User Goals
 
-A blue button should appear to click: _Make Public_,
+- To book a tee time
+- To buy products from the shop
+- To find golf courses listed
 
-Another blue button should appear to click: _Open Browser_.
+### Site Owner Goals
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- To provide a solution to allow users to book a tee time
+- To provide a solution to allow users to buy from the shop
+- To attract more business with a well crafted site
+- Provide a modern application with an easy navigation
+- Fully responsive and accessible
+<hr>
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## User Experience
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Target Audience
+- 
+- 
+- 
+- 
+- 
 
-------
+### User Requirements and Expectations
 
-## Release History
+- Fully responsive
+- Accessible
+- A welcoming design
+- 
+- 
+- Social media
+- Contact information
+- Accessibility
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+##### Back to [top](#table-of-contents)<hr>
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+## User Stories
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### Users
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+1.	
+2.	
+3.	
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Admin / Authorised User
+11. 
+12. 
+13. 
+14. 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Site Owner  
+15. 
+16. 
+17. 
+18. 
+19. 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
+### Kanban, Epics & User Stories
+- GitHub Kanban was used to track all open user stories
+- Epics were created using the milestones feature
+- Backlog, In Progress, Done headings were used in the kanban
 
-## FAQ about the uptime script
+<details><summary>Epics</summary>
 
-**Why have you added this script?**
+![Epics]()
+![Epic 1]()
+![Epic 2]()
+![Epic 3]()
+![Epic 4]()
+</details>
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+<details><summary>User Stories</summary>
 
-**How will this affect me?**
+![User stories]()
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+</details>
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+<details><summary>Kanban</summary>
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+![Kanban mid]()
+![Kanban finish]()
 
-**So….?**
+</details>
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
 
-**Can I opt out?**
+##### Back to [top](#table-of-contents)<hr>
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+## Design
 
-**Anything more?**
+### Colours
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+I chose the following...
 
----
+The colors I wanted to stay close to  [Coolors.co](https://coolors.co/)
+<details><summary>See colour pallet</summary>
+<img src="docs/coolors.png">
+</details>
 
-Happy coding!
+### Fonts
+
+ The fonts selected were from Google Fonts, .......
+
+### Structure
+
+#### Website pages
+
+The site was designed for the user to be familiar with the layout such as a navigation bar along the top of the pages and a hamburger menu button for smaller screen.
+
+The footer contains all relevant social media links that the business has so the user can visit any social media site and follow the business there to expand the businesses followers, likes and shares.
+
+- The site consists of the following pages:
+  - Homepage
+  - 
+  - 
+  - Blog page has a paginated list of blogs posted by an admin or authorised user, 4 per page
+  - Blog expanded
+  - Book
+  - My bookings
+  - Edit booking
+  - Cancel booking
+  - Contact us
+  - Login / Logout allows users to login
+  - Register
+  - 404 error page to display if a 404 error is raised
+
+#### Database
+
+- Built with Python and the Django framework with a Postgres database for the deployed Heroku version(production)
+- 
+
+<details><summary>Show diagram</summary>
+<img src="">
+</details>
+
+
+##### User Model
+The User Model contains the following:
+- user_id
+- password
+- last_login
+- is_superuser
+- username
+- first_name
+- last_name
+- email
+- is_staff
+- is_active
+- date_joined
+
+##### Model
+The Model contains the following:
+- 
+- 
+- 
+- 
+- 
+
+##### Booking Model
+The Booking Model contains the following:
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+
+##### Post Model
+The Post Model contains the following:
+- title
+- post_id (PrimaryKey)
+- author (ForeignKey)
+- created_date
+- updated_date
+- content
+- featured_image
+- excerpt
+- slug
+- status
+
+##### Comment Model
+The Comment Model contains the following:
+- post (ForeignKey)
+- name
+- email
+- body
+- created_date
+- approved
+- Meta: created_on
+
+##### ContactUs Model
+The ContactUs Model contains the following:
+- contact_id (PrimaryKey)
+- name (ForeignKey)
+- email (ForeignKey)
+- phone (ForeignKey)
+- body
+
+
+### Wireframes
+The wireframes were created using Balsamiq
+<details><summary></summary>
+<img src="">
+</details>
+
+
+## Technologies Used
+
+### Languages & Frameworks
+
+- HTML
+- CSS
+- Javascript
+- Python
+- Django
+
+
+### Libraries & Tools
+
+- [Am I Responsive](http://ami.responsivedesign.is/)
+- [Balsamiq](https://balsamiq.com/)
+- [Bootstrap v5.2](https://getbootstrap.com/)
+- [Cloudinary](https://cloudinary.com/)
+- [Favicon.io](https://favicon.io)
+- [Chrome dev tools](https://developers.google.com/web/tools/chrome-devtools/)
+- [Font Awesome](https://fontawesome.com/)
+- [Git](https://git-scm.com/)
+- [GitHub](https://github.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [Heroku Platform](https://id.heroku.com/login)
+- [jQuery](https://jquery.com)
+- [Postgres](https://www.postgresql.org/)
+- [Summernote](https://summernote.org/)
+- Validation:
+  - [WC3 Validator](https://validator.w3.org/)
+  - [Jigsaw W3 Validator](https://jigsaw.w3.org/css-validator/)
+  - [JShint](https://jshint.com/)
+  - [Pycodestyle(PEP8)](https://pypi.org/project/pycodestyle/)
+  - [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
+  - [Wave Validator](https://wave.webaim.org/)
+
+##### Back to [top](#table-of-contents)
+
+
+## Features
+
+### Home page
+- Home page includes nav bar, main body and a footer
+
+
+<details><summary>See feature images</summary>
+
+![Home page]()
+</details>
+
+
+### Logo & Navigation
+- Custom logo for the business
+- Fully Responsive
+- On small screens switches to hamburger menu
+- Indicates login/logout in status
+- displayed on all pages
+
+<details><summary>See feature images</summary>
+
+![Footer]()
+![Footer]()
+![Footer]()
+</details>
+
+
+### Footer
+- Contains social media links and copyright
+- displayed across all pages
+- 
+
+<details><summary>See feature images</summary>
+
+![Footer]()
+</details>
+
+
+### Sign up / Register
+- Allow users to register an acoount
+- Username and password is required, email is optional
+
+<details><summary>See feature images</summary>
+
+![Register]()
+</details>
+
+
+### Login
+- User can login
+
+<details><summary>See feature images</summary>
+
+![Login]()
+![Login]()
+</details>
+
+
+### Logout
+- Allows the user to securely log out
+- Ask user if they are sure they want to log out
+
+<details><summary>See feature images</summary>
+
+![Logout]()
+</details>
+
+
+### Book
+- Allows the user to book
+- Messages are displayed if the data is not valid such as phone number lenght is too short and the email address is not a valid format
+
+<details><summary>See feature images</summary>
+
+![Book]()
+![Book]()
+![Book]()
+</details>
+
+
+### My Bookings
+- Allows the user to see their booking
+- 
+- 
+
+<details><summary>See feature images</summary>
+
+![My Bookings]()
+</details>
+
+
+### Edit Booking
+- Allows the user to edit their booking
+<details><summary>See feature images</summary>
+
+![Edit Booking](docs/features/feature-edit-booking.PNG)
+![ImaEdit Bookingge]()
+</details>
+
+
+### Cancel Booking 
+- Allows the user to cancel their booking, asks user are they sure
+  
+<details><summary>See feature images</summary>
+
+![Cancel Booking]()
+</details>
+
+
+### Blog
+- The blog displays each post made by a staff member
+- Paginations is used to display 4 posts per page
+  
+<details><summary>See feature images</summary>
+
+![Blog]()
+</details>
+
+
+### Blog Expanded
+- Expands into the selected blog the user wishes to read
+- Displays a featured image uploaded by the poster
+- If no image is uploaded a default image is then used
+- Registerd user can comment on the blog
+  
+<details><summary>See feature images</summary>
+
+![Blog Expanded]()
+</details>
+
+
+### Comments
+- Comments made are set to pending approval status to ensure nothing bad is displayed
+- Only registered users can comment on a blog post
+- Staff can approve comments via the admin panel on the backend
+  
+<details><summary>See feature images</summary>
+
+![Comments]()
+</details>
+
+
+### Contact Us
+- 
+- Contact info such as, phone, email, and address is displayed
+- A Google Map is embedded with the address for users to use
+  
+<details><summary>See feature images</summary>
+
+![Contact Us]()
+![Contact Us]()
+</details>
+
+
+### Social Media Links
+- A logo and link is used for each social media displayed
+- All links open in a new tab to ensure user is not directed away from the business
+- Displayed on all pages
+  
+<details><summary>See feature images</summary>
+
+![Social Media Links]()
+</details>
+
+
+### Pagination
+- Pagination is used on the
+- Ensures the page is kept tidy
+  
+<details><summary>See feature images</summary>
+
+![Pagination]()
+</details>
+
+
+##### Back to [top](#table-of-contents)<hr>
+
+
+## Validation
+
+The W3C Markup Validation Service
+<details><summary>Home</summary>
+<img src="">
+</details>
+
+<details><summary>Register</summary>
+<img src="">
+</details>
+
+<details><summary>Login</summary>
+<img src="">
+</details>
+
+<details><summary>Logout</summary>
+<img src="">
+</details>
+
+<details><summary>Bookings</summary>
+<img src="">
+</details>
+
+<details><summary>Edit Booking</summary>
+<img src="">
+</details>
+
+<details><summary>Cancel Booking</summary>
+<img src="">
+</details>
+
+<details><summary>Blog</summary>
+<img src="">
+</details>
+
+<details><summary>Blog Expanded</summary>
+<img src="">
+</details>
+
+<details><summary>Contact Us</summary>
+<img src="">
+</details>
+
+<details><summary>Confirmed</summary>
+<img src="">
+</details>
+
+<details><summary>404</summary>
+<img src="">
+</details><hr>
+
+
+### CSS Validation
+The W3C Jigsaw CSS Validation Service
+
+<details><summary>Style.css</summary>
+<img src="">
+</details><hr>
+
+### JavaScript Validation
+JSHint JS Validation Service
+
+<details><summary>Script.js</summary>
+<img src="">
+</details><hr>
+
+### PEP8 Validation
+PEP8 Validation Service was used to check the code for PEP8 requirements via Pycodestyle as PEP8online was down
+
+<details><summary>Tool used: Pycodestyle</summary>
+<img src="">
+</details>
+
+<hr><summary>App</summary><hr>
+
+
+<details><summary>Admin.py</summary>
+<img src="">
+</details>
+
+<details><summary>models.py</summary>
+<img src="">
+</details>
+
+<details><summary>urls.py</summary>
+<img src="">
+</details>
+
+<details><summary>views.py</summary>
+<img src="">
+</details>
+
+<details><summary>test_models.py</summary>
+<img src="">
+</details>
+
+<details><summary>test_views.py</summary>
+<img src="">
+</details>
+
+<details><summary>test_urls.py</summary>
+<img src="">
+</details>
+
+<hr><summary>App</summary><hr>
+
+
+<details><summary>Admin.py</summary>
+<img src="">
+</details>
+
+<details><summary>models.py</summary>
+<img src="">
+</details>
+
+<details><summary>urls.py</summary>
+<img src="">
+</details>
+
+<details><summary>views.py</summary>
+<img src="">
+</details>
+
+<details><summary>test_models.py</summary>
+<img src="">
+</details>
+
+<details><summary>test_views.py</summary>
+<img src="">
+</details>
+
+<details><summary>test_urls.py</summary>
+<img src="">
+</details>
+
+<hr><summary>App</summary><hr>
+
+
+<details><summary>Admin.py</summary>
+<img src="">
+</details>
+
+<details><summary>models.py</summary>
+<img src="">
+</details>
+
+<details><summary>urls.py</summary>
+<img src="">
+</details>
+
+<details><summary>views.py</summary>
+<img src="">
+</details>
+
+<details><summary>test_models.py</summary>
+<img src="">
+</details>
+
+<details><summary>test_views.py</summary>
+<img src="">
+</details>
+
+<details><summary>test_urls.py</summary>
+<img src="">
+</details>
+
+<hr><summary>App</summary><hr>
+
+
+<details><summary>Admin.py</summary>
+<img src="">
+</details>
+
+<details><summary>models.py</summary>
+<img src="">
+</details>
+
+<details><summary>urls.py</summary>
+<img src="">
+</details>
+
+<details><summary>views.py</summary>
+<img src="">
+</details>
+
+<details><summary>test_models.py</summary>
+<img src="">
+</details>
+
+<details><summary>test_views.py</summary>
+<img src="">
+</details>
+
+<details><summary>test_urls.py</summary>
+<img src="">
+</details>
+
+### Lighthouse
+
+Performance, best practices and SEO was tested using Lighthouse.
+
+#### Desktop
+<details><summary>Index</summary>
+<img src="">
+</details>
+
+<details><summary>Register</summary>
+<img src="">
+</details>
+
+<details><summary>Login</summary>
+<img src="">
+</details>
+
+<details><summary>Logout</summary>
+<img src="">
+</details>
+
+<details><summary>Blog</summary>
+<img src="">
+</details>
+
+<details><summary>Blog Expanded</summary>
+<img src="">
+</details>
+
+<details><summary>Book</summary>
+<img src="">
+</details>
+
+<details><summary>Booking List</summary>
+<img src="">
+</details>
+
+<details><summary>Edit Booking</summary>
+<img src="">
+</details>
+
+<details><summary>Cancel Booking</summary>
+<img src="">
+</details>
+
+<details><summary>Contact Us</summary>
+<img src="">
+</details>
+
+#### Mobile
+<details><summary>Index</summary>
+<img src="">
+</details>
+
+<details><summary>Register</summary>
+<img src="">
+</details>
+
+<details><summary>Login</summary>
+<img src="">
+</details>
+
+<details><summary>Logout</summary>
+<img src="">
+</details>
+
+<details><summary>Blog</summary>
+<img src="">
+</details>
+
+<details><summary>Blog Expanded</summary>
+<img src="">
+</details>
+
+<details><summary>Book</summary>
+<img src="">
+</details>
+
+<details><summary>Booking List</summary>
+<img src="">
+</details>
+
+<details><summary>Edit Booking</summary>
+<img src="">
+</details>
+
+<details><summary>Cancel Booking</summary>
+<img src="">
+</details>
+
+<details><summary>Contact Us</summary>
+<img src="">
+</details><hr>
+
+### Wave
+WAVE was used to test the websites accessibility.
+
+<details><summary>Index</summary>
+<img src="">
+<img src="">
+</details>
+
+<details><summary>Register</summary>
+<img src="">
+<img src="">
+</details>
+
+<details><summary>Login</summary>
+<img src="">
+<img src="">
+</details>
+
+<details><summary>Logout</summary>
+<img src="">
+<img src="">
+</details>
+
+<details><summary>Food Menu</summary>
+<img src="">
+<img src="">
+</details>
+
+<details><summary>Drinks Menu</summary>
+<img src="">
+<img src="">
+</details>
+
+<details><summary>Book</summary>
+<img src="">
+<img src="">
+</details>
+
+<details><summary>My Bookings</summary>
+<img src="">
+<img src="">
+</details>
+
+<details><summary>Edit Booking</summary>
+<img src="">
+<img src="">
+</details>
+
+<details><summary>Cancel Booking</summary>
+<img src="">
+<img src="">
+</details>
+
+<details><summary>Blog</summary>
+<img src="">
+<img src="">
+</details>
+
+<details><summary>Blog Expanded</summary>
+<img src="">
+<img src="">
+</details>
+
+<details><summary>Contact Us</summary>
+<img src="">
+<img src="">
+</details>
+
+<details><summary>404</summary>
+<img src="">
+<img src="">
+</details>
+
+
+##### Back to [top](#table-of-contents)<hr>
+
+
+## Testing
+
+1. Manual testing
+2. Automated testing
+
+### Manual testing
+
+1. As a User I
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+| Click on the 'Home' link in the navigation bar | Homepage will load| Works as expected |
+
+
+<details><summary></summary>
+<img src="">
+<img src="">
+<img src="">
+<img src="">
+<img src="">
+<img src="">
+<img src="">
+<img src="">
+<img src="">
+<img src="">
+<img src="">
+
+</details>
+
+
+
+9. As an Admin / Authorised User I can log in so that I can access the back end of the site
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+| Visit the admin page  | Enter admin login credentials, gain access to back end |  |
+
+
+<details><summary></summary>
+<img src="">
+<img src="">
+
+
+</details>
+
+
+### Automated testing
+
+- Testing was done using the built in Django module, unittest.
+- Coverage was also usesd to generate a report
+
+
+<details><summary> App, test_models.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/testing/unittest-bar-and-grill-test-models.PNG">
+</details>
+
+<details><summary> App, test_views.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/testing/unittest-bar-and-grill-test-views.PNG">
+</details>
+
+<details><summary> App, test_urls.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/testing/unittest-bar-and-grill-test-urls.PNG">
+</details>
+
+<details><summary> App, Coverage</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/testing/coverage-bar-and-grill.PNG">
+</details>
+
+
+### Device Testing & Browser compatibility
+
+The site uses to test on various real world devices was [BrowserStack]()  
+
+This allowed me to test on real devices and not just device emulators.
+
+The following devices were used to test my site:
+
+<details><summary>Samsung Galaxy S22 Ultra</summary>
+<img src="">
+</details>
+
+<details><summary>Apple iPhone 13</summary>
+<img src="">
+</details>
+
+<details><summary>Google Pixel 5</summary>
+<img src="">
+</details>
+
+<details><summary>Mozilla Firefox (v105 latest)</summary>
+<img src="">
+</details>
+
+<details><summary>Google Chrome (v106 latest)</summary>
+<img src="">
+</details>
+
+<details><summary>Safari (Monteray v15.3 latest)</summary>
+<img src="">
+</details>
+
+
+##### Back to [top](#table-of-contents)<hr>
+
+
+## Bugs
+
+| **Bug** | **Fix** |
+| ------- | ------- |
+| | |
+
+
+##### Back to [top](#table-of-contents)<hr>
+
+
+### Heroku Deployment
+
+[Official Page](https://devcenter.heroku.com/articles/git) (Ctrl + click)
+
+This application has been deployed from Github using Heroku. Here's how:
+
+1. Create an account at heroku.com
+<details>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/heroku/heroku-deployment-01.PNG">
+</details>
+
+2. Create an app, give it a name for such as ci-pp4-the-diplomat, and select a region
+<details>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/heroku/heroku-deployment-02.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/heroku/heroku-deployment-03.PNG">
+</details>
+
+3. Under resources search for postgres, and add a Postgres database to the app
+<details>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/heroku/heroku-deployment-04.PNG">
+</details>
+
+Heroku Postgres
+
+1. Note the DATABASE_URL, this can be set as an environment variable in Heroku and your local deployment(env.py)
+<details>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/heroku/heroku-deployment-18.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/heroku/heroku-deployment-17.PNG">
+</details>
+
+2. Install the plugins dj-database-url and psycopg2-binary.
+
+3. Run pip3 freeze > requirements.txt so both are added to the requirements.txt file
+<details>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/heroku/heroku-deployment-05.PNG">
+</details>
+
+4. Create a Procfile with the text: web: gunicorn the_diplomat.wsgi
+<details>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/heroku/heroku-deployment-06.PNG">
+</details>
+
+5. In the settings.py ensure the connection is to the Heroku postgres database, no indentation if you are not using a seperate test database.
+I store mine in env.py
+<details>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/heroku/heroku-deployment-07.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/heroku/heroku-deployment-08.PNG">
+</details>
+
+6. Ensure debug is set to false in the settings.py file
+<details>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/heroku/heroku-deployment-09.PNG">
+</details>
+
+7. Add localhost, and ci-pp4-the-diplomat.herokuapp.com to the ALLOWED_HOSTS variable in settings.py
+
+8. Run "python3 manage.py showmigrations" to check the status of the migrations
+
+9. Run "python3 manage.py migrate" to migrate the database
+
+10. Run "python3 manage.py createsuperuser" to create a super/admin user
+
+11. Run "python3 manage.py loaddata categories.json" on the categories file in products/fixtures to create the categories
+
+12. Run "python3 manage.py loaddata products.json" on the products file in products/fixtures to create the products
+
+13. Install gunicorn and add it to the requirements.txt file using the command pip3 freeze > requirements.txt
+
+14. Disable collectstatic in Heroku before any code is pushed using the command heroku config:set DISABLE_COLLECTSTATIC=1 -a ci-pp4-the-diplomat
+<details>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/heroku/heroku-deployment-19.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/heroku/heroku-deployment-10.PNG">
+</details>
+
+
+15. Ensure the following environment variables are set in Heroku
+<details>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/heroku/heroku-deployment-11.PNG">
+</details>
+
+16. Connect the app to GitHub, and enable automatic deploys from main if you wish
+<details>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/heroku/heroku-deployment-13.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/heroku/heroku-deployment-14.PNG">
+</details>
+
+17. Click deploy to deploy your application to Heroku for the first time
+
+18. Click on the link provided to access the application
+
+19. If you encounter any issues accessing the build logs is a good way to troubleshoot the issue
+<hr>
+
+### Fork Repository
+To fork the repository by following these steps:
+1. Go to the GitHub repository
+2. Click on Fork button in upper right hand corner
+<hr>
+
+### Clone Repository
+You can clone the repository by following these steps:
+1. Go to the GitHub repository 
+2. Locate the Code button above the list of files and click it 
+3. Select if you prefere to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash
+5. Change the current working directory to the one where you want the cloned directory
+6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+7.Press Enter to create your local clone.
+
+##### Back to [top](#table-of-contents)<hr>
+
+
+## Credits
+
+### Images
+
+
+
+### Code
+
+
+
+##### Back to [top](#table-of-contents)<hr>
+
+## Acknowledgements
+
+### Special thanks to the following:
+- Code Institute
+- My Mentor Mo Shami
