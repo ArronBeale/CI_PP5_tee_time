@@ -1,4 +1,4 @@
-# Teetime
+# eCommerce: Teetime (Building in Progress)
 
 ![Am I Responsive]()
 
@@ -36,9 +36,9 @@
 
 ### About
 
-Teetime is a web app built for Golf Clubs and Golf Societies to use to list their golf courses and golf outings for members and guests.
+Teetime is an eCommerce web app built for Golf Clubs and Golf Societies to use to list their golf courses and golf outings for members and guests.
 It allows Golf Courses to be listed on the app so Golfers can find and book a time to golf on their course whether they are a guest or a member.
-It is also an online eCommerce store that sells golf merchandise to customers.
+It is also an online shop that sells golf merchandise to customers.
 <hr>
 
 ### User Goals
