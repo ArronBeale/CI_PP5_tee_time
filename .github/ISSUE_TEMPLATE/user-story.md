@@ -8,3 +8,7 @@ assignees: ArronBeale
 ---
 
 As a **role** I can **capability** so that **received benefit**
+
+**Given**
+**When**
+**Then**
