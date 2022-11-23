@@ -49,7 +49,7 @@ It is also an online shop that sells golf merchandise to customers.
 
 ### Site Owner Goals
 
-- To provide a solution to allow users to book a tee time
+- To provide a solution to allow users to purchase a tee time
 - To provide a solution to allow users to buy from the shop
 - To attract more business with a well crafted site
 - Provide a modern application with an easy navigation
@@ -155,7 +155,7 @@ I chose the following...
 
 The colors I wanted to stay close to  [Coolors.co](https://coolors.co/)
 <details><summary>See colour pallet</summary>
-<img src="docs/coolors.png">
+<img src="">
 </details>
 
 ### Fonts
@@ -449,8 +449,8 @@ The wireframes were created using Balsamiq
 
 ### Contact Us
 - 
-- Contact info such as, phone, email, and address is displayed
-- A Google Map is embedded with the address for users to use
+- 
+- 
   
 <details><summary>See feature images</summary>
 
@@ -797,16 +797,6 @@ WAVE was used to test the websites accessibility.
 <img src="">
 </details>
 
-<details><summary>Food Menu</summary>
-<img src="">
-<img src="">
-</details>
-
-<details><summary>Drinks Menu</summary>
-<img src="">
-<img src="">
-</details>
-
 <details><summary>Book</summary>
 <img src="">
 <img src="">
@@ -904,19 +894,19 @@ WAVE was used to test the websites accessibility.
 
 
 <details><summary> App, test_models.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/testing/unittest-bar-and-grill-test-models.PNG">
+<img src="">
 </details>
 
 <details><summary> App, test_views.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/testing/unittest-bar-and-grill-test-views.PNG">
+<img src="">
 </details>
 
 <details><summary> App, test_urls.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/testing/unittest-bar-and-grill-test-urls.PNG">
+<img src="">
 </details>
 
 <details><summary> App, Coverage</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/testing/coverage-bar-and-grill.PNG">
+<img src="">
 </details>
 
 
