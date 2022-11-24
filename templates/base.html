@@ -47,7 +47,7 @@
 </head>
 
 <body>
-  <header class="fixed-top">
+  <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand main-logo-link" href="{% url 'home' %}">
         <img src="/media/logo-200.png" alt="Teetime">
@@ -96,6 +96,18 @@
               <a class="dropdown-item" href="#">All Products</a>
             </div>
           </li>
+        </ul>
+        <div class="container">
+          <div class="row justify-content-center">
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-dark" type="submit"><span class="icon"><i
+                    class="fas fa-search"></i></span></button>
+              </button>
+            </form>
+          </div>
+        </div>
+        <ul class="navbar-nav me-auto me-lg-1 ms-lg-auto mb-2 mb-lg-0">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
               <i class="fas fa-user fa-lg"></i>
@@ -113,6 +125,8 @@
               {% endif %}
             </div>
           </li>
+        </ul>
+        <ul class="navbar-nav me-auto me-lg-1 ms-lg-auto mb-2 mb-lg-0">
           <li class="list-inline-item">
             <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-primary{% endif %} nav-link" href="">
               <div class="text-center">
@@ -128,12 +142,6 @@
             </a>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-dark" type="submit"><span class="icon"><i
-                class="fas fa-search"></i></span></button>
-          </button>
-        </form>
       </div>
     </nav>
   </header>
