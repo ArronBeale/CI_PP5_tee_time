@@ -21,7 +21,7 @@ body {
 
 .fas,
 .fab {
-    color: rgba(0,0,0,.5);
+    color: rgba(0, 0, 0, .5);
 }
 
 .logo-font {
@@ -32,14 +32,22 @@ body {
     width: fit-content;
 }
 
-/* Media Queries */
+/* Mailchimp Newsletter */
+#mc_embed_signup {
+    background: #fff;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+    width: 600px;
+  }
+
+/* -------------------------------------Media Queries */
 
 /*  larger container for xl screens */
 @media (min-width: 1200px) {
     .container {
-      max-width: 80%;
+        max-width: 80%;
     }
-  }
+}
 
 /* top navbar only on medium upward */
 @media (min-width: 992px) {
