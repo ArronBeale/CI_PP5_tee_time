@@ -142,7 +142,7 @@
         <!-- Basket -->
         <ul class="navbar-nav me-auto me-lg-1 ms-lg-auto mb-2 mb-lg-0">
           <li class="list-inline-item">
-            <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-primary{% endif %} nav-link" href="">
+            <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-success{% endif %} nav-link" href="">
               <div>
                 <div><i class="fas fa-shopping-bag fa-lg"></i></div>
                 <p class="my-0">
@@ -183,13 +183,11 @@
       </div>
       <!-- Left -->
       <!-- Right -->
-      <div>
-        <a href="" class="me-4 link-secondary">
-          <i class="fab fa-facebook-f fa-xl"></i>
-        </a>
-        <a href="" class="me-4 link-secondary">
-          <i class="fab fa-instagram fa-xl"></i>
-        </a>
+      <div class="col-md-2">
+        <p>
+          <a class = "text-reset text-decoration-none fs-3 me-1" href="https://www.instagram.com" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i><span class="sr-only">Instagram</span></a>
+          <a class = "text-reset text-decoration-none fs-3 me-1" href="https://www.facebook.com" rel="noopener noreferrer" target="_blank"><i class="fab fa-facebook-f fa-xl"></i><span class="sr-only">Facebook</span></a>
+      </p>
       </div>
       <!-- Right -->
     </section>
@@ -201,7 +199,7 @@
           <!-- Grid column -->
           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
             <!-- Content -->
-            <h6 class="text-uppercase fw-bold mb-4">
+            <h6 class="text-uppercase fw-bold mb-4 text-success">
               <i class="fas fa-golf-ball"></i> Teetime
             </h6>
             <p>
@@ -210,7 +208,7 @@
           </div>
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
             <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
+            <h6 class="text-uppercase fw-bold mb-4 text-success">
               Products
             </h6>
             <p>
@@ -228,7 +226,7 @@
           </div>
           <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
             <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
+            <h6 class="text-uppercase fw-bold mb-4 text-success">
               Useful links
             </h6>
             <p>
@@ -245,7 +243,7 @@
             </p>
           </div>
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <h6 class="text-uppercase fw-bold mb-4 text-success">Contact</h6>
             <p><i class="fas fa-home me-3 text-secondary"></i> Teetime, Kildare, Ireland</p>
             <p>
               <i class="fas fa-envelope me-3 text-secondary"></i>
@@ -261,7 +259,7 @@
     </section>
 
     <!-- Copyright -->
-    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+    <div class="text-center p-4 text-success" style="background-color: rgba(0, 0, 0, 0.025);">
       © 2022 Copyright:
       <a class="text-reset fw-bold" href="{% url 'home' %}">Teetime</a>
     </div>
