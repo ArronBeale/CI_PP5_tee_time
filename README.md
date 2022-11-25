@@ -60,19 +60,19 @@ It is also an online shop that sells golf merchandise to customers.
 ## User Experience
 
 ### Target Audience
-- 
-- 
-- 
-- 
-- 
+- Golfers looking to book a round of Golf
+- Golfers looking for Golf courses
+- Golf Clubs interested in being listed on the site
+- Golf Societies who would like to purchase and use the web app for their society (Many Golf societies use Whatsapp)
+- Customers looking to purchase Golf clothing and accesories from the Shop
 
 ### User Requirements and Expectations
 
 - Fully responsive
 - Accessible
 - A welcoming design
-- 
-- 
+- Relevant Content
+- Ease of use
 - Social media
 - Contact information
 - Accessibility
@@ -82,37 +82,52 @@ It is also an online shop that sells golf merchandise to customers.
 
 ## User Stories
 
-### Users
+### Site User
 
-1.	
-2.	
-3.	
-4. 
-5. 
-6. 
-7. 
-8. 
-9. 
-10. 
+1. As a Site User I can register for an account so that I have an account and view my profile
+2. As a Site User I can login and logout so that I can have an account with my information stored for fast usage
+3. As a Site User I can recover my password so that I can set a new password if I forgot it
+4. As a Site User I can receive an email confirmation after registration so that I can be notified registration was successful
+5. As a Site User I can have a profile so that I can store my information for faster checkouts in the future
 
 
+### Shopper
 
+6. As a Shopper I can navigate across the site so that I can can access all parts of the site
+7. As a Shopper I can use a navbar, footer, and social icons so that I can navigate the site, access menus, and access socials
+8. As a Shopper I can be notified of my actions so that I can be aware the action was completed successfully or not
+9. As a Shopper I can see my login status so that I can know if I am logged in or not
+10. As a Shopper I can visit the shop so that I can view all products available
+11. As a Shopper I can view my basket and total cost at any time so that I can be aware of what I am buying and it's cost
+12. As a Shopper I can view a list of products so that I can select a product to purchase
+13. As a Shopper I can view an individual product details so that I can view a more detailed view of the product
+14. As a Shopper I can view a list of golf courses so that I can select a golf course I want to play on
+15. As a Shopper I can view individual golf course details so that I can see more detailed information about it
+16. As a Shopper I can view a list of tee times available for each golf course so that I can select a date and time to play
+17. As a Shopper I can search for a product by name or description so that I can find a certain product
+18. As a Shopper I can see my search results so that I can only see what I am searching for
+19. As a Shopper I can sort by category so that I can select products of a certain category
+20. As a Shopper I can sort by price low to high and high to low so that I can view products according to my budget
+21. As a Shopper I can select only available dates/times so that I can I can only purchase available tee slots
+22. As a Shopper I can purchase a golf course tee time so that I can buy a slot for a date and time that is available
+23. As a Shopper I can use a card as the payment method so that I can complete my purchase
+24. As a Shopper I can select the size and quantity of a product so that I can select a size and quantity to my needs
+25. As a Shopper I can view items in my basket so that I can be aware of what I am buying and it's cost
+26. As a Shopper I can adjust item quantity in my basket so that I can increase or reduce item count according to my needs
+27. As a Shopper I can receive order confirmation so that I can be notified of a successful order
+28. As a Shopper I can receive email confirmation so that I can have a record of my purchase
 
-### Admin / Authorised User
-11. 
-12. 
-13. 
-14. 
+### Store Owner
 
-
-
-
-### Site Owner  
-15. 
-16. 
-17. 
-18. 
-19. 
+29. As a Store Owner I can add a product so that I can add new products to the shop
+30. As a Store Owner I can edit a product so that I can edit existing products in the shop
+31. As a Store Owner I can delete a product so that I can delete existing products from the shop
+32. As a Store Owner I can add a golf club so that I can add a golf club to the site
+33. As a Store Owner I can edit a golf club so that I can edit an existing golf club on the site
+34. As a Store Owner I can delete a golf club so that I can delete existing golf club from the site
+35. As a Store Owner I can add a tee time so that I can add a tee time to a golf club
+36. As a Store Owner I can edit a tee time so that I can edit an existing tea time on a golf club
+37. As a Store Owner I can delete a tee time so that I can delete a tee time from a golf club
 
 
 
