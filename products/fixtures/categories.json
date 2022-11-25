@@ -1,0 +1,78 @@
+[{
+    "pk": 1,
+    "model": "products.category",
+    "fields": {
+        "name": "gents_polos",
+        "friendly_name": "Gents Polos"
+    }
+}, {
+    "pk": 2,
+    "model": "products.category",
+    "fields": {
+        "name": "gents_sweaters",
+        "friendly_name": "Gents Sweaters"
+    }
+}, {
+    "pk": 3,
+    "model": "products.category",
+    "fields": {
+        "name": "gents_windtops",
+        "friendly_name": "Gents Windtops"
+    }
+}, {
+    "pk": 4,
+    "model": "products.category",
+    "fields": {
+        "name": "gents_trousers",
+        "friendly_name": "Gents Trousers"
+    }
+}, {
+    "pk": 5,
+    "model": "products.category",
+    "fields": {
+        "name": "gents_winter_trousers",
+        "friendly_name": "Gents Winter Trousers"
+    }
+}, {
+    "pk": 6,
+    "model": "products.category",
+    "fields": {
+        "name": "gents_rainwear",
+        "friendly_name": "Gents Rainwear"
+    }
+}, {
+    "pk": 7,
+    "model": "products.category",
+    "fields": {
+        "name": "ladies_polos",
+        "friendly_name": "Ladies Polos"
+    }
+}, {
+    "pk": 8,
+    "model": "products.category",
+    "fields": {
+        "name": "ladies_windtops",
+        "friendly_name": "Ladies Windtops"
+    }
+}, {
+    "pk": 9,
+    "model": "products.category",
+    "fields": {
+        "name": "ladies_trousers",
+        "friendly_name": "Ladies Trousers"
+    }
+}, {
+    "pk": 10,
+    "model": "products.category",
+    "fields": {
+        "name": "ladies_rainwear",
+        "friendly_name": "Ladies Rainwear"
+    }
+}, {
+    "pk": 11,
+    "model": "products.category",
+    "fields": {
+        "name": "headwear",
+        "friendly_name": "Headwear"
+    }
+}]
