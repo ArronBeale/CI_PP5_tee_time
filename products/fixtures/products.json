@@ -423,84 +423,84 @@
        "pk":31,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"P-CGKSA0A7CalLadiesSolidSwing",
+          "brand":"Callaway",
+          "name":"Ladies Solid Swing Polo Shirt Mazarine Blue",
+          "description":"Stay cool and comfortable out on the course in this versatile solid-colored Callaway women’s golf shirt.",
+          "price":34.99,
           "category": 6,
-          "rating":4.6,
-          "image":""
+          "rating":4.7,
+          "image":"product-golf-ladies-polo-shirt-01"
        }
     },
     {
        "pk":32,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"P-CGKSA0A7CalLadiesSolidSwingPoloLilac",
+          "brand":"Callaway",
+          "name":"Ladies Solid Swing Polo Shirt Lilac",
+          "description":"Stay cool and comfortable out on the course in this versatile solid-colored Callaway women’s golf shirt.",
+          "price":34.99,
           "category": 6,
           "rating":4.6,
-          "image":""
+          "image":"product-golf-ladies-polo-shirt-02"
        }
     },
     {
        "pk":33,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"P-P93456PingShirtRedR696",
+          "brand":"Ping",
+          "name":"Ladies Sedona Polo Shirt Red",
+          "description":"Textured rib collar PING polo shirt engineered for moisture-moving comfort in all conditions.",
+          "price":24.99,
           "category": 6,
           "rating":4.6,
-          "image":""
+          "image":"product-golf-ladies-polo-shirt-03"
        }
     },
     {
        "pk":34,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"P-1373638UnderArmourShirtBlackPink",
+          "brand":"Under Armour",
+          "name":"Ladies Zinger Blur Polo Shirt Black - Pink Punk",
+          "description":"It doesn't get much more comfortable than this polo. Its extra-stretchy fabric moves with you, not against you, so you never feel held back on the course.",
+          "price":49.99,
           "category": 6,
-          "rating":4.6,
-          "image":""
+          "rating":4.9,
+          "image":"product-golf-ladies-polo-shirt-04"
        }
     },
     {
        "pk":35,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"P-110752RohnischShirtBeigeEarthCamo",
+          "brand":"Rohnisch",
+          "name":"Ladies Sia Polo Shirt Beige - Earth Camo",
+          "description":"Made in 90% recycled polyester along with a moisture wicking fabric with brushed inside for extra warmth.",
+          "price":64.99,
           "category": 6,
-          "rating":4.6,
-          "image":""
+          "rating":4.9,
+          "image":"product-golf-ladies-polo-shirt-05"
        }
     },
     {
        "pk":36,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"P-110752RohnischShirtGreenCrocco",
+          "brand":"Rohnisch",
+          "name":"Ladies Sia Polo Shirt Green Crocco",
+          "description":"Made in 90% recycled polyester along with a moisture wicking fabric with brushed inside for extra warmth.",
+          "price":63.99,
           "category": 6,
-          "rating":4.6,
-          "image":""
+          "rating":4.9,
+          "image":"product-golf-ladies-polo-shirt-06"
        }
     },
     {
