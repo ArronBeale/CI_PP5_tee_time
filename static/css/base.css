@@ -10,6 +10,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Product List */
+.card.product-list {
+    max-width: 200px;
+}
+
 /* Taken from Bulma */
 .icon {
     align-items: center;
