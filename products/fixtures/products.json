@@ -255,84 +255,84 @@
        "pk":19,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"P-HC6645adidasPantsGrey",
+          "brand":"adidas",
+          "name":"Gents Ultimate 365 Primegreen Tapered Pants Grey Five",
+          "description":"Tapered golf pants made with recycled materials.",
+          "price":49.99,
           "category": 4,
-          "rating":4.6,
-          "image":""
+          "rating":4.2,
+          "image":"product-golf-gents-trousers-01"
        }
     },
     {
        "pk":20,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"P-HA9134adidasPantsGrey",
+          "brand":"adidas",
+          "name":"Gents Ultimate 365 Primegreen Tapered Pants Grey Three",
+          "description":"Tapered golf pants made with recycled materials.",
+          "price":49.99,
           "category": 4,
-          "rating":4.6,
-          "image":""
+          "rating":4.4,
+          "image":"product-golf-gents-trousers-02"
        }
     },
     {
        "pk":21,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"P-C9584CKGolfGentsRegFitStretchTrouser",
+          "brand":"Calvin Klein Golf",
+          "name":"Gents Regular Fit Stretch Trouser Power Red",
+          "description":"Regular fit technical performance trousers, breathable and quick drying",
+          "price":54.99,
           "category": 4,
           "rating":4.6,
-          "image":""
+          "image":"product-golf-gents-trousers-03"
        }
     },
     {
        "pk":22,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"P-CKMS19213CKGolfGents4WaySlimStretch",
+          "brand":"Calvin Klein Golf",
+          "name":"Gents 4 Way Slim Fit Stretch Trousers Fiery Red",
+          "description":"For the fashion-forward golfer Calvin Klein have introduced the Genius Stretch golf trouser which boasts a modern slim fit leg in an extreme 4-way stretch fabric that’s breathable and quick drying so there’s no compromise on the course.",
+          "price":54.99,
           "category": 4,
           "rating":4.6,
-          "image":""
+          "image":"product-golf-gents-trousers-04"
        }
     },
     {
        "pk":23,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"P-1364934UnderArmourPantsBlack",
+          "brand":"Under Armour",
+          "name":"Gents 5 Pocket Pants Black",
+          "description":"Built with a high-performance, mobile fabric, and a streamlined fit to reduce drag on every swing.",
+          "price":62.99,
           "category": 4,
-          "rating":4.6,
-          "image":""
+          "rating":4.5,
+          "image":"product-golf-gents-trousers-05"
        }
     },
     {
        "pk":24,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"P-1331186UnderArmourTrousersAcademy",
+          "brand":"Under Armour",
+          "name":"Under Armour Gents Performance Taper Trousers Academy",
+          "description":"This Under Armour Golf Tapered Pant is the workhorse for your season: light, breathable & just the right weight for a full 18. Everything you need",
+          "price":59.99,
           "category": 4,
-          "rating":4.6,
-          "image":""
+          "rating":4.2,
+          "image":"product-golf-gents-trousers-06"
        }
     },
     {
