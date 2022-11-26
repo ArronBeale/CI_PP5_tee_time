@@ -8,5 +8,26 @@ from .models import Category, Product
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-admin.site.register(Product)
-admin.site.register(Category)
+class ProductAdmin(admin.ModelAdmin):
+    list_display = (
+        'category',
+        'name',
+        'brand',
+        'code',
+        'price',
+        'rating',
+        'image',
+    )
+
+    ordering = ('category', 'brand')
+
+
+class CategoryAdmin(admin.ModelAdmin):
+    list_display = (
+        'friendly_name',
+        'name',
+    )
+
+
+admin.site.register(Product, ProductAdmin)
+admin.site.register(Category, CategoryAdmin)
