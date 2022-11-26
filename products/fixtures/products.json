@@ -87,84 +87,84 @@
        "pk":7,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
-          "category": 1,
-          "rating":4.6,
-          "image":""
+          "code":"P-50468109BossSweaterRed",
+          "brand":"BOSS",
+          "name":"Gents Zenard Zip Neck Sweater Medium Red",
+          "description":"A zip-neck sweater with masculine cutlines, by BOSS Menswear. Designed in 100% certified organic cotton for natural comfort, this regular-fit sweater is rubber-printed with a contrast logo at the left chest.",
+          "price":79.99,
+          "category": 2,
+          "rating":5,
+          "image":"product-golf-sweater-01.JPG"
        }
     },
     {
        "pk":8,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
-          "category": 1,
-          "rating":4.6,
-          "image":""
+          "code":"P-50465707BossSweaterBlack",
+          "brand":"BOSS",
+          "name":"Gents Zarrim Colour-Blocked ¼ Zip Sweater Black",
+          "description":"A dynamic sweater by BOSS Menswear, cut to a straight fit.",
+          "price":99.99,
+          "category": 2,
+          "rating":4.8,
+          "image":"product-golf-sweater-02.JPG"
        }
     },
     {
-       "pk":9,
-       "model":"products.product",
-       "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
-          "category": 1,
-          "rating":4.6,
-          "image":""
-       }
+      "pk":11,
+      "model":"products.product",
+      "fields":{
+         "code":"P-CGKFB050CallawayJacketBlueHorizon",
+         "brand":"Callaway",
+         "name":"Gents ¼ Zip Aquapel Jacket Blue Horizon",
+         "description":"Breathable and water-repellent featuring Aquapel technology and hydrocarbon polymer.",
+         "price":54.99,
+         "category": 2,
+         "rating":4.3,
+         "image":"product-golf-sweater-03"
+      }
     },
     {
        "pk":10,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
-          "category": 1,
-          "rating":4.6,
-          "image":""
+          "code":"P-CGKFB0S3CallawayTopMagneticBlue",
+          "brand":"Callaway",
+          "name":"Gents Midweight Ottoman Top Magnetic Blue",
+          "description":"This stunning and stylish fleece sweater is packed full of supportive features from Thermal insulation and SwingTech technology providing great warmth and flexibility respectively.",
+          "price":67.99,
+          "category": 2,
+          "rating":4.3,
+          "image":"product-golf-sweater-04"
        }
     },
     {
        "pk":11,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
-          "category": 1,
-          "rating":4.6,
-          "image":""
+          "code":"P-C9838CalvinKleinSweaterNavyBlue",
+          "brand":"Calvin Klein Golf",
+          "name":"Gents Tipped Lined Sweater Navy Blue",
+          "description":"Classic Calvin Klein high performing sweater featuring super soft WindBlock lining.",
+          "price":79.99,
+          "category": 2,
+          "rating":4.2,
+          "image":"product-golf-sweater-05"
        }
     },
     {
        "pk":12,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
-          "category": 1,
-          "rating":4.6,
-          "image":""
+          "code":"P-CKMA22703CalvinKleinSweaterNavy",
+          "brand":"Gents Veleto Crew Sweater Navy",
+          "name":"Gents Veleto Crew Sweater Navy",
+          "description":"Time to update your knitwear for the season ahead and this on-trend fine knit style from Calvin Klein golf is exactly what you need.",
+          "price":62.99,
+          "category": 2,
+          "rating":4.7,
+          "image":"product-golf-sweater-06"
        }
     },
     {
