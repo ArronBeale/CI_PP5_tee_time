@@ -759,84 +759,84 @@
        "pk":55,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"136154700",
+          "brand":"Under Armour",
+          "name":"Gents Golf 96 Hat Academy",
+          "description":"Keeps the sun off and the sweatband keeps your head dry and cool—it's everything you need for the course.",
+          "price":14.99,
           "category": 10,
-          "rating":4.6,
-          "image":""
+          "rating":4.2,
+          "image":"product-golf-headwear-01"
        }
     },
     {
        "pk":56,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"1361547008",
+          "brand":"Under Armour",
+          "name":"Gents Golf 96 Hat Blue",
+          "description":"Keeps the sun off and the sweatband keeps your head dry and cool—it's everything you need for the course.",
+          "price":14.99,
           "category": 10,
-          "rating":4.6,
-          "image":""
+          "rating":4.2,
+          "image":"product-golf-headwear-02"
        }
     },
     {
        "pk":57,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"CA21H0304004",
+          "brand":"Callaway",
+          "name":"Gents Camo Snapback Cap Green",
+          "description":"Performance fabric with camo embroidery ensures that the Camo Snapback and whoever wears it -- stands out on the course.",
+          "price":14.99,
           "category": 10,
           "rating":4.6,
-          "image":""
+          "image":"product-golf-headwear-03"
        }
     },
     {
        "pk":58,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"CA21H0304003",
+          "brand":"Callaway",
+          "name":"Gents Camo Snapback Cap Grey",
+          "description":"Performance fabric with camo embroidery ensures that the Camo Snapback and whoever wears it -- stands out on the course.",
+          "price":14.99,
           "category": 10,
-          "rating":4.6,
-          "image":""
+          "rating":4.8,
+          "image":"product-golf-headwear-04"
        }
     },
     {
        "pk":59,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"CKMS22548001",
+          "brand":"Calvin Klein Golf",
+          "name":"Gents Logo Cap Black White",
+          "description":"High performing baseball cap with?large?high density CK logo embroidery.",
+          "price":14.99,
           "category": 10,
           "rating":4.6,
-          "image":""
+          "image":"product-golf-headwear-05"
        }
     },
     {
        "pk":60,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"CKMS22548005",
+          "brand":"Calvin Klein Golf",
+          "name":"Gents Logo Cap White Urban",
+          "description":"High performing baseball cap with?large?high density CK logo embroidery.",
+          "price":14.99,
           "category": 10,
-          "rating":4.6,
-          "image":""
+          "rating":4.9,
+          "image":"product-golf-headwear-06"
        }
     },
     {
