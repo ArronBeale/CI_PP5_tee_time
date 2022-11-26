@@ -1,118 +1,118 @@
 [
-    {
-       "pk":1,
-       "model":"products.product",
-       "fields":{
-          "code":"P-1327037UAShirtBlue",
-          "brand":"Under Armour",
-          "name":"Gents Playoff 2.0 Polo Shirt Blue",
-          "description":"It doesn't get much more comfortable than this. Its extra-stretchy fabric moves with you, not against you, so you never feel held back on the course.",
-          "price":33.99,
-          "category": 1,
-          "rating":4.6,
-          "image":"product-golf-polo-shirt-01.JPG"
-       }
-    },
-    {
-       "pk":2,
-       "model":"products.product",
-       "fields":{
-          "code":"P-1327037UnderArmourShirtBlack",
-          "brand":"Under Armour",
-          "name":"Gents Playoff 2.0 Polo Shirt Black",
-          "description":"It doesn't get much more comfortable than this. Its extra-stretchy fabric moves with you, not against you, so you never feel held back on the course.",
-          "price":33.99,
-          "category": 1,
-          "rating":4.1,
-          "image":"product-golf-polo-shirt-02.JPG"
-       }
-    },
-    {
-       "pk":3,
-       "model":"products.product",
-       "fields":{
-          "code":" P-1327037BUnderArmourShirtWhite",
-          "brand":"Under Armour",
-          "name":"Gents Playoff 2.0 Polo Shirt White",
-          "description":"It doesn't get much more comfortable than this. Its extra-stretchy fabric moves with you, not against you, so you never feel held back on the course.",
-          "price":27.99,
-          "category": 1,
-          "rating":3.6,
-          "image":"product-golf-polo-shirt-03.JPG"
-       }
-    },
-    {
-       "pk":4,
-       "model":"products.product",
-       "fields":{
-          "code":"P-1327037UAGentsPlayoff2PoloWhite",
-          "brand":"Under Armour",
-          "name":"Gents Playoff 2.0 Polo White",
-          "description":"Soft anti-pick, anti-pill fabric is extremely breathable & lightweight",
-          "price":44.99,
-          "category": 1,
-          "rating":4.8,
-          "image":"product-golf-polo-shirt-04.JPG"
-       }
-    },
-    {
-       "pk":5,
-       "model":"products.product",
-       "fields":{
-          "code":"P-CKMS22533CalvinKleinShirtNavy",
-          "brand":"Calvin Klein Golf",
-          "name":"Gents Pacific Grove Polo Shirt Navy",
-          "description":"Set the tone in style and performance with the Pacific Grove Polo from Calvin Klein golf this season.  Striking engineered stripe pattern sits across the upper chest in a sublime colour combination. The sturdy knitted collar sports a contrast stripe design and will hold its shape wash after wash. High performance comes as standard thanks to the new DriBreeze fabric to keep you in cool control. ",
-          "price":42.99,
-          "category": 1,
-          "rating":4.9,
-          "image":"product-golf-polo-shirt-05.JPG"
-       }
-    },
-    {
-       "pk":6,
-       "model":"products.product",
-       "fields":{
-          "code":"P-CKMS22533CalvinKleinShirtWhiteNavy",
-          "brand":"Calvin Klein Golf",
-          "name":"Gents Pacific Grove Polo Shirt White Navy",
-          "description":"Striking engineered stripe pattern sits across the upper chest in a sublime colour combination. The sturdy knitted collar sports a contrast stripe design and will hold its shape wash after wash.",
-          "price":42.99,
-          "category": 1,
-          "rating":4.7,
-          "image":"product-golf-polo-shirt-06.JPG"
-       }
-    },
-    {
-       "pk":7,
-       "model":"products.product",
-       "fields":{
-          "code":"P-50468109BossSweaterRed",
-          "brand":"BOSS",
-          "name":"Gents Zenard Zip Neck Sweater Medium Red",
-          "description":"A zip-neck sweater with masculine cutlines, by BOSS Menswear. Designed in 100% certified organic cotton for natural comfort, this regular-fit sweater is rubber-printed with a contrast logo at the left chest.",
-          "price":79.99,
-          "category": 2,
-          "rating":5,
-          "image":"product-golf-sweater-01.JPG"
-       }
-    },
-    {
-       "pk":8,
-       "model":"products.product",
-       "fields":{
-          "code":"P-50465707BossSweaterBlack",
-          "brand":"BOSS",
-          "name":"Gents Zarrim Colour-Blocked ¼ Zip Sweater Black",
-          "description":"A dynamic sweater by BOSS Menswear, cut to a straight fit.",
-          "price":99.99,
-          "category": 2,
-          "rating":4.8,
-          "image":"product-golf-sweater-02.JPG"
-       }
-    },
-    {
-      "pk":11,
+   {
+      "pk":1,
+      "model":"products.product",
+      "fields":{
+         "code":"P-1327037UAShirtBlue",
+         "brand":"Under Armour",
+         "name":"Gents Playoff 2.0 Polo Shirt Blue",
+         "description":"It doesn't get much more comfortable than this. Its extra-stretchy fabric moves with you, not against you, so you never feel held back on the course.",
+         "price":33.99,
+         "category":1,
+         "rating":4.6,
+         "image":"products/product-golf-polo-shirt-01.jpg"
+      }
+   },
+   {
+      "pk":2,
+      "model":"products.product",
+      "fields":{
+         "code":"P-1327037UnderArmourShirtBlack",
+         "brand":"Under Armour",
+         "name":"Gents Playoff 2.0 Polo Shirt Black",
+         "description":"It doesn't get much more comfortable than this. Its extra-stretchy fabric moves with you, not against you, so you never feel held back on the course.",
+         "price":33.99,
+         "category":1,
+         "rating":4.1,
+         "image":"products/product-golf-polo-shirt-02.jpg"
+      }
+   },
+   {
+      "pk":3,
+      "model":"products.product",
+      "fields":{
+         "code":" P-1327037BUnderArmourShirtWhite",
+         "brand":"Under Armour",
+         "name":"Gents Playoff 2.0 Polo Shirt White",
+         "description":"It doesn't get much more comfortable than this. Its extra-stretchy fabric moves with you, not against you, so you never feel held back on the course.",
+         "price":27.99,
+         "category":1,
+         "rating":3.6,
+         "image":"products/product-golf-polo-shirt-03.jpg"
+      }
+   },
+   {
+      "pk":4,
+      "model":"products.product",
+      "fields":{
+         "code":"P-1327037UAGentsPlayoff2PoloWhite",
+         "brand":"Under Armour",
+         "name":"Gents Playoff 2.0 Polo White",
+         "description":"Soft anti-pick, anti-pill fabric is extremely breathable & lightweight",
+         "price":44.99,
+         "category":1,
+         "rating":4.8,
+         "image":"products/product-golf-polo-shirt-04.jpg"
+      }
+   },
+   {
+      "pk":5,
+      "model":"products.product",
+      "fields":{
+         "code":"P-CKMS22533CalvinKleinShirtNavy",
+         "brand":"Calvin Klein Golf",
+         "name":"Gents Pacific Grove Polo Shirt Navy",
+         "description":"Set the tone in style and performance with the Pacific Grove Polo from Calvin Klein golf this season.  Striking engineered stripe pattern sits across the upper chest in a sublime colour combination. The sturdy knitted collar sports a contrast stripe design and will hold its shape wash after wash. High performance comes as standard thanks to the new DriBreeze fabric to keep you in cool control. ",
+         "price":42.99,
+         "category":1,
+         "rating":4.9,
+         "image":"products/product-golf-polo-shirt-05.jpg"
+      }
+   },
+   {
+      "pk":6,
+      "model":"products.product",
+      "fields":{
+         "code":"P-CKMS22533CalvinKleinShirtWhiteNavy",
+         "brand":"Calvin Klein Golf",
+         "name":"Gents Pacific Grove Polo Shirt White Navy",
+         "description":"Striking engineered stripe pattern sits across the upper chest in a sublime colour combination. The sturdy knitted collar sports a contrast stripe design and will hold its shape wash after wash.",
+         "price":42.99,
+         "category":1,
+         "rating":4.7,
+         "image":"products/product-golf-polo-shirt-06.jpg"
+      }
+   },
+   {
+      "pk":7,
+      "model":"products.product",
+      "fields":{
+         "code":"P-50468109BossSweaterRed",
+         "brand":"BOSS",
+         "name":"Gents Zenard Zip Neck Sweater Medium Red",
+         "description":"A zip-neck sweater with masculine cutlines, by BOSS Menswear. Designed in 100% certified organic cotton for natural comfort, this regular-fit sweater is rubber-printed with a contrast logo at the left chest.",
+         "price":79.99,
+         "category":2,
+         "rating":4.9,
+         "image":"products/product-golf-sweater-01.jpg"
+      }
+   },
+   {
+      "pk":8,
+      "model":"products.product",
+      "fields":{
+         "code":"P-50465707BossSweaterBlack",
+         "brand":"BOSS",
+         "name":"Gents Zarrim Colour-Blocked ¼ Zip Sweater Black",
+         "description":"A dynamic sweater by BOSS Menswear, cut to a straight fit.",
+         "price":99.99,
+         "category":2,
+         "rating":4.8,
+         "image":"products/product-golf-sweater-02.jpg"
+      }
+   },
+   {
+      "pk":9,
       "model":"products.product",
       "fields":{
          "code":"P-CGKFB050CallawayJacketBlueHorizon",
@@ -120,724 +120,723 @@
          "name":"Gents ¼ Zip Aquapel Jacket Blue Horizon",
          "description":"Breathable and water-repellent featuring Aquapel technology and hydrocarbon polymer.",
          "price":54.99,
-         "category": 2,
+         "category":2,
          "rating":4.3,
-         "image":"product-golf-sweater-03"
+         "image":"products/product-golf-sweater-03.jpg"
       }
-    },
-    {
-       "pk":10,
-       "model":"products.product",
-       "fields":{
-          "code":"P-CGKFB0S3CallawayTopMagneticBlue",
-          "brand":"Callaway",
-          "name":"Gents Midweight Ottoman Top Magnetic Blue",
-          "description":"This stunning and stylish fleece sweater is packed full of supportive features from Thermal insulation and SwingTech technology providing great warmth and flexibility respectively.",
-          "price":67.99,
-          "category": 2,
-          "rating":4.3,
-          "image":"product-golf-sweater-04"
-       }
-    },
-    {
-       "pk":11,
-       "model":"products.product",
-       "fields":{
-          "code":"P-C9838CalvinKleinSweaterNavyBlue",
-          "brand":"Calvin Klein Golf",
-          "name":"Gents Tipped Lined Sweater Navy Blue",
-          "description":"Classic Calvin Klein high performing sweater featuring super soft WindBlock lining.",
-          "price":79.99,
-          "category": 2,
-          "rating":4.2,
-          "image":"product-golf-sweater-05"
-       }
-    },
-    {
-       "pk":12,
-       "model":"products.product",
-       "fields":{
-          "code":"P-CKMA22703CalvinKleinSweaterNavy",
-          "brand":"Gents Veleto Crew Sweater Navy",
-          "name":"Gents Veleto Crew Sweater Navy",
-          "description":"Time to update your knitwear for the season ahead and this on-trend fine knit style from Calvin Klein golf is exactly what you need.",
-          "price":62.99,
-          "category": 2,
-          "rating":4.7,
-          "image":"product-golf-sweater-06"
-       }
-    },
-    {
-       "pk":13,
-       "model":"products.product",
-       "fields":{
-          "code":"P-G1242GalvinGreenTopNavyLimeWhite",
-          "brand":"Calvin Klein Golf",
-          "name":"Gents Conductor Padded Jacket Blaze",
-          "description":"Providing substantial warmth without heavy bulk Calvin Klein golf’s Conductor Padded Jacket is made for outdoor activity and admiring glances thanks to understated styling.",
-          "price":99.99,
-          "category": 3,
-          "rating":4.3,
-          "image":"product-golf-gents-windtop-01"
-       }
-    },
-    {
-       "pk":14,
-       "model":"products.product",
-       "fields":{
-          "code":"P-CKMS22543CalvinKleinJacketNavy",
-          "brand":"Calvin Klein Golf",
-          "name":"Gents Dynamo Tech Knit Jacket Navy Ocean",
-          "description":"Durable performance and contemporary styling ensure the Dynamo tech knit jacket from Calvin Klein golf is a standout garment from the Chill Force range this season.",
-          "price":119.99,
-          "category": 3,
-          "rating":4.6,
-          "image":"product-golf-gents-windtop-02"
-       }
-    },
-    {
-       "pk":15,
-       "model":"products.product",
-       "fields":{
-          "code":"P-CKMS22544CavinKleinWindbreakerWhite",
-          "brand":"Calvin Klein Golf",
-          "name":"GolfGents Convertible Windbreaker White",
-          "description":"An innovative windbreaker jacket?from Calvin Klein golf?helps keep you dry and your game on track when the weather?takes a turn.?",
-          "price":71.99,
-          "category": 3,
-          "rating":4.7,
-          "image":"product-golf-gents-windtop-03"
-       }
-    },
-    {
-       "pk":16,
-       "model":"products.product",
-       "fields":{
-          "code":"P-1373407UnderArmourJacketPitchGrey",
-          "brand":"Under Armour",
-          "name":"Gents Storm Revo Jacket Pitch Grey",
-          "description":"Windproof jacket with Storm technology that repels water without sacrificing breathability.",
-          "price":99.99,
-          "category": 3,
-          "rating":3.8,
-          "image":"product-golf-gents-windtop-04"
-       }
-    },
-    {
-       "pk":17,
-       "model":"products.product",
-       "fields":{
-          "code":"P-1371596UnderArmourJacketBlack",
-          "brand":"Under Armour",
-          "name":"Gents Stormproof Jacket 2.0 Black",
-          "description":"Waterproof jacket featuring Storm technology that repels water without sacrificing breathability",
-          "price":124.99,
-          "category": 3,
-          "rating":4.6,
-          "image":"product-golf-gents-windtop-05"
-       }
-    },
-    {
-       "pk":18,
-       "model":"products.product",
-       "fields":{
-          "code":"P-CGJSC031CalGentsAbCamoPrintMixedJktNavy",
-          "brand":"Callaway",
-          "name":"Gents Abstract Camo Print Mixed Jacket Navy Blazer",
-          "description":"Callaway quilted-front jacket with mixed camo print and Swing Tech stretch technology.",
-          "price":79.99,
-          "category": 3,
-          "rating":4.9,
-          "image":"product-golf-gents-windtop-06"
-       }
-    },
-    {
-       "pk":19,
-       "model":"products.product",
-       "fields":{
-          "code":"P-HC6645adidasPantsGrey",
-          "brand":"adidas",
-          "name":"Gents Ultimate 365 Primegreen Tapered Pants Grey Five",
-          "description":"Tapered golf pants made with recycled materials.",
-          "price":49.99,
-          "category": 4,
-          "rating":4.2,
-          "image":"product-golf-gents-trousers-01"
-       }
-    },
-    {
-       "pk":20,
-       "model":"products.product",
-       "fields":{
-          "code":"P-HA9134adidasPantsGrey",
-          "brand":"adidas",
-          "name":"Gents Ultimate 365 Primegreen Tapered Pants Grey Three",
-          "description":"Tapered golf pants made with recycled materials.",
-          "price":49.99,
-          "category": 4,
-          "rating":4.4,
-          "image":"product-golf-gents-trousers-02"
-       }
-    },
-    {
-       "pk":21,
-       "model":"products.product",
-       "fields":{
-          "code":"P-C9584CKGolfGentsRegFitStretchTrouser",
-          "brand":"Calvin Klein Golf",
-          "name":"Gents Regular Fit Stretch Trouser Power Red",
-          "description":"Regular fit technical performance trousers, breathable and quick drying",
-          "price":54.99,
-          "category": 4,
-          "rating":4.6,
-          "image":"product-golf-gents-trousers-03"
-       }
-    },
-    {
-       "pk":22,
-       "model":"products.product",
-       "fields":{
-          "code":"P-CKMS19213CKGolfGents4WaySlimStretch",
-          "brand":"Calvin Klein Golf",
-          "name":"Gents 4 Way Slim Fit Stretch Trousers Fiery Red",
-          "description":"For the fashion-forward golfer Calvin Klein have introduced the Genius Stretch golf trouser which boasts a modern slim fit leg in an extreme 4-way stretch fabric that’s breathable and quick drying so there’s no compromise on the course.",
-          "price":54.99,
-          "category": 4,
-          "rating":4.6,
-          "image":"product-golf-gents-trousers-04"
-       }
-    },
-    {
-       "pk":23,
-       "model":"products.product",
-       "fields":{
-          "code":"P-1364934UnderArmourPantsBlack",
-          "brand":"Under Armour",
-          "name":"Gents 5 Pocket Pants Black",
-          "description":"Built with a high-performance, mobile fabric, and a streamlined fit to reduce drag on every swing.",
-          "price":62.99,
-          "category": 4,
-          "rating":4.5,
-          "image":"product-golf-gents-trousers-05"
-       }
-    },
-    {
-       "pk":24,
-       "model":"products.product",
-       "fields":{
-          "code":"P-1331186UnderArmourTrousersAcademy",
-          "brand":"Under Armour",
-          "name":"Under Armour Gents Performance Taper Trousers Academy",
-          "description":"This Under Armour Golf Tapered Pant is the workhorse for your season: light, breathable & just the right weight for a full 18. Everything you need",
-          "price":59.99,
-          "category": 4,
-          "rating":4.2,
-          "image":"product-golf-gents-trousers-06"
-       }
-    },
-    {
-       "pk":25,
-       "model":"products.product",
-       "fields":{
-          "code":"P-G1200GGGentsAbeZipPacliteGTXJkt",
-          "brand":"Galvin Green",
-          "name":"Gents Abe ½ Zip Paclite GORE-TEX Jacket Black - Sharkskin - White",
-          "description":"The ultimate half-zip 100% waterproof GORE-TEX non-stretch jacket with mesh lining for added warmth, breathability and moisture management.",
-          "price":269.99,
-          "category": 5,
-          "rating":4.9,
-          "image":"product-golf-gents-rainwear-01"
-       }
-    },
-    {
-       "pk":26,
-       "model":"products.product",
-       "fields":{
-          "code":"P-ANDYTRSGGGentsAndyWPGoreTexTrousers",
-          "brand":"Galvin Green",
-          "name":"Gents Andy Waterproof GORE-TEX Trousers Black",
-          "description":"Men's GORE-TEX golf pants with lining. Galvin Green's best-selling waterproof golf pants, crafted with a solid lining. Available in a wide range of sizes to fit every serious golfer.",
-          "price":249.99,
-          "category": 5,
-          "rating":4.9,
-          "image":"product-golf-gents-rainwear-02"
-       }
-    },
-    {
-       "pk":27,
-       "model":"products.product",
-       "fields":{
-          "code":"P-AQUAWPProquipGentsAquatecWPJacket",
-          "brand":"Proquip",
-          "name":"Gents Aquatec Waterproof Jacket Black - Red",
-          "description":"Features a soft-feel high-quality fabric and internal web lining for ultimate protection from the elements.",
-          "price":99.99,
-          "category": 5,
-          "rating":4.7,
-          "image":"product-golf-gents-rainwear-03"
-       }
-    },
-    {
-       "pk":28,
-       "model":"products.product",
-       "fields":{
-          "code":"P-AQUATRSProquipTrousers",
-          "brand":"Proquip",
-          "name":"Gents Aquatec Waterproof Trousers Black",
-          "description":"Features a premium soft satin polyester construction and quick-dry fabric technology for ultimate rain protection.",
-          "price":74.99,
-          "category": 5,
-          "rating":4.6,
-          "image":"product-golf-gents-rainwear-04"
-       }
-    },
-    {
-       "pk":29,
-       "model":"products.product",
-       "fields":{
-          "code":"P-SBJKT1218StuburtJacket",
-          "brand":"Stuburt",
-          "name":"Gents Torrent II Full Zip Waterproof Jacket Midnight",
-          "description":"Stuburt Gents Torrent II Full Zip Waterproof Jacket Midnight",
-          "price":84.99,
-          "category": 5,
-          "rating":4.6,
-          "image":"product-golf-gents-rainwear-05"
-       }
-    },
-    {
-       "pk":30,
-       "model":"products.product",
-       "fields":{
-          "code":"P-SBPNT1077Midnight",
-          "brand":"Stuburt",
-          "name":"Gents Torrent Waterproof Trousers Midnight",
-          "description":"The Torrent Waterproof Pant showcases Stuburt's renowned DRI-back moisture transfer technology. Highly breathable & waterproof, they feature waterproof zip pockets & side zips plus sealed seams. They are fully lined & come with half-elasticated waistband & adjustable Velcro Tabs to ensure a good, comfortable fit.",
-          "price":24.99,
-          "category": 5,
-          "rating":4.6,
-          "image":"product-golf-gents-rainwear-06"
-       }
-    },
-    {
-       "pk":31,
-       "model":"products.product",
-       "fields":{
-          "code":"P-CGKSA0A7CalLadiesSolidSwing",
-          "brand":"Callaway",
-          "name":"Ladies Solid Swing Polo Shirt Mazarine Blue",
-          "description":"Stay cool and comfortable out on the course in this versatile solid-colored Callaway women’s golf shirt.",
-          "price":34.99,
-          "category": 6,
-          "rating":4.7,
-          "image":"product-golf-ladies-polo-shirt-01"
-       }
-    },
-    {
-       "pk":32,
-       "model":"products.product",
-       "fields":{
-          "code":"P-CGKSA0A7CalLadiesSolidSwingPoloLilac",
-          "brand":"Callaway",
-          "name":"Ladies Solid Swing Polo Shirt Lilac",
-          "description":"Stay cool and comfortable out on the course in this versatile solid-colored Callaway women’s golf shirt.",
-          "price":34.99,
-          "category": 6,
-          "rating":4.6,
-          "image":"product-golf-ladies-polo-shirt-02"
-       }
-    },
-    {
-       "pk":33,
-       "model":"products.product",
-       "fields":{
-          "code":"P-P93456PingShirtRedR696",
-          "brand":"Ping",
-          "name":"Ladies Sedona Polo Shirt Red",
-          "description":"Textured rib collar PING polo shirt engineered for moisture-moving comfort in all conditions.",
-          "price":24.99,
-          "category": 6,
-          "rating":4.6,
-          "image":"product-golf-ladies-polo-shirt-03"
-       }
-    },
-    {
-       "pk":34,
-       "model":"products.product",
-       "fields":{
-          "code":"P-1373638UnderArmourShirtBlackPink",
-          "brand":"Under Armour",
-          "name":"Ladies Zinger Blur Polo Shirt Black - Pink Punk",
-          "description":"It doesn't get much more comfortable than this polo. Its extra-stretchy fabric moves with you, not against you, so you never feel held back on the course.",
-          "price":49.99,
-          "category": 6,
-          "rating":4.9,
-          "image":"product-golf-ladies-polo-shirt-04"
-       }
-    },
-    {
-       "pk":35,
-       "model":"products.product",
-       "fields":{
-          "code":"P-110752RohnischShirtBeigeEarthCamo",
-          "brand":"Rohnisch",
-          "name":"Ladies Sia Polo Shirt Beige - Earth Camo",
-          "description":"Made in 90% recycled polyester along with a moisture wicking fabric with brushed inside for extra warmth.",
-          "price":64.99,
-          "category": 6,
-          "rating":4.9,
-          "image":"product-golf-ladies-polo-shirt-05"
-       }
-    },
-    {
-       "pk":36,
-       "model":"products.product",
-       "fields":{
-          "code":"P-110752RohnischShirtGreenCrocco",
-          "brand":"Rohnisch",
-          "name":"Ladies Sia Polo Shirt Green Crocco",
-          "description":"Made in 90% recycled polyester along with a moisture wicking fabric with brushed inside for extra warmth.",
-          "price":63.99,
-          "category": 6,
-          "rating":4.9,
-          "image":"product-golf-ladies-polo-shirt-06"
-       }
-    },
-    {
-       "pk":37,
-       "model":"products.product",
-       "fields":{
-          "code":"P-CGJFA0J3CallawayJacketPeacoat",
-          "brand":"Callaway",
-          "name":"Ladies Wind and Water Resistant Jacket Peacoat",
-          "description":"Featuring elegant metallic contrast, this jacket is part of Callaway's Weather Series collection and is wind and water-resistant to cope with sudden weather changes.",
-          "price":34.99,
-          "category": 7,
-          "rating":4.6,
-          "image":"product-golf-ladies-windtop-01"
-       }
-    },
-    {
-       "pk":38,
-       "model":"products.product",
-       "fields":{
-          "code":"P-CGJFA0J3CallawayJacketCaviar",
-          "brand":"Callaway",
-          "name":"Ladies Wind and Water Resistant Jacket Caviar",
-          "description":"Featuring elegant metallic contrast, this jacket is part of Callaway's Weather Series collection and is wind and water-resistant to cope with sudden weather changes.",
-          "price":34.99,
-          "category": 7,
-          "rating":4.8,
-          "image":"product-golf-ladies-windtop-02"
-       }
-    },
-    {
-       "pk":39,
-       "model":"products.product",
-       "fields":{
-          "code":"P-110751RohnischCardiganDeepTeal",
-          "brand":"Rohnisch",
-          "name":"Ladies Wind Cardigan Deep Teal",
-          "description":"A stylish quilted wind jacket with stretch lining. An ideal jacket for golf or other activities where freedom of movement is a must. The fabric protects against wind and is also water-resistant. The high collar keeps you warm. Full-length zip and two side pockets with zip.",
-          "price":49.99,
-          "category": 7,
-          "rating":4.9,
-          "image":"product-golf-ladies-windtop-03"
-       }
-    },
-    {
-       "pk":40,
-       "model":"products.product",
-       "fields":{
-          "code":"P-111241RohnischCardiganIceGreen",
-          "brand":"Rohnisch",
-          "name":"Ladies Leah Wind Cardigan Ice Green",
-          "description":"Made in 100% recycled polyester, a functional fabric wicking moisture away from your body and with breathable, wind resistant stretch lining.",
-          "price":79.99,
-          "category": 7,
-          "rating":4.5,
-          "image":"product-golf-ladies-windtop-04"
-       }
-    },
-    {
-       "pk":41,
-       "model":"products.product",
-       "fields":{
-          "code":"P-243431DailySportsJacketNavy",
-          "brand":"Daily Sports",
-          "name":"Ladies Mia Wind Jacket Navy",
-          "description":"Daily Sports Wear Ladies Mia Wind Jacket Navy",
-          "price":42.99,
-          "category": 7,
-          "rating":4.6,
-          "image":"product-golf-ladies-windtop-05"
-       }
-    },
-    {
-       "pk":42,
-       "model":"products.product",
-       "fields":{
-          "code":"P-243431DailySportsJacketPearlGrey",
-          "brand":"Daily Sports",
-          "name":"Ladies Mia Wind Jacket Pearl Grey",
-          "description":"Daily Sports Wear Ladies Mia Wind Jacket Pearl",
-          "price":42.99,
-          "category": 7,
-          "rating":4.6,
-          "image":"product-golf-ladies-windtop-06"
-       }
-    },
-    {
-       "pk":43,
-       "model":"products.product",
-       "fields":{
-          "code":"P-P93399PingLadiesEmilyTrouser",
-          "brand":"Ping",
-          "name":"Ladies Emily Trousers Navy",
-          "description":"Brushed Back Straight Leg PING Ladies Golf Trousers",
-          "price":48.99,
-          "category": 8,
-          "rating":4.8,
-          "image":"product-golf-ladies-trousers-01"
-       }
-    },
-    {
-       "pk":44,
-       "model":"products.product",
-       "fields":{
-          "code":"P-P93512PINGLadiesVerityTrouserNavy",
-          "brand":"Ping",
-          "name":"Ladies Verity Trouser Navy",
-          "description":"Slim leg PING trouser engineered for ultimate comfort and performance.",
-          "price":46.99,
-          "category": 8,
-          "rating":4.5,
-          "image":"product-golf-ladies-trousers-02"
-       }
-    },
-    {
-       "pk":45,
-       "model":"products.product",
-       "fields":{
-          "code":"P-CKLA20438CalvinKleinTrousersBlack",
-          "brand":"Calvin Klein Golf",
-          "name":"Ladies Ray Trousers Black",
-          "description":"Calvin Klein Golf Ladies Ray Trousers Black CKLA20438",
-          "price":68.99,
-          "category": 8,
-          "rating":4.9,
-          "image":"product-golf-ladies-trousers-03"
-       }
-    },
-    {
-       "pk":46,
-       "model":"products.product",
-       "fields":{
-          "code":"P-CKLS20391CalvinKleinTrouserHighSteel",
-          "brand":"Calvin Klein Golf",
-          "name":"Ladies Arkose Trouser High Steel",
-          "description":"Expertly tailored ladies' trousers in a versatile solid colour provide an elegant and flattering silhouette in a smooth, stretch fabric that's comfortable and extremely breathable.",
-          "price":4499,
-          "category": 8,
-          "rating":4.8,
-          "image":"product-golf-ladies-trousers-04"
-       }
-    },
-    {
-       "pk":47,
-       "model":"products.product",
-       "fields":{
-          "code":"P-289898RohnischTrousersBurgundy",
-          "brand":"Rohnisch",
-          "name":"Ladies Heat Trousers Burgundy",
-          "description":"Rohnisch Ladies Heat Trousers Burgundy",
-          "price":49.99,
-          "category": 8,
-          "rating":4.4,
-          "image":"product-golf-ladies-trousers-05"
-       }
-    },
-    {
-       "pk":48,
-       "model":"products.product",
-       "fields":{
-          "code":"P-289898RohnischTrousersGrey",
-          "brand":"Rohnisch",
-          "name":"Ladies Heat Trousers Dark Greige",
-          "description":"Rohnisch Ladies Heat Trousers Dark Greige",
-          "price":49.99,
-          "category": 8,
-          "rating":4.7,
-          "image":"product-golf-ladies-trousers-06"
-       }
-    },
-    {
-       "pk":49,
-       "model":"products.product",
-       "fields":{
-          "code":"P-SUNLR49SunderlandJacketPurpleWhite",
-          "brand":"Sunderland",
-          "name":"Killy Ladies Waterproof Jacket Purple - White",
-          "description":"This Killy waterproof golf jacket is constructed with lightweight, breathable technical fabric.",
-          "price":134.99,
-          "category": 9,
-          "rating":4.9,
-          "image":"product-golf-ladies-rainwear-01"
-       }
-    },
-    {
-       "pk":50,
-       "model":"products.product",
-       "fields":{
-          "code":"P-MONTTRSSunderlandTrousersNavy",
-          "brand":"Sunderland",
-          "name":"Ladies Montana Waterproof Trousers Navy",
-          "description":"Sunderland Ladies Montana Waterproof Trousers Navy",
-          "price":84.99,
-          "category": 9,
-          "rating":5,
-          "image":"product-golf-ladies-rainwear-02"
-       }
-    },
-    {
-       "pk":51,
-       "model":"products.product",
-       "fields":{
-          "code":"P-G8903GGLadiesArissaJacketWildOrchid",
-          "brand":"Galvin Green",
-          "name":"Ladies Arissa Waterproof GORE-TEX Jacket Wild Orchid - Navy",
-          "description":"Women's waterproof golf jacket in GORE-TEX fabric with mesh lining",
-          "price":244.99,
-          "category": 9,
-          "rating":4.9,
-          "image":"product-golf-ladies-rainwear-03"
-       }
-    },
-    {
-       "pk":52,
-       "model":"products.product",
-       "fields":{
-          "code":"P-G8903GalvinGreenJacketNavyAzalea",
-          "brand":"Galvin Green",
-          "name":"Ladies Arissa Waterproof GORE-TEX Jacket Navy - Azalea",
-          "description":"Women's waterproof golf jacket in GORE-TEX fabric with mesh lining",
-          "price":244.99,
-          "category": 9,
-          "rating":5,
-          "image":"product-golf-ladies-rainwear-04"
-       }
-    },
-    {
-       "pk":53,
-       "model":"products.product",
-       "fields":{
-          "code":"P-CGBFB063CalLadies4WPTrousersCaviar",
-          "brand":"Callaway",
-          "name":"Ladies 4.0 Waterproof Trousers Caviar",
-          "description":"Callaway apparel is the ultimate combination of golf authenticity and classic style.",
-          "price":84.99,
-          "category": 9,
-          "rating":4.6,
-          "image":"product-golf-ladies-rainwear-05"
-       }
-    },
-    {
-       "pk":54,
-       "model":"products.product",
-       "fields":{
-          "code":"P-CGBFB063CalLadies4WPTrousersPeacoat",
-          "brand":"Callaway",
-          "name":"Ladies 4.0 Waterproof Trousers Peacoat",
-          "description":"Callaway apparel is the ultimate combination of golf authenticity and classic style.",
-          "price":84.99,
-          "category": 9,
-          "rating":4.6,
-          "image":"product-golf-ladies-rainwear-06"
-       }
-    },
-    {
-       "pk":55,
-       "model":"products.product",
-       "fields":{
-          "code":"136154700",
-          "brand":"Under Armour",
-          "name":"Gents Golf 96 Hat Academy",
-          "description":"Keeps the sun off and the sweatband keeps your head dry and cool—it's everything you need for the course.",
-          "price":14.99,
-          "category": 10,
-          "rating":4.2,
-          "image":"product-golf-headwear-01"
-       }
-    },
-    {
-       "pk":56,
-       "model":"products.product",
-       "fields":{
-          "code":"1361547008",
-          "brand":"Under Armour",
-          "name":"Gents Golf 96 Hat Blue",
-          "description":"Keeps the sun off and the sweatband keeps your head dry and cool—it's everything you need for the course.",
-          "price":14.99,
-          "category": 10,
-          "rating":4.2,
-          "image":"product-golf-headwear-02"
-       }
-    },
-    {
-       "pk":57,
-       "model":"products.product",
-       "fields":{
-          "code":"CA21H0304004",
-          "brand":"Callaway",
-          "name":"Gents Camo Snapback Cap Green",
-          "description":"Performance fabric with camo embroidery ensures that the Camo Snapback and whoever wears it -- stands out on the course.",
-          "price":14.99,
-          "category": 10,
-          "rating":4.6,
-          "image":"product-golf-headwear-03"
-       }
-    },
-    {
-       "pk":58,
-       "model":"products.product",
-       "fields":{
-          "code":"CA21H0304003",
-          "brand":"Callaway",
-          "name":"Gents Camo Snapback Cap Grey",
-          "description":"Performance fabric with camo embroidery ensures that the Camo Snapback and whoever wears it -- stands out on the course.",
-          "price":14.99,
-          "category": 10,
-          "rating":4.8,
-          "image":"product-golf-headwear-04"
-       }
-    },
-    {
-       "pk":59,
-       "model":"products.product",
-       "fields":{
-          "code":"CKMS22548001",
-          "brand":"Calvin Klein Golf",
-          "name":"Gents Logo Cap Black White",
-          "description":"High performing baseball cap with?large?high density CK logo embroidery.",
-          "price":14.99,
-          "category": 10,
-          "rating":4.6,
-          "image":"product-golf-headwear-05"
-       }
-    },
-    {
-       "pk":60,
-       "model":"products.product",
-       "fields":{
-          "code":"CKMS22548005",
-          "brand":"Calvin Klein Golf",
-          "name":"Gents Logo Cap White Urban",
-          "description":"High performing baseball cap with?large?high density CK logo embroidery.",
-          "price":14.99,
-          "category": 10,
-          "rating":4.9,
-          "image":"product-golf-headwear-06"
-       }
-    }
-
+   },
+   {
+      "pk":10,
+      "model":"products.product",
+      "fields":{
+         "code":"P-CGKFB0S3CallawayTopMagneticBlue",
+         "brand":"Callaway",
+         "name":"Gents Midweight Ottoman Top Magnetic Blue",
+         "description":"This stunning and stylish fleece sweater is packed full of supportive features from Thermal insulation and SwingTech technology providing great warmth and flexibility respectively.",
+         "price":67.99,
+         "category":2,
+         "rating":4.3,
+         "image":"products/product-golf-sweater-04.jpg"
+      }
+   },
+   {
+      "pk":11,
+      "model":"products.product",
+      "fields":{
+         "code":"P-C9838CalvinKleinSweaterNavyBlue",
+         "brand":"Calvin Klein Golf",
+         "name":"Gents Tipped Lined Sweater Navy Blue",
+         "description":"Classic Calvin Klein high performing sweater featuring super soft WindBlock lining.",
+         "price":79.99,
+         "category":2,
+         "rating":4.2,
+         "image":"products/product-golf-sweater-05.jpg"
+      }
+   },
+   {
+      "pk":12,
+      "model":"products.product",
+      "fields":{
+         "code":"P-CKMA22703CalvinKleinSweaterNavy",
+         "brand":"Calvin Klein Golf",
+         "name":"Gents Veleto Crew Sweater Navy",
+         "description":"Time to update your knitwear for the season ahead and this on-trend fine knit style from Calvin Klein golf is exactly what you need.",
+         "price":62.99,
+         "category":2,
+         "rating":4.7,
+         "image":"products/product-golf-sweater-06.jpg"
+      }
+   },
+   {
+      "pk":13,
+      "model":"products.product",
+      "fields":{
+         "code":"P-G1242GalvinGreenTopNavyLimeWhite",
+         "brand":"Calvin Klein Golf",
+         "name":"Gents Conductor Padded Jacket Blaze",
+         "description":"Providing substantial warmth without heavy bulk Calvin Klein golf’s Conductor Padded Jacket is made for outdoor activity and admiring glances thanks to understated styling.",
+         "price":99.99,
+         "category":3,
+         "rating":4.3,
+         "image":"products/product-golf-gents-windtop-01.jpg"
+      }
+   },
+   {
+      "pk":14,
+      "model":"products.product",
+      "fields":{
+         "code":"P-CKMS22543CalvinKleinJacketNavy",
+         "brand":"Calvin Klein Golf",
+         "name":"Gents Dynamo Tech Knit Jacket Navy Ocean",
+         "description":"Durable performance and contemporary styling ensure the Dynamo tech knit jacket from Calvin Klein golf is a standout garment from the Chill Force range this season.",
+         "price":119.99,
+         "category":3,
+         "rating":4.6,
+         "image":"products/product-golf-gents-windtop-02.jpg"
+      }
+   },
+   {
+      "pk":15,
+      "model":"products.product",
+      "fields":{
+         "code":"P-CKMS22544CavinKleinWindbreakerWhite",
+         "brand":"Calvin Klein Golf",
+         "name":"GolfGents Convertible Windbreaker White",
+         "description":"An innovative windbreaker jacket?from Calvin Klein golf?helps keep you dry and your game on track when the weather?takes a turn.?",
+         "price":71.99,
+         "category":3,
+         "rating":4.7,
+         "image":"products/product-golf-gents-windtop-03.jpg"
+      }
+   },
+   {
+      "pk":16,
+      "model":"products.product",
+      "fields":{
+         "code":"P-1373407UnderArmourJacketPitchGrey",
+         "brand":"Under Armour",
+         "name":"Gents Storm Revo Jacket Pitch Grey",
+         "description":"Windproof jacket with Storm technology that repels water without sacrificing breathability.",
+         "price":99.99,
+         "category":3,
+         "rating":3.8,
+         "image":"products/product-golf-gents-windtop-04.jpg"
+      }
+   },
+   {
+      "pk":17,
+      "model":"products.product",
+      "fields":{
+         "code":"P-1371596UnderArmourJacketBlack",
+         "brand":"Under Armour",
+         "name":"Gents Stormproof Jacket 2.0 Black",
+         "description":"Waterproof jacket featuring Storm technology that repels water without sacrificing breathability",
+         "price":124.99,
+         "category":3,
+         "rating":4.6,
+         "image":"products/product-golf-gents-windtop-05.jpg"
+      }
+   },
+   {
+      "pk":18,
+      "model":"products.product",
+      "fields":{
+         "code":"P-CGJSC031CalGentsAbCamoPrintMixedJktNavy",
+         "brand":"Callaway",
+         "name":"Gents Abstract Camo Print Mixed Jacket Navy Blazer",
+         "description":"Callaway quilted-front jacket with mixed camo print and Swing Tech stretch technology.",
+         "price":79.99,
+         "category":3,
+         "rating":4.9,
+         "image":"products/product-golf-gents-windtop-06.jpg"
+      }
+   },
+   {
+      "pk":19,
+      "model":"products.product",
+      "fields":{
+         "code":"P-HC6645adidasPantsGrey",
+         "brand":"adidas",
+         "name":"Gents Ultimate 365 Primegreen Tapered Pants Grey Five",
+         "description":"Tapered golf pants made with recycled materials.",
+         "price":49.99,
+         "category":4,
+         "rating":4.2,
+         "image":"products/product-golf-gents-trousers-01.jpg"
+      }
+   },
+   {
+      "pk":20,
+      "model":"products.product",
+      "fields":{
+         "code":"P-HA9134adidasPantsGrey",
+         "brand":"adidas",
+         "name":"Gents Ultimate 365 Primegreen Tapered Pants Grey Three",
+         "description":"Tapered golf pants made with recycled materials.",
+         "price":49.99,
+         "category":4,
+         "rating":4.4,
+         "image":"products/product-golf-gents-trousers-02.jpg"
+      }
+   },
+   {
+      "pk":21,
+      "model":"products.product",
+      "fields":{
+         "code":"P-C9584CKGolfGentsRegFitStretchTrouser",
+         "brand":"Calvin Klein Golf",
+         "name":"Gents Regular Fit Stretch Trouser Power Red",
+         "description":"Regular fit technical performance trousers, breathable and quick drying",
+         "price":54.99,
+         "category":4,
+         "rating":4.6,
+         "image":"products/product-golf-gents-trousers-03.jpg"
+      }
+   },
+   {
+      "pk":22,
+      "model":"products.product",
+      "fields":{
+         "code":"P-CKMS19213CKGolfGents4WaySlimStretch",
+         "brand":"Calvin Klein Golf",
+         "name":"Gents 4 Way Slim Fit Stretch Trousers Fiery Red",
+         "description":"For the fashion-forward golfer Calvin Klein have introduced the Genius Stretch golf trouser which boasts a modern slim fit leg in an extreme 4-way stretch fabric that’s breathable and quick drying so there’s no compromise on the course.",
+         "price":54.99,
+         "category":4,
+         "rating":4.6,
+         "image":"products/product-golf-gents-trousers-04.jpg"
+      }
+   },
+   {
+      "pk":23,
+      "model":"products.product",
+      "fields":{
+         "code":"P-1364934UnderArmourPantsBlack",
+         "brand":"Under Armour",
+         "name":"Gents 5 Pocket Pants Black",
+         "description":"Built with a high-performance, mobile fabric, and a streamlined fit to reduce drag on every swing.",
+         "price":62.99,
+         "category":4,
+         "rating":4.5,
+         "image":"products/product-golf-gents-trousers-05.jpg"
+      }
+   },
+   {
+      "pk":24,
+      "model":"products.product",
+      "fields":{
+         "code":"P-1331186UnderArmourTrousersAcademy",
+         "brand":"Under Armour",
+         "name":"Under Armour Gents Performance Taper Trousers Academy",
+         "description":"This Under Armour Golf Tapered Pant is the workhorse for your season: light, breathable & just the right weight for a full 18. Everything you need",
+         "price":59.99,
+         "category":4,
+         "rating":4.2,
+         "image":"products/product-golf-gents-trousers-06.jpg"
+      }
+   },
+   {
+      "pk":25,
+      "model":"products.product",
+      "fields":{
+         "code":"P-G1200GGGentsAbeZipPacliteGTXJkt",
+         "brand":"Galvin Green",
+         "name":"Gents Abe ½ Zip Paclite GORE-TEX Jacket Black - Sharkskin - White",
+         "description":"The ultimate half-zip 100% waterproof GORE-TEX non-stretch jacket with mesh lining for added warmth, breathability and moisture management.",
+         "price":269.99,
+         "category":5,
+         "rating":4.9,
+         "image":"products/product-golf-gents-rainwear-01.jpg"
+      }
+   },
+   {
+      "pk":26,
+      "model":"products.product",
+      "fields":{
+         "code":"P-ANDYTRSGGGentsAndyWPGoreTexTrousers",
+         "brand":"Galvin Green",
+         "name":"Gents Andy Waterproof GORE-TEX Trousers Black",
+         "description":"Men's GORE-TEX golf pants with lining. Galvin Green's best-selling waterproof golf pants, crafted with a solid lining. Available in a wide range of sizes to fit every serious golfer.",
+         "price":249.99,
+         "category":5,
+         "rating":4.9,
+         "image":"products/product-golf-gents-rainwear-02.jpg"
+      }
+   },
+   {
+      "pk":27,
+      "model":"products.product",
+      "fields":{
+         "code":"P-AQUAWPProquipGentsAquatecWPJacket",
+         "brand":"Proquip",
+         "name":"Gents Aquatec Waterproof Jacket Black - Red",
+         "description":"Features a soft-feel high-quality fabric and internal web lining for ultimate protection from the elements.",
+         "price":99.99,
+         "category":5,
+         "rating":4.7,
+         "image":"products/product-golf-gents-rainwear-03.jpg"
+      }
+   },
+   {
+      "pk":28,
+      "model":"products.product",
+      "fields":{
+         "code":"P-AQUATRSProquipTrousers",
+         "brand":"Proquip",
+         "name":"Gents Aquatec Waterproof Trousers Black",
+         "description":"Features a premium soft satin polyester construction and quick-dry fabric technology for ultimate rain protection.",
+         "price":74.99,
+         "category":5,
+         "rating":4.6,
+         "image":"products/product-golf-gents-rainwear-04.jpg"
+      }
+   },
+   {
+      "pk":29,
+      "model":"products.product",
+      "fields":{
+         "code":"P-SBJKT1218StuburtJacket",
+         "brand":"Stuburt",
+         "name":"Gents Torrent II Full Zip Waterproof Jacket Midnight",
+         "description":"Stuburt Gents Torrent II Full Zip Waterproof Jacket Midnight",
+         "price":84.99,
+         "category":5,
+         "rating":4.6,
+         "image":"products/product-golf-gents-rainwear-05.jpg"
+      }
+   },
+   {
+      "pk":30,
+      "model":"products.product",
+      "fields":{
+         "code":"P-SBPNT1077Midnight",
+         "brand":"Stuburt",
+         "name":"Gents Torrent Waterproof Trousers Midnight",
+         "description":"The Torrent Waterproof Pant showcases Stuburt's renowned DRI-back moisture transfer technology. Highly breathable & waterproof, they feature waterproof zip pockets & side zips plus sealed seams. They are fully lined & come with half-elasticated waistband & adjustable Velcro Tabs to ensure a good, comfortable fit.",
+         "price":24.99,
+         "category":5,
+         "rating":4.6,
+         "image":"products/product-golf-gents-rainwear-06.jpg"
+      }
+   },
+   {
+      "pk":31,
+      "model":"products.product",
+      "fields":{
+         "code":"P-CGKSA0A7CalLadiesSolidSwing",
+         "brand":"Callaway",
+         "name":"Ladies Solid Swing Polo Shirt Mazarine Blue",
+         "description":"Stay cool and comfortable out on the course in this versatile solid-colored Callaway women’s golf shirt.",
+         "price":34.99,
+         "category":6,
+         "rating":4.7,
+         "image":"products/product-golf-ladies-polo-shirt-01.jpg"
+      }
+   },
+   {
+      "pk":32,
+      "model":"products.product",
+      "fields":{
+         "code":"P-CGKSA0A7CalLadiesSolidSwingPoloLilac",
+         "brand":"Callaway",
+         "name":"Ladies Solid Swing Polo Shirt Lilac",
+         "description":"Stay cool and comfortable out on the course in this versatile solid-colored Callaway women’s golf shirt.",
+         "price":34.99,
+         "category":6,
+         "rating":4.6,
+         "image":"products/product-golf-ladies-polo-shirt-02.jpg"
+      }
+   },
+   {
+      "pk":33,
+      "model":"products.product",
+      "fields":{
+         "code":"P-P93456PingShirtRedR696",
+         "brand":"Ping",
+         "name":"Ladies Sedona Polo Shirt Red",
+         "description":"Textured rib collar PING polo shirt engineered for moisture-moving comfort in all conditions.",
+         "price":24.99,
+         "category":6,
+         "rating":4.6,
+         "image":"products/product-golf-ladies-polo-shirt-03.jpg"
+      }
+   },
+   {
+      "pk":34,
+      "model":"products.product",
+      "fields":{
+         "code":"P-1373638UnderArmourShirtBlackPink",
+         "brand":"Under Armour",
+         "name":"Ladies Zinger Blur Polo Shirt Black - Pink Punk",
+         "description":"It doesn't get much more comfortable than this polo. Its extra-stretchy fabric moves with you, not against you, so you never feel held back on the course.",
+         "price":49.99,
+         "category":6,
+         "rating":4.9,
+         "image":"products/product-golf-ladies-polo-shirt-04.jpg"
+      }
+   },
+   {
+      "pk":35,
+      "model":"products.product",
+      "fields":{
+         "code":"P-110752RohnischShirtBeigeEarthCamo",
+         "brand":"Rohnisch",
+         "name":"Ladies Sia Polo Shirt Beige - Earth Camo",
+         "description":"Made in 90% recycled polyester along with a moisture wicking fabric with brushed inside for extra warmth.",
+         "price":64.99,
+         "category":6,
+         "rating":4.9,
+         "image":"products/product-golf-ladies-polo-shirt-05.jpg"
+      }
+   },
+   {
+      "pk":36,
+      "model":"products.product",
+      "fields":{
+         "code":"P-110752RohnischShirtGreenCrocco",
+         "brand":"Rohnisch",
+         "name":"Ladies Sia Polo Shirt Green Crocco",
+         "description":"Made in 90% recycled polyester along with a moisture wicking fabric with brushed inside for extra warmth.",
+         "price":63.99,
+         "category":6,
+         "rating":4.9,
+         "image":"products/product-golf-ladies-polo-shirt-06.jpg"
+      }
+   },
+   {
+      "pk":37,
+      "model":"products.product",
+      "fields":{
+         "code":"P-CGJFA0J3CallawayJacketPeacoat",
+         "brand":"Callaway",
+         "name":"Ladies Wind and Water Resistant Jacket Peacoat",
+         "description":"Featuring elegant metallic contrast, this jacket is part of Callaway's Weather Series collection and is wind and water-resistant to cope with sudden weather changes.",
+         "price":34.99,
+         "category":7,
+         "rating":4.6,
+         "image":"products/product-golf-ladies-windtop-01.jpg"
+      }
+   },
+   {
+      "pk":38,
+      "model":"products.product",
+      "fields":{
+         "code":"P-CGJFA0J3CallawayJacketCaviar",
+         "brand":"Callaway",
+         "name":"Ladies Wind and Water Resistant Jacket Caviar",
+         "description":"Featuring elegant metallic contrast, this jacket is part of Callaway's Weather Series collection and is wind and water-resistant to cope with sudden weather changes.",
+         "price":34.99,
+         "category":7,
+         "rating":4.8,
+         "image":"products/product-golf-ladies-windtop-02.jpg"
+      }
+   },
+   {
+      "pk":39,
+      "model":"products.product",
+      "fields":{
+         "code":"P-110751RohnischCardiganDeepTeal",
+         "brand":"Rohnisch",
+         "name":"Ladies Wind Cardigan Deep Teal",
+         "description":"A stylish quilted wind jacket with stretch lining. An ideal jacket for golf or other activities where freedom of movement is a must. The fabric protects against wind and is also water-resistant. The high collar keeps you warm. Full-length zip and two side pockets with zip.",
+         "price":49.99,
+         "category":7,
+         "rating":4.9,
+         "image":"products/product-golf-ladies-windtop-03.jpg"
+      }
+   },
+   {
+      "pk":40,
+      "model":"products.product",
+      "fields":{
+         "code":"P-111241RohnischCardiganIceGreen",
+         "brand":"Rohnisch",
+         "name":"Ladies Leah Wind Cardigan Ice Green",
+         "description":"Made in 100% recycled polyester, a functional fabric wicking moisture away from your body and with breathable, wind resistant stretch lining.",
+         "price":79.99,
+         "category":7,
+         "rating":4.5,
+         "image":"products/product-golf-ladies-windtop-04.jpg"
+      }
+   },
+   {
+      "pk":41,
+      "model":"products.product",
+      "fields":{
+         "code":"P-243431DailySportsJacketNavy",
+         "brand":"Daily Sports",
+         "name":"Ladies Mia Wind Jacket Navy",
+         "description":"Daily Sports Wear Ladies Mia Wind Jacket Navy",
+         "price":42.99,
+         "category":7,
+         "rating":4.6,
+         "image":"products/product-golf-ladies-windtop-05.jpg"
+      }
+   },
+   {
+      "pk":42,
+      "model":"products.product",
+      "fields":{
+         "code":"P-243431DailySportsJacketPearlGrey",
+         "brand":"Daily Sports",
+         "name":"Ladies Mia Wind Jacket Pearl Grey",
+         "description":"Daily Sports Wear Ladies Mia Wind Jacket Pearl",
+         "price":42.99,
+         "category":7,
+         "rating":4.6,
+         "image":"products/product-golf-ladies-windtop-06.jpg"
+      }
+   },
+   {
+      "pk":43,
+      "model":"products.product",
+      "fields":{
+         "code":"P-P93399PingLadiesEmilyTrouser",
+         "brand":"Ping",
+         "name":"Ladies Emily Trousers Navy",
+         "description":"Brushed Back Straight Leg PING Ladies Golf Trousers",
+         "price":48.99,
+         "category":8,
+         "rating":4.8,
+         "image":"products/product-golf-ladies-trousers-01.jpg"
+      }
+   },
+   {
+      "pk":44,
+      "model":"products.product",
+      "fields":{
+         "code":"P-P93512PINGLadiesVerityTrouserNavy",
+         "brand":"Ping",
+         "name":"Ladies Verity Trouser Navy",
+         "description":"Slim leg PING trouser engineered for ultimate comfort and performance.",
+         "price":46.99,
+         "category":8,
+         "rating":4.5,
+         "image":"products/product-golf-ladies-trousers-02.jpg"
+      }
+   },
+   {
+      "pk":45,
+      "model":"products.product",
+      "fields":{
+         "code":"P-CKLA20438CalvinKleinTrousersBlack",
+         "brand":"Calvin Klein Golf",
+         "name":"Ladies Ray Trousers Black",
+         "description":"Calvin Klein Golf Ladies Ray Trousers Black CKLA20438",
+         "price":68.99,
+         "category":8,
+         "rating":4.9,
+         "image":"products/product-golf-ladies-trousers-03.jpg"
+      }
+   },
+   {
+      "pk":46,
+      "model":"products.product",
+      "fields":{
+         "code":"P-CKLS20391CalvinKleinTrouserHighSteel",
+         "brand":"Calvin Klein Golf",
+         "name":"Ladies Arkose Trouser High Steel",
+         "description":"Expertly tailored ladies' trousers in a versatile solid colour provide an elegant and flattering silhouette in a smooth, stretch fabric that's comfortable and extremely breathable.",
+         "price":44.99,
+         "category":8,
+         "rating":4.8,
+         "image":"products/product-golf-ladies-trousers-04.jpg"
+      }
+   },
+   {
+      "pk":47,
+      "model":"products.product",
+      "fields":{
+         "code":"P-289898RohnischTrousersBurgundy",
+         "brand":"Rohnisch",
+         "name":"Ladies Heat Trousers Burgundy",
+         "description":"Rohnisch Ladies Heat Trousers Burgundy",
+         "price":49.99,
+         "category":8,
+         "rating":4.4,
+         "image":"products/product-golf-ladies-trousers-05.jpg"
+      }
+   },
+   {
+      "pk":48,
+      "model":"products.product",
+      "fields":{
+         "code":"P-289898RohnischTrousersGrey",
+         "brand":"Rohnisch",
+         "name":"Ladies Heat Trousers Dark Greige",
+         "description":"Rohnisch Ladies Heat Trousers Dark Greige",
+         "price":49.99,
+         "category":8,
+         "rating":4.7,
+         "image":"products/product-golf-ladies-trousers-06.jpg"
+      }
+   },
+   {
+      "pk":49,
+      "model":"products.product",
+      "fields":{
+         "code":"P-SUNLR49SunderlandJacketPurpleWhite",
+         "brand":"Sunderland",
+         "name":"Killy Ladies Waterproof Jacket Purple - White",
+         "description":"This Killy waterproof golf jacket is constructed with lightweight, breathable technical fabric.",
+         "price":134.99,
+         "category":9,
+         "rating":4.9,
+         "image":"products/product-golf-ladies-rainwear-01.jpg"
+      }
+   },
+   {
+      "pk":50,
+      "model":"products.product",
+      "fields":{
+         "code":"P-MONTTRSSunderlandTrousersNavy",
+         "brand":"Sunderland",
+         "name":"Ladies Montana Waterproof Trousers Navy",
+         "description":"Sunderland Ladies Montana Waterproof Trousers Navy",
+         "price":84.99,
+         "category":9,
+         "rating":4.9,
+         "image":"products/product-golf-ladies-rainwear-02.jpg"
+      }
+   },
+   {
+      "pk":51,
+      "model":"products.product",
+      "fields":{
+         "code":"P-G8903GGLadiesArissaJacketWildOrchid",
+         "brand":"Galvin Green",
+         "name":"Ladies Arissa Waterproof GORE-TEX Jacket Wild Orchid - Navy",
+         "description":"Women's waterproof golf jacket in GORE-TEX fabric with mesh lining",
+         "price":244.99,
+         "category":9,
+         "rating":4.9,
+         "image":"products/product-golf-ladies-rainwear-03.jpg"
+      }
+   },
+   {
+      "pk":52,
+      "model":"products.product",
+      "fields":{
+         "code":"P-G8903GalvinGreenJacketNavyAzalea",
+         "brand":"Galvin Green",
+         "name":"Ladies Arissa Waterproof GORE-TEX Jacket Navy - Azalea",
+         "description":"Women's waterproof golf jacket in GORE-TEX fabric with mesh lining",
+         "price":244.99,
+         "category":9,
+         "rating":4.9,
+         "image":"products/product-golf-ladies-rainwear-04.jpg"
+      }
+   },
+   {
+      "pk":53,
+      "model":"products.product",
+      "fields":{
+         "code":"P-CGBFB063CalLadies4WPTrousersCaviar",
+         "brand":"Callaway",
+         "name":"Ladies 4.0 Waterproof Trousers Caviar",
+         "description":"Callaway apparel is the ultimate combination of golf authenticity and classic style.",
+         "price":84.99,
+         "category":9,
+         "rating":4.6,
+         "image":"products/product-golf-ladies-rainwear-05.jpg"
+      }
+   },
+   {
+      "pk":54,
+      "model":"products.product",
+      "fields":{
+         "code":"P-CGBFB063CalLadies4WPTrousersPeacoat",
+         "brand":"Callaway",
+         "name":"Ladies 4.0 Waterproof Trousers Peacoat",
+         "description":"Callaway apparel is the ultimate combination of golf authenticity and classic style.",
+         "price":84.99,
+         "category":9,
+         "rating":4.6,
+         "image":"products/product-golf-ladies-rainwear-06.jpg"
+      }
+   },
+   {
+      "pk":55,
+      "model":"products.product",
+      "fields":{
+         "code":"136154700",
+         "brand":"Under Armour",
+         "name":"Gents Golf 96 Hat Academy",
+         "description":"Keeps the sun off and the sweatband keeps your head dry and cool—it's everything you need for the course.",
+         "price":14.99,
+         "category":10,
+         "rating":4.2,
+         "image":"products/product-golf-headwear-01.jpg"
+      }
+   },
+   {
+      "pk":56,
+      "model":"products.product",
+      "fields":{
+         "code":"1361547008",
+         "brand":"Under Armour",
+         "name":"Gents Golf 96 Hat Blue",
+         "description":"Keeps the sun off and the sweatband keeps your head dry and cool—it's everything you need for the course.",
+         "price":14.99,
+         "category":10,
+         "rating":4.2,
+         "image":"products/product-golf-headwear-02.jpg"
+      }
+   },
+   {
+      "pk":57,
+      "model":"products.product",
+      "fields":{
+         "code":"CA21H0304004",
+         "brand":"Callaway",
+         "name":"Gents Camo Snapback Cap Green",
+         "description":"Performance fabric with camo embroidery ensures that the Camo Snapback and whoever wears it -- stands out on the course.",
+         "price":14.99,
+         "category":10,
+         "rating":4.6,
+         "image":"products/product-golf-headwear-03.jpg"
+      }
+   },
+   {
+      "pk":58,
+      "model":"products.product",
+      "fields":{
+         "code":"CA21H0304003",
+         "brand":"Callaway",
+         "name":"Gents Camo Snapback Cap Grey",
+         "description":"Performance fabric with camo embroidery ensures that the Camo Snapback and whoever wears it -- stands out on the course.",
+         "price":14.99,
+         "category":10,
+         "rating":4.8,
+         "image":"products/product-golf-headwear-04.jpg"
+      }
+   },
+   {
+      "pk":59,
+      "model":"products.product",
+      "fields":{
+         "code":"CKMS22548001",
+         "brand":"Calvin Klein Golf",
+         "name":"Gents Logo Cap Black White",
+         "description":"High performing baseball cap with?large?high density CK logo embroidery.",
+         "price":14.99,
+         "category":10,
+         "rating":4.6,
+         "image":"products/product-golf-headwear-05.jpg"
+      }
+   },
+   {
+      "pk":60,
+      "model":"products.product",
+      "fields":{
+         "code":"CKMS22548005",
+         "brand":"Calvin Klein Golf",
+         "name":"Gents Logo Cap White Urban",
+         "description":"High performing baseball cap with?large?high density CK logo embroidery.",
+         "price":14.99,
+         "category":10,
+         "rating":4.9,
+         "image":"products/product-golf-headwear-06.jpg"
+      }
+   }
 ]
