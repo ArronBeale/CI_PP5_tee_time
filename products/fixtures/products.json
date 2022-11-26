@@ -507,84 +507,84 @@
        "pk":37,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"P-P93399PingLadiesEmilyTrouser",
+          "brand":"Ping",
+          "name":"Ladies Emily Trousers Navy",
+          "description":"Brushed Back Straight Leg PING Ladies Golf Trousers",
+          "price":48.99,
           "category": 7,
-          "rating":4.6,
-          "image":""
+          "rating":4.8,
+          "image":"product-golf-ladies-trousers-01"
        }
     },
     {
        "pk":38,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"P-P93512PINGLadiesVerityTrouserNavy",
+          "brand":"Ping",
+          "name":"Ladies Verity Trouser Navy",
+          "description":"Slim leg PING trouser engineered for ultimate comfort and performance.",
+          "price":46.99,
           "category": 7,
-          "rating":4.6,
-          "image":""
+          "rating":4.5,
+          "image":"product-golf-ladies-trousers-02"
        }
     },
     {
        "pk":39,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"P-CKLA20438CalvinKleinTrousersBlack",
+          "brand":"Calvin Klein Golf",
+          "name":"Ladies Ray Trousers Black",
+          "description":"Calvin Klein Golf Ladies Ray Trousers Black CKLA20438",
+          "price":68.99,
           "category": 7,
-          "rating":4.6,
-          "image":""
+          "rating":4.9,
+          "image":"product-golf-ladies-trousers-03"
        }
     },
     {
        "pk":40,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"P-CKLS20391CalvinKleinTrouserHighSteel",
+          "brand":"Calvin Klein Golf",
+          "name":"Ladies Arkose Trouser High Steel",
+          "description":"Expertly tailored ladies' trousers in a versatile solid colour provide an elegant and flattering silhouette in a smooth, stretch fabric that's comfortable and extremely breathable.",
+          "price":4499,
           "category": 7,
-          "rating":4.6,
-          "image":""
+          "rating":4.8,
+          "image":"product-golf-ladies-trousers-04"
        }
     },
     {
        "pk":40,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"P-289898RohnischTrousersBurgundy",
+          "brand":"Rohnisch",
+          "name":"Ladies Heat Trousers Burgundy",
+          "description":"Rohnisch Ladies Heat Trousers Burgundy",
+          "price":49.99,
           "category": 7,
-          "rating":4.6,
-          "image":""
+          "rating":4.4,
+          "image":"product-golf-ladies-trousers-05"
        }
     },
     {
        "pk":42,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"P-289898RohnischTrousersGrey",
+          "brand":"Rohnisch",
+          "name":"Ladies Heat Trousers Dark Greige",
+          "description":"Rohnisch Ladies Heat Trousers Dark Greige",
+          "price":49.99,
           "category": 7,
-          "rating":4.6,
-          "image":""
+          "rating":4.7,
+          "image":"product-golf-ladies-trousers-06"
        }
     },
     {
