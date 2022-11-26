@@ -675,84 +675,84 @@
        "pk":49,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"P-SUNLR49SunderlandJacketPurpleWhite",
+          "brand":"Sunderland",
+          "name":"Killy Ladies Waterproof Jacket Purple - White",
+          "description":"This Killy waterproof golf jacket is constructed with lightweight, breathable technical fabric.",
+          "price":134.99,
           "category": 9,
-          "rating":4.6,
-          "image":""
+          "rating":4.9,
+          "image":"product-golf-ladies-rainwear-01"
        }
     },
     {
        "pk":50,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"P-MONTTRSSunderlandTrousersNavy",
+          "brand":"Sunderland",
+          "name":"Ladies Montana Waterproof Trousers Navy",
+          "description":"Sunderland Ladies Montana Waterproof Trousers Navy",
+          "price":84.99,
           "category": 9,
-          "rating":4.6,
-          "image":""
+          "rating":5,
+          "image":"product-golf-ladies-rainwear-02"
        }
     },
     {
        "pk":51,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"P-G8903GGLadiesArissaJacketWildOrchid",
+          "brand":"Galvin Green",
+          "name":"Ladies Arissa Waterproof GORE-TEX Jacket Wild Orchid - Navy",
+          "description":"Women's waterproof golf jacket in GORE-TEX fabric with mesh lining",
+          "price":244.99,
           "category": 9,
-          "rating":4.6,
-          "image":""
+          "rating":4.9,
+          "image":"product-golf-ladies-rainwear-03"
        }
     },
     {
        "pk":52,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"P-G8903GalvinGreenJacketNavyAzalea",
+          "brand":"Galvin Green",
+          "name":"Ladies Arissa Waterproof GORE-TEX Jacket Navy - Azalea",
+          "description":"Women's waterproof golf jacket in GORE-TEX fabric with mesh lining",
+          "price":244.99,
           "category": 9,
-          "rating":4.6,
-          "image":""
+          "rating":5,
+          "image":"product-golf-ladies-rainwear-04"
        }
     },
     {
        "pk":53,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"P-CGBFB063CalLadies4WPTrousersCaviar",
+          "brand":"Callaway",
+          "name":"Ladies 4.0 Waterproof Trousers Caviar",
+          "description":"Callaway apparel is the ultimate combination of golf authenticity and classic style.",
+          "price":84.99,
           "category": 9,
           "rating":4.6,
-          "image":""
+          "image":"product-golf-ladies-rainwear-05"
        }
     },
     {
        "pk":54,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"P-CGBFB063CalLadies4WPTrousersPeacoat",
+          "brand":"Callaway",
+          "name":"Ladies 4.0 Waterproof Trousers Peacoat",
+          "description":"Callaway apparel is the ultimate combination of golf authenticity and classic style.",
+          "price":84.99,
           "category": 9,
           "rating":4.6,
-          "image":""
+          "image":"product-golf-ladies-rainwear-06"
        }
     },
     {
