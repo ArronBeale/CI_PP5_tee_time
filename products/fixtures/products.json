@@ -339,84 +339,84 @@
        "pk":25,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"P-G1200GGGentsAbeZipPacliteGTXJkt",
+          "brand":"Galvin Green",
+          "name":"Gents Abe ½ Zip Paclite GORE-TEX Jacket Black - Sharkskin - White",
+          "description":"The ultimate half-zip 100% waterproof GORE-TEX non-stretch jacket with mesh lining for added warmth, breathability and moisture management.",
+          "price":269.99,
           "category": 5,
-          "rating":4.6,
-          "image":""
+          "rating":4.9,
+          "image":"product-golf-gents-rainwear-01"
        }
     },
     {
        "pk":26,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"P-ANDYTRSGGGentsAndyWPGoreTexTrousers",
+          "brand":"Galvin Green",
+          "name":"Gents Andy Waterproof GORE-TEX Trousers Black",
+          "description":"Men's GORE-TEX golf pants with lining. Galvin Green's best-selling waterproof golf pants, crafted with a solid lining. Available in a wide range of sizes to fit every serious golfer.",
+          "price":249.99,
           "category": 5,
-          "rating":4.6,
-          "image":""
+          "rating":4.9,
+          "image":"product-golf-gents-rainwear-02"
        }
     },
     {
        "pk":27,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"P-AQUAWPProquipGentsAquatecWPJacket",
+          "brand":"Proquip",
+          "name":"Gents Aquatec Waterproof Jacket Black - Red",
+          "description":"Features a soft-feel high-quality fabric and internal web lining for ultimate protection from the elements.",
+          "price":99.99,
           "category": 5,
-          "rating":4.6,
-          "image":""
+          "rating":4.7,
+          "image":"product-golf-gents-rainwear-03"
        }
     },
     {
        "pk":28,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"P-AQUATRSProquipTrousers",
+          "brand":"Proquip",
+          "name":"Gents Aquatec Waterproof Trousers Black",
+          "description":"Features a premium soft satin polyester construction and quick-dry fabric technology for ultimate rain protection.",
+          "price":74.99,
           "category": 5,
           "rating":4.6,
-          "image":""
+          "image":"product-golf-gents-rainwear-04"
        }
     },
     {
        "pk":29,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"P-SBJKT1218StuburtJacket",
+          "brand":"Stuburt",
+          "name":"Gents Torrent II Full Zip Waterproof Jacket Midnight",
+          "description":"Stuburt Gents Torrent II Full Zip Waterproof Jacket Midnight",
+          "price":84.99,
           "category": 5,
           "rating":4.6,
-          "image":""
+          "image":"product-golf-gents-rainwear-05"
        }
     },
     {
        "pk":30,
        "model":"products.product",
        "fields":{
-          "code":"",
-          "brand":"",
-          "name":"",
-          "description":"",
-          "price":,
+          "code":"P-SBPNT1077Midnight",
+          "brand":"Stuburt",
+          "name":"Gents Torrent Waterproof Trousers Midnight",
+          "description":"The Torrent Waterproof Pant showcases Stuburt's renowned DRI-back moisture transfer technology. Highly breathable & waterproof, they feature waterproof zip pockets & side zips plus sealed seams. They are fully lined & come with half-elasticated waistband & adjustable Velcro Tabs to ensure a good, comfortable fit.",
+          "price":24.99,
           "category": 5,
           "rating":4.6,
-          "image":""
+          "image":"product-golf-gents-rainwear-06"
        }
     },
     {
