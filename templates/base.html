@@ -123,11 +123,18 @@
         <!-- Search Box -->
         <div class="container">
           <div class="row mx-auto">
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-dark" type="submit"><span class="icon"><i
-                    class="fas fa-search"></i></span></button>
-              </button>
+            <form method="GET" action="{% url 'products' %}">
+              <div class="input-group w-100">
+                <input class="form-control border rounded" type="text" name="q"
+                  placeholder="Search">
+                <div class="input-group-append">
+                  <button class="form-control btn border btn-outline-info rounded" type="submit">
+                    <span class="icon">
+                      <i class="fas fa-search"></i>
+                    </span>
+                  </button>
+                </div>
+              </div>
             </form>
           </div>
         </div>
@@ -156,7 +163,7 @@
           <li class="list-inline-item">
             <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-success{% endif %} nav-link" href="">
               <div>
-                <div><i class="fas fa-shopping-bag fa-lg"></i></div>
+                <div><i class="fas fa-shopping-bag fa-lg btn-outline-info"></i></div>
                 <p class="my-0">
                   {% if grand_total %}
                   €{{ grand_total|floatformat:2 }}
