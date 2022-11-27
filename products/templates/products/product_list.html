@@ -2,16 +2,12 @@
 {% load static %}
 
 {% block page_header %}
-<div class="container header-container">
-    <div class="row">
-        <div class="col"></div>
-    </div>
-</div>
+
 {% endblock %}
 
 {% block content %}
 <div class="container">
-    <div class="row">
+    <div class="row mb-3 mt-5">
         <div class="col bg-light rounded">
             <div class="col">
                 <h1 class="my-5">
@@ -20,7 +16,7 @@
             </div>
         </div>
     </div>
-    <div class="row bg-light">
+    <div class="row bg-light p-3 rounded">
         <div class="d-none d-lg-block col-md-2">
             <h2 class="fs-6">CATEGORIES</h2>
             <hr>
@@ -46,7 +42,7 @@
                             <h3 class="fs-5">{{ product.name }}</h3>
                             <span class="fs-6 text-muted">{{ product.brand }}</span>
                             <hr>
-                            <p class="text-left font-weight-bold">€{{ product.price }} |{% if product.rating %}
+                            <p class="text-left font-weight-bold">€{{ product.price }}{% if product.rating %}
                             <span class="text-muted text-right"><i class="fa-sharp fa-solid fa-star"></i>{{product.rating}}</span>
                             {% endif %}
                             <button class="btn btn-sm btn btn-secondary">Details</button>
