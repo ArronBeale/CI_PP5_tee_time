@@ -53,7 +53,7 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-2">
       <a class="navbar-brand main-logo-link" href="{% url 'home' %}">
         <img src="/media/logo-150.png" alt="Teetime">
       </a>
@@ -97,11 +97,18 @@
               Shop
             </a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Shirts</a>
-              <a class="dropdown-item" href="#">Trousers</a>
-              <a class="dropdown-item" href="#">Accessories</a>
+              <a class="dropdown-item" href="#">Gents Polos</a>
+              <a class="dropdown-item" href="#">Gents Sweaters</a>
+              <a class="dropdown-item" href="#">Gents  Windtops</a>
+              <a class="dropdown-item" href="#">Gents Trousers</a>
+              <a class="dropdown-item" href="#">Gents Rainwear</a>
+              <a class="dropdown-item" href="#">Ladies Polos</a>
+              <a class="dropdown-item" href="#">Ladies Windtops</a>
+              <a class="dropdown-item" href="#">Ladies Trousers</a>
+              <a class="dropdown-item" href="#">Ladies Rainwear</a>
+              <a class="dropdown-item" href="#">Headwear</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">All Products</a>
+              <a class="dropdown-item" href="{% url 'products' %}">All Products</a>
             </div>
           </li>
           <!-- Blog -->

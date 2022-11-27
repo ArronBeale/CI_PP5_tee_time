@@ -22,7 +22,7 @@
     </div>
     <div class="row bg-light">
         <div class="d-none d-lg-block col-md-2">
-            <h2 class ="fs-6">CATEGORIES</h2>
+            <h2 class="fs-6">CATEGORIES</h2>
             <hr>
             {% for category in categories %}
             <p><a class="text-decoration-none text-reset" href="">{{ category.friendly_name }}</a></p>
@@ -34,8 +34,7 @@
                     {% for product in products %}
                     <div class="card m-2 me-md-2 p-3 product-list">
                         {% if product.image %}
-                        <a href=""><img class="card-img-top" src="{{ product.image.url }}"
-                                alt="Card image cap"></a>
+                        <a href=""><img class="card-img-top" src="{{ product.image.url }}" alt="Card image cap"></a>
                         {% else %}
                         <a href="{}"><img class="card-img-top" src="{% static 'img/default-image.jpg' %}"
                                 alt="Card image cap"></a>
@@ -43,9 +42,15 @@
                         <div class=" card-body">
                             <p class="card-title fs-6"><strong>{{product.friendly_name}}</strong></p>
                         </div>
-                        <h3 class="fs-5">{{ product.name }}</h3>
-                        <span class="fs-6">{{ product.brand }}</span><hr>
-                        <span>€{{ product.price }}</span>
+                        <div class="row">
+                            <h3 class="fs-5">{{ product.name }}</h3>
+                            <span class="fs-6 text-muted">{{ product.brand }}</span>
+                            <hr>
+                            <p class="text-left font-weight-bold">€{{ product.price }} |{% if product.rating %}
+                            <span class="text-muted text-right"><i class="fa-sharp fa-solid fa-star"></i>{{product.rating}}</span>
+                            {% endif %}
+                            <button class="btn btn-sm btn btn-secondary">Details</button>
+                        </div>
                     </div>
                     {% empty %}
                     <p class="text-center w-100 fs-6 mt-5">Sorry, no matching products</p>
