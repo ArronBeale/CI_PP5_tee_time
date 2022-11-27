@@ -10,9 +10,11 @@
     <div class="row mb-3 mt-5">
         <div class="col bg-light rounded">
             <div class="col">
-                <h1 class="my-5">
-                    SHOP
-                </h1>
+                <a class="text-muted text-decoration-none" href="{% url 'products' %}">
+                    <h1 class="my-5">
+                        SHOP
+                    </h1>
+                </a>
             </div>
         </div>
     </div>
@@ -21,7 +23,7 @@
             <h2 class="fs-6">CATEGORIES</h2>
             <hr>
             {% for category in categories %}
-            <p><a class="text-decoration-none text-reset" href="">{{ category.friendly_name }}</a></p>
+            <p><a class ="text-decoration-none text-muted" href="{% url 'products' %}">{{ category.friendly_name }}</a></p>
             {% endfor %}
         </div>
         <div class="col">
@@ -30,9 +32,9 @@
                     {% for product in products %}
                     <div class="card m-2 me-md-2 p-3 product-list">
                         {% if product.image %}
-                        <a href=""><img class="card-img-top" src="{{ product.image.url }}" alt="Card image cap"></a>
+                        <a href="{% url 'product_detail' product.id %}"><img class="card-img-top" src="{{ product.image.url }}" alt="Card image cap"></a>
                         {% else %}
-                        <a href="{}"><img class="card-img-top" src="{% static 'img/default-image.jpg' %}"
+                        <a href="{% url 'product_detail' product.id %}"><img class="card-img-top" src="{% static 'img/default-image.jpg' %}"
                                 alt="Card image cap"></a>
                         {% endif %}
                         <div class=" card-body">
