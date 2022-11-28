@@ -53,7 +53,7 @@
                                 <span class="text-muted text-right"><i
                                         class="fa-sharp fa-solid fa-star"></i>{{product.rating}}</span>
                                 {% endif %}
-                                <button class="btn btn-sm btn btn-secondary">Details</button>
+                                <a class="btn btn-outline-secondary btn-sm" href="{% url 'product_detail' product.id %}" role="button">Details</a>
                         </div>
                     </div>
                     {% empty %}
