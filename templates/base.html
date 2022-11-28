@@ -91,10 +91,19 @@
               <a class="dropdown-item" href="#">Golf club 3</a>
               <a class="dropdown-item" href="#">Golf club 4</a>
           </li>
-          <!-- Shop -->
-          <li class="nav-item">
-            <a class="nav-link" href="{% url 'products' %}">Shop</a>
-          </li>
+          <!-- Shop Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+              Shop
+            </a>
+            <div class="dropdown-menu">
+              {% for category in categories_list %}
+            <a class="nav-link text-muted p-2"
+                    href="{% url 'products' %}?category={{category.name}}">{{ category.friendly_name }}</a>
+            {% endfor %}
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item text-muted" href="{% url 'products' %}">All Products</a>
+            </div>
           <!-- Blog -->
           <li class="nav-item">
             <a class="nav-link" href="#">Blog</a>

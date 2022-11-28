@@ -15,6 +15,33 @@
                         SHOP
                     </h1>
                 </a>
+                <div class="m-3 w-50">
+                    <select id="sort-selector"
+                        class=" rounded-0 border border-{% if current_sort != 'None_None' %}success{% else %}light{% endif %}">
+                        <option value="reset" {% if current_sort == 'None_None' %}selected{% endif %}>Sort by...
+                        </option>
+                        <option value="price_asc" {% if current_sort == 'price_asc' %}selected{% endif %}>Price (low
+                            to high)</option>
+                        <option value="price_desc" {% if current_sort == 'price_desc' %}selected{% endif %}>Price
+                            (high to low)</option>
+                        <option value="rating_asc" {% if current_sort == 'rating_asc' %}selected{% endif %}>Rating
+                            (low to high)</option>
+                        <option value="rating_desc" {% if current_sort == 'rating_desc' %}selected{% endif %}>Rating
+                            (high to low)</option>
+                        <option value="brand_asc" {% if current_sort == 'brand_asc' %}selected{% endif %}>
+                            Brand (A-Z)</option>
+                        <option value="brand_desc" {% if current_sort == 'brand_desc' %}selected{% endif %}>
+                            Brand (Z-A)</option>
+                        <option value="category_asc" {% if current_sort == 'category_asc' %}selected{% endif %}>
+                            Category (A-Z)</option>
+                        <option value="category_desc" {% if current_sort == 'category_desc' %}selected{% endif %}>
+                            Category (Z-A)</option>
+                        <option value="name_asc" {% if current_sort == 'name_asc' %}selected{% endif %}>Name (A-Z)
+                        </option>
+                        <option value="name_desc" {% if current_sort == 'name_desc' %}selected{% endif %}>Name (Z-A)
+                        </option>
+                    </select>
+                </div>
             </div>
         </div>
     </div>
@@ -38,7 +65,7 @@
             <p><a href="{% url 'products' %}?sort=brand&direction=desc"
                     class="nav-link text-decoration-none text-muted">By
                     Brand</a></p>
-            <p><a href="{% url 'products' %}?sort=brand&direction=desc"
+            <p><a href="{% url 'products' %}?sort=rating&direction=desc"
                     class="nav-link text-decoration-none text-muted">By
                     Rating</a></p>
         </div>
