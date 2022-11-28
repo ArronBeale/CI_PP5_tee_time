@@ -7,22 +7,29 @@
 
 {% block content %}
 <div class="container-fluid">
-    <div class="row p-3 rounded bg-light m-5">
+    <div class="row bg-light p-3 rounded">
         <div class="d-none d-lg-block col-md-2">
-            <a class="text-muted text-decoration-none" href="{% url 'products' %}">
-                <h1 class="nav-link text-muted nav-item my-5">
-                    SHOP
-                </h1>
-            </a>
             <h2 class="fs-6">CATEGORIES</h2>
             <hr>
             {% for category in categories_list %}
-            <p><a class="text-decoration-none text-muted"
+            <p><a class="nav-link text-muted"
                     href="{% url 'products' %}?category={{category.name}}">{{ category.friendly_name }}</a></p>
             {% endfor %}
+            <p><a class="nav-link text-muted" href="{% url 'products' %}">All Products</a></p>
+            <h2 class="fs-6">Sort</h2>
             <hr>
-            <p><a class="text-decoration-none text-muted"
-                href="{% url 'products' %}">All Products</a></p>
+            <p><a href="{% url 'products' %}?sort=price&direction=asc"
+                    class="nav-link text-decoration-none text-muted">By
+                    Price</a></p>
+            <p><a href="{% url 'products' %}?sort=category&direction=desc"
+                    class="nav-link text-decoration-none text-muted">By
+                    Category</a></p>
+            <p><a href="{% url 'products' %}?sort=brand&direction=desc"
+                    class="nav-link text-decoration-none text-muted">By
+                    Brand</a></p>
+            <p><a href="{% url 'products' %}?sort=rating&direction=desc"
+                    class="nav-link text-decoration-none text-muted">By
+                    Rating</a></p>
         </div>
         <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
             <div class="image-container my-4">
