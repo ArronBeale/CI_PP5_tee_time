@@ -47,11 +47,13 @@ def product_detail(request, product_id):
     """ A view to show specific product details """
 
     product = get_object_or_404(Product, pk=product_id)
+    categories_list = Category.objects.all()
     categories = Category.objects.all()
 
     context = {
         'product': product,
-        'categories': categories
+        'categories': categories,
+        'categories_list': categories_list,
     }
 
     return render(request, 'products/product_detail.html', context)
