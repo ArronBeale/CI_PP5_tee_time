@@ -7,7 +7,7 @@
 
 {% block content %}
 <div class="container">
-    <div class="row mb-3 mt-5">
+    <div class="row my-5">
         <div class="col bg-light rounded">
             <div class="col">
                 <a class="text-muted text-decoration-none" href="{% url 'products' %}">
@@ -41,15 +41,13 @@
                         <option value="name_desc" {% if current_sort == 'name_desc' %}selected{% endif %}>Name (Z-A)
                         </option>
                     </select>
-                </div>
-                <div class="col-12 col-md-6 order-md-first">
-                    <p class="text-muted mt-3 text-center text-md-left">
+                    <span class="text-muted mt-3 text-center text-md-left">
                         {% if search_term or current_categories or current_sorting != 'None_None' %}
-                        <span class="small"><a href="{% url 'products' %}">Products Home</a> |</span>
+                        <span class="small"><a href="{% url 'products' %}">All Products</a> |</span>
                         {% endif %}
                         {{ products|length }} Items{% if search_term %} found for
                         <strong>"{{ search_term }}"</strong>{% endif %}
-                    </p>
+                    </span>
                 </div>
             </div>
         </div>
@@ -112,5 +110,6 @@
             </div>
         </div>
     </div>
+</div>
 
-    {% endblock %}
+{% endblock %}
