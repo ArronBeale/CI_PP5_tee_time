@@ -49,12 +49,12 @@
         <div class="d-none d-lg-block col-md-2">
             <h2 class="fs-6">CATEGORIES</h2>
             <hr>
+            <p><a class="nav-link text-muted" href="{% url 'products' %}">All Products</a></p>
             {% for category in categories_list %}
             <p><a class="nav-link text-muted"
                     href="{% url 'products' %}?category={{category.name}}">{{ category.friendly_name }}</a></p>
             {% endfor %}
-            <p><a class="nav-link text-muted" href="{% url 'products' %}">All Products</a></p>
-            <h2 class="fs-6">Sort</h2>
+            <h2 class="fs-6">All Products</h2>
             <hr>
             <p><a href="{% url 'products' %}?sort=price&direction=desc"
                     class="nav-link text-decoration-none text-muted">By
