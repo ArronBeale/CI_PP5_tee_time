@@ -1,18 +1,16 @@
 {% extends 'base.html' %}
 {% load static %}
 
-{% block page_header %}
-
-{% endblock %}
-
 {% block content %}
 <div class="container">
     <div class="row my-5">
         <div class="col bg-light rounded">
             <div class="col">
-                <h1 class="my-5 text-muted">
-                    Basket
-                </h1>
+                <a class="text-muted text-decoration-none" href="{% url 'products' %}">
+                    <h1 class="my-5">
+                        SHOP
+                    </h1>
+                </a>
             </div>
         </div>
     </div>
@@ -42,34 +40,41 @@
         </div>
         <div class="col">
             <div class="row">
-                <div class="col-sm d-flex flex-wrap">
-                    {% if basket_items %}
-                    <div class="table-responsive rounded"></div>
-                    {% else %}
-                    <p class="lead mb-5">Your basket is empty</p>
-                    <a class="rounded btn btn-lg text-success" href="{% url 'products' %}">
-                        <span class="icon"><i class="fas fa-backward"></i></span>
-                        <span>Return to Shop</span>
-                    </a>
-                    {% endif %}
+                <div class="col-md-12">
+
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>Basket</h2>
+                        </div>
+                        <div class="card-body cart">
+                            <div class="col-sm-12 empty-cart-cls text-center">
+                                {% if basket_items %}
+                                <div class="table-responsive rounded"></div>
+                                {% else %}
+                                <h3><strong>Your basket is Empty</strong></h3>
+                                <a href="{% url 'products' %}" class="btn btn-success cart-btn-transform m-3">Return to
+                                    Shop</a>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <span style="float:right;" class="btn text-success back-to-top">Back to Top</span>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
-                <span style="float:right;" class="btn text-success back-to-top">Back to Top</span>
-            </div>
-        </div>
     </div>
-</div>
-{% endblock %}
+    {% endblock %}
 
-{% block postloadjs %}
-{{ block.super }}
+    {% block postloadjs %}
+    {{ block.super }}
 
-<script type="text/javascript">
-    $('.back-to-top').click(function (e) {
-        window.scrollTo(0, 0)
-    })
-</script>
-{% endblock %}
+    <script type="text/javascript">
+        $('.back-to-top').click(function (e) {
+            window.scrollTo(0, 0)
+        })
+    </script>
+    {% endblock %}
