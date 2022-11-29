@@ -43,7 +43,8 @@
                     </select>
                     <span class="text-muted mt-3 text-center text-md-left">
                         {% if search_term or current_categories or current_sorting != 'None_None' %}
-                        <span class="small"><a class="text-success" href="{% url 'products' %}">All Products</a> |</span>
+                        <span class="small"><a class="text-success" href="{% url 'products' %}">All Products</a>
+                            |</span>
                         {% endif %}
                         {{ products|length }} Items{% if search_term %} found for
                         <strong>"{{ search_term }}"</strong>{% endif %}
@@ -110,6 +111,11 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col">
+                <span style="float:right;" class="btn text-success back-to-top">Back to Top</span>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -118,12 +124,12 @@
 {% block postloadjs %}
 {{ block.super }}
 <script type="text/javascript">
-    $('#sort-selector').change(function() {
+    $('#sort-selector').change(function () {
         let selector = $(this);
         let url = new URL(window.location)
 
         let selected = selector.val();
-        if(selected != 'reset'){
+        if (selected != 'reset') {
             let sort = selected.split('_')[0]
             let direction = selected.split('_')[1];
 
@@ -136,6 +142,12 @@
             url.searchParams.delete('direction');
             window.location.replace(url);
         }
+    })
+</script>
+
+<script type="text/javascript">
+    $('.back-to-top').click(function (e) {
+        window.scrollTo(0, 0)
     })
 </script>
 {% endblock %}

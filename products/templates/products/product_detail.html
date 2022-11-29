@@ -61,11 +61,28 @@
                     <span class="text-muted text-right"><i
                             class="fa-sharp fa-solid fa-star"></i>{{product.rating}}</span>
                     {% endif %}</p>
-                    <p><p class="text-muted">{{ product.category.friendly_name }}</p></p>
+                <p>
+                    <p class="text-muted">{{ product.category.friendly_name }}</p>
+                </p>
                 <p class="mt-4">{{ product.description }}</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <span style="float:right;" class="btn text-success back-to-top">Back to Top</span>
             </div>
         </div>
     </div>
 </div>
 
+{% endblock %}
+
+{% block postloadjs %}
+{{ block.super }}
+
+<script type="text/javascript">
+    $('.back-to-top').click(function (e) {
+        window.scrollTo(0, 0)
+    })
+</script>
 {% endblock %}
