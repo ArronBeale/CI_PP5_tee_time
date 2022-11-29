@@ -66,7 +66,7 @@
             <p><a href="{% url 'products' %}?sort=price&direction=desc"
                     class="nav-link text-decoration-none text-muted">By
                     Price</a></p>
-            <p><a href="{% url 'products' %}?sort=category&direction=desc"
+            <p><a href="{% url 'products' %}?sort=category&direction=asc"
                     class="nav-link text-decoration-none text-muted">By
                     Category</a></p>
             <p><a href="{% url 'products' %}?sort=brand&direction=desc"
@@ -101,6 +101,7 @@
                                 {% endif %}
                                 <a class="btn btn-outline-secondary btn-sm" href="{% url 'product_detail' product.id %}"
                                     role="button">Details</a>
+                                <p class="text-muted">{{ product.category.friendly_name }}</p>
                         </div>
                     </div>
                     {% empty %}
