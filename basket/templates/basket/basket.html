@@ -67,14 +67,15 @@
             </div>
         </div>
     </div>
-    {% endblock %}
+</div>
+{% endblock %}
 
-    {% block postloadjs %}
-    {{ block.super }}
+{% block postloadjs %}
+{{ block.super }}
 
-    <script type="text/javascript">
-        $('.back-to-top').click(function (e) {
-            window.scrollTo(0, 0)
-        })
-    </script>
-    {% endblock %}
+<script type="text/javascript">
+    $('.back-to-top').click(function (e) {
+        window.scrollTo(0, 0)
+    })
+</script>
+{% endblock %}
