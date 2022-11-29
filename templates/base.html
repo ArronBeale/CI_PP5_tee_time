@@ -135,7 +135,11 @@
         <ul class="navbar-nav me-auto me-lg-1 ms-lg-auto mb-2 mb-lg-0">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+              {% if request.user.is_authenticated %}
+              <i class="text-success fas fa-user fa-lg"></i>
+              {% else %}
               <i class="fas fa-user fa-lg"></i>
+              {% endif %}
             </a>
             <!-- Login Dropdown -->
             <div class="dropdown-menu">
