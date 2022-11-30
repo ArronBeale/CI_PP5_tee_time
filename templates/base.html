@@ -159,9 +159,9 @@
         <!-- Basket -->
         <ul class="navbar-nav me-auto me-lg-1 ms-lg-auto mb-2 mb-lg-0">
           <li class="list-inline-item">
-            <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-success{% endif %} nav-link" href="{% url 'view_basket' %}">
+            <a class="{% if grand_total %}text-success font-weight-bold{% else %}text-success{% endif %} nav-link" href="{% url 'view_basket' %}">
               <div>
-                <div><i class="fas fa-shopping-bag fa-lg btn-outline-info"></i></div>
+                <div><i class="fas fa-shopping-bag fa-lg btn-outline-info" aria-hidden="true"></i></div>
                 <p class="my-0">
                   {% if grand_total %}
                   €{{ grand_total|floatformat:2 }}
