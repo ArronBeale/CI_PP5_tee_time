@@ -40,7 +40,7 @@
         </div>
         <div class="col">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-12">
                     <div class="card mt-5">
                         <div class="card-header text-muted">
                             <h2>Basket</h2>
@@ -49,54 +49,42 @@
                             <div class="col-sm-12 text-center">
                                 {% if basket_items %}
                                 <div class="table-responsive rounded">
-                                    <table class="table">
+                                    <table class="table table-sm table-responsive table-borderless">
                                         <thead class="text-success">
                                             <tr>
-                                                <th scope="col">Item</th>
                                                 <th scope="col"></th>
-                                                <th scope="col">Price</th>
-                                                <th scope="col">Qty</th>
-                                                <th scope="col">Subtotal</th>
+                                                <th scope="col">Product Info</th>
                                             </tr>
                                         </thead>
                                         {% for item in basket_items %}
                                         <tr>
-                                            <td class="w-25">
+                                            <td class="p-3 w-25">
                                                 <img class="img-fluid rounded" src="{{ item.product.image.url }}">
                                             </td>
                                             <td class="py-3">
                                                 <p class="my-0"><strong>{{ item.product.name }}</strong></p>
-                                                <p class="my-0 text-muted small">{{ item.product.code }}</p>
-                                            </td>
-                                            <td class="py-3">
-                                                <p class="my-0">€{{ item.product.price }}</p>
-                                            </td>
-                                            <td class="py-3 w-25">
-                                                <p class="my-0">{{ item.quantity }}</p>
-                                            </td>
-                                            <td class="py-3">
-                                                <p class="my-0">${{ item.product.price }}</p>
+                                                <p class="my-0"><strong>Price:</strong> €{{ item.product.price }}</p>
+                                                <p class="my-0"><strong>Qty:</strong> {{ item.quantity }}</p>
+                                                <p class="my-0"><strong>Subtotal:</strong> {{ item.product.price }}</p>
                                             </td>
                                         </tr>
                                         {% endfor %}
                                         <tr>
                                             <td colspan="5" class="pt-5 text-right">
                                                 <h6><strong>Basket Total: ${{ total|floatformat:2 }}</strong></h6>
-                                                <h6>Delivery: ${{ delivery|floatformat:2 }}</h6>
+                                                <h6>Shipping: ${{ delivery|floatformat:2 }}</h6>
                                                 <h4 class="mt-4"><strong>Grand Total:
                                                         ${{ grand_total|floatformat:2 }}</strong></h4>
                                                 {% if free_delivery_delta > 0 %}
                                                 <p class="mb-1 text-danger">
-                                                    You could get free delivery by spending just
-                                                    <strong>${{ free_delivery_delta }}</strong> more!
+                                                    Spending <strong>${{ free_delivery_delta }}</strong> to get free shipping!
                                                 </p>
                                                 {% endif %}
                                             </td>
                                         </tr>
                                         <tr>
                                             <td colspan="5" class="text-right">
-                                                <a href="{% url 'products' %}"
-                                                    class="btn btn-secondary rounded btn-lg">
+                                                <a href="{% url 'products' %}" class="btn btn-secondary rounded btn-lg">
                                                     <span class="icon">
                                                         <i class="fas fa-arrow-left"></i>
                                                     </span>
