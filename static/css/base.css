@@ -18,6 +18,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.update-qty-link,
+.remove-qty-link {
+    cursor: pointer;
+}
+
 /* Product List */
 .card.product-list {
     max-width: 205px;
