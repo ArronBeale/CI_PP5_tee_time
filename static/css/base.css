@@ -18,8 +18,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.update-qty-link,
-.remove-qty-link {
+.update-link,
+.remove-item {
     cursor: pointer;
 }
 
