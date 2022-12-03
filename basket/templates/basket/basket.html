@@ -49,7 +49,7 @@
                             <div class="col-sm-12 text-center">
                                 {% if basket_items %}
                                 <div class="table-responsive rounded">
-                                    <table class="table table-sm table-responsive table-borderless">
+                                    <table class="table table-sm table-responsive">
                                         <thead class="text-success">
                                             <tr>
                                                 <th scope="col"></th>
@@ -62,10 +62,12 @@
                                                 <img class="img-fluid rounded" src="{{ item.product.image.url }}">
                                             </td>
                                             <td class="py-3">
-                                                <p class="my-0"><strong>{{ item.product.name }}</strong></p>
+                                                <p class="my-0 text-muted">{{ item.product.brand }}</p>
+                                                <p class="my-0">{{ item.product.name }}</p>
                                                 <p class="my-0"><strong>Price:</strong> €{{ item.product.price }}</p>
                                                 <p class="my-0"><strong>Qty:</strong> {{ item.quantity }}</p>
-                                                <p class="my-0"><strong>Subtotal:</strong> {{ item.product.price }}</p>
+                                                <p class="my-0"><strong>Size:</strong> {{ item.size|upper }}</p>
+                                                <p class="my-0"><strong>Subtotal: €{{ item.product.price }}</strong></p>
                                             </td>
                                         </tr>
                                         {% endfor %}
