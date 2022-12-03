@@ -84,18 +84,18 @@
                                 <div class="input-group input-group-{{ product.id }}">
                                     <div class="input-group-prepend">
                                         <button
-                                            class="decrement-qty btn btn-danger rounded decrement-qty_{{ product.id }}"
+                                            class="decrement-qty btn btn-sm btn-danger rounded decrement-qty_{{ product.id }}"
                                             data-item_id="{{ product.id }}">
                                             <span class="icon">
                                                 <i class="fas fa-minus"></i>
                                             </span>
                                         </button>
                                     </div>  
-                                    <input class="form-control qty_input id_qty_{{ product.id }}" type="number"
+                                    <input class="form-control qty_input rounded h-100 id_qty_{{ product.id }}" type="number"
                                         name="quantity" value="1" min="1" max="99" data-item_id="{{ product.id }}">
                                     <div class="input-group-append">
                                         <button
-                                            class="increment-qty btn btn-success rounded increment-qty_{{ product.id }}"
+                                            class="increment-qty btn btn-sm btn-success rounded increment-qty_{{ product.id }}"
                                             data-item_id="{{ product.id }}">
                                             <span class="icon">
                                                 <i class="fas fa-plus"></i>
@@ -107,13 +107,13 @@
                         </div>
 
                         <div class="col{% if s %}-12 mt-2{% endif %}">
-                            <a href="{% url 'products' %}" class="btn btn-outline-secondary rounded mt-5">
+                            <a href="{% url 'products' %}" class="btn btn-outline-secondary rounded mt-5 h-100">
                                 <span class="icon">
                                     <i class="fas fa-arrow-left"></i>
                                 </span>
                                 <span class="text-uppercase">Return</span>
                             </a>
-                            <input type="submit" class="btn text-uppercase btn-outline-secondary rounded mt-5" value="Add to Basket">
+                            <input type="submit" class="btn text-uppercase btn-success rounded mt-5 h-100" value="Add to Basket">
                         </div>
                         <input type="hidden" name="redirect_url" value="{{ request.path }}">
                         {% endwith %}
@@ -133,7 +133,7 @@
 
 {% block postloadjs %}
 {{ block.super }}
-
+{% include 'products/includes/quantity_script.html' %}
 <script type="text/javascript">
     $('.back-to-top').click(function (e) {
         window.scrollTo(0, 0)
