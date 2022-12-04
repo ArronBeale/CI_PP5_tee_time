@@ -99,7 +99,7 @@ body {
 }
 
 .basket-notification-wrapper {
-    height: 200px;
+    height: 150px;
     overflow-x: hidden;
     overflow-y: auto;
 }
