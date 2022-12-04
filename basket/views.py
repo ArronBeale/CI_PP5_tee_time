@@ -110,6 +110,7 @@ def remove_from_basket(request, item_id):
     """A view to remove the item from the shopping basket"""
 
     try:
+        product = get_object_or_404(Product, pk=item_id)
         size = None
         if 'product_size' in request.POST:
             size = request.POST['product_size']
@@ -119,8 +120,12 @@ def remove_from_basket(request, item_id):
             del basket[item_id]['items_by_size'][size]
             if not basket[item_id]['items_by_size']:
                 basket.pop(item_id)
+                messages.success(request, f'Removed size\
+                     {size.upper()} {product.name} from your basket')
         else:
             basket.pop(item_id)
+            messages.success(request, f'Removed {product.name} from your\
+                 basket')
 
         request.session['basket'] = basket
         return HttpResponse(status=200)
