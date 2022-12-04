@@ -1,11 +1,13 @@
 <div class="toast custom-toast rounded border-top-0" data-autohide="false">
     <div class="arrow-up arrow-success"></div>
     <div class="w-100 toast-capper bg-success"></div>
-    <div class="toast-header bg-white text-dark">
-        <strong class="mr-auto">Success!</strong>
-        <button type="button" class="ml-2 mb-1 close text-dark" data-dismiss="toast" aria-label="Close">
+    <div class="col-2">
+        <button type="button" class="m-2 btn btn-secondary btn-sm close" data-dismiss="toast" aria-label="Close">
             <span aria-hidden="true">&times;</span>
         </button>
+    </div>
+    <div class="toast-header bg-white">
+        <strong class="mr-auto text-success">Success!</strong>
     </div>
     <div class="toast-body bg-white">
         <div class="row">
@@ -15,7 +17,7 @@
             </div>
         </div>
         {% if grand_total and not on_profile_page %}
-            <p class="logo-font bg-white  py-1">Your Bag ({{ product_count }})</p>
+            <p class="logo-font bg-white  py-1">Your Basket ({{ product_count }})</p>
             <div class="basket-notification-wrapper">
                 {% for item in basket_items %}
                     <div class="row">
@@ -42,7 +44,7 @@
                     </p></strong>
                     {% if free_delivery_delta > 0 %}
                         <p class="mb-0 p-2 bg-warning shadow-sm  text-center">
-                            Spend <strong>${{ free_delivery_delta }}</strong> more to get free next day delivery!
+                            Spend <strong>${{ free_delivery_delta }}</strong> more to get free shipping!
                         </p>
                     {% endif %}
                     <a href="{% url 'view_basket' %}" class="btn btn-success btn-block rounded-0">
