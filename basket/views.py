@@ -29,7 +29,7 @@ def add_to_basket(request, item_id):
     A view to add a quantity of the specified
     product to the shopping basket
     """
-
+    product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
     redirect_url = request.POST.get('redirect_url')
     size = None
@@ -41,6 +41,9 @@ def add_to_basket(request, item_id):
         if item_id in list(basket.keys()):
             if size in basket[item_id]['items_by_size'].keys():
                 basket[item_id]['items_by_size'][size] += quantity
+                messages.success(request, f'Updated size\
+                     {size.upper()} {product.name} quantity to\
+                         {basket[item_id]["items_by_size"][size]}')
             else:
                 basket[item_id]['items_by_size'][size] = quantity
         else:

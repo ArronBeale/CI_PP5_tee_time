@@ -178,7 +178,21 @@
   </header>
 
   {% if messages %}
-  <div class="message-container"></div>
+  <div class="message-container">
+    {% for message in messages %}
+      {% with message.level as level %}
+        {% if level == 25 %}
+          {% include 'includes/toasts/toast_success.html' %}
+          {% elif level == 30 %}
+            {% include 'includes/toasts/toast_warning.html' %}
+          {% elif level == 40 %}
+            {% include 'includes/toasts/toast_error.html' %}
+          {% else %}
+            {% include 'includes/toasts/toast_info.html' %}
+        {% endif %}
+      {% endwith %}
+    {% endfor %}
+  </div>
   {% endif %}
 
   {% block page_header %}
@@ -296,7 +310,12 @@
       <a class="text-reset fw-bold" href="{% url 'home' %}">Teetime</a>
     </div>
   </footer>
+  
   {% block postloadjs %}
+  <!-- Toast Script -->
+  <script type="text/javascript">
+    $('.toast').toast('show');
+  </script>
   <!-- Mailchimp Scripts -->
   <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
   <script type='text/javascript'>

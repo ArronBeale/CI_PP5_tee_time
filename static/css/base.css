@@ -28,7 +28,7 @@ body {
     max-width: 205px;
 }
 
-/* Taken from Bulma */
+/* From Bulma */
 .icon {
     align-items: center;
     display: inline-flex;
@@ -37,13 +37,26 @@ body {
     width: 1.5rem;
 }
 
+/*  Toasts */
+.message-container {
+    position: fixed;
+    right: 15px;
+    top: 72px;
+    z-index: 99999999999;
+}
+
+.custom-toast {
+    overflow: visible;
+}
+
+.toast-capper {
+    height: 2px;
+}
+
+/* Font Awesome */
 .fas,
 .fab {
     color: rgba(0, 0, 0, .5);
-}
-
-.logo-font {
-    text-transform: uppercase;
 }
 
 .main-logo-link {
