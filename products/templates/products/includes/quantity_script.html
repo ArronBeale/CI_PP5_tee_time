@@ -1,7 +1,11 @@
 <script type="text/javascript">
-    // Function to disable +/- buttons outside 1-99 range.
-   
-    function enableDisable(itemId, size) {
+
+    /* 
+    * Disable +/- buttons outside 1-99 range.
+    * If no size is passed to the function, the parameter will have a value of undefined by default,
+    * which prevents any errors 
+    */
+    function handleEnableDisable(itemId, size) {
         if (size) {
             var currentValue = parseInt($(`.size_${itemId}_${size}`).val());
         } else {
@@ -20,22 +24,22 @@
         }
     }
 
-    // Function to ensure enabling/disabling of all inputs on page load
-    var qtyInputs = $('.qty_input');
-    for(var i = 0; i < qtyInputs.length; i++){
-        var itemId = $(qtyInputs[i]).data('item_id');
-        var size = $(qtyInputs[i]).data('size');
-        enableDisable(itemId, size);
+    // Ensure proper enabling/disabling of all inputs on page load
+    var allQtyInputs = $('.qty_input');
+    for(var i = 0; i < allQtyInputs.length; i++){
+        var itemId = $(allQtyInputs[i]).data('item_id');
+        var size = $(allQtyInputs[i]).data('size');
+        handleEnableDisable(itemId, size);
     }
 
-    // Function to check enable/disable every time the input is changed
+    // Check enable/disable every time the input is changed
     $('.qty_input').change(function() {
         var itemId = $(this).data('item_id');
         var size = $(this).data('size');
-        enableDisable(itemId, size);
+        handleEnableDisable(itemId, size);
     });
 
-    // Function to increase qty in bag and disable once max value reached
+    // Increment quantity
     $('.increment-qty').click(function(e) {
        e.preventDefault();
        var itemId = $(this).data('item_id');
@@ -48,10 +52,10 @@
        }
        var currentValue = parseInt($(closestInput).val());
        $(allQuantityInputs).val(currentValue + 1);
-       enableDisable(itemId, size);
+       handleEnableDisable(itemId, size);
     });
 
-    // Function to decrease qty in bag and disable once max value reached
+    // Decrement quantity
     $('.decrement-qty').click(function(e) {
        e.preventDefault();
        var itemId = $(this).data('item_id');
@@ -64,6 +68,6 @@
        }
        var currentValue = parseInt($(closestInput).val());
        $(allQuantityInputs).val(currentValue - 1);
-       enableDisable(itemId, size);
+       handleEnableDisable(itemId, size);
     });
 </script>
