@@ -46,13 +46,20 @@ def add_to_basket(request, item_id):
                          {basket[item_id]["items_by_size"][size]}')
             else:
                 basket[item_id]['items_by_size'][size] = quantity
+                messages.success(request, f'Added size\
+                     {size.upper()} {product.name} to your basket')
         else:
             basket[item_id] = {'items_by_size': {size: quantity}}
+            messages.success(request, f'Added size\
+                 {size.upper()} {product.name} to your basket')
     else:
         if item_id in list(basket.keys()):
             basket[item_id] += quantity
+            messages.success(request, f'Updated {product.name} quantity to\
+                 {basket[item_id]}')
         else:
             basket[item_id] = quantity
+            messages.success(request, f'Added {product.name} to your basket')
 
     request.session['basket'] = basket
     return redirect(redirect_url)
