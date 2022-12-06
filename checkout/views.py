@@ -45,12 +45,12 @@ def checkout(request):
             'full_name': request.POST['full_name'],
             'email': request.POST['email'],
             'phone_number': request.POST['phone_number'],
-            'country': request.POST['country'],
-            'postcode': request.POST['postcode'],
-            'town_or_city': request.POST['town_or_city'],
             'address1': request.POST['address1'],
             'address2': request.POST['address2'],
+            'town_or_city': request.POST['town_or_city'],
             'county': request.POST['county'],
+            'postcode': request.POST['postcode'],
+            'country': request.POST['country'],
         }
 
         order_form = OrderForm(form_data)
@@ -71,7 +71,9 @@ def checkout(request):
                         )
                         order_line_item.save()
                     else:
-                        for size, quantity in item_data['items_by_size'].items():
+                        for size, quantity in item_data[
+                            'items_by_size'
+                        ].items():
                             order_line_item = OrderLineItem(
                                 order=order,
                                 product=product,
@@ -92,7 +94,7 @@ def checkout(request):
             request.session['save_info'] = 'save-info' in request.POST
             return redirect(
                 reverse('checkout_success', args=[order.order_number])
-                )
+            )
         else:
             messages.error(request, 'There was an error with your form. \
                 Please check your information.')
@@ -156,7 +158,7 @@ def checkout_success(request, order_number):
             if user_profile_form.is_valid():
                 user_profile_form.save()
 
-    messages.success(request, f'Order successfully processed! \
+    messages.success(request, f'Order successful! \
         Your order number is {order_number}. A confirmation \
         email will be sent to {order.email}.')
 
