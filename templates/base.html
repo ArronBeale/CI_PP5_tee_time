@@ -315,6 +315,12 @@
   </footer>
 
   {% block postloadjs %}
+  <!-- Back to Top -->
+  <script type="text/javascript">
+    $('.back-to-top').click(function (e) {
+        window.scrollTo(0, 0)
+    })
+</script>
   <!-- Toast Script -->
   <script type="text/javascript">
     $('.toast').toast('show');

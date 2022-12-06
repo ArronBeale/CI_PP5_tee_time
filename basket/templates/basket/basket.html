@@ -132,12 +132,6 @@
 {{ block.super }}
 {% include 'products/includes/quantity_script.html' %}
 <script type="text/javascript">
-    $('.back-to-top').click(function (e) {
-        window.scrollTo(0, 0)
-    })
-</script>
-
-<script type="text/javascript">
     // Update quantity on click
     $('.update-link').click(function(e) {
         var form = $(this).prev('.update-form');
