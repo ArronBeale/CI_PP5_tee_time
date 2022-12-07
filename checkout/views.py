@@ -12,7 +12,7 @@ import json
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 from .forms import OrderForm
 from .models import Order, OrderLineItem
-from products.models import Product
+from products.models import Product, Category
 from basket.contexts import basket_contents
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -37,6 +37,7 @@ def cache_checkout_data(request):
 def checkout(request):
     stripe_public_key = settings.STRIPE_PUBLIC_KEY
     stripe_secret_key = settings.STRIPE_SECRET_KEY
+    categories_list = Category.objects.all()
 
     if request.method == 'POST':
         basket = request.session.get('basket', {})
@@ -125,6 +126,7 @@ def checkout(request):
         'order_form': order_form,
         'stripe_public_key': stripe_public_key,
         'client_secret': intent.client_secret,
+        'categories_list': categories_list,
     }
 
     return render(request, template, context)
@@ -136,6 +138,7 @@ def checkout_success(request, order_number):
     """
     save_info = request.session.get('save_info')
     order = get_object_or_404(Order, order_number=order_number)
+    categories_list = Category.objects.all()
 
     messages.success(request, f'Order successful! \
         Your order number is {order_number}. A confirmation \
@@ -147,6 +150,7 @@ def checkout_success(request, order_number):
     template = 'checkout/checkout_success.html'
     context = {
         'order': order,
+        'categories_list': categories_list,
     }
 
     return render(request, template, context)
