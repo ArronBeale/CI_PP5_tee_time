@@ -76,8 +76,8 @@ form.addEventListener('submit', function(ev) {
                         line1: $.trim(form.address1.value),
                         line2: $.trim(form.address2.value),
                         city: $.trim(form.town_or_city.value),
-                        country: $.trim(form.country.value),
                         state: $.trim(form.county.value),
+                        country: $.trim(form.country.value),
                     }
                 }
             },
@@ -88,9 +88,9 @@ form.addEventListener('submit', function(ev) {
                     line1: $.trim(form.address1.value),
                     line2: $.trim(form.address2.value),
                     city: $.trim(form.town_or_city.value),
-                    country: $.trim(form.country.value),
-                    postal_code: $.trim(form.postcode.value),
                     state: $.trim(form.county.value),
+                    postal_code: $.trim(form.postcode.value),
+                    country: $.trim(form.country.value),
                 }
             },
         }).then(function(result) {
