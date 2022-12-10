@@ -9,6 +9,7 @@ from django.contrib.auth.decorators import login_required
 from .models import UserProfile
 from .forms import UserProfileForm
 from checkout.models import Order
+from products.models import Product, Category
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -17,6 +18,7 @@ def profile(request):
     """
     Display user profile
     """
+    categories_list = Category.objects.all()
     profile = get_object_or_404(
         UserProfile,
         user=request.user
@@ -46,6 +48,7 @@ def profile(request):
         'form': form,
         'orders': orders,
         'on_profile_page': True,
+        'categories_list': categories_list
     }
 
     return render(request, template, context)

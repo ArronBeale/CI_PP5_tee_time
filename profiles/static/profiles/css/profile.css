@@ -1,0 +1,5 @@
+/* Profile height */
+.order-history {
+    max-height: 416px; 
+    overflow: auto;
+}
