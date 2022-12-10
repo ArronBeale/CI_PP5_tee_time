@@ -55,6 +55,7 @@ def profile(request):
 
 
 def order_history(request, order_number):
+    categories_list = Category.objects.all()
     order = get_object_or_404(
         Order,
         order_number=order_number
@@ -69,6 +70,7 @@ def order_history(request, order_number):
     context = {
         'order': order,
         'from_profile': True,
+        'categories_list': categories_list,
     }
 
     return render(request, template, context)
