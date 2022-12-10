@@ -90,3 +90,8 @@
     </div>
 </div>
 {% endblock %}
+
+{% block postloadjs %}
+    {{ block.super }}
+    <script type="text/javascript" src="{% static 'profiles/js/country_field.js' %}"></script>
+{% endblock %}
