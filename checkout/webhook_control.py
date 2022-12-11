@@ -28,7 +28,7 @@ class StripeWebHook_Handler:
         """
         Send confirmation email to user
         """
-        cust_email = order.email
+        customer_email = order.email
         subject = render_to_string(
             'checkout/confirmation_emails/confirmation_email_subject.txt',
 
@@ -41,7 +41,7 @@ class StripeWebHook_Handler:
             subject,
             body,
             settings.DEFAULT_FROM_EMAIL,
-            [cust_email]
+            [customer_email]
         )
 
     def handle_event(self, event):
