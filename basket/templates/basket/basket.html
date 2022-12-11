@@ -61,14 +61,22 @@
                                         {% for item in basket_items %}
                                         <tr>
                                             <td class="p-3 w-25">
-                                                <img class="img-fluid rounded" src="{{ item.product.image.url }}">
+                                                {% if item.product.image %}
+                                                <img class="w-100" src="{{ item.product.image.url }}"
+                                                    alt="{{ item.product.name }}">
+                                                {% else %}
+                                                <img class="w-100" src="{{ MEDIA_URL }}/products/noimage.jpg"
+                                                    alt="{{ item.product.name }}">
+                                                {% endif %}
                                             </td>
                                             <td class="py-3">
                                                 <p class="my-0 text-muted">{{ item.product.brand }}</p>
                                                 <p class="my-0">{{ item.product.name }}</p>
                                                 <p class="my-0"><strong>Price:</strong> €{{ item.product.price }}</p>
                                                 <p class="my-0"><strong>Size:</strong> {{ item.size|upper }}</p>
-                                                <p class="my-0"><strong>Subtotal: €{{ item.product.price | calc_subtotal:item.quantity }}</strong></p>
+                                                <p class="my-0"><strong>Subtotal:
+                                                        €{{ item.product.price | calc_subtotal:item.quantity }}</strong>
+                                                </p>
                                             </td>
                                             <td>
                                                 {% include "basket/quantity-form.html" %}
@@ -83,7 +91,7 @@
                                                         €{{ grand_total|floatformat:2 }}</strong></h4>
                                                 {% if free_delivery_delta > 0 %}
                                                 <p class="mb-1 text-danger">
-                                                    Spending <strong>€{{ free_delivery_delta }}</strong> to get free
+                                                    Spend <strong>€{{ free_delivery_delta }}</strong> to get free
                                                     shipping!
                                                 </p>
                                                 {% endif %}
@@ -133,23 +141,26 @@
 {% include 'products/includes/quantity_script.html' %}
 <script type="text/javascript">
     // Update quantity on click
-    $('.update-link').click(function(e) {
+    $('.update-link').click(function (e) {
         var form = $(this).prev('.update-form');
         form.submit();
     })
 
     // Remove item and reload on click
-    $('.remove-item').click(function(e) {
+    $('.remove-item').click(function (e) {
         var csrfToken = "{{ csrf_token }}";
         var itemId = $(this).attr('id').split('remove_')[1];
         var size = $(this).data('product_size');
         var url = `/basket/remove/${itemId}/`;
-        var data = {'csrfmiddlewaretoken': csrfToken, 'product_size': size};
+        var data = {
+            'csrfmiddlewaretoken': csrfToken,
+            'product_size': size
+        };
 
         $.post(url, data)
-         .done(function() {
-             location.reload();
-         });
+            .done(function () {
+                location.reload();
+            });
     })
 </script>
 {% endblock %}

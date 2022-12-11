@@ -100,14 +100,14 @@
               Shop
             </a>
             <div class="dropdown-menu">
-              {% for category in categories_list %}
-            <a class="nav-link text-muted p-2"
-                    href="{% url 'products' %}?category={{category.name}}">{{ category.friendly_name }}</a>
-            {% endfor %}
+              {% for category in Categories_list %}
+              <a class="nav-link text-muted p-2"
+                href="{% url 'products' %}?category={{category.name}}">{{ category.friendly_name }}</a>
+              {% endfor %}
               <div class="dropdown-divider"></div>
               <a class="dropdown-item text-muted" href="{% url 'products' %}">All Products</a>
             </div>
-          <!-- Blog -->
+            <!-- Blog -->
           <li class="nav-item">
             <a class="nav-link" href="#">Blog</a>
           </li>
@@ -121,8 +121,7 @@
           <div class="row mx-auto">
             <form method="GET" action="{% url 'products' %}">
               <div class="input-group w-50">
-                <input class="form-control border rounded" type="text" name="q"
-                  placeholder="Search">
+                <input class="form-control border rounded" type="text" name="q" placeholder="Search">
                 <div class="input-group-append">
                   <button class="form-control btn border btn-outline-info rounded" type="submit">
                     <span class="icon">
@@ -147,7 +146,7 @@
             <div class="dropdown-menu">
               {% if request.user.is_authenticated %}
               {% if request.user.is_superuser %}
-              <a href="" class="dropdown-item">Management</a>
+              <a class="dropdown-item" href="{% url 'add_product' %}">Add Product</a>
               {% endif %}
               <a href="{% url 'profile' %}" class="dropdown-item">Profile</a>
               <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
@@ -161,7 +160,8 @@
         <!-- Basket -->
         <ul class="navbar-nav me-auto me-lg-1 ms-lg-auto mb-2 mb-lg-0">
           <li class="list-inline-item">
-            <a class="{% if grand_total %}text-success font-weight-bold{% else %}text-success{% endif %} nav-link" href="{% url 'view_basket' %}">
+            <a class="{% if grand_total %}text-success font-weight-bold{% else %}text-success{% endif %} nav-link"
+              href="{% url 'view_basket' %}">
               <div>
                 <div><i class="fas fa-shopping-bag fa-lg btn-outline-info" aria-hidden="true"></i></div>
                 <p class="my-0">
@@ -182,18 +182,18 @@
   {% if messages %}
   <div class="message-container">
     {% for message in messages %}
-      {% with message.level as level %}
-        {% if level == 40 %}
-          {% include 'includes/toasts/toast_error.html' %}
-        {% elif level == 30 %}
-          {% include 'includes/toasts/toast_warning.html' %}
-        {% elif level == 25 %}
-          {% include 'includes/toasts/toast_success.html' %}
-        {% else %}
-          {% include 'includes/toasts/toast_info.html' %}
-        {% endif %}
-      {% endwith %}
-      
+    {% with message.level as level %}
+    {% if level == 40 %}
+    {% include 'includes/toasts/toast_error.html' %}
+    {% elif level == 30 %}
+    {% include 'includes/toasts/toast_warning.html' %}
+    {% elif level == 25 %}
+    {% include 'includes/toasts/toast_success.html' %}
+    {% else %}
+    {% include 'includes/toasts/toast_info.html' %}
+    {% endif %}
+    {% endwith %}
+
     {% endfor %}
   </div>
   {% endif %}
@@ -318,9 +318,9 @@
   <!-- Back to Top -->
   <script type="text/javascript">
     $('.back-to-top').click(function (e) {
-        window.scrollTo(0, 0)
+      window.scrollTo(0, 0)
     })
-</script>
+  </script>
   <!-- Toast Script -->
   <script type="text/javascript">
     $('.toast').toast('show');

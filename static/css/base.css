@@ -66,6 +66,21 @@ body {
     color:#6c757d;
 }
 
+.btn-files {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-files input[type=file] {
+    position:absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
 /* Taken from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
     width: 0; 
