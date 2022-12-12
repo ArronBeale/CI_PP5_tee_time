@@ -88,6 +88,8 @@ def add_product(request):
     """
     Add a product to the shop
     """
+    categories_list = Category.objects.all()
+
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only admins can do that.')
         return redirect(reverse('home'))
@@ -109,6 +111,7 @@ def add_product(request):
     template = 'products/add_product.html'
     context = {
         'form': form,
+        'categories_list': categories_list,
     }
 
     return render(request, template, context)
