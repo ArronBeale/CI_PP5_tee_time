@@ -18,6 +18,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.dropdown-menu {
+    left: -50px;
+}
+
 .update-link,
 .remove-item {
     cursor: pointer;
