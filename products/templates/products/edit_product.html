@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load basket_tools %}
+{% load crispy_forms_filters %}
+{% load crispy_forms_tags %}
+
+{% block extracss %}
+<link rel="stylesheet" href="{% static 'checkout/css/checkout.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row my-5">
+        <div class="col bg-light rounded">
+            <div class="col">
+                <a class="text-muted text-decoration-none" href="{% url 'products' %}">
+                    <h1 class="my-5 text-success">
+                        Management: Edit Product
+                    </h1>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="row bg-light p-3 rounded">
+        <div class="col-12 col-md-6">
+            <form action="{% url 'edit_product' product.id %}" method="POST" class="form mb-2" enctype="multipart/form-data">
+                {% csrf_token %}
+                {% for field in form %}
+                    {% if field.name != 'image' %}
+                        {{ field | as_crispy_field }}
+                    {% else %}
+                        {{ field }}
+                    {% endif %}
+                {% endfor %}
+                <div class="text-right">
+                    <a href="{% url 'products' %}" class="btn btn-outline-dark rounded">Cancel</a>
+                    <button class="btn btn-outline-dark rounded" type="submit">Update</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
