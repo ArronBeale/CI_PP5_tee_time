@@ -11,7 +11,8 @@
                         SHOP
                     </h1>
                 </a>
-                <h2 class="border bg-success text-light rounded p-1 shadow" style="float:center;">Free Shipping on orders over €{{ free_delivery_threshold }}</h2>
+                <h2 class="border bg-success text-light rounded p-1 shadow" style="float:center;">Free Shipping on
+                    orders over €{{ free_delivery_threshold }}</h2>
                 <div class="m-3 w-50">
                     <select id="sort-selector"
                         class=" rounded-0 border border-{% if current_sort != 'None_None' %}success{% else %}light{% endif %}">
@@ -100,6 +101,12 @@
                                 <a class="btn btn-outline-success btn-sm" href="{% url 'product_detail' product.id %}"
                                     role="button">Details</a>
                                 <p class="text-muted">{{ product.category.friendly_name }}</p>
+                                {% if request.user.is_superuser %}
+                                <small>
+                                    <a class="btn btn-sm btn-outline-success" href="{% url 'edit_product' product.id %}">Edit</a>
+                                    <a class='btn btn-sm btn-outline-danger' href="{% url 'delete_product' product.id %}">Delete</a>
+                                </small>
+                                {% endif %}
                         </div>
                     </div>
                     {% empty %}

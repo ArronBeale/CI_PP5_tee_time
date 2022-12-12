@@ -11,7 +11,8 @@
                         SHOP
                     </h1>
                 </a>
-                <h2 class="border bg-success text-light rounded p-1 shadow" style="float:center;">Free Shipping on orders over €{{ free_delivery_threshold }}</h2>
+                <h2 class="border bg-success text-light rounded p-1 shadow" style="float:center;">Free Shipping on
+                    orders over €{{ free_delivery_threshold }}</h2>
             </div>
         </div>
     </div>
@@ -90,9 +91,10 @@
                                                 <i class="fas fa-minus"></i>
                                             </span>
                                         </button>
-                                    </div>  
-                                    <input class="form-control qty_input rounded h-100 id_qty_{{ product.id }}" type="number"
-                                        name="quantity" value="1" min="1" max="99" data-item_id="{{ product.id }}">
+                                    </div>
+                                    <input class="form-control qty_input rounded h-100 id_qty_{{ product.id }}"
+                                        type="number" name="quantity" value="1" min="1" max="99"
+                                        data-item_id="{{ product.id }}">
                                     <div class="input-group-append">
                                         <button
                                             class="increment-qty btn btn-sm btn-success rounded increment-qty_{{ product.id }}"
@@ -102,10 +104,17 @@
                                             </span>
                                         </button>
                                     </div>
+                                    {% if request.user.is_superuser %}
+                                    <small class="my-2">
+                                        <a class="btn btn-sm btn-outline-success"
+                                            href="{% url 'edit_product' product.id %}">Edit</a>
+                                        <a class='btn btn-sm btn-outline-danger'
+                                            href="{% url 'delete_product' product.id %}">Delete</a>
+                                    </small>
+                                    {% endif %}
                                 </div>
                             </div>
                         </div>
-
                         <div class="col{% if s %}-12 mt-2{% endif %}">
                             <a href="{% url 'products' %}" class="btn btn-outline-secondary rounded mt-5 h-100">
                                 <span class="icon">
@@ -113,7 +122,8 @@
                                 </span>
                                 <span class="text-uppercase">Return</span>
                             </a>
-                            <input type="submit" class="btn text-uppercase btn-success rounded mt-5 h-100" value="Add to Basket">
+                            <input type="submit" class="btn text-uppercase btn-success rounded mt-5 h-100"
+                                value="Add to Basket">
                         </div>
                         <input type="hidden" name="redirect_url" value="{{ request.path }}">
                         {% endwith %}
