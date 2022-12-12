@@ -91,7 +91,7 @@ def add_product(request):
     categories_list = Category.objects.all()
 
     if not request.user.is_superuser:
-        messages.error(request, 'Sorry, only admins can do that.')
+        messages.error(request, 'Only Admins can do that.')
         return redirect(reverse('home'))
 
     if request.method == 'POST':
@@ -115,6 +115,22 @@ def add_product(request):
     }
 
     return render(request, template, context)
+
+
+@login_required
+def delete_product(request, product_id):
+    """
+    Delete product from the shop
+    """
+    if not request.user.is_superuser:
+        messages.error(request, 'Only Admins owners can do that.')
+        return redirect(reverse('home'))
+
+    product = get_object_or_404(Product, pk=product_id)
+    product.delete()
+    messages.success(request, 'Product has been deleted.')
+
+    return redirect(reverse('products'))
 
 
 @login_required
