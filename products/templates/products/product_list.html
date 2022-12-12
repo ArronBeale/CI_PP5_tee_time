@@ -103,8 +103,8 @@
                                 <p class="text-muted">{{ product.category.friendly_name }}</p>
                                 {% if request.user.is_superuser %}
                                 <small>
-                                    <a class="btn btn-sm btn-outline-success" href="{% url 'edit_product' product.id %}">Edit</a>
                                     <a class='btn btn-sm btn-outline-danger' href="{% url 'delete_product' product.id %}">Delete</a>
+                                    <a class="btn btn-sm btn-outline-success" href="{% url 'edit_product' product.id %}">Edit</a>
                                 </small>
                                 {% endif %}
                         </div>

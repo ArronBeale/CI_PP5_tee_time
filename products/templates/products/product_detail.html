@@ -106,10 +106,10 @@
                                     </div>
                                     {% if request.user.is_superuser %}
                                     <small class="my-2">
-                                        <a class="btn btn-sm btn-outline-success"
-                                            href="{% url 'edit_product' product.id %}">Edit</a>
                                         <a class='btn btn-sm btn-outline-danger'
                                             href="{% url 'delete_product' product.id %}">Delete</a>
+                                        <a class="btn btn-sm btn-outline-success"
+                                            href="{% url 'edit_product' product.id %}">Edit</a>
                                     </small>
                                     {% endif %}
                                 </div>

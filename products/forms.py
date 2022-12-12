@@ -5,7 +5,7 @@ from django import forms
 # Internal
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 from .models import Product, Category
-from .widgets import ClearableFileInput
+from .widgets import CustClearableFileInput
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -18,7 +18,7 @@ class ProductForm(forms.ModelForm):
     image = forms.ImageField(
         label='image',
         required=False,
-        widget=ClearableFileInput
+        widget=CustClearableFileInput
         )
 
     def __init__(self, *args, **kwargs):
