@@ -204,7 +204,7 @@ if 'USE_AWS' in os.environ:
         'CacheControl': 'max-age=94608000',
     }
 
-    AWS_STORAGE_BUCKET_NAME = 'arron-teetime'
+    AWS_STORAGE_BUCKET_NAME = 'ci-pp5-teetime'
     AWS_S3_REGION_NAME = 'eu-west-1'
     AWS_ACCESS_KEY = os.environ.get('AWS_ACCESS_KEY_ID')
     AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
