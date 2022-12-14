@@ -8,7 +8,7 @@ from django.views.decorators.csrf import csrf_exempt
 import stripe
 # Internal
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-from checkout.webhook_control import StripeWebHook_Handler
+from checkout.webhook_handler import StripeWebHook_Handler
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
