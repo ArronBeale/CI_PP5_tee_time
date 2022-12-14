@@ -58,7 +58,7 @@ class StripeWebHook_Handler:
         """
         intent = event.data.object
         pid = intent.id
-        basket = intent.metadata.basket
+        bag = intent.metadata.bag
         save_info = intent.metadata.save_info
 
         # Get the Charge object
