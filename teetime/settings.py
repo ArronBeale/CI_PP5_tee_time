@@ -31,7 +31,7 @@ development = os.environ.get('DEVELOPMENT', False)
 
 DEBUG = development
 
-ALLOWED_HOSTS = ['ci-pp5-teetime.herokuapp.com', 'localhost', '*']
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
