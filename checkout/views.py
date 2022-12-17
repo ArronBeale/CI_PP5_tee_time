@@ -6,6 +6,8 @@ from django.shortcuts import (render, redirect, reverse, get_object_or_404,
 from django.views.decorators.http import require_POST
 from django.contrib import messages
 from django.conf import settings
+import stripe
+import json
 # Internal
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 from .forms import OrderForm
@@ -15,26 +17,19 @@ from basket.contexts import basket_contents
 from profiles.models import UserProfile
 from profiles.forms import UserProfileForm
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-import stripe
-import json
 
 
 @require_POST
 def cache_checkout_data(request):
-
     try:
-
         pid = request.POST.get('client_secret').split('_secret')[0]
         stripe.api_key = settings.STRIPE_SECRET_KEY
-
         stripe.PaymentIntent.modify(pid, metadata={
             'basket': json.dumps(request.session.get('basket', {})),
             'save_info': request.POST.get('save_info'),
             'username': request.user,
         })
-
         return HttpResponse(status=200)
-
     except Exception as e:
         messages.error(request, 'Sorry, your payment cannot be \
             processed right now. Please try again later.')
@@ -50,15 +45,15 @@ def checkout(request):
         basket = request.session.get('basket', {})
 
         form_data = {
-            'full_name': profile.default_delivery_name,
-            'email': profile.default_email,
-            'phone_number': profile.default_phone_number,
-            'country': profile.default_country,
-            'postcode': profile.default_postcode,
-            'town_or_city': profile.default_town_or_city,
-            'street_address1': profile.default_address1,
-            'street_address2': profile.default_address2,
-            'county': profile.default_county,
+            'full_name': request.POST['full_name'],
+            'email': request.POST['email'],
+            'phone_number': request.POST['phone_number'],
+            'address1': request.POST['address1'],
+            'address2': request.POST['address2'],
+            'town_or_city': request.POST['town_or_city'],
+            'postcode': request.POST['postcode'],
+            'county': request.POST['county'],
+            'country': request.POST['country'],
         }
 
         order_form = OrderForm(form_data)
@@ -132,12 +127,12 @@ def checkout(request):
                     'full_name': profile.user.get_full_name(),
                     'email': profile.user.email,
                     'phone_number': profile.default_phone_number,
-                    'country': profile.default_country,
-                    'postcode': profile.default_postcode,
-                    'town_or_city': profile.default_town_or_city,
                     'address1': profile.default_address1,
                     'address2': profile.default_address2,
+                    'town_or_city': profile.default_town_or_city,
+                    'postcode': profile.default_postcode,
                     'county': profile.default_county,
+                    'country': profile.default_country,
                 })
             except UserProfile.DoesNotExist:
                 order_form = OrderForm()
