@@ -56,8 +56,8 @@ def checkout(request):
             'address1': request.POST['address1'],
             'address2': request.POST['address2'],
             'town_or_city': request.POST['town_or_city'],
-            'county': request.POST['county'],
             'postcode': request.POST['postcode'],
+            'county': request.POST['county'],
             'country': request.POST['country'],
         }
 
