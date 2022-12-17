@@ -16,7 +16,7 @@ from profiles.models import UserProfile
 
 
 # From CI Boutique Ado webhook handler
-class StripeWebHook_Handler:
+class StripeWH_Handler:
     """
     Handle webhook for Stripe
     """
@@ -80,6 +80,7 @@ class StripeWebHook_Handler:
         if username != 'AnonymousUser':
             profile = UserProfile.objects.get(user__username=username)
             if save_info:
+                profile.default_shipping_name = shipping_details.name
                 profile.default_phone_number = shipping_details.phone
                 profile.default_address1 = shipping_details.address.line1
                 profile.default_address2 = shipping_details.address.line2

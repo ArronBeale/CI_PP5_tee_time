@@ -8,7 +8,7 @@ from django.views.decorators.csrf import csrf_exempt
 import stripe
 # Internal
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-from checkout.webhook_handler import StripeWebHook_Handler
+from checkout.webhook_handler import StripeWH_Handler
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -39,7 +39,7 @@ def webhook(request):
         return HttpResponse(content=e, status=400)
 
     # webhook handler
-    handler = StripeWebHook_Handler(request)
+    handler = StripeWH_Handler(request)
 
     # Map webhook events to relevant handler functions
     event_map = {
