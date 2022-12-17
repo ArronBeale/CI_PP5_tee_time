@@ -13,6 +13,7 @@ from profiles.models import UserProfile
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 import json
 import time
+import stripe
 
 
 # From CI Boutique Ado webhook handler
@@ -63,10 +64,8 @@ class StripeWH_Handler:
             intent.latest_charge
         )
 
-        # updated
         billing_details = stripe_charge.billing_details
         shipping_details = intent.shipping
-        # updated
         grand_total = round(stripe_charge.amount / 100, 2)
 
         # Clean data in shipping details
