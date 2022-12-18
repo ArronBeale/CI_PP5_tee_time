@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://ci-pp5-teetime.herokuapp.com//sitemap.xml
