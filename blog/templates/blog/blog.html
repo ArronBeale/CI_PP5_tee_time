@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container">
+    <div class="row my-5">
+        <div class="col bg-light rounded">
+            <div class="col">
+                    <h1 class="my-5 text-muted">
+                        Blog
+                    </h1>
+            </div>
+        </div>
+    </div>
+    <div class="row bg-light p-3 rounded">
+        <div class="col">
+            <div class="row">
+                <div class="col-sm product-list d-flex flex-wrap">
+                    {% for post in postings %}
+                    {% if post.status %}
+
+                    <div class="col-md-4 m-5 grow bg-darker rounded">
+                        {% if 'placeholder' in post.featured_image.url %}
+
+                        <a href=""><img src=""
+                                class="card-img-top rounded img-fluid" alt="default blog post photo"></a>
+
+                        {% else %}
+                        <a href=""><img src=""
+                                class="card-img-top rounded img-fluid" alt="blog post photo"></a>
+                        {% endif %}
+
+                        <div class="card-body">
+                            <a href="" class="post-link">
+                                <h2 class="card-title mt-3">{{ post.title }}</h2>
+                            </a>
+                            <p class="card-subtitle mb-2 text-muted">By: {{ post.author }}</p>
+                            <a href="" class="post-link">
+                                <p class="card-text mt-3"><em>{{ post.excerpt }}</em></p>
+                            </a>
+                            <hr>
+                            <p class="card-text text-muted h6 mb-3">{{ post.created_date }}</p>
+                        </div>
+                    </div>
+
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <span style="float:right;" class="btn text-success back-to-top">Back to Top</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
