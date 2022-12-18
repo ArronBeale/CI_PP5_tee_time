@@ -6,51 +6,64 @@
     <div class="row my-5">
         <div class="col bg-light rounded">
             <div class="col">
-                    <h1 class="my-5 text-muted">
-                        Blog
-                    </h1>
+                <h1 class="my-5 text-muted">
+                    Blog
+                </h1>
             </div>
         </div>
     </div>
-    <div class="row bg-light p-3 rounded">
-        <div class="col">
-            <div class="row">
-                <div class="col-sm product-list d-flex flex-wrap">
-                    {% for post in postings %}
-                    {% if post.status %}
+    <!-- cards -->
+    <div class="col">
+        <div class="row">
+            <div class="row d-flex my-5 justify-content-center text-center bg-light rounded">
 
-                    <div class="col-md-4 m-5 grow bg-darker rounded">
-                        {% if 'placeholder' in post.featured_image.url %}
+                {% for post in postings %}
+                {% if post.status %}
 
-                        <a href=""><img src=""
-                                class="card-img-top rounded img-fluid" alt="default blog post photo"></a>
+                <div class="col-md-4 m-5 grow bg-success rounded">
+                    {% if post.image %}
+                    <a href="{% url 'post_expand' post.slug %}">
+                        <img class="card-img-top mt-2" src="{{ post.image.url }}" alt="blog post image"></a>
+                    {% else %}
+                    <a href="{% url 'post_expand' post.slug %}">
+                        <img class="card-img-top mt-2" src="{% static 'img/default-image.jpg' %}"
+                            alt="blog post image"></a>
+                    {% endif %}
 
-                        {% else %}
-                        <a href=""><img src=""
-                                class="card-img-top rounded img-fluid" alt="blog post photo"></a>
-                        {% endif %}
-
-                        <div class="card-body">
-                            <a href="" class="post-link">
-                                <h2 class="card-title mt-3">{{ post.title }}</h2>
-                            </a>
-                            <p class="card-subtitle mb-2 text-muted">By: {{ post.author }}</p>
-                            <a href="" class="post-link">
-                                <p class="card-text mt-3"><em>{{ post.excerpt }}</em></p>
-                            </a>
-                            <hr>
-                            <p class="card-text text-muted h6 mb-3">{{ post.created_date }}</p>
-                        </div>
+                    <div class="card-body">
+                        <a href="{% url 'post_expand' post.slug %}">
+                            <h2 class="card-title mt-3 text-white">{{ post.title }}</h2>
+                        </a>
+                        <p class="card-subtitle mb-2 text-white">By: {{ post.author }}</p>
+                        <a href="{% url 'post_expand' post.slug %}" class="post-link">
+                            <p class="card-text mt-3 text-white"><em>{{ post.excerpt }}</em></p>
+                        </a>
+                        <hr>
+                        <p class="card-text text-white h6 mb-3">{{ post.created_date }}</p>
                     </div>
+                </div>
+
+                {% endif %}
+                {% endfor %}
+
+                <!-- pagination -->
+                <div class="row d-flex my-5 justify-content-center text-center bg-light rounded">
+
+                    {% if postings.has_previous %}
+
+                    <a href="?page=1">&laquo First</a>
+                    <a href="?page={{ postings.previous_page_number }}">Previous</a>
 
                     {% endif %}
-                    {% endfor %}
+                    Page {{ postings.number }} of {{postings.paginator.num_pages }}
+
+                    {% if postings.has_next %}
+
+                    <a href="?page={{ postings.next_page_number }}">Next</a>
+                    <a href="?page={{ postings.paginator.num_pages }}">Last &raquo;</a>
+
+                    {% endif %}
                 </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <span style="float:right;" class="btn text-success back-to-top">Back to Top</span>
             </div>
         </div>
     </div>
