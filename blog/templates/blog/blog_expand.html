@@ -25,9 +25,9 @@
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-md-8 col-lg-6 mx-auto bg-light mt-5 rounded p-3">
-                    {% if post.image %}
+                    {% if post.featured_image %}
                     <a href="{% url 'post_expand' post.slug %}">
-                        <img class="card-img-top my-2" src="{{ post.image.url }}" alt="blog post image"></a>
+                        <img class="card-img-top my-2" src="{{ post.featured_image.url }}" alt="blog post image"></a>
                     {% else %}
                     <a href="{% url 'post_expand' post.slug %}">
                         <img class="card-img-top my-2" src="{% static 'img/default-image.jpg' %}"

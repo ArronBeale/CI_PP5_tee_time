@@ -23,9 +23,9 @@
                 {% if post.status %}
 
                 <div class="col-md-4 m-5 grow bg-success rounded">
-                    {% if post.image %}
+                    {% if post.featured_image %}
                     <a href="{% url 'post_expand' post.slug %}">
-                        <img class="card-img-top mt-2" src="{{ post.image.url }}" alt="blog post image"></a>
+                        <img class="card-img-top mt-2" src="{{ post.featured_image.url }}" alt="blog post image"></a>
                     {% else %}
                     <a href="{% url 'post_expand' post.slug %}">
                         <img class="card-img-top mt-2" src="{% static 'img/default-image.jpg' %}"
