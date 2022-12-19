@@ -56,11 +56,14 @@ INSTALLED_APPS = [
     'checkout',
     'django_countries',
     'django_summernote',
+    'phonenumber_field',
+    'daterangefilter',
     'crispy_forms',
     'crispy_bootstrap5',
     'profiles',
     'storages',
     'blog',
+    'contact',
 ]
 
 MIDDLEWARE = [
