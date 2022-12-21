@@ -9,6 +9,7 @@ from django.core.paginator import Paginator
 # Internal:
 from .models import Post
 from .forms import CommentForm
+from products.models import Product, Category
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -29,9 +30,21 @@ class PublishedPosts(generic.ListView):
         paginator = Paginator(Post.objects.all(), 4)
         page = request.GET.get('page')
         postings = paginator.get_page(page)
+        products = Product.objects.all()
+        categories_list = Category.objects.all()
+
+        context = {
+            'products': products,
+            'categories_list': categories_list,
+            'posts': posts,
+            'postings': postings
+        }
 
         return render(
-            request, 'blog/blog.html',  {'posts': posts, 'postings': postings})
+            request,
+            'blog/blog.html',
+            context
+        )
 
 
 # View for the post to be read by the user
@@ -45,13 +58,22 @@ class PostExpand(View):
         comments = post.comments.filter(
             approved=True).order_by('-created_date')
 
+        products = Product.objects.all()
+        categories_list = Category.objects.all()
+
+        context = {
+            'products': products,
+            'categories_list': categories_list,
+            'post': post,
+            'comments': comments,
+            'commented': False,
+            'comment_form': CommentForm()
+        }
+
         return render(
-            request, 'blog/blog_expand.html',
-            {'post': post,
-             'comments': comments,
-             'commented': False,
-             'comment_form': CommentForm()
-             }
+            request,
+            'blog/blog_expand.html',
+            context
         )
 
     def post(self, request, slug, *args, **kwargs):
@@ -59,7 +81,7 @@ class PostExpand(View):
         post = get_object_or_404(
             queryset,
             slug=slug
-            )
+        )
         comments = post.comments.filter(
             approved=True).order_by('-created_date')
 
