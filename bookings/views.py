@@ -15,7 +15,7 @@ from products.models import Product, Category
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-# View for all posts that are published
+# View for all golf clubs that are published
 
 
 class AllClubs(generic.ListView):
@@ -26,17 +26,15 @@ class AllClubs(generic.ListView):
 
     def get(self, request, *args, **kwargs):
         """
-        This view renders the blog page and also all published posts
+        This view renders the golf clubs page for all clubs
         """
         clubs = Club.objects.all()
         paginator = Paginator(Club.objects.all(), 4)
         page = request.GET.get('page')
         postings = paginator.get_page(page)
-        products = Product.objects.all()
         categories_list = Category.objects.all()
 
         context = {
-            'products': products,
             'categories_list': categories_list,
             'clubs': clubs,
             'postings': postings

@@ -91,7 +91,7 @@ class Club(models.Model):
         unique=True
         )
     description = models.CharField(
-        max_length=500,
+        max_length=2000,
         unique=True)
     available = models.BooleanField(
         default=True
@@ -101,6 +101,7 @@ class Club(models.Model):
         null=True,
         blank=True
         )
+    excerpt = models.TextField(blank=True)
 
     class Meta:
         ordering = ['golf_club_name']
