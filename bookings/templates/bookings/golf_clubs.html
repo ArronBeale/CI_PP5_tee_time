@@ -12,19 +12,24 @@
 {% block content %}
 <div class="container">
     <div class="row bg-light my-5 p-3 rounded">
-        <div class="col">
-            <div class="row">
-                <div class="col-sm d-flex flex-wrap">
-                    <div class="card bg-light mb-3">
-                        {% for club in Clubs %}
-                        <div class="card-body">
-                            <h1 class="text-success">{{ club.golf_club_name }}</h1>
-                            <p> {{ club.descripton }}</p>
-                        </div>
-                        {% endfor %}
-                    </div>
+        <div class="col-12">
+            {% for club in clubs %}
+            <div class="card" style="width: 50%;">
+                {% if club.image %}
+                <a href="">
+                    <img class="card-img-top mt-2 p-3 rounded" src="{{ club.image.url }}" alt="golf club image"></a>
+                {% else %}
+                <a href="">
+                    <img class="card-img-top mt-2 p-3 rounded" src="{% static 'img/default-image.jpg' %}"
+                        alt="golf club image"></a>
+                {% endif %}
+                <div class="card-body">
+                    <h5 class="card-title text-success">{{ club.golf_club_name }}</h5>
+                    <p class="card-text">{{ club.description }}</p>
+                    <a href="#" class="btn btn-primary">Details</a>
                 </div>
             </div>
+            {% endfor %}
         </div>
         <div class="row">
             <div class="col">

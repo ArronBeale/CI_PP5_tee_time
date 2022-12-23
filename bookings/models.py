@@ -90,7 +90,7 @@ class Club(models.Model):
         default='New Course',
         unique=True
         )
-    descripton = models.CharField(
+    description = models.CharField(
         max_length=500,
         unique=True)
     available = models.BooleanField(
