@@ -17,7 +17,7 @@
         <div class="col">
             {% for club in postings %}
             <div class="row">
-                <div class="col-6">
+                <div class="col-12 col-md-6">
                     {% if club.image %}
                     <a href="">
                         <img class="card-img-top mt-2 p-3 rounded" src="{{ club.image.url }}" alt="golf club image"></a>
@@ -27,7 +27,7 @@
                             alt="golf club image"></a>
                     {% endif %}
                 </div>
-                <div class="col-6 mt-2 p-3">
+                <div class="col-12 col-md-6 mt-2 p-3">
                     <a href="">
                         <h2 class="card-title text-success">{{ club.golf_club_name }}</h2>
                     </a>

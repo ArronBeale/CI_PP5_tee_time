@@ -72,30 +72,9 @@
             <a class="nav-link" href="{% url 'home' %}">Home <span class="sr-only">(current)</span></a>
           </li>
           <!-- Golf Clubs Dropdown -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-              Golf Clubs
-            </a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Golf Club 1</a>
-              <a class="dropdown-item" href="#">Golf club 2</a>
-              <a class="dropdown-item" href="#">Golf club 3</a>
-              <a class="dropdown-item" href="#">Golf club 4</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="{% url 'golf_clubs' %}">All Golf Clubs</a>
-            </div>
-          </li>
-          <!-- Tee Times Dropdown -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-              Tee Times
-            </a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Golf Club 1</a>
-              <a class="dropdown-item" href="#">Golf club 2</a>
-              <a class="dropdown-item" href="#">Golf club 3</a>
-              <a class="dropdown-item" href="#">Golf club 4</a>
-            </div>
+          <!-- Blog -->
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'golf_clubs' %}">Clubs</a>
           </li>
           <!-- Shop Dropdown -->
           <li class="nav-item dropdown">
