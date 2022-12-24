@@ -8,6 +8,7 @@ from django.contrib import messages
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Internal:
 from .forms import ContactForm
+from products.models import Product, Category
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -41,13 +42,21 @@ class ContactMessage(View):
         """
         Retrieves users email and inputs into email input
         """
+        categories_list = Category.objects.all()
+
         if request.user.is_authenticated:
             email = request.user.email
             contact_form = ContactForm(initial={'email': email})
         else:
             contact_form = ContactForm()
+
+        context = {
+            'categories_list': categories_list,
+            'contact_form': contact_form
+        }
+
         return render(request, 'contact/contact.html',
-                      {'contact_form': contact_form})
+                      context)
 
     def post(self, request):
         """
