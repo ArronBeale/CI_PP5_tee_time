@@ -19,19 +19,21 @@
             <div class="row">
                 <div class="col-12 col-md-6">
                     {% if club.image %}
-                    <a href="">
+                    <a href="{% url 'club_expand' club.slug %}">
                         <img class="card-img-top mt-2 p-3 rounded" src="{{ club.image.url }}" alt="golf club image"></a>
                     {% else %}
-                    <a href="">
+                    <a href="{% url 'club_expand' club.slug %}">
                         <img class="card-img-top mt-2 p-3 rounded" src="{% static 'img/default-image.jpg' %}"
                             alt="golf club image"></a>
                     {% endif %}
                 </div>
                 <div class="col-12 col-md-6 mt-2 p-3">
-                    <a href="">
+                    <a href="{% url 'club_expand' club.slug %}">
                         <h2 class="card-title text-success">{{ club.golf_club_name }}</h2>
                     </a>
                     <p class="card-text">{{ club.description|safe }}</p>
+                    <a class="btn btn-success btn-sm" href="{% url 'club_expand' club.slug %}"
+                                    role="button">Details</a>
                 </div>
             </div>
             {% endfor %}

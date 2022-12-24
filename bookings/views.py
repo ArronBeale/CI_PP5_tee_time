@@ -47,6 +47,28 @@ class AllClubs(generic.ListView):
         )
 
 
+class ClubExpand(View):
+
+    def get(self, request, slug, *args, **kwargs):
+
+        queryset = Club.objects.filter(available=1)
+        club = get_object_or_404(queryset, slug=slug)
+        products = Product.objects.all()
+        categories_list = Category.objects.all()
+
+        context = {
+            'products': products,
+            'categories_list': categories_list,
+            'club': club,
+        }
+
+        return render(
+            request,
+            'bookings/club_expand.html',
+            context
+        )
+
+
 # class Reservations(View):
 #     """
 #     This view displays the booking form if the user

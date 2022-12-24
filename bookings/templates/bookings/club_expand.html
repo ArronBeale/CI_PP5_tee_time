@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container">
+    <div class="row my-5">
+        <div class="col bg-light rounded">
+            <a class="text-success text-decoration-none" href="{% url 'golf_clubs' %}">
+                <h1 class="my-5">
+                    Golf Clubs
+                </h1>
+            </a>
+        </div>
+    </div>
+
+    <!-- cards -->
+    <div class="row bg-light my-5 p-3 rounded">
+        <div class="col">
+            <div class="row">
+                <a href="">
+                    <h2 class="card-title text-success">{{ club.golf_club_name }}</h2>
+                </a>
+            </div>
+            <div class="col-12 col-md-6">
+                {% if club.image %}
+                <a href="">
+                    <img class="card-img-top mt-2 p-3 rounded" src="{{ club.image.url }}" alt="golf club image"></a>
+                {% else %}
+                <a href="">
+                    <img class="card-img-top mt-2 p-3 rounded" src="{% static 'img/default-image.jpg' %}"
+                        alt="golf club image"></a>
+                {% endif %}
+            </div>
+            <div class="col-12 col-md-6 mt-2 p-3">
+                <a href="">
+                    <h2 class="card-title text-success">{{ club.golf_club_name }}</h2>
+                </a>
+                <p class="card-text">{{ club.description|safe }}</p>
+                <a class="btn btn-success btn-sm" href="" role="button">Book Tee Time</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
