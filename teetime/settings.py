@@ -58,6 +58,7 @@ INSTALLED_APPS = [
     'django_summernote',
     'phonenumber_field',
     'daterangefilter',
+    'rangefilter',
     'crispy_forms',
     'crispy_bootstrap5',
     'profiles',

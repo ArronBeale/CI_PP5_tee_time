@@ -22,60 +22,64 @@
                     <h2 class="card-title text-success">{{ club.golf_club_name }}</h2>
                 </a>
             </div>
-            <div class="col-12 col-md-6">
-                {% if club.image %}
-                <a href="">
-                    <img class="card-img-top mt-2 p-3 rounded" src="{{ club.image.url }}" alt="golf club image"></a>
-                {% else %}
-                <a href="">
-                    <img class="card-img-top mt-2 p-3 rounded" src="{% static 'img/default-image.jpg' %}"
-                        alt="golf club image"></a>
-                {% endif %}
-            </div>
-            <div class="col-12 col-md-6 mt-2 p-3">
-                <a href="">
-                    <h2 class="card-title text-success">{{ club.golf_club_name }}</h2>
-                </a>
-                <p class="card-text">{{ club.description|safe }}</p>
-            </div>
-            <!-- Display if user is not logged in -->
-            {% if not user.is_authenticated %}
-            <h3>Login Required</h3>
-            <p>Please login to book a table</p>
-            <button class="btn btn-success" type="submit"><a href="{% url 'account_login' %}">Go to Login
-                    Page</a></button>
-            {% else %}
-            <!-- Display form if user is logged in-->
-            {% if user.is_authenticated %}
-            <div class="row text-center">
-                <div class="col-12">
-                    <h5 class="fw-bold mt-3">Book Now</h5>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    {% if club.image %}
+                    <a href="">
+                        <img class="card-img-top mt-2 p-3 rounded" src="{{ club.image.url }}" alt="golf club image"></a>
+                    {% else %}
+                    <a href="">
+                        <img class="card-img-top mt-2 p-3 rounded" src="{% static 'img/default-image.jpg' %}"
+                            alt="golf club image"></a>
+                    {% endif %}
+                </div>
+                <div class="col-12 col-md-6 mt-2 p-3">
+                    <a href="">
+                        <h2 class="card-title text-success">{{ club.golf_club_name }}</h2>
+                    </a>
+                    <p class="card-text">{{ club.description|safe }}</p>
+                    <a class="btn btn-success btn-sm" href="{% url 'golf_clubs' %}" role="button">Return</a>
                 </div>
             </div>
-            <form method="POST" enctype="multipart/form-data">
-                {% csrf_token %}
-                <!-- booking form -->
-                {{ booking_form| crispy }}
+            <div class="col-12 col-md-4">
+                <!-- Display if user is not logged in -->
+                {% if not user.is_authenticated %}
+                <h3 class="text-success">Login Required</h3>
+                <p>Please login to book a tee time.</p>
+                <a class="btn btn-success btn-sm" href="{% url 'account_login' %}" role="button">Login</a>
+                {% else %}
+                <!-- Display form if user is logged in-->
+                {% if user.is_authenticated %}
+                <div class="row text-center">
+                    <div class="col-12">
+                        <h5 class="fw-bold mt-3">Book Now</h5>
+                    </div>
+                </div>
+                <form method="POST" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <!-- booking form -->
+                    {{ booking_form| crispy }}
 
-                <button class="btn btn-success" type="submit">Book Tee Time</button>
-            </form>
-            {% endif %}
-            {% endif %}
-            <!-- Form Errors from stack overflow -->
-            {% if booking_form.errors %}
-            {% for field in booking_form %}
-            {% for error in field.errors %}
-            <div class="alert alert-danger">
-                <strong>{{ error|escape }}</strong>
+                    <button class="btn btn-success" type="submit">Book Tee Time</button>
+                </form>
+                {% endif %}
+                {% endif %}
+                <!-- Form Errors from stack overflow -->
+                {% if booking_form.errors %}
+                {% for field in booking_form %}
+                {% for error in field.errors %}
+                <div class="alert alert-danger">
+                    <strong>{{ error|escape }}</strong>
+                </div>
+                {% endfor %}
+                {% endfor %}
+                {% for error in booking_form.non_field_errors %}
+                <div class="alert alert-danger">
+                    <strong>{{ error|escape }}</strong>
+                </div>
+                {% endfor %}
+                {% endif %}
             </div>
-            {% endfor %}
-            {% endfor %}
-            {% for error in booking_form.non_field_errors %}
-            <div class="alert alert-danger">
-                <strong>{{ error|escape }}</strong>
-            </div>
-            {% endfor %}
-            {% endif %}
         </div>
     </div>
 </div>

@@ -82,6 +82,23 @@ class ClubExpand(View):
             context
         )
 
+    def post(self, request, slug, *args, **kwargs):
+        """
+        Checks that the provided info is valid format
+        and then posts to database
+        """
+        booking_form = BookingForm(data=request.POST)
+
+        if booking_form.is_valid():
+            booking = booking_form.save(commit=False)
+            booking.user = request.user
+            booking.save()
+            messages.success(
+                request, "Booking succesful")
+            return render(request, 'bookings/confirmed.html')
+
+        return render(request, 'bookings/golf_clubs.html',
+                      {'booking_form': booking_form})
 
 # class Reservations(View):
 #     """

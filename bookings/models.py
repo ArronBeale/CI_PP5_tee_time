@@ -126,12 +126,6 @@ class Booking(models.Model):
         related_name="club_name",
         null=True
         )
-    course = models.ForeignKey(
-        Club,
-        on_delete=models.CASCADE,
-        related_name="club_course",
-        null=True
-        )
     user = models.ForeignKey(
         User, on_delete=models.CASCADE, related_name="user", null=True)
     name = models.CharField(
@@ -156,9 +150,9 @@ class Booking(models.Model):
         )
     player_count = models.IntegerField(choices=players, default=1)
 
-    class Meta:
-        ordering = ['-requested_time']
-        unique_together = ('requested_date', 'requested_time', 'course')
+    # class Meta:
+    #     ordering = ['-requested_time']
+    #     unique_together = ('requested_date', 'requested_time', 'golf_club_name')
 
     def __str__(self):
         return self.status

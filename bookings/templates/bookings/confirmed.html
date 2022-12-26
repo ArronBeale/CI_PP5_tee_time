@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row bg-light my-5 p-3 rounded">
+        <div class="col">
+            <div class="row">
+                <div class="col-sm d-flex flex-wrap">
+                    <div class="col-12">
+                        <h1 class="text-success">Booking Confirmed!</h1>
+                        <p> Thank you for booking with us, we look forward to seeing you on the course.</p>
+                        <div class="col-12 col-md-6 rounded m-2 mx-auto">
+                            <a class="btn btn-success btn-lg" href="{% url 'golf_clubs' %}" role="button">Return</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <span style="float:right;" class="btn text-success back-to-top">Back to Top</span>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
