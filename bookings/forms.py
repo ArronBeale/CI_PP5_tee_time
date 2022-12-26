@@ -35,6 +35,5 @@ class BookingForm(forms.ModelForm):
             'email',
             'player_count',
             'golf_club_name',
-            'course',
             'requested_date',
             'requested_time')

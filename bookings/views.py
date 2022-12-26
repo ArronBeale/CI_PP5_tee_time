@@ -53,13 +53,29 @@ class ClubExpand(View):
 
         queryset = Club.objects.filter(available=1)
         club = get_object_or_404(queryset, slug=slug)
+        course = club.course
         products = Product.objects.all()
         categories_list = Category.objects.all()
+        template_name = 'bookings/club_expand.html'
+        success_message = 'Booking has been made.'
+
+        if request.user.is_authenticated:
+            email = request.user.email
+            booking_form = BookingForm(
+                initial={
+                    'email': email,
+                    'golf_club_name': club,
+                    'course': course,
+                    }
+                )
+        else:
+            booking_form = BookingForm()
 
         context = {
             'products': products,
             'categories_list': categories_list,
             'club': club,
+            'booking_form': booking_form
         }
 
         return render(
@@ -75,7 +91,7 @@ class ClubExpand(View):
 #     is registered and inserts the users email into the
 #     email field
 #     """
-#     template_name = 'bookings/reservations.html'
+#     template_name = 'bookings/club_expand.html'
 #     success_message = 'Booking has been made.'
 
 #     def get(self, request, *args, **kwargs):
@@ -87,7 +103,7 @@ class ClubExpand(View):
 #             booking_form = BookingForm(initial={'email': email})
 #         else:
 #             booking_form = BookingForm()
-#         return render(request, 'bookings/reservations.html',
+#         return render(request, 'bookings/club_expand.html',
 #                       {'booking_form': booking_form})
 
 
