@@ -39,46 +39,51 @@
                     </a>
                     <p class="card-text">{{ club.description|safe }}</p>
                     <a class="btn btn-success btn-sm" href="{% url 'golf_clubs' %}" role="button">Return</a>
+                    <hr>
                 </div>
             </div>
-            <div class="col-12 col-md-4">
-                <!-- Display if user is not logged in -->
-                {% if not user.is_authenticated %}
-                <h3 class="text-success">Login Required</h3>
-                <p>Please login to book a tee time.</p>
-                <a class="btn btn-success btn-sm" href="{% url 'account_login' %}" role="button">Login</a>
-                {% else %}
-                <!-- Display form if user is logged in-->
-                {% if user.is_authenticated %}
-                <div class="row text-center">
-                    <div class="col-12">
-                        <h5 class="fw-bold mt-3">Book Now</h5>
+            <div class="row">
+                <div class="col-12 col-md-4 justify-content-center">
+                </div>
+                <div class="col-12 col-md-4">
+                    <!-- Display if user is not logged in -->
+                    {% if not user.is_authenticated %}
+                    <h3 class="text-success">Login Required</h3>
+                    <p>Please login to book a tee time.</p>
+                    <a class="btn btn-success btn-sm" href="{% url 'account_login' %}" role="button">Login</a>
+                    {% else %}
+                    <!-- Display form if user is logged in-->
+                    {% if user.is_authenticated %}
+                    <div class="row text-center">
+                        <div class="col-12">
+                            <h5 class="fw-bold mt-3">Book Now</h5>
+                        </div>
                     </div>
-                </div>
-                <form method="POST" enctype="multipart/form-data">
-                    {% csrf_token %}
-                    <!-- booking form -->
-                    {{ booking_form| crispy }}
+                    <form method="POST" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        <!-- booking form -->
+                        {{ booking_form| crispy }}
 
-                    <button class="btn btn-success" type="submit">Book Tee Time</button>
-                </form>
-                {% endif %}
-                {% endif %}
-                <!-- Form Errors from stack overflow -->
-                {% if booking_form.errors %}
-                {% for field in booking_form %}
-                {% for error in field.errors %}
-                <div class="alert alert-danger">
-                    <strong>{{ error|escape }}</strong>
+                        <button class="btn btn-success" type="submit">Book Tee Time</button>
+                    </form>
+                    {% endif %}
+                    {% endif %}
+                    <!-- Form Errors from stack overflow -->
+                    {% if booking_form.errors %}
+                    {% for field in booking_form %}
+                    {% for error in field.errors %}
+                    <div class="alert alert-danger">
+                        <strong>{{ error|escape }}</strong>
+                    </div>
+                    {% endfor %}
+                    {% endfor %}
+                    {% for error in booking_form.non_field_errors %}
+                    <div class="alert alert-danger">
+                        <strong>{{ error|escape }}</strong>
+                    </div>
+                    {% endfor %}
+                    {% endif %}
                 </div>
-                {% endfor %}
-                {% endfor %}
-                {% for error in booking_form.non_field_errors %}
-                <div class="alert alert-danger">
-                    <strong>{{ error|escape }}</strong>
-                </div>
-                {% endfor %}
-                {% endif %}
             </div>
         </div>
     </div>
