@@ -85,11 +85,6 @@ class Club(models.Model):
         unique=True,
         default='',
         )
-    course = models.CharField(
-        max_length=80,
-        default='New Course',
-        unique=True
-        )
     description = models.CharField(
         max_length=2000,
         unique=True)

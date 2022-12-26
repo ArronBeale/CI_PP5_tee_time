@@ -19,7 +19,6 @@ class ClubAdmin(SummernoteModelAdmin):
         'club_id',
         'golf_club_name',
         'slug',
-        'course',
         'available',
         )
     prepopulated_fields = {'slug': ('golf_club_name',)}
@@ -36,7 +35,6 @@ class BookingAdmin(admin.ModelAdmin):
         'phone',
         'player_count',
         'status',
-        'course',
         'requested_date',
         'requested_time',
         'created_date'

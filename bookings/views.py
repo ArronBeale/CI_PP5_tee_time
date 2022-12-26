@@ -53,7 +53,6 @@ class ClubExpand(View):
 
         queryset = Club.objects.filter(available=1)
         club = get_object_or_404(queryset, slug=slug)
-        course = club.course
         products = Product.objects.all()
         categories_list = Category.objects.all()
         template_name = 'bookings/club_expand.html'
@@ -65,7 +64,6 @@ class ClubExpand(View):
                 initial={
                     'email': email,
                     'golf_club_name': club,
-                    'course': course,
                     }
                 )
         else:
