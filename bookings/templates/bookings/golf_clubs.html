@@ -31,7 +31,7 @@
                     <a href="{% url 'club_expand' club.slug %}">
                         <h2 class="card-title text-success">{{ club.golf_club_name }}</h2>
                     </a>
-                    <p class="card-text">{{ club.description|safe }}</p>
+                    <p class="card-text">{{ club.excerpt|safe }}</p>
                     <a class="btn btn-success btn-sm" href="{% url 'club_expand' club.slug %}"
                                     role="button">Details</a>
                 </div>
