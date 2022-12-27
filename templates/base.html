@@ -76,6 +76,11 @@
           <li class="nav-item">
             <a class="nav-link" href="{% url 'golf_clubs' %}">Clubs</a>
           </li>
+          {% if request.user.is_authenticated %}
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'booking_list' %}">Bookings</a>
+          </li>
+          {% endif %}
           <!-- Shop Dropdown -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">

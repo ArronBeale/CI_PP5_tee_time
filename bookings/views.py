@@ -1,9 +1,11 @@
 # Imports
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # 3rd party:
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, reverse, redirect, get_object_or_404
 from django.views import generic, View
 from django.contrib import messages
+from django.contrib.auth.models import User
+import datetime
 from django.contrib.messages.views import SuccessMessageMixin
 from django.views.generic.edit import UpdateView
 from django.core.paginator import Paginator
@@ -108,80 +110,40 @@ class ClubExpand(View):
         return render(
             request, 'bookings/club_expand.html', context)
 
-# class Reservations(View):
-#     """
-#     This view displays the booking form if the user
-#     is registered and inserts the users email into the
-#     email field
-#     """
-#     template_name = 'bookings/club_expand.html'
-#     success_message = 'Booking has been made.'
 
-#     def get(self, request, *args, **kwargs):
-#         """
-#         Retrieves users email and inputs into email input
-#         """
-#         if request.user.is_authenticated:
-#             email = request.user.email
-#             booking_form = BookingForm(initial={'email': email})
-#         else:
-#             booking_form = BookingForm()
-#         return render(request, 'bookings/club_expand.html',
-#                       {'booking_form': booking_form})
+class BookingList(generic.ListView):
+    """
+    This view will display all the bookings
+    a particular user has made
+    """
+    model = Booking
+    queryset = Booking.objects.filter().order_by('-created_date')
+    template_name = 'bookings/booking_list.html'
+    paginated_by = 4
 
+    def get(self, request, *args, **kwargs):
 
-# Dispays the confirmation page upon a succesful booking
+        booking = Booking.objects.all()
+        paginator = Paginator(Booking.objects.filter(user=request.user), 4)
+        page = request.GET.get('page')
+        booking_page = paginator.get_page(page)
+        today = datetime.datetime.now().date()
 
+        for date in booking:
+            if date.requested_date < today:
+                date.status = 'Tee Time Expired'
 
-# class Confirmed(generic.DetailView):
-#     """
-#     This view will display confirmation on a successful booking
-#     """
-#     template_name = 'bookings/confirmed.html'
-
-#     def get(self, request):
-#         return render(request, 'bookings/confirmed.html')
-
-
-# Display all the bookings the user has active,
-# bookings older than today will be expired and the
-# user will not be able to edit or cancel them once
-# expired
-
-
-# class BookingList(generic.ListView):
-#     """
-#     This view will display all the bookings
-#     a particular user has made
-#     """
-#     model = Booking
-#     queryset = Booking.objects.filter().order_by('-created_date')
-#     template_name = 'booking_list.html'
-#     paginated_by = 4
-
-#     def get(self, request, *args, **kwargs):
-
-#         booking = Booking.objects.all()
-#         paginator = Paginator(Post.objects.filter(user=request.user), 4)
-#         page = request.GET.get('page')
-#         booking_page = paginator.get_page(page)
-#         today = datetime.datetime.now().date()
-
-#         for date in booking:
-#             if date.requested_date < today:
-#                 date.status = 'Booking Expired'
-
-#         if request.user.is_authenticated:
-#             bookings = Booking.objects.filter(user=request.user)
-#             return render(
-#                 request,
-#                 'bookings/booking_list.html',
-#                 {
-#                     'booking': booking,
-#                     'bookings': bookings,
-#                     'booking_page': booking_page})
-#         else:
-#             return redirect('accounts/login.html')
+        if request.user.is_authenticated:
+            bookings = Booking.objects.filter(user=request.user)
+            return render(
+                request,
+                'bookings/booking_list.html',
+                {
+                    'booking': booking,
+                    'bookings': bookings,
+                    'booking_page': booking_page})
+        else:
+            return redirect('accounts/login.html')
 
 
 # Displays the edit booking page and form so the user
