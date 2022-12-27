@@ -6,7 +6,7 @@ from phonenumber_field.modelfields import PhoneNumberField
 from django.contrib.auth.models import User
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-# Restaurant first sitting at noon and last sitting 11pm
+# All tee times for each day
 tee_times = (
     ('09:00', '09:00'),
     ('09:10', '09:10'),
@@ -150,9 +150,9 @@ class Booking(models.Model):
         )
     player_count = models.IntegerField(choices=players, default=1)
 
-    # class Meta:
-    #     ordering = ['-requested_time']
-    #     unique_together = ('requested_date', 'requested_time', 'golf_club_name')
+    class Meta:
+        ordering = ['-requested_time']
+        unique_together = ('requested_date', 'requested_time', 'golf_club_name')
 
     def __str__(self):
         return self.status

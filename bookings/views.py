@@ -64,8 +64,8 @@ class ClubExpand(View):
                 initial={
                     'email': email,
                     'golf_club_name': club,
-                    }
-                )
+                }
+            )
         else:
             booking_form = BookingForm()
 
@@ -87,7 +87,16 @@ class ClubExpand(View):
         Checks that the provided info is valid format
         and then posts to database
         """
+        queryset = Club.objects.filter(available=1)
+        club = get_object_or_404(queryset, slug=slug)
         booking_form = BookingForm(data=request.POST)
+        template_name = 'bookings/club_expand.html'
+
+        context = {
+            'club': club,
+            'booking_form': booking_form,
+            'slug': slug
+        }
 
         if booking_form.is_valid():
             booking = booking_form.save(commit=False)
@@ -96,9 +105,8 @@ class ClubExpand(View):
             messages.success(
                 request, "Booking succesful")
             return render(request, 'bookings/confirmed.html')
-
-        return render(request, 'bookings/golf_clubs.html',
-                      {'booking_form': booking_form})
+        return render(
+            request, 'bookings/club_expand.html', context)
 
 # class Reservations(View):
 #     """
