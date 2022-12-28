@@ -126,12 +126,6 @@ class Booking(models.Model):
         related_name="club_name",
         null=True
         )
-    image = models.ForeignKey(
-        Club,
-        on_delete=models.CASCADE,
-        related_name="club_image",
-        null=True
-    )
     user = models.ForeignKey(
         User, on_delete=models.CASCADE, related_name="user", null=True)
     name = models.CharField(
@@ -158,7 +152,11 @@ class Booking(models.Model):
 
     class Meta:
         ordering = ['-requested_time']
-        # unique_together = ('requested_date', 'requested_time', 'golf_club_name')
+        unique_together = (
+            'requested_date',
+            'requested_time',
+            'golf_club_name'
+            )
 
     def __str__(self):
         return self.status

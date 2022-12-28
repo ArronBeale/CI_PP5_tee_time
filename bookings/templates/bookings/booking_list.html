@@ -25,30 +25,17 @@
             <h1 class="text-success">My Tee Times:</h1>
             <hr>
             {% for booking in booking_page %}
-            <div class="row">
-                <div class="col-12 col-md-6 h-50">
-                    {% if club.image %}
-                    <a href="">
-                        <img class="card-img-top mt-2 p-3 rounded" src="{{ booking.image.url }}"
-                            alt="golf club image"></a>
-                    {% else %}
-                    <a href="">
-                        <img class="card-img-top mt-2 p-3 rounded" src="{% static 'img/default-image.jpg' %}"
-                            alt="golf club image"></a>
-                    {% endif %}
+                <div class="card m-2 col-12">
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-success">{{ booking.golf_club_name }}</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Name: {{ booking.name }}</h6>
+                        <p class="fw-bold">Date: {{ booking.requested_date }}</p>
+                        <p class="fw-bold">Tee Time: {{ booking.requested_time }}</p>
+                        <p class="fw-bold">Players: {{ booking.player_count }}</p>
+                        <a class="btn btn-success" href="" role="button">Edit</a>
+                        <a class="btn btn-warning" href="" role="button">Cancel Booking</a>
+                    </div>
                 </div>
-                <div class="col-12 col-md-6 mt-2 p-3">
-                    <a href="">
-                        <h2 class="card-title text-success">{{ booking.golf_club_name }}</h2>
-                    </a>
-                    <p class="fw-bold">Name: {{ booking.name }}</p>
-                    <p class="fw-bold">Date: {{ booking.requested_date }}</p>
-                    <p class="fw-bold">Tee Time: {{ booking.requested_time }}</p>
-                    <p class="fw-bold">Players: {{ booking.player_count }}</p>
-                    <a class="btn btn-success" href="" role="button">Edit</a>
-                    <a class="btn btn-warning" href="" role="button">Cancel Booking</a>
-                </div>
-            </div>
             {% endfor %}
             {% endif %}
             <!-- pagination -->
