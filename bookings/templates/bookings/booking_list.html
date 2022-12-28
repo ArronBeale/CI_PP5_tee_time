@@ -6,7 +6,7 @@
 <div class="container">
     <div class="row my-5">
         <div class="col bg-light rounded">
-            <a class="text-success text-decoration-none" href="{% url 'golf_clubs' %}">
+            <a class="text-success text-decoration-none" href="{% url 'booking_list' %}">
                 <h1 class="my-5">
                     Bookings
                 </h1>
@@ -17,24 +17,29 @@
     <div class="row bg-light my-5 p-3 rounded">
         <div class="col">
             {% if not user.is_authenticated %}
-            <p>Please login</p>
-            <button class="btn btn-success" type="submit"><a href="{% url 'account_login' %}">Go to Login
-                    Page</a></button>
+            <div class="row">
+                <div class="col-12 col-md-6 m-5 mx-auto">
+                    <h2 class="text-success">Login required</h2>
+                    <p>Please login to view bookings</p>
+                    <a class="btn btn-success" href="{% url 'account_login' %}">Go to Login
+                        Page</a>
+                </div>
+            </div>
             {% else %}
             <h1 class="text-success">My Tee Times:</h1>
             <hr>
             {% for booking in booking_page %}
-                <div class="card m-5 col-12 col-md-6 mx-auto">
-                    <div class="card-body text-center">
-                        <h5 class="card-title text-success">Location: {{ booking.golf_club_name }}</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Name: {{ booking.name }}</h6>
-                        <p class="fw-bold">Date: {{ booking.requested_date }}</p>
-                        <p class="fw-bold">Tee Time: {{ booking.requested_time }}</p>
-                        <p class="fw-bold">Players: {{ booking.player_count }}</p>
-                        <a class="btn btn-success" href="" role="button">Edit</a>
-                        <a class="btn btn-warning" href="" role="button">Cancel Booking</a>
-                    </div>
+            <div class="card m-5 col-12 col-md-6 mx-auto">
+                <div class="card-body text-center">
+                    <h5 class="card-title text-success">Location: {{ booking.golf_club_name }}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Name: {{ booking.name }}</h6>
+                    <p class="fw-bold">Date: {{ booking.requested_date }}</p>
+                    <p class="fw-bold">Tee Time: {{ booking.requested_time }}</p>
+                    <p class="fw-bold">Players: {{ booking.player_count }}</p>
+                    <a class="btn btn-success" href="{% url 'edit_booking' booking.pk %}" role="button">Edit</a>
+                    <a class="btn btn-warning" href="" role="button">Cancel Booking</a>
                 </div>
+            </div>
             {% endfor %}
             {% endif %}
             <!-- pagination -->

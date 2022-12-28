@@ -152,18 +152,19 @@ class BookingList(generic.ListView):
 # can then change any detail of the booking and update it
 
 
-# class EditBooking(SuccessMessageMixin, UpdateView):
-#     """
-#     This view will display the booking by it's primary key
-#     so the user can then edit it
-#     """
-#     model = Booking
-#     form_class = BookingForm
-#     template_name = 'bookings/edit_booking.html'
-#     success_message = 'Booking has been updated.'
+class EditBooking(SuccessMessageMixin, UpdateView):
+    """
+    This view will display the booking by it's primary key
+    so the user can then edit it
+    """
+    model = Booking
+    form_class = BookingForm
+    template_name = 'bookings/edit_booking.html'
+    success_message = 'Booking has been updated.'
+    categories_list = Category.objects.all()
 
-#     def get_success_url(self, **kwargs):
-#         return reverse('booking_list')
+    def get_success_url(self, **kwargs):
+        return reverse('booking_list')
 
 
 # Deletes the selected booking the user wishes to cancel

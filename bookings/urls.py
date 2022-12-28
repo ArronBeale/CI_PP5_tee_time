@@ -11,4 +11,6 @@ urlpatterns = [
     path('golf_clubs', views.AllClubs.as_view(), name='golf_clubs'),
     path('<slug:slug>/', views.ClubExpand.as_view(), name='club_expand'),
     path('booking_list', views.BookingList.as_view(), name='booking_list'),
+    path('edit_booking/<int:pk>',
+         views.EditBooking.as_view(), name='edit_booking'),
 ]
