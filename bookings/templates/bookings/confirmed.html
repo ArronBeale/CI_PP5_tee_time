@@ -12,16 +12,12 @@
 {% block content %}
 <div class="container">
     <div class="row bg-light my-5 p-3 rounded">
-        <div class="col">
-            <div class="row">
-                <div class="col-sm d-flex flex-wrap">
-                    <div class="col-12">
-                        <h1 class="text-success">Booking Confirmed!</h1>
-                        <p> Thank you for booking with us, we look forward to seeing you on the course.</p>
-                        <div class="col-12 col-md-6 rounded m-2 mx-auto">
-                            <a class="btn btn-success btn-lg" href="{% url 'golf_clubs' %}" role="button">Return</a>
-                        </div>
-                    </div>
+        <div class="card m-5 col-12 col-md-6 mx-auto">
+            <div class="card-body text-center">
+                <h1 class="text-success">Booking Confirmed!</h1>
+                <p> Thank you for booking with us, we look forward to seeing you on the course.</p>
+                <div class="col-12 col-md-6 rounded m-2 mx-auto">
+                    <a class="btn btn-success btn-lg" href="{% url 'golf_clubs' %}" role="button">Return</a>
                 </div>
             </div>
         </div>
