@@ -169,16 +169,16 @@ class EditBooking(SuccessMessageMixin, UpdateView):
 
 # Deletes the selected booking the user wishes to cancel
 
-# def cancel_booking(request, pk):
-#     """
-#     Deletes the booking identified by it's primary key by the user
-#     """
-#     booking = Booking.objects.get(pk=pk)
+def cancel_booking(request, pk):
+    """
+    Deletes the booking identified by it's primary key by the user
+    """
+    booking = Booking.objects.get(pk=pk)
 
-#     if request.method == 'POST':
-#         booking.delete()
-#         messages.success(request, "Booking cancelled")
-#         return redirect('booking_list')
+    if request.method == 'POST':
+        booking.delete()
+        messages.success(request, "Booking cancelled")
+        return redirect('booking_list')
 
-#     return render(
-#         request, 'bookings/cancel_booking.html', {'booking': booking})
+    return render(
+        request, 'bookings/cancel_booking.html', {'booking': booking})
