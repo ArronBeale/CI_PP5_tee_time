@@ -123,6 +123,7 @@ class BookingList(generic.ListView):
 
     def get(self, request, *args, **kwargs):
 
+        categories_list = Category.objects.all()
         booking = Booking.objects.all()
         paginator = Paginator(Booking.objects.filter(user=request.user), 4)
         page = request.GET.get('page')
@@ -139,6 +140,7 @@ class BookingList(generic.ListView):
                 request,
                 'bookings/booking_list.html',
                 {
+                    'categories_list': categories_list,
                     'booking': booking,
                     'bookings': bookings,
                     'booking_page': booking_page})

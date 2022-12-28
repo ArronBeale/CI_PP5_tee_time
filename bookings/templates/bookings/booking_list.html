@@ -13,7 +13,6 @@
             </a>
         </div>
     </div>
-
     <!-- cards -->
     <div class="row bg-light my-5 p-3 rounded">
         <div class="col">
@@ -25,9 +24,9 @@
             <h1 class="text-success">My Tee Times:</h1>
             <hr>
             {% for booking in booking_page %}
-                <div class="card m-2 col-12">
+                <div class="card m-5 col-12 col-md-6 mx-auto">
                     <div class="card-body text-center">
-                        <h5 class="card-title text-success">{{ booking.golf_club_name }}</h5>
+                        <h5 class="card-title text-success">Location: {{ booking.golf_club_name }}</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Name: {{ booking.name }}</h6>
                         <p class="fw-bold">Date: {{ booking.requested_date }}</p>
                         <p class="fw-bold">Tee Time: {{ booking.requested_time }}</p>
@@ -40,20 +39,14 @@
             {% endif %}
             <!-- pagination -->
             <div class="row d-flex my-5 justify-content-center text-center">
-
                 {% if booking_page.has_previous %}
-
                 <a href="?page=1">&laquo First</a>
                 <a href="?page={{ booking_page.previous_page_number }}">Previous</a>
-
                 {% endif %}
                 Page {{ booking_page.number }} of {{booking_page.paginator.num_pages }}
-
                 {% if booking_page.has_next %}
-
                 <a href="?page={{ booking_page.next_page_number }}">Next</a>
                 <a href="?page={{ booking_page.paginator.num_pages }}">Last &raquo</a>
-
                 {% endif %}
             </div>
             <div class="row">
