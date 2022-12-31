@@ -45,6 +45,36 @@ a {
     max-width: 205px;
 }
 
+/* Modal */
+.popupOverlay {
+    background-color: rgba(0, 0, 0, .8);
+    border: solid 2px #666;
+    padding: 2rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    visibility: hidden;
+}
+
+.popupContent {
+    background-color: #fff;
+    border: solid 2px #666;
+    border-radius: 15px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, .3);
+    padding: 4rem;
+    width: 50%;
+    position: fixed;
+    left: 25%;
+    z-index: 9999;
+    visibility: hidden;
+}
+
+.popupOverlay.active, .popupContent.active {
+    visibility: visible;
+}
+
 /* From Bulma */
 .icon {
     align-items: center;
