@@ -3,8 +3,9 @@
 
 {% block content %}
 <div class="popupOverlay">
-    <div class="popupContent .translate-middle">
-        <h1 class="text-success">Are you sure?</h1>
+    <div class="popupContent">
+        <h1 class="text-success">Delete Product</h1>
+        <p>Are you sure?</p>
         <a class='btn btn-sm btn-danger m-2' href="{% url 'delete_product' product.id %}">Delete</a>
         <a href="#" class="btn btn-sm close btn-outline-dark m-2">Cancel</a>
     </div>

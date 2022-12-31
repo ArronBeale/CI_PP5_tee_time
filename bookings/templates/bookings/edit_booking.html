@@ -39,6 +39,9 @@
                     <button class="btn btn-success" type="submit">Update</button>
                 </div>
             </form>
+            {% else %}
+            <h1 class="text-success">You are not authorised to view this booking</h1>
+            <p><a class="btn btn-success" href="{% url 'home' %}">Home</a></p>
             {% endif %}
             {% endif %}
             <div class="row">
