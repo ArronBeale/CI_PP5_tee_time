@@ -232,9 +232,7 @@
             <h6 class="text-uppercase fw-bold mb-4 text-success">
               <i class="fas fa-golf-ball"></i> Teetime
             </h6>
-            <p>
-              This site is created for educational purposes only.
-            </p>
+            <p>This site is created for educational purposes only.</p>
             <!-- Socials -->
             <p>
               <a class="text-reset text-decoration-none fs-3 me-1" href="https://www.instagram.com/teetimegolfapp/"
@@ -245,8 +243,9 @@
                   class="sr-only">Facebook</span></a>
             </p>
           </div>
+          
+          <!-- Links -->
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4 text-success">
               Services
             </h6>
@@ -261,7 +260,6 @@
             </p>
           </div>
           <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4 text-success">
               Useful links
             </h6>
@@ -278,8 +276,9 @@
             <p>
               <a href="https://www.freeprivacypolicy.com/live/d6de9d45-3aaf-4a61-9348-99f8e68a076b" rel="noopener noreferrer" target="_blank" class="text-reset">Privacy Policy</a>
             </p>
-            <!-- Contact -->
           </div>
+
+          <!-- Contact -->
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
             <h6 class="text-uppercase fw-bold mb-4 text-success">Contact</h6>
             <p><i class="fas fa-home me-3 text-secondary"></i> Teetime, Kildare, Ireland</p>
@@ -293,24 +292,29 @@
         </div>
       </div>
     </section>
+
     <!-- Copyright -->
     <div class="text-center p-4 text-success" style="background-color: rgba(0, 0, 0, 0.025);">
       © 2022 Copyright:
       <a class="text-reset fw-bold" href="{% url 'home' %}">Teetime</a>
     </div>
+    
   </footer>
 
   {% block postloadjs %}
+
   <!-- Back to Top -->
   <script type="text/javascript">
     $('.back-to-top').click(function (e) {
         window.scrollTo(0, 0)
     })
 </script>
+
   <!-- Toast Script -->
   <script type="text/javascript">
     $('.toast').toast('show');
   </script>
+
   <!-- Mailchimp Scripts -->
   <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
   <script type='text/javascript'>

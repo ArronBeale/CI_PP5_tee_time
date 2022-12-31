@@ -2,7 +2,6 @@
     {% csrf_token %}
     <div class="form-group">
         <div class="input-group input-group-{{ item.item_id }}">
-
             <input
                 class="form-control form-control-sm w-100 w-md-50 qty_input id_qty_{{ item.item_id }} 
                                                                 {% if item.size %}size_{{ item.item_id }}_{{ item.size }}{% endif %}"
