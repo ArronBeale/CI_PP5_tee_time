@@ -196,6 +196,7 @@
     <!-- Section: Mailchimp Signup Form -->
     <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
       <div id="mc_embed_signup" class="mx-auto">
+        <h2 class="text-success">Mailing List</h2>
         <form
           action="https://gmail.us21.list-manage.com/subscribe/post?u=93fd03b5e626ccdace3880271&amp;id=c7f0c47d2e&amp;f_id=0025c4e1f0"
           method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
@@ -304,20 +305,20 @@
   {% block postloadjs %}
 
   <!-- Back to Top -->
-  <script type="text/javascript">
+  <script>
     $('.back-to-top').click(function (e) {
         window.scrollTo(0, 0)
     })
 </script>
 
   <!-- Toast Script -->
-  <script type="text/javascript">
+  <script>
     $('.toast').toast('show');
   </script>
 
   <!-- Mailchimp Scripts -->
-  <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-  <script type='text/javascript'>
+  <script src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+  <script>
     (function ($) {
       window.fnames = new Array();
       window.ftypes = new Array();

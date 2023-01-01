@@ -51,7 +51,7 @@
                 Page {{ booking_page.number }} of {{booking_page.paginator.num_pages }}
                 {% if booking_page.has_next %}
                 <a href="?page={{ booking_page.next_page_number }}">Next</a>
-                <a href="?page={{ booking_page.paginator.num_pages }}">Last &raquo</a>
+                <a href="?page={{ booking_page.paginator.num_pages }}">Last &raquo;</a>
                 {% endif %}
             </div>
             <div class="row">
