@@ -56,6 +56,8 @@
                                                 <th scope="col"></th>
                                                 <th scope="col">Product Info</th>
                                                 <th scope="col">Qty</th>
+                                                <th></th>
+                                                <th></th>
                                             </tr>
                                         </thead>
                                         {% for item in basket_items %}
@@ -81,6 +83,8 @@
                                             <td>
                                                 {% include "basket/quantity-form.html" %}
                                             </td>
+                                            <td></td>
+                                            <td></td>
                                         </tr>
                                         {% endfor %}
                                         <tr>
@@ -139,7 +143,7 @@
 {% block postloadjs %}
 {{ block.super }}
 {% include 'products/includes/quantity_script.html' %}
-<script type="text/javascript">
+<script>
     // Update quantity on click
     $('.update-link').click(function (e) {
         var form = $(this).prev('.update-form');
