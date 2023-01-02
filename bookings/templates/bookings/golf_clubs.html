@@ -20,11 +20,11 @@
                 <div class="col-12 col-md-6">
                     {% if club.image %}
                     <a href="{% url 'club_expand' club.slug %}">
-                        <img class="card-img-top mt-2 p-3 rounded" src="{{ club.image.url }}" alt="golf club image"></a>
+                        <img class="card-img-top mt-2 p-3 rounded" src="{{ club.image.url }}" alt="A photgraph of {{ club.golf_club_name }}"></a>
                     {% else %}
                     <a href="{% url 'club_expand' club.slug %}">
                         <img class="card-img-top mt-2 p-3 rounded" src="{% static 'img/default-image.jpg' %}"
-                            alt="golf club image"></a>
+                            alt="golf club listing default image"></a>
                     {% endif %}
                 </div>
                 <div class="col-12 col-md-6 mt-2 p-3">
@@ -33,7 +33,7 @@
                     </a>
                     <p class="card-text">{{ club.excerpt|safe }}</p>
                     <a class="btn btn-success btn-sm" href="{% url 'club_expand' club.slug %}"
-                                    role="button">Details</a>
+                                    role="button">View Golf Club</a>
                 </div>
             </div>
             {% endfor %}
