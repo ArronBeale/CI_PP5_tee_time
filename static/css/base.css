@@ -23,6 +23,40 @@ a {
     color: black;
 }
 
+.text-success {
+    color: #006400 !important;
+}
+
+.btn-outline-success {
+    color: #006400 !important;
+}
+
+.btn-outline-success:hover {
+    color: #fff !important;
+}
+
+.custom-button {
+    color: #006400;
+    background-color: lightgray;
+    max-width: 100px;
+    height: 30px;
+}
+
+.custom-button:hover {
+    color: #fff;
+    background-color: #006400;
+}
+
+.custom-heading {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
 .dropdown-menu {
     left: -50px;
 }
@@ -71,7 +105,8 @@ a {
     visibility: hidden;
 }
 
-.popupOverlay.active, .popupContent.active {
+.popupOverlay.active,
+.popupContent.active {
     visibility: visible;
 }
 
@@ -110,7 +145,7 @@ a {
 }
 
 .allauth-form-inner-content input::placeholder {
-    color:#6c757d;
+    color: #6c757d;
 }
 
 .btn-files {
@@ -119,7 +154,7 @@ a {
 }
 
 .btn-files input[type=file] {
-    position:absolute;
+    position: absolute;
     top: 0;
     right: 0;
     min-width: 100%;
@@ -130,10 +165,10 @@ a {
 
 /* Taken from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
-    width: 0; 
-    height: 0; 
+    width: 0;
+    height: 0;
     border-left: 4px solid transparent;
-    border-right: 4px solid transparent; 
+    border-right: 4px solid transparent;
     border-bottom: 10px solid black;
     position: absolute;
     top: -10px;
@@ -195,7 +230,7 @@ a {
     clear: left;
     font: 14px Helvetica, Arial, sans-serif;
     width: 600px;
-  }
+}
 
 /* -------------------------------------Media Queries */
 
