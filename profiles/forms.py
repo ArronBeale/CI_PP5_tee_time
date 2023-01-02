@@ -13,10 +13,6 @@ class UserProfileForm(forms.ModelForm):
         exclude = ('user',)
 
     def __init__(self, *args, **kwargs):
-        """
-        Add placeholders and classes, remove auto-generated
-        labels and set autofocus on first field
-        """
         super().__init__(*args, **kwargs)
         placeholders = {
             'default_phone_number': 'Phone Number',
@@ -26,7 +22,14 @@ class UserProfileForm(forms.ModelForm):
             'default_address2': 'Street Address 2',
             'default_county': 'County, State or Locality',
         }
-
+        aria_labels = {
+            'default_phone_number': 'Phone number for the user',
+            'default_postcode': 'Postal code for the user',
+            'default_town_or_city': 'Town or city for the user',
+            'default_address1': 'Street address 1 for the user',
+            'default_address2': 'Street address 2 for the user',
+            'default_county': 'County, state, or locality for the user',
+        }
         self.fields['default_phone_number'].widget.attrs['autofocus'] = True
         for field in self.fields:
             if field != 'default_country':
@@ -35,5 +38,10 @@ class UserProfileForm(forms.ModelForm):
                 else:
                     placeholder = placeholders[field]
                 self.fields[field].widget.attrs['placeholder'] = placeholder
-            self.fields[field].widget.attrs['class'] = 'border rounded profile-form-input'
+                self.fields[field].widget.attrs['aria-label'] = aria_labels[
+                    field
+                ]
+            self.fields[field].widget.attrs[
+                'class'
+            ] = 'border rounded profile-form-input'
             self.fields[field].label = False
