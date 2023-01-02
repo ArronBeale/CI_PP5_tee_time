@@ -23,11 +23,11 @@
                     <hr>
                     {% if post.featured_image %}
                     <a href="{% url 'post_expand' post.slug %}">
-                        <img class="card-img-top my-2" src="{{ post.featured_image.url }}" alt="blog post image"></a>
+                        <img class="card-img-top my-2" src="{{ post.featured_image.url }}" alt="image for blog post {{ post.title }}"></a>
                     {% else %}
                     <a href="{% url 'post_expand' post.slug %}">
                         <img class="card-img-top my-2" src="{% static 'img/default-image.jpg' %}"
-                            alt="blog post image"></a>
+                            alt="default image for blog post {{ post.title }}"></a>
                     {% endif %}
                     {{ post.content| safe }}
                     {{ post.image.url }}

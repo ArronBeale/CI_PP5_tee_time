@@ -92,15 +92,15 @@
                         </div>
                         <div class="row">
                             <h3 class="fs-5">{{ product.name }}</h3>
-                            <span class="fs-6 text-muted">{{ product.brand }}</span>
+                            <span class="fs-6 text-success">{{ product.brand }}</span>
                             <hr>
                             <p class="text-left font-weight-bold">€{{ product.price }}{% if product.rating %}
-                                <span class="text-muted text-right"><i
+                                <span class="text-success text-right"><i
                                         class="fa-sharp fa-solid fa-star"></i>{{product.rating}}</span>
                                 {% endif %}
                                 <a class="btn btn-outline-success btn-sm" href="{% url 'product_detail' product.id %}"
                                     role="button">View</a>
-                                <p class="text-muted">{{ product.category.friendly_name }}</p>
+                                <p class="text-success">{{ product.category.friendly_name }}</p>
                         </div>
                     </div>
                     {% empty %}
