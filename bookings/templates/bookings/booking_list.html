@@ -31,8 +31,8 @@
             {% for booking in booking_page %}
             <div class="card m-5 col-12 col-md-6 mx-auto">
                 <div class="card-body text-center">
-                    <h5 class="card-title text-success">Location: {{ booking.golf_club_name }}</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Name: {{ booking.name }}</h6>
+                    <h2 class="card-title text-success">Location: {{ booking.golf_club_name }}</h2>
+                    <h3 class="card-subtitle mb-2 text-muted">Name: {{ booking.name }}</h3>
                     <p class="fw-bold">Date: {{ booking.requested_date }}</p>
                     <p class="fw-bold">Tee Time: {{ booking.requested_time }}</p>
                     <p class="fw-bold">Players: {{ booking.player_count }}</p>
