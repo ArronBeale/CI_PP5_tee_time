@@ -20,7 +20,7 @@
                     <div class="col-12 col-md-6">
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-12 p-5 bg-success rounded card shadow-lg text-light">
+                                <div class="col-12 p-5 bg-success rounded card shadow-lg text-white">
                                     <!-- Display if user is not logged in -->
                                     {% if not user.is_authenticated %}
                                     <h2>Message Us</h2>
@@ -38,11 +38,11 @@
                                     {% if user.is_authenticated %}
                                     <div class="row text-center">
                                         <div class="col-12">
-                                            <h2 class="fw-bold mt-3">Send Message</h2>
+                                            <h2 class="fw-bold mt-3 text-white">Send Message</h2>
                                             <hr>
                                         </div>
                                     </div>
-                                    <form method="POST" enctype="multipart/form-data">
+                                    <form method="POST" class="text-white" enctype="multipart/form-data">
                                         {% csrf_token %}
                                         <!-- Contact form -->
                                         {{ contact_form| crispy }}
