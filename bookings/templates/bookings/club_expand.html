@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends 'base.html' %}h1
 {% load static %}
 {% load crispy_forms_tags %}
 
@@ -21,7 +21,7 @@
                 <div class="col-12 col-md-6">
                     {% if club.image %}
                     <a href="">
-                        <img class="card-img-top mt-2 p-3 rounded" src="{{ club.image.url }}" alt="golf club image"></a>
+                        <img class="card-img-top mt-2 p-3 rounded" src="{{ club.image.url }}" alt="A photgraph of {{ club.golf_club_name }}"></a>
                     {% else %}
                     <a href="">
                         <img class="card-img-top mt-2 p-3 rounded" src="{% static 'img/default-image.jpg' %}"
@@ -62,7 +62,7 @@
                     {% if user.is_authenticated %}
                     <div class="row text-center">
                         <div class="col-12">
-                            <h5 class="fw-bold mt-3 text-success">Book Now</h5>
+                            <h3 class="fw-bold mt-3 text-success">Book Now</h3>
                         </div>
                     </div>
                     <form method="POST" enctype="multipart/form-data">
