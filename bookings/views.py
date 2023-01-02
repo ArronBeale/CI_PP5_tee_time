@@ -6,6 +6,7 @@ from django.views import generic, View
 from django.contrib import messages
 from django.contrib.auth.models import User
 import datetime
+from django.utils import timezone
 from django.contrib.messages.views import SuccessMessageMixin
 from django.views.generic.edit import UpdateView
 from django.core.paginator import Paginator
@@ -120,6 +121,7 @@ class BookingList(generic.ListView):
     queryset = Booking.objects.filter().order_by('-created_date')
     template_name = 'bookings/booking_list.html'
     paginated_by = 4
+    today = timezone.now().date()
 
     def get(self, request, *args, **kwargs):
 
@@ -128,14 +130,15 @@ class BookingList(generic.ListView):
         paginator = Paginator(Booking.objects.filter(user=request.user), 4)
         page = request.GET.get('page')
         booking_page = paginator.get_page(page)
+        bookings = Booking.objects.filter(user=request.user)
         today = datetime.datetime.now().date()
 
-        for date in booking:
-            if date.requested_date < today:
-                date.status = 'Tee Time Expired'
+        for booking in bookings:
+            if booking.requested_date < today:
+                booking.status = 'Tee Time Expired'
+                booking.save()
 
         if request.user.is_authenticated:
-            bookings = Booking.objects.filter(user=request.user)
             return render(
                 request,
                 'bookings/booking_list.html',

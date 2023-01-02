@@ -29,6 +29,7 @@
             <h1 class="text-success">My Tee Times:</h1>
             <hr>
             {% for booking in booking_page %}
+            {% if booking.status == 'Tee Time Expired' %}
             <div class="card m-5 col-12 col-md-6 mx-auto">
                 <div class="card-body text-center">
                     <h2 class="card-title text-success">Location: {{ booking.golf_club_name }}</h2>
@@ -36,11 +37,26 @@
                     <p class="fw-bold">Date: {{ booking.requested_date }}</p>
                     <p class="fw-bold">Tee Time: {{ booking.requested_time }}</p>
                     <p class="fw-bold">Players: {{ booking.player_count }}</p>
+                    <p class="text-danger">EXPIRED</p>
+                    <a class="btn btn-warning" href="{% url 'cancel_booking' booking.pk %}" role="button">Cancel</a>
+                </div>
+            </div>
+            {% else %}
+            <div class="card m-5 col-12 col-md-6 mx-auto">
+                <div class="card-body text-center">
+                    <h2 class="card-title text-success">Location: {{ booking.golf_club_name }}</h2>
+                    <h3 class="card-subtitle mb-2 text-muted">Name: {{ booking.name }}</h3>
+                    <p class="fw-bold">Date: {{ booking.requested_date }}</p>
+                    <p class="fw-bold">Tee Time: {{ booking.requested_time }}</p>
+                    <p class="fw-bold">Players: {{ booking.player_count }}</p>
+                    <p class="fw-bold text-success" >Please pay upon arrival</p>
                     <a class="btn btn-success" href="{% url 'edit_booking' booking.pk %}" role="button">Edit</a>
                     <a class="btn btn-warning" href="{% url 'cancel_booking' booking.pk %}" role="button">Cancel</a>
                 </div>
             </div>
+            {% endif %}
             {% endfor %}
+            
             {% endif %}
             <!-- pagination -->
             <div class="row d-flex my-5 justify-content-center text-center">
