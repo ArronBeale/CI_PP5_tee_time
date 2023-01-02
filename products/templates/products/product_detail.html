@@ -14,7 +14,7 @@
     <div class="row my-5">
         <div class="col bg-light rounded">
             <div class="col">
-                <a class="text-muted text-decoration-none" href="{% url 'products' %}">
+                <a class="text-success text-decoration-none" href="{% url 'products' %}">
                     <h1 class="my-5">
                         SHOP
                     </h1>
@@ -28,24 +28,24 @@
         <div class="d-none d-lg-block col-md-2">
             <h2 class="fs-6">CATEGORIES</h2>
             <hr>
-            <p><a class="nav-link text-muted" href="{% url 'products' %}">All Products</a></p>
+            <p><a class="nav-link text-success" href="{% url 'products' %}">All Products</a></p>
             {% for category in categories_list %}
-            <p><a class="nav-link text-muted"
+            <p><a class="nav-link text-success"
                     href="{% url 'products' %}?category={{category.name}}">{{ category.friendly_name }}</a></p>
             {% endfor %}
             <h2 class="fs-6">All Products</h2>
             <hr>
             <p><a href="{% url 'products' %}?sort=price&direction=asc"
-                    class="nav-link text-decoration-none text-muted">By
+                    class="nav-link text-decoration-none text-success">By
                     Price</a></p>
             <p><a href="{% url 'products' %}?sort=category&direction=asc"
-                    class="nav-link text-decoration-none text-muted">By
+                    class="nav-link text-decoration-none text-success">By
                     Category</a></p>
             <p><a href="{% url 'products' %}?sort=brand&direction=desc"
-                    class="nav-link text-decoration-none text-muted">By
+                    class="nav-link text-decoration-none text-success">By
                     Brand</a></p>
             <p><a href="{% url 'products' %}?sort=rating&direction=desc"
-                    class="nav-link text-decoration-none text-muted">By
+                    class="nav-link text-decoration-none text-success">By
                     Rating</a></p>
         </div>
         <div class="col-12 col-md-6 col-lg-4 offset-lg-2 mt-5">
@@ -61,13 +61,13 @@
         </div>
         <div class="col-12 col-md-6 col-lg-4 mt-5">
             <div class="mb-5 mt-md-5">
-                <span class="fs-6 text-muted">{{ product.brand }}</span>
+                <span class="fs-6 text-success">{{ product.brand }}</span>
                 <p>{{ product.name }}</p>
                 <p class="lead text-left font-weight-bold">€{{ product.price }}{% if product.rating %}
-                    <span class="text-muted text-right"><i
+                    <span class="text-success text-right"><i
                             class="fa-sharp fa-solid fa-star"></i>{{product.rating}}</span>
                     {% endif %}</p>
-                <p class="text-muted">{{ product.category.friendly_name }}</p>
+                <p class="text-success">{{ product.category.friendly_name }}</p>
                 <p class="mt-4">{{ product.description }}</p>
                 <form class="form" action="{% url 'add_to_basket' product.id %}" method="POST">
                     {% csrf_token %}
@@ -94,19 +94,19 @@
                                             class="decrement-qty btn btn-sm btn-danger rounded decrement-qty_{{ product.id }}"
                                             data-item_id="{{ product.id }}">
                                             <span class="icon">
-                                                <i class="fas fa-minus"></i>
+                                                -
                                             </span>
                                         </button>
                                     </div>
                                     <input class="form-control qty_input rounded h-100 id_qty_{{ product.id }}"
                                         type="number" name="quantity" value="1" min="1" max="99"
-                                        data-item_id="{{ product.id }}">
+                                        data-item_id="{{ product.id }}" aria-label="add to basket">
                                     <div class="input-group-append">
                                         <button
                                             class="increment-qty btn btn-sm btn-success rounded increment-qty_{{ product.id }}"
                                             data-item_id="{{ product.id }}">
                                             <span class="icon">
-                                                <i class="fas fa-plus"></i>
+                                                +
                                             </span>
                                         </button>
                                     </div>
@@ -121,7 +121,7 @@
                             </div>
                         </div>
                         <div class="col{% if s %}-12 mt-2{% endif %}">
-                            <a href="{% url 'products' %}" class="btn btn-outline-secondary rounded mt-5 h-100">float
+                            <a href="{% url 'products' %}" class="btn btn-outline-secondary rounded mt-5 h-100">
                                 <span class="icon">
                                     <i class="fas fa-arrow-left"></i>
                                 </span>

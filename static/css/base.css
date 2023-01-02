@@ -35,6 +35,14 @@ a {
     color: #fff !important;
 }
 
+.btn-outline-secondary {
+    color: #006400 !important;
+}
+
+.btn-outline-secondary:hover {
+    color: #fff !important;
+}
+
 .custom-button {
     color: #006400;
     background-color: lightgray;
