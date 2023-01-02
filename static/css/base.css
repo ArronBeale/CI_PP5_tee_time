@@ -87,6 +87,10 @@ a {
     max-width: 205px;
 }
 
+.card-booking {
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, .3);
+}
+
 /* Modal */
 .popupOverlay {
     background-color: rgba(0, 0, 0, .8);
