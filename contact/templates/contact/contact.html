@@ -17,62 +17,60 @@
         <div class="col">
             <div class="row d-flex my-5 justify-content-center text-center bg-light rounded">
                 <div class="row justify-content-center mt-5">
-                    <div class="col-12 col-md-6">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-12 p-5 bg-success rounded card shadow-lg text-white">
-                                    <!-- Display if user is not logged in -->
-                                    {% if not user.is_authenticated %}
-                                    <h2>Message Us</h2>
-                                    <p>Please login to send a message!</p>
-                                    <div class="bg-light rounded">
-                                        <a href="{% url 'account_login' %}" class="btn btn-success rounded m-2">
-                                            <span class="font-weight-bold">Login</span>
-                                        </a>
-                                        <a href="{% url 'home' %}" class="btn btn-secondary rounded m-2">
-                                            <span class="font-weight-bold">Home</span>
-                                        </a>
-                                    </div>
-                                    {% else %}
-                                    <!-- Display form if user is logged in-->
-                                    {% if user.is_authenticated %}
-                                    <div class="row text-center">
-                                        <div class="col-12">
-                                            <h2 class="fw-bold mt-3 text-white">Send Message</h2>
-                                            <hr>
-                                        </div>
-                                    </div>
-                                    <form method="POST" class="text-white" enctype="multipart/form-data">
-                                        {% csrf_token %}
-                                        <!-- Contact form -->
-                                        {{ contact_form| crispy }}
-
-                                        <button class="btn btn-dark" type="submit">Submit</button>
-                                    </form>
-                                    {% endif %}
-                                    {% endif %}
-                                    <!-- Form Errors from stack overflow -->
-                                    {% if contact_form.errors %}
-                                    {% for field in contact_form %}
-                                    {% for error in field.errors %}
-                                    <div class="alert alert-danger">
-                                        <strong>{{ error|escape }}</strong>
-                                    </div>
-                                    {% endfor %}
-                                    {% endfor %}
-                                    {% for error in contact_form.non_field_errors %}
-                                    <div class="alert alert-danger">
-                                        <strong>{{ error|escape }}</strong>
-                                    </div>
-                                    {% endfor %}
-                                    {% endif %}
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <div class="row">
+                            <div class="col-12 p-5 bg-success rounded shadow-lg text-white">
+                                <!-- Display if user is not logged in -->
+                                {% if not user.is_authenticated %}
+                                <h2>Message Us</h2>
+                                <p>Please login to send a message!</p>
+                                <div class="bg-light rounded">
+                                    <a href="{% url 'account_login' %}" class="btn btn-success rounded m-2">
+                                        <span class="font-weight-bold">Login</span>
+                                    </a>
+                                    <a href="{% url 'home' %}" class="btn btn-secondary rounded m-2">
+                                        <span class="font-weight-bold">Home</span>
+                                    </a>
                                 </div>
+                                {% else %}
+                                <!-- Display form if user is logged in-->
+                                {% if user.is_authenticated %}
+                                <div class="row text-center">
+                                    <div class="col-12">
+                                        <h2 class="fw-bold mt-3 text-white">Send Message</h2>
+                                        <hr>
+                                    </div>
+                                </div>
+                                <form method="POST" class="text-white" enctype="multipart/form-data">
+                                    {% csrf_token %}
+                                    <!-- Contact form -->
+                                    {{ contact_form| crispy }}
+
+                                    <button class="btn btn-dark" type="submit">Submit</button>
+                                </form>
+                                {% endif %}
+                                {% endif %}
+                                <!-- Form Errors from stack overflow -->
+                                {% if contact_form.errors %}
+                                {% for field in contact_form %}
+                                {% for error in field.errors %}
+                                <div class="alert alert-danger">
+                                    <strong>{{ error|escape }}</strong>
+                                </div>
+                                {% endfor %}
+                                {% endfor %}
+                                {% for error in contact_form.non_field_errors %}
+                                <div class="alert alert-danger">
+                                    <strong>{{ error|escape }}</strong>
+                                </div>
+                                {% endfor %}
+                                {% endif %}
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 my-4">
-                    <h3  class="text-uppercase fw-bold mb-4 text-success">Teetime Inc.</h3>
+                    <h3 class="text-uppercase fw-bold mb-4 text-success">Teetime Inc.</h3>
                     <p>Floor 79,</p>
                     <p>Silicon Ave,</p>
                     <p>Financial and Tech District,</p>
