@@ -32,7 +32,7 @@
             {% if user.is_authenticated and user == booking.user %}
             <div class="card m-5 col-12 col-sm-8 mx-auto">
                 <div class="card-body text-center">
-                    <h2 class="text-danger">Cancel Tee Time?</h3>
+                    <h2 class="text-danger">Cancel Tee Time?</h2>
                     <h3 class="card-title text-success">Location: {{ booking.golf_club_name }}</h3>
                     <h3 class="card-subtitle mb-2 text-muted">Name: {{ booking.name }}</h3>
                     <p class="fw-bold">Date: {{ booking.requested_date }}</p>
