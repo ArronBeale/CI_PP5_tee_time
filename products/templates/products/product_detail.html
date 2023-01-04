@@ -94,21 +94,17 @@
                                         <button
                                             class="decrement-qty btn btn-sm btn-danger rounded decrement-qty_{{ product.id }}"
                                             data-item_id="{{ product.id }}">
-                                            <span class="icon">
-                                                -
-                                            </span>
+                                            <span class="icon">-</span>
                                         </button>
                                     </div>
-                                    <input class="form-control qty_input rounded h-100 id_qty_{{ product.id }}"
+                                    <input class="form-control qty_input rounded h-100 w-25 id_qty_{{ product.id }}"
                                         type="number" name="quantity" value="1" min="1" max="99"
                                         data-item_id="{{ product.id }}" aria-label="add to basket">
                                     <div class="input-group-append">
                                         <button
                                             class="increment-qty btn btn-sm btn-success rounded increment-qty_{{ product.id }}"
                                             data-item_id="{{ product.id }}">
-                                            <span class="icon">
-                                                +
-                                            </span>
+                                            <span class="icon">+</span>
                                         </button>
                                     </div>
                                     {% if request.user.is_superuser %}
