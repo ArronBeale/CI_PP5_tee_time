@@ -41,7 +41,6 @@ class UserProfileForm(forms.ModelForm):
                 self.fields[field].widget.attrs['aria-label'] = aria_labels[
                     field
                 ]
-            self.fields[field].widget.attrs[
-                'class'
-            ] = 'border rounded profile-form-input'
-            self.fields[field].label = False
+                self.fields[field].label = placeholders[field]
+            else:
+                self.fields[field].label
