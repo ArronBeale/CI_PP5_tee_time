@@ -79,7 +79,7 @@
             <div class="row">
                 <div class="col-sm product-list d-flex flex-wrap">
                     {% for product in products %}
-                    <div class="card m-2 me-md-2 p-3 product-list">
+                    <div class="card m-2 me-md-2 p-3 mx-auto product-list">
                         {% if product.image %}
                         <a href="{% url 'product_detail' product.id %}"><img class="card-img-top"
                                 src="{{ product.image.url }}" alt="Product image for {{ product.name }}"></a>
