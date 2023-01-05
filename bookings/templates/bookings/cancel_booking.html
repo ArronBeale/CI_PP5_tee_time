@@ -30,14 +30,14 @@
 
             <!-- Display form if user is logged in-->
             {% if user.is_authenticated and user == booking.user %}
-            <div class="card m-5 col-12 col-sm-8 mx-auto">
+            <div class="card m-5 col-12 col-sm-8 mx-auto shadow grow">
                 <div class="card-body text-center">
-                    <h2 class="text-danger">Cancel Tee Time?</h2>
+                    <h2 class="text-danger">Cancel Tee Time?</h2><hr>
                     <h3 class="card-title text-success">Location: {{ booking.golf_club_name }}</h3>
                     <h3 class="card-subtitle mb-2 text-muted">Name: {{ booking.name }}</h3>
                     <p class="fw-bold">Date: {{ booking.requested_date }}</p>
                     <p class="fw-bold">Tee Time: {{ booking.requested_time }}</p>
-                    <p class="fw-bold">Players: {{ booking.player_count }}</p>
+                    <p class="fw-bold">Players: {{ booking.player_count }}</p><hr>
                     <h3 class="text-danger">Are you sure?</h3>
                     <form method="POST">
                         {% csrf_token %}
