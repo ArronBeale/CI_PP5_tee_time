@@ -30,9 +30,9 @@
             <hr>
             {% for booking in booking_page %}
             {% if booking.status == 'Tee Time Expired' %}
-            <div class="card card-shadow grow m-5 col-12 col-md-6 mx-auto">
+            <div class="card shadow grow m-5 col-12 col-md-6 mx-auto">
                 <div class="card-body text-center">
-                    <h2 class="card-title text-success">Location: {{ booking.golf_club_name }}</h2>
+                    <h2 class="card-title text-success">Location: {{ booking.golf_club_name }}</h2><hr>
                     <h3 class="card-subtitle mb-2 text-muted">Name: {{ booking.name }}</h3>
                     <p class="fw-bold">Date: {{ booking.requested_date }}</p>
                     <p class="fw-bold">Tee Time: {{ booking.requested_time }}</p>
@@ -42,9 +42,9 @@
                 </div>
             </div>
             {% else %}
-            <div class="card card-shadow grow m-5 col-12 col-md-6 mx-auto">
+            <div class="card shadow grow m-5 col-12 col-md-6 mx-auto">
                 <div class="card-body text-center">
-                    <h2 class="card-title text-success">Location: {{ booking.golf_club_name }}</h2>
+                    <h2 class="card-title text-success">Location: {{ booking.golf_club_name }}</h2><hr>
                     <h3 class="card-subtitle mb-2 text-muted">Name: {{ booking.name }}</h3>
                     <p class="fw-bold">Date: {{ booking.requested_date }}</p>
                     <p class="fw-bold">Tee Time: {{ booking.requested_time }}</p>
