@@ -166,6 +166,11 @@ class EditBooking(SuccessMessageMixin, UpdateView):
     success_message = 'Booking has been updated.'
     categories_list = Category.objects.all()
 
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['categories_list'] = self.categories_list
+        return context
+
     def get_success_url(self, **kwargs):
         return reverse('booking_list')
 
@@ -177,6 +182,7 @@ def cancel_booking(request, pk):
     Deletes the booking identified by it's primary key by the user
     """
     booking = Booking.objects.get(pk=pk)
+    categories_list = Category.objects.all()
 
     if request.method == 'POST':
         booking.delete()
@@ -184,4 +190,7 @@ def cancel_booking(request, pk):
         return redirect('booking_list')
 
     return render(
-        request, 'bookings/cancel_booking.html', {'booking': booking})
+        request, 'bookings/cancel_booking.html', {
+            'booking': booking,
+            'categories_list': categories_list
+        })
