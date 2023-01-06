@@ -7,7 +7,7 @@
     <div class="row my-5">
         <div class="col bg-light rounded">
             <div class="col">
-                <a class="text-muted text-decoration-none" href="{% url 'products' %}">
+                <a class="text-success text-decoration-none" href="{% url 'products' %}">
                     <h1 class="my-5">
                         SHOP
                     </h1>
@@ -19,31 +19,31 @@
         <div class="d-none d-lg-block col-md-2">
             <h2 class="fs-6">CATEGORIES</h2>
             <hr>
-            <p><a class="nav-link text-muted" href="{% url 'products' %}">All Products</a></p>
+            <p><a class="nav-link text-success" href="{% url 'products' %}">All Products</a></p>
             {% for category in categories_list %}
-            <p><a class="nav-link text-muted"
+            <p><a class="nav-link text-success"
                     href="{% url 'products' %}?category={{category.name}}">{{ category.friendly_name }}</a></p>
             {% endfor %}
             <h2 class="fs-6">All Products</h2>
             <hr>
             <p><a href="{% url 'products' %}?sort=price&direction=desc"
-                    class="nav-link text-decoration-none text-muted">By
+                    class="nav-link text-decoration-none text-success">By
                     Price</a></p>
             <p><a href="{% url 'products' %}?sort=category&direction=asc"
-                    class="nav-link text-decoration-none text-muted">By
+                    class="nav-link text-decoration-none text-success">By
                     Category</a></p>
             <p><a href="{% url 'products' %}?sort=brand&direction=desc"
-                    class="nav-link text-decoration-none text-muted">By
+                    class="nav-link text-decoration-none text-success">By
                     Brand</a></p>
             <p><a href="{% url 'products' %}?sort=rating&direction=desc"
-                    class="nav-link text-decoration-none text-muted">By
+                    class="nav-link text-decoration-none text-success">By
                     Rating</a></p>
         </div>
         <div class="col">
             <div class="row">
                 <div class="col-12">
                     <div class="card mt-5">
-                        <div class="card-header text-muted">
+                        <div class="card-header text-success">
                             <h2>Basket</h2>
                         </div>
                         <div class="card-body">
@@ -72,7 +72,7 @@
                                                 {% endif %}
                                             </td>
                                             <td class="py-3">
-                                                <p class="my-0 text-muted">{{ item.product.brand }}</p>
+                                                <p class="my-0 text-success">{{ item.product.brand }}</p>
                                                 <p class="my-0">{{ item.product.name }}</p>
                                                 <p class="my-0"><strong>Price:</strong> €{{ item.product.price }}</p>
                                                 <p class="my-0"><strong>Size:</strong> {{ item.size|upper }}</p>
