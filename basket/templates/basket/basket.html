@@ -44,7 +44,7 @@
                 <div class="col-12">
                     <div class="card mt-5">
                         <div class="card-header text-success">
-                            <h2>Basket</h2>
+                            <h3>Basket</h3>
                         </div>
                         <div class="card-body">
                             <div class="col-sm-12 text-center">
@@ -53,11 +53,8 @@
                                     <table class="table table-sm table-responsive">
                                         <thead class="text-success">
                                             <tr>
-                                                <th scope="col"></th>
                                                 <th scope="col">Product Info</th>
                                                 <th scope="col">Qty</th>
-                                                <th></th>
-                                                <th></th>
                                             </tr>
                                         </thead>
                                         {% for item in basket_items %}
@@ -89,10 +86,10 @@
                                         {% endfor %}
                                         <tr>
                                             <td colspan="5" class="pt-5 text-right">
-                                                <h6><strong>Basket Total: €{{ total|floatformat:2 }}</strong></h6>
-                                                <h6>Shipping: €{{ delivery|floatformat:2 }}</h6>
-                                                <h4 class="mt-4"><strong>Grand Total:
-                                                        €{{ grand_total|floatformat:2 }}</strong></h4>
+                                                <h4><strong>Basket Total: €{{ total|floatformat:2 }}</strong></h4>
+                                                <h5>Shipping: €{{ delivery|floatformat:2 }}</h5>
+                                                <h5 class="mt-4"><strong>Grand Total:
+                                                        €{{ grand_total|floatformat:2 }}</strong></h5>
                                                 {% if free_delivery_delta > 0 %}
                                                 <p class="mb-1 text-danger">
                                                     Spend <strong>€{{ free_delivery_delta }}</strong> to get free
