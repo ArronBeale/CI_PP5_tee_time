@@ -59,6 +59,7 @@
 
 <body>
   <header>
+    <!-- Logo -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light p-2">
       <a class="navbar-brand main-logo-link" href="{% url 'home' %}">
         <img src="{% static 'img/logo-150.png' %}" alt="Teetime">
@@ -73,7 +74,6 @@
             <a class="nav-link" href="{% url 'home' %}">Home <span class="sr-only">(current)</span></a>
           </li>
           <!-- Golf Clubs Dropdown -->
-          <!-- Blog -->
           <li class="nav-item">
             <a class="nav-link" href="{% url 'golf_clubs' %}">Clubs</a>
           </li>
