@@ -127,7 +127,7 @@
                                     <div class="submit-button text-right m-5">
                                         <a href="{% url 'view_basket' %}" class="btn btn-outline-secondary rounded">
                                             <span class="icon">
-                                                <i class="fas fa-chevron-left"></i>
+                                                <i class="fas fa-chevron-left text-success"></i>
                                             </span>
                                             <span class="font-weight-bold">Back</span>
                                         </a>
@@ -139,7 +139,7 @@
                                         </button>
                                         <p class="small text-danger my-0">
                                             <span class="icon">
-                                                <i class="fas fa-exclamation-circle"></i>
+                                                <i class="fas fa-exclamation-circle text-success"></i>
                                             </span>
                                             <span>Your card will be charged
                                                 <strong>€{{ grand_total|floatformat:2 }}</strong></span>
@@ -160,7 +160,7 @@
     </div>
 </div>
 <div id="spinner-overlay">
-    <div class="text-light spinner">
+    <div class="text-success spinner">
         <span class="icon">
             <i class="fas fa-3x fa-smile fa-spin"></i>
         </span>
