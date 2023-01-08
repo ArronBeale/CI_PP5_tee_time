@@ -82,53 +82,50 @@ It is also an online shop that sells golf merchandise to customers.
 
 ## User Stories
 
-### Site User
 
-1. As a Site User I can register for an account so that I have an account and view my profile
-2. As a Site User I can login and logout so that I can have an account with my information stored for fast usage
-3. As a Site User I can recover my password so that I can set a new password if I forgot it
-4. As a Site User I can receive an email confirmation after registration so that I can be notified registration was successful
-5. As a Site User I can have a profile so that I can store my information for faster checkouts in the future
-
-
-### Shopper
-
-6. As a Shopper I can navigate across the site so that I can can access all parts of the site
-7. As a Shopper I can use a navbar, footer, and social icons so that I can navigate the site, access menus, and access socials
-8. As a Shopper I can be notified of my actions so that I can be aware the action was completed successfully or not
-9. As a Shopper I can see my login status so that I can know if I am logged in or not
-10. As a Shopper I can visit the shop so that I can view all products available
-11. As a Shopper I can view my basket and total cost at any time so that I can be aware of what I am buying and it's cost
-12. As a Shopper I can view a list of products so that I can select a product to purchase
-13. As a Shopper I can view an individual product details so that I can view a more detailed view of the product
-14. As a Shopper I can view a list of golf courses so that I can select a golf course I want to play on
-15. As a Shopper I can view individual golf course details so that I can see more detailed information about it
-16. As a Shopper I can view a list of tee times available for each golf course so that I can select a date and time to play
-17. As a Shopper I can search for a product by name or description so that I can find a certain product
-18. As a Shopper I can see my search results so that I can only see what I am searching for
-19. As a Shopper I can sort by category so that I can select products of a certain category
-20. As a Shopper I can sort by price low to high and high to low so that I can view products according to my budget
-21. As a Shopper I can select only available dates/times so that I can I can only purchase available tee slots
-22. As a Shopper I can purchase a golf course tee time so that I can buy a slot for a date and time that is available
-23. As a Shopper I can use a card as the payment method so that I can complete my purchase
-24. As a Shopper I can select the size and quantity of a product so that I can select a size and quantity to my needs
-25. As a Shopper I can view items in my basket so that I can be aware of what I am buying and it's cost
-26. As a Shopper I can adjust item quantity in my basket so that I can increase or reduce item count according to my needs
-27. As a Shopper I can receive order confirmation so that I can be notified of a successful order
-28. As a Shopper I can receive email confirmation so that I can have a record of my purchase
-
-### Store Owner
-
-29. As a Store Owner I can add a product so that I can add new products to the shop
-30. As a Store Owner I can edit a product so that I can edit existing products in the shop
-31. As a Store Owner I can delete a product so that I can delete existing products from the shop
-32. As a Store Owner I can add a golf club so that I can add a golf club to the site
-33. As a Store Owner I can edit a golf club so that I can edit an existing golf club on the site
-34. As a Store Owner I can delete a golf club so that I can delete existing golf club from the site
-35. As a Store Owner I can add a tee time so that I can add a tee time to a golf club
-36. As a Store Owner I can edit a tee time so that I can edit an existing tea time on a golf club
-37. As a Store Owner I can delete a tee time so that I can delete a tee time from a golf club
-
+| User Story ID                  | As A/AN             | I CAN...                                                | SO THAT I CAN...                                          |
+|--------------------------------|---------------------|---------------------------------------------------------|-----------------------------------------------------------|
+| Registration and User Accounts |                     |                                                         |                                                           |
+| 1                              | Shopper / Site User | register for an account                                 | have an account and view my profile                       |
+| 2                              | Shopper / Site User | login and logout                                        | have an account with my information stored for fast usage |
+| 3                              | Shopper / Site User | recover my password                                     | set a new password if I forgot it                         |
+| 4                              | Shopper / Site User | receive an email confirmation after registration        | be notified registration was successful                   |
+| 5                              | Shopper / Site User | have a profile                                          | store my information for faster checkouts in the future   |
+| Viewing and navigation         |                     |                                                         |                                                           |
+| 6                              | Shopper / Site User | navigate across the site                                | can access all parts of the site                          |
+| 7                              | Shopper / Site User | use a navbar, footer, and social icons                  | navigate the site, access menus, and access socials       |
+| 8                              | Shopper / Site User | be notified of my actions                               | be aware the action was completed successfully or not     |
+| 9                              | Shopper / Site User | see my login status                                     | know if I am logged in or not                             |
+| 10                             | Shopper / Site User | visit the shop                                          | view all products available                               |
+| 11                             | Shopper / Site User | view my basket and total cost at any time               | so I am aware of what I am buying and it's cost           |
+| 12                             | Shopper / Site User | view a list of products                                 | select a product to purchase                              |
+| 13                             | Shopper / Site User | view an individual product details                      | view a more detailed view of the product                  |
+| 14                             | Shopper / Site User | view a list of golf courses                             | select a golf course I want to play on                    |
+| 15                             | Shopper / Site User | view individual golf course details                     | see more detailed information about it                    |
+| 16                             | Shopper / Site User | view a list of tee times available for each golf course | select a date and time to play                            |
+| Sorting and Searching          |                     |                                                         |                                                           |
+| 17                             | Shopper / Site User | search for a product by name or description             | find a certain product                                    |
+| 18                             | Shopper / Site User | see my search results                                   | only see what I am searching for                          |
+| 19                             | Shopper / Site User | sort by category                                        | select products of a certain category                     |
+| 20                             | Shopper / Site User | sort by price low to high and high to low               | view products according to my budget                      |
+| 21                             | Shopper / Site User | select only available dates/times                       | I can only purchase available tee slots                   |
+| Purchasing and Checkout        |                     |                                                         |                                                           |
+| 22                             | Shopper / Site User | use a card as the payment method                        | complete my purchase                                      |
+| 23                             | Shopper / Site User | select the size and quantity of a product               | select a size and quantity to my needs                    |
+| 24                             | Shopper / Site User | view items in my basket                                 | be aware of what I am buying and it's cost                |
+| 25                             | Shopper / Site User | adjust item quantity in my basket                       | increase or reduce item count according to my needs       |
+| 26                             | Shopper / Site User | receive order confirmation                              | be notified of a successful order                         |
+| 27                             | Shopper / Site User | receive email confirmation                              | have a record of my purchase                              |
+| Admin and Store Management     |                     |                                                         |                                                           |
+| 28                             | Store Owner / Admin | add a product                                           | add new products to the shop                              |
+| 29                             | Store Owner / Admin | edit a product                                          | edit existing products in the shop                        |
+| 30                             | Store Owner / Admin | delete a product                                        | delete existing products from the shop                    |
+| 31                             | Store Owner / Admin | add a golf club                                         | add a golf club to the site                               |
+| 32                             | Store Owner / Admin | edit a golf club                                        |edit an existing golf club on the site|
+| 33 | Store Owner / Admin | delete a golf club | delete existing golf club from the site  |
+| 34 | Store Owner / Admin | add a tee time     | add a tee time to a golf club            |
+| 35 | Store Owner / Admin | edit a tee time    | edit an existing tea time on a golf club |
+| 36 | Store Owner / Admin | delete a tee time  | delete a tee time from a golf club       |
 
 
 ### Kanban, Epics & User Stories
@@ -136,25 +133,46 @@ It is also an online shop that sells golf merchandise to customers.
 - Epics were created using the milestones feature
 - Backlog, In Progress, Done headings were used in the kanban
 
-<details><summary>Epics</summary>
+<details><summary>Epic Overview</summary>
 
-![Epics]()
-![Epic 1]()
-![Epic 2]()
-![Epic 3]()
-![Epic 4]()
+![Epics](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/agile/epics1.PNG)
 </details>
+
+<details><summary>Epic 1</summary>
+
+![Epic 1](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/agile/epics2.PNG)
+</details>
+
+<details><summary>Epic 2</summary>
+
+![Epic 2](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/agile/epics3.PNG)
+</details>
+
+<details><summary>Epic 3</summary>
+
+![Epic 3](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/agile/epics4.PNG)
+</details>
+
+<details><summary>Epic 4</summary>
+
+![Epic 4](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/agile/epics5.PNG)
+</details>
+
+
 
 <details><summary>User Stories</summary>
 
-![User stories]()
+![User stories](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/agile/user-stories1.PNG)
+![User stories](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/agile/user-stories2.PNG)
+![User stories](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/agile/user-stories3.PNG)
 
 </details>
 
 <details><summary>Kanban</summary>
 
-![Kanban mid]()
-![Kanban finish]()
+![Kanban Start](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/agile/kanban-start.PNG)
+![Kanban Middle](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/agile/kanban-mid.PNG)
+![Kanban End](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/agile/kanban-end.PNG)
 
 </details>
 
