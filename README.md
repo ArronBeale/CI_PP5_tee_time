@@ -4,12 +4,18 @@
 
 **Developer: Arron Beale**
 
-💻 [Visit live website](https://ci-pp5-teetime.herokuapp.com/)
+💻 [Visit live website](https://ci-pp5-teetime.herokuapp.com/)  
+(Ctrl + click to open in new tab)
 
 
 
 ## Table of Contents
-  - [About](#about)
+  - [Executive Summary](#executive-summary)
+     - [Market Analysis](#market-analysis)
+     - [Marketing and Sales Strategy](#marketing-and-sales-strategy)
+     - [Operations and Management](#operations-and-management)
+     - [Financial Plan](#financial-plan)
+     - [Conclusion](#conclusion)
   - [User Goals](#user-goals)
   - [Site Owner Goals](#site-owner-goals)
   - [User Experience](#user-experience)
@@ -36,6 +42,7 @@
 
 <hr>
 
+## Business Plan  
 ### Executive Summary:
 
 Teetime is a web-based platform that connects golfers with golf clubs and societies. It offers a convenient and easy-to-use platform for booking tee times, as well as an ecommerce shop for purchasing golf-related products. In addition, Teetime features a blog with the latest news and tips on golf, as well as a contact page for inquiries and support.
@@ -46,7 +53,7 @@ In terms of revenue, Teetime will generate income through two main streams: the 
 
 Overall, Teetime aims to become the go-to destination for golfers looking to book tee times and purchase golf-related products, as well as a trusted and reliable solution for golf clubs and societies looking to manage their bookings and tee times.
 
-#### Market Analysis:
+### Market Analysis:
 
 The golf industry is a multi-billion dollar industry, with a large and dedicated consumer base. While traditional methods of booking tee times (such as calling the club or booking in-person) are still popular, there is a growing trend towards online booking platforms. This shift towards online booking presents a significant opportunity for Teetime to establish itself as a leading player in the market.
 
@@ -54,7 +61,7 @@ In terms of competition, Teetime will face other online booking platforms as wel
 
 In terms of target market, our primary focus will be on golfers of all skill levels and demographics. We will also target golf clubs and societies as potential customers for our software, as these organizations are constantly seeking ways to streamline their operations and manage bookings.
 
-#### Marketing and Sales Strategy:
+### Marketing and Sales Strategy:
 
 Teetime will utilize a combination of online and offline marketing tactics to reach our target market. These tactics will include:
 
@@ -64,7 +71,7 @@ Partnerships and sponsorships with golf-related brands
 Public relations efforts to generate press coverage and raise awareness of Teetime
 In terms of sales, our primary focus will be on converting website visitors into customers through the use of persuasive copy and calls-to-action. We will also explore partnerships with golf clubs and societies to offer our software as a solution for managing bookings and tee times.
 
-#### Operations and Management:
+### Operations and Management:
 
 Teetime will be operated and managed by a small team of experienced professionals. The team will consist of a CEO, CTO, and marketing and sales staff.
 
@@ -80,18 +87,19 @@ In terms of projections, we anticipate strong growth in both revenue streams ove
 
 In terms of profitability, we expect to break even within the first year of operation and achieve profitability in the second year.
 
-#### Conclusion:
+### Conclusion:
 
 Teetime is a unique and innovative platform that aims to connect golfers with golf clubs and societies, while also offering a convenient and user-friendly platform for booking tee times and purchasing golf-related products. With strong growth potential and a clear revenue model, we believe that Teetime has the potential to become a leading player in the golf industry.
+<hr>
 
-### User Goals
+## User Goals
 
 - To easily and conveniently book tee times at golf clubs and societies
-- To browse and purchase a wide range of golf-related products through the ecommerce shop
+- To browse and purchase a wide range of golf-related products through the eCommerce shop
 - To access the latest news and tips on golf through the blog
 - To contact the Teetime team with any inquiries or support needs through the contact page
 
-### Site Owner Goals
+## Site Owner Goals
 
 - Generate revenue through the sale of products in the ecommerce shop and the sale of software to golf clubs and societies
 - Build a strong and loyal customer base by providing an easy-to-use platform and high-quality products
@@ -103,21 +111,21 @@ Teetime is a unique and innovative platform that aims to connect golfers with go
 ## User Experience
 
 ### Target Audience
-- Golfers looking to book a round of Golf
-- Golfers looking for Golf courses
-- Golf Clubs interested in being listed on the site
-- Golf Societies who would like to purchase and use the web app for their society (Many Golf societies use Whatsapp)
-- Customers looking to purchase Golf clothing and accesories from the Shop
+- Golf enthusiasts who are interested in booking tee times at golf clubs and purchasing golf-related products.
+- Golf clubs and golf societies who may be interested in using the software to manage tee time bookings and potentially purchasing products through the ecommerce shop.
+- Individuals who are looking for information and resources related to golf, as indicated by the presence of a blog on the app.
+- Individuals who are interested in scheduling and organizing golf games or events, as the app allows users to book tee times at golf clubs.
+- Any individual who is interested in purchasing golf-related products through the app's ecommerce shop.
 
 ### User Requirements and Expectations
 
-- Fully responsive
-- Accessible
-- A welcoming design
-- Relevant Content
-- Ease of use
-- Social media
-- Contact information
+- A user-friendly interface: Users will expect the app to be easy to navigate and use, with clear and concise instructions for booking tee times and purchasing products.
+- Reliability: Users will expect the app to be reliable and function smoothly, without any errors or technical issues.
+- Security: Users will expect their personal and financial information to be secure when using the app, and will expect the app to have appropriate measures in place to protect their data.
+- A wide selection of golf clubs and tee times: Users will expect the app to have a wide selection of golf clubs and tee times available for booking.
+- Accurate and up-to-date information: Users will expect the app to provide accurate and up-to-date information about golf clubs, tee times, and products.
+- Competitive prices: Users will expect the prices for tee times and products to be competitive with other options available on the market.
+- Good customer service: Users will expect the app to have good customer service, including responsive and helpful support in the event of any issues or questions.
 - Accessibility
 
 ##### Back to [top](#table-of-contents)<hr>
