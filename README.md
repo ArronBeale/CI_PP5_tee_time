@@ -21,7 +21,7 @@
   - [User Experience](#user-experience)
   - [User Stories](#user-stories)
   - [Design](#design)
-    - [Colours](#colours)
+    - [Colors](#colors)
     - [Fonts](#fonts)
     - [Structure](#structure)
       - [Website pages](#website-pages)
@@ -90,7 +90,7 @@ In terms of profitability, we expect to break even within the first year of oper
 ### Conclusion:
 
 Teetime is a unique and innovative platform that aims to connect golfers with golf clubs and societies, while also offering a convenient and user-friendly platform for booking tee times and purchasing golf-related products. With strong growth potential and a clear revenue model, we believe that Teetime has the potential to become a leading player in the golf industry.
-<hr>
+##### Back to [top](#table-of-contents)<hr>
 
 ## User Goals
 
@@ -233,53 +233,76 @@ Teetime is a unique and innovative platform that aims to connect golfers with go
 
 ## Design
 
-### Colours
+### Colors
 
-I chose the following...
 
-The colors I wanted to stay close to  [Coolors.co](https://coolors.co/)
+The color I chose was dark green with a light background.  
 <details><summary>See colour pallet</summary>
-<img src="">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/coolors-teetime.PNG)">
 </details>
 
 ### Fonts
 
- The fonts selected were from Google Fonts, .......
+ The font selected was from Google Fonts, Roboto.
 
-### Structure
+ <details><summary>See font Image</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/font-roboto.PNG)">
+</details>
+<hr>
 
-#### Website pages
+## Structure
 
 The site was designed for the user to be familiar with the layout such as a navigation bar along the top of the pages and a hamburger menu button for smaller screen.
 
 The footer contains all relevant social media links that the business has so the user can visit any social media site and follow the business there to expand the businesses followers, likes and shares.
+It contains an email sign up form and useful links as well as contact information.
 
 - The site consists of the following pages:
-  - Homepage
-  - 
-  - 
-  - Blog page has a paginated list of blogs posted by an admin or authorised user, 4 per page
+  - Home
+  - Golf Clubs
+  - Golf Club Expanded
+  - Booking List
+  - Edit Booking
+  - Cancel Booking
+  - Product List
+  - Product Expanded
+  - Basket
+  - Checkout
+  - Checkout Success
+  - Blog
   - Blog expanded
-  - Book
-  - My bookings
-  - Edit booking
-  - Cancel booking
-  - Contact us
-  - Login / Logout allows users to login
+  - Contact
   - Register
-  - 404 error page to display if a 404 error is raised
+  - Profile
+  - Login
+  - Logout
+  - Reset Password
+  - Register
+  - 404
 
-#### Database
+  ##### Back to [top](#table-of-contents)<hr>
+
+## AWS 
+
+- Media and static folders are hosted using Amazon AWS S3 buckets
+
+<details><summary>See AWS Image</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/aws/aws-s3-bucket.PNG)">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/aws/aws-s3-bucket-media.PNG)">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/aws/aws-s3-bucket-static.PNG)">
+</details>
+
+
+## Database
 
 - Built with Python and the Django framework with a Postgres database for the deployed Heroku version(production)
-- 
 
 <details><summary>Show diagram</summary>
 <img src="">
 </details>
 
 
-##### User Model
+#### User Model
 The User Model contains the following:
 - user_id
 - password
@@ -293,13 +316,18 @@ The User Model contains the following:
 - is_active
 - date_joined
 
-##### Model
+#### Post Model
 The Model contains the following:
-- 
-- 
-- 
-- 
-- 
+- title: A char field
+- slug: A slug field
+- post_id: An auto field
+- author: A foreign key field
+- created_date: A date-time field
+- updated_date: A date-time field
+- content: A text field
+- featured_image: An image field
+- excerpt: A text field
+- status: An integer field
 
 ##### Booking Model
 The Booking Model contains the following:
@@ -311,19 +339,6 @@ The Booking Model contains the following:
 - 
 - 
 - 
-
-##### Post Model
-The Post Model contains the following:
-- title
-- post_id (PrimaryKey)
-- author (ForeignKey)
-- created_date
-- updated_date
-- content
-- featured_image
-- excerpt
-- slug
-- status
 
 ##### Comment Model
 The Comment Model contains the following:
