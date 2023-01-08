@@ -1,6 +1,6 @@
-# eCommerce: Teetime (Building in Progress)
+# eCommerce: Teetime
 
-![Am I Responsive]()
+![Am I Responsive](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/responsive.PNG)
 
 **Developer: Arron Beale**
 
@@ -34,26 +34,69 @@
   - [Credits](#credits)
   - [Acknowledgements](#acknowledgements)
 
-### About
-
-Teetime is an eCommerce web app built for Golf Clubs and Golf Societies to use to list their golf courses and golf outings for members and guests.
-It allows Golf Courses to be listed on the app so Golfers can find and book a time to golf on their course whether they are a guest or a member.
-It is also an online shop that sells golf merchandise to customers.
 <hr>
+
+### Executive Summary:
+
+Teetime is a web-based platform that connects golfers with golf clubs and societies. It offers a convenient and easy-to-use platform for booking tee times, as well as an ecommerce shop for purchasing golf-related products. In addition, Teetime features a blog with the latest news and tips on golf, as well as a contact page for inquiries and support.
+
+Our target market is golfers of all skill levels and demographics, as well as golf clubs and societies looking for a streamlined solution for managing bookings and tee times. We aim to differentiate ourselves from competitors by offering a more user-friendly and intuitive platform, as well as a wider range of products in our ecommerce shop.
+
+In terms of revenue, Teetime will generate income through two main streams: the sale of products in our ecommerce shop and the sale of our software to golf clubs and societies. We will also explore potential partnerships and sponsorships with golf-related brands to further monetize the platform.
+
+Overall, Teetime aims to become the go-to destination for golfers looking to book tee times and purchase golf-related products, as well as a trusted and reliable solution for golf clubs and societies looking to manage their bookings and tee times.
+
+#### Market Analysis:
+
+The golf industry is a multi-billion dollar industry, with a large and dedicated consumer base. While traditional methods of booking tee times (such as calling the club or booking in-person) are still popular, there is a growing trend towards online booking platforms. This shift towards online booking presents a significant opportunity for Teetime to establish itself as a leading player in the market.
+
+In terms of competition, Teetime will face other online booking platforms as well as traditional methods of booking. However, we believe that our user-friendly platform and wide range of products in our ecommerce shop will differentiate us from competitors and make us a preferred choice for golfers.
+
+In terms of target market, our primary focus will be on golfers of all skill levels and demographics. We will also target golf clubs and societies as potential customers for our software, as these organizations are constantly seeking ways to streamline their operations and manage bookings.
+
+#### Marketing and Sales Strategy:
+
+Teetime will utilize a combination of online and offline marketing tactics to reach our target market. These tactics will include:
+
+Online advertising through Google AdWords and social media platforms such as Facebook and Instagram
+Content marketing through our blog and email newsletter
+Partnerships and sponsorships with golf-related brands
+Public relations efforts to generate press coverage and raise awareness of Teetime
+In terms of sales, our primary focus will be on converting website visitors into customers through the use of persuasive copy and calls-to-action. We will also explore partnerships with golf clubs and societies to offer our software as a solution for managing bookings and tee times.
+
+#### Operations and Management:
+
+Teetime will be operated and managed by a small team of experienced professionals. The team will consist of a CEO, CTO, and marketing and sales staff.
+
+In terms of operations, we will utilize a cloud-based platform to host the website and software, as well as a payment gateway for processing transactions. We will also utilize third-party fulfillment centers to handle the storage, packing, and shipping of products purchased through our ecommerce shop.
+
+#### Financial Plan:
+
+Teetime will generate revenue through the sale of products in our ecommerce shop and the sale of our software to golf clubs and societies. In terms of expenses, the main cost will be marketing and advertising efforts to drive traffic to the website and attract customers. We will also incur expenses related to the development.
+
+In terms of financing, Teetime will initially be funded through a combination of personal investment and a small seed round of funding. As the business grows, we will explore additional funding options such as venture capital or a larger round of financing.
+
+In terms of projections, we anticipate strong growth in both revenue streams over the first few years of operation. In the first year, we expect to generate €500,000 in revenue, with €300,000 coming from product sales and €200,000 coming from the sale of our software. In the second year, we expect to see revenue increase to €750,000, with €450,000 coming from product sales and €300,000 coming from software sales. By the third year, we anticipate revenue to reach €1 million, with €600,000 coming from product sales and €400,000 coming from software sales.
+
+In terms of profitability, we expect to break even within the first year of operation and achieve profitability in the second year.
+
+#### Conclusion:
+
+Teetime is a unique and innovative platform that aims to connect golfers with golf clubs and societies, while also offering a convenient and user-friendly platform for booking tee times and purchasing golf-related products. With strong growth potential and a clear revenue model, we believe that Teetime has the potential to become a leading player in the golf industry.
 
 ### User Goals
 
-- To book a tee time
-- To buy products from the shop
-- To find golf courses listed
+- To easily and conveniently book tee times at golf clubs and societies
+- To browse and purchase a wide range of golf-related products through the ecommerce shop
+- To access the latest news and tips on golf through the blog
+- To contact the Teetime team with any inquiries or support needs through the contact page
 
 ### Site Owner Goals
 
-- To provide a solution to allow users to purchase a tee time
-- To provide a solution to allow users to buy from the shop
-- To attract more business with a well crafted site
-- Provide a modern application with an easy navigation
-- Fully responsive and accessible
+- Generate revenue through the sale of products in the ecommerce shop and the sale of software to golf clubs and societies
+- Build a strong and loyal customer base by providing an easy-to-use platform and high-quality products
+- Establish Teetime as a trusted and respected brand in the golf industry
+- Achieve profitability and sustain long-term growth
 <hr>
 
 
