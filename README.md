@@ -237,16 +237,18 @@ Teetime is a unique and innovative platform that aims to connect golfers with go
 
 
 The color I chose was dark green with a light background.  
-<details><summary>See colour pallet</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/coolors-teetime.PNG)">
+<details><summary>See Color Palette</summary>
+
+![Color Palette](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/coolors-teetime.png)
 </details>
 
 ### Fonts
 
  The font selected was from Google Fonts, Roboto.
 
- <details><summary>See font Image</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/font-roboto.PNG)">
+ <details><summary>See Font Image</summary>
+
+![Font Image](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/font-roboto.PNG)
 </details>
 <hr>
 
@@ -286,10 +288,11 @@ It contains an email sign up form and useful links as well as contact informatio
 
 - Media and static folders are hosted using Amazon AWS S3 buckets
 
-<details><summary>See AWS Image</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/aws/aws-s3-bucket.PNG)">
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/aws/aws-s3-bucket-media.PNG)">
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/aws/aws-s3-bucket-static.PNG)">
+<details><summary>See AWS Images</summary>
+
+![aws bucket](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/aws/aws-s3-bucket.PNG)
+![aws media](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/aws/aws-s3-bucket-media.PNG)
+![aws static](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/aws/aws-s3-bucket-static.PNG)
 </details>
 
 
