@@ -37,6 +37,10 @@ def add_to_basket(request, item_id):
         size = request.POST['product_size']
     basket = request.session.get('basket', {})
 
+    if not product:
+        messages.error(request, 'Product does not exist')
+        return redirect(reverse('view_basket'))
+
     if size:
         if item_id in list(basket.keys()):
             if size in basket[item_id]['items_by_size'].keys():
@@ -77,6 +81,10 @@ def adjust_basket(request, item_id):
     if 'product_size' in request.POST:
         size = request.POST['product_size']
     basket = request.session.get('basket', {})
+
+    if not product:
+        messages.error(request, 'Product does not exist')
+        return redirect(reverse('view_basket'))
 
     if size:
         if quantity > 0:
