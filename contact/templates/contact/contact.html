@@ -19,7 +19,7 @@
                 <div class="row mt-5">
                     <div class="col-12 col-md-8 col-xl-5 mx-auto d-block">
                         <div class="row">
-                            <div class="col-12 p-5 bg-light rounded send-message grow text-white">
+                            <div class="col-12 p-5 bg-light rounded send-message text-white">
                                 <!-- Display if user is not logged in -->
                                 {% if not user.is_authenticated %}
                                 <h2 class="text-success">Message Us</h2>
@@ -35,16 +35,16 @@
                                 {% if user.is_authenticated %}
                                 <div class="row text-center">
                                     <div class="col-12">
-                                        <h2 class="fw-bold mt-3 text-white">Send Message</h2>
+                                        <h2 class="fw-bold mt-3 text-success">Send Message</h2>
                                         <hr>
                                     </div>
                                 </div>
-                                <form method="POST" class="text-white" enctype="multipart/form-data">
+                                <form method="POST" class="text-success" enctype="multipart/form-data">
                                     {% csrf_token %}
                                     <!-- Contact form -->
                                     {{ contact_form| crispy }}
 
-                                    <button class="btn btn-dark" type="submit">Submit</button>
+                                    <button class="btn btn-success" type="submit">Submit</button>
                                 </form>
                                 {% endif %}
                                 {% endif %}
