@@ -19,11 +19,11 @@
                 <div class="row mt-5">
                     <div class="col-12 col-md-8 col-xl-5 mx-auto d-block">
                         <div class="row">
-                            <div class="col-12 p-5 bg-success rounded shadow-lg text-white">
+                            <div class="col-12 p-5 bg-light rounded shadow-lg grow text-white">
                                 <!-- Display if user is not logged in -->
                                 {% if not user.is_authenticated %}
-                                <h2>Message Us</h2>
-                                <p>Please login to send a message!</p>
+                                <h2 class="text-success">Message Us</h2>
+                                <p class="text-success">Please login to send a message!</p>
                                 <div class="bg-light rounded">
                                     <a href="{% url 'account_login' %}" class="btn btn-success rounded m-2">
                                         <span class="font-weight-bold">Login</span>
