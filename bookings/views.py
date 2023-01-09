@@ -171,6 +171,14 @@ class EditBooking(SuccessMessageMixin, UpdateView):
         context['categories_list'] = self.categories_list
         return context
 
+    def form_valid(self, form):
+        booking = form.save(commit=False)
+        if not booking:
+            messages.error(self.request, 'Booking does not exist')
+            return redirect('booking_list')
+        booking.save()
+        return super().form_valid(form)
+
     def get_success_url(self, **kwargs):
         return reverse('booking_list')
 
