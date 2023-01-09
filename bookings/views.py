@@ -185,6 +185,9 @@ def cancel_booking(request, pk):
     categories_list = Category.objects.all()
 
     if request.method == 'POST':
+        if not booking:
+            messages.error(request, 'Booking does not exist')
+            return redirect('booking_list')
         booking.delete()
         messages.success(request, "Booking cancelled")
         return redirect('booking_list')
