@@ -67,6 +67,17 @@ class ContactMessage(View):
 
         if contact_form.is_valid():
             contact = contact_form.save(commit=False)
+            if len(contact.message) < 20:
+                messages.error(
+                    request, 'Message must be at least 20 characters long')
+                return render(
+                    request,
+                    'contact/contact.html',
+                    {
+                        'contact_form': contact_form
+                    }
+                )
+
             contact.user = request.user
             contact.save()
             messages.success(
