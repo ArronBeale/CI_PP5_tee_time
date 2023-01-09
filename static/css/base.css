@@ -91,6 +91,14 @@ a {
     box-shadow: 3px 3px 6px rgba(0, 0, 0, .3);
 }
 
+/* Send message box */
+.send-message {
+    border-radius: 65px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow: 20px 20px 60px #bebebe,
+        -20px -20px 60px #ffffff;
+}
+
 /* Modal */
 .popupOverlay {
     background-color: rgba(0, 0, 0, .8);
