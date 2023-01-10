@@ -567,7 +567,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature image</summary>
 
-![Home page]()
+![SEO](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-seo.PNG)
 </details>  
 
 ### Home page
@@ -576,7 +576,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature images</summary>
 
-![Home page]()
+![Home page](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-home.PNG)
 </details>  
 
 
@@ -585,7 +585,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature images</summary>
 
-![Logo]()
+![Logo](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-logo.PNG)
 </details>  
 
 
@@ -597,7 +597,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature images</summary>
 
-![Navigation]()
+![Navigation](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-nav.PNG)
 </details>
 
 
@@ -607,7 +607,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature images</summary>
 
-![Footer]()
+![Footer](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-footer.PNG)
 </details>  
 
 ### Mailing List Sign Up
@@ -615,7 +615,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature images</summary>
 
-![Mailing]()
+![Mailing](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-mailing-list-sign-up.PNG)
 </details>
 
 
@@ -624,7 +624,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature image</summary>
 
-![Signup]()
+![Signup](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-sign-up.PNG)
 </details>
 
 
@@ -633,7 +633,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature images</summary>
 
-![Signin]()
+![Signin](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-sign-in.PNG)
 </details>
 
 
@@ -643,7 +643,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature image</summary>
 
-![Sign out]()
+![Sign out](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-sign-out.PNG)
 </details>  
 
 
@@ -652,7 +652,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature image</summary>
 
-![Golf Clubs]()
+![Golf Clubs](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-golf-clubs.PNG)
 </details>  
 
 
@@ -661,7 +661,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature image</summary>
 
-![Golf Club Detail]()
+![Golf Club Detail](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-club-detail.PNG)
 </details>
 
 
@@ -671,7 +671,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature images</summary>
 
-![Book]()
+![Book](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-booking-form.PNG)
 </details>
 
 
@@ -680,17 +680,8 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature image</summary>
 
-![Teetimes]()
+![Teetimes](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-booking-list.PNG)
 </details>  
-
-
-### Booking Form
-- Allows the user to make bookings
-
-<details><summary>See feature image</summary>
-
-![Booking Form]()
-</details>
 
 
 ### Edit Booking
@@ -698,16 +689,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature image</summary>
 
-![Edit Booking]()
-</details>  
-
-
-### Alert Box
-- Allows the user to see relevant alerts
-
-<details><summary>See feature image</summary>
-
-![Edit Booking]()
+![Edit Booking](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-booking-edit.PNG)
 </details>  
 
 
@@ -716,7 +698,16 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature image</summary>
 
-![Cancel Booking]()
+![Cancel Booking](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-booking-cancel.PNG)
+</details>  
+
+
+### Alert Box
+- Allows the user to see relevant alerts
+
+<details><summary>See feature image</summary>
+
+![Edit Booking](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-alert-box.PNG)
 </details>  
 
 
@@ -725,17 +716,17 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature image</summary>
 
-![Shop]()
+![Shop](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-shop.PNG)
 </details>  
 
 
 ### Sort
 - Allows the user to sort the listed products.
 
-<details><summary>See feature image</summary>
+<details><summary>See feature images</summary>
 
-![Sort1]()
-![Sort2]()
+![Sort1](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-shop-sort-01.PNG)
+![Sort2](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-shop-sort-02.PNG)
 </details>  
 
 
@@ -744,7 +735,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature image</summary>
 
-![product Detail]()
+![product Detail](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-product-detail.PNG)
 </details>  
 
 
@@ -753,7 +744,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature image</summary>
 
-![Search]()
+![Search](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-search.PNG)
 </details>  
 
 
@@ -763,8 +754,8 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature image</summary>
 
-![Basket1]()
-![Basket2]()
+![Basket1](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-basket.PNG)
+![Basket2](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-alert-box.PNG)
 </details>  
 
 
@@ -773,7 +764,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature image</summary>
 
-![Checkout]()
+![Checkout](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-checkout.PNG)
 </details>  
 
 
@@ -782,7 +773,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature image</summary>
 
-![Stripe]()
+![Stripe](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-stripe.PNG)
 </details>  
 
 
@@ -791,7 +782,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature image</summary>
 
-![Email Confirmation]()
+![Email Confirmation](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-email-confirmation.PNG)
 </details>  
 
 
@@ -800,7 +791,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature image</summary>
 
-![Profile]()
+![Profile](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-profile.PNG)
 </details>  
 
 
@@ -809,7 +800,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature image</summary>
 
-![Add Product]()
+![Add Product](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-add-product.PNG)
 </details>  
 
 
@@ -818,7 +809,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature image</summary>
 
-![Edit Product]()
+![Edit Product](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-edit-product.PNG)
 </details>  
 
 
@@ -827,7 +818,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature image</summary>
 
-![Delete Product]()
+![Delete Product](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-delete-product.PNG)
 </details>  
 
 
@@ -837,7 +828,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
   
 <details><summary>See feature images</summary>
 
-![Blog]()
+![Blog](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-blog.PNG)
 </details>
 
 
@@ -849,7 +840,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
   
 <details><summary>See feature images</summary>
 
-![Blog Expanded]()
+![Blog Expanded](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-blog-detail.PNG)
 </details>
 
 
@@ -860,7 +851,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
   
 <details><summary>See feature images</summary>
 
-![Comments]()
+![Comments](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-blog-comments.PNG)
 </details>
 
 
@@ -871,8 +862,8 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
   
 <details><summary>See feature images</summary>
 
-![Contact Us]()
-![Message]()
+![Contact Us](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-contact.PNG)
+![Message](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-contact-message.PNG)
 </details>
 
 
@@ -883,7 +874,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
   
 <details><summary>See feature image</summary>
 
-![Social Media Links]()
+![Social Media Links](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-footer.PNG)
 </details>
 
 
@@ -893,7 +884,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
   
 <details><summary>See feature images</summary>
 
-![Pagination]()
+![Pagination](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-pagination.PNG)
 </details>
 
 
