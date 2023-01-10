@@ -480,38 +480,41 @@ I used Balsamiq to create wireframes for my project. It's a user-friendly wirefr
 <a href="https://github.com/ArronBeale/CI_PP5_tee_time/blob/main/docs/wireframes/wireframes-teetime.pdf" target="_blank">Download Wireframes PDF</a>  
 (Ctrl + click to open in new tab)  
 
-<details><summary>Wireframe Home</summary>
+<details><summary>Wireframe Home</summary>  
+
 ![Epics](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-home.PNG)
 </details>
 
-<details><summary>Wireframe Profile</summary>
+<details><summary>Wireframe Profile</summary>  
+
 ![Epic 1](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-profile.PNG)
 </details>
 
-<details><summary>Wireframe Clubs</summary>
+<details><summary>Wireframe Clubs</summary>  
+
 ![Epic 2](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-clubs.PNG)
 </details>
 
-<details><summary>Wireframe Club Detail</summary>
+<details><summary>Wireframe Club Detail</summary>  
+
 ![Epic 3](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-club-detail-01.PNG)
 ![Epic 3](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-club-detail-02.PNG)
 </details>
 
-<details><summary>Wireframe Shop</summary>
+<details><summary>Wireframe Shop</summary>  
+
 ![Epic 4](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-shop.PNG)
 </details>  
 
-<details><summary>Wireframe Product Detail</summary>
+<details><summary>Wireframe Product Detail</summary>  
+
 ![Epic 4](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-product-detail.PNG)
 </details> 
 
-<details><summary>Wireframe Checkout</summary>
-![Epic 4](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-checkout.PNG)
-</details>
+<details><summary>Wireframe Checkout</summary>  
 
-<details><summary>Wireframe Checkout</summary>
 ![Epic 4](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-checkout.PNG)
-</details>
+</details>  
 
 <hr>
 
@@ -540,6 +543,7 @@ I used Balsamiq to create wireframes for my project. It's a user-friendly wirefr
 - [GitHub](https://github.com/)
 - [Google Fonts](https://fonts.google.com/)
 - [Heroku Platform](https://id.heroku.com/login)
+- [AWS](https://aws.amazon.com/)
 - [jQuery](https://jquery.com)
 - [Postgres](https://www.postgresql.org/)
 - [Summernote](https://summernote.org/)
@@ -547,14 +551,24 @@ I used Balsamiq to create wireframes for my project. It's a user-friendly wirefr
   - [WC3 Validator](https://validator.w3.org/)
   - [Jigsaw W3 Validator](https://jigsaw.w3.org/css-validator/)
   - [JShint](https://jshint.com/)
-  - [Pycodestyle(PEP8)](https://pypi.org/project/pycodestyle/)
+  - [CI Python Liner(PEP8)](https://pep8ci.herokuapp.com/)
   - [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
   - [Wave Validator](https://wave.webaim.org/)
 
 ##### Back to [top](#table-of-contents)
 
 
-## Features
+## Features  
+
+
+### Search Engine Optimisation (SEO)
+I have used meta tags in the HTML of my web app's pages to optimize them for search engines. The description tag provides a brief summary of the content on the page, while the keywords tag lists relevant keywords to help search engines understand the content of the webpage and its relevance to related search queries.
+
+
+<details><summary>See feature image</summary>
+
+![Home page]()
+</details>  
 
 ### Home page
 - Home page includes nav bar, main body and a footer
@@ -563,11 +577,19 @@ I used Balsamiq to create wireframes for my project. It's a user-friendly wirefr
 <details><summary>See feature images</summary>
 
 ![Home page]()
-</details>
+</details>  
 
 
-### Logo & Navigation
-- Custom logo for the business
+### Logo
+- A custom logo for the business
+
+<details><summary>See feature images</summary>
+
+![Logo]()
+</details>  
+
+
+### Navigation
 - Fully Responsive
 - On small screens switches to hamburger menu
 - Indicates login/logout in status
@@ -575,92 +597,238 @@ I used Balsamiq to create wireframes for my project. It's a user-friendly wirefr
 
 <details><summary>See feature images</summary>
 
-![Footer]()
-![Footer]()
-![Footer]()
+![Navigation]()
 </details>
 
 
 ### Footer
-- Contains social media links and copyright
+- Contains social media links, privacy policy, and copyright
 - displayed across all pages
-- 
 
 <details><summary>See feature images</summary>
 
 ![Footer]()
+</details>  
+
+### Mailing List Sign Up
+- Mailchimp signup for email mailing list
+
+<details><summary>See feature images</summary>
+
+![Mailing]()
 </details>
 
 
 ### Sign up / Register
 - Allow users to register an acoount
-- Username and password is required, email is optional
 
-<details><summary>See feature images</summary>
+<details><summary>See feature image</summary>
 
-![Register]()
+![Signup]()
 </details>
 
 
-### Login
-- User can login
+### Sign In
+- User can sign in
 
 <details><summary>See feature images</summary>
 
-![Login]()
-![Login]()
+![Signin]()
 </details>
 
 
-### Logout
-- Allows the user to securely log out
-- Ask user if they are sure they want to log out
+### Sign Out
+- Allows the user to securely sign out
+- Ask user if they are sure they want to sign out
 
-<details><summary>See feature images</summary>
+<details><summary>See feature image</summary>
 
-![Logout]()
+![Sign out]()
+</details>  
+
+
+### Golf Clubs
+- Allows the user to view all listed golf clubs.
+
+<details><summary>See feature image</summary>
+
+![Golf Clubs]()
+</details>  
+
+
+### Golf Club Detail
+- Allows the user to view details of a specific golf club.
+
+<details><summary>See feature image</summary>
+
+![Golf Club Detail]()
 </details>
 
 
-### Book
-- Allows the user to book
+### Book a Tee Time
+- Allows the user to book a tee time
 - Messages are displayed if the data is not valid such as phone number lenght is too short and the email address is not a valid format
 
 <details><summary>See feature images</summary>
 
 ![Book]()
-![Book]()
-![Book]()
 </details>
 
 
-### My Bookings
-- Allows the user to see their booking
-- 
-- 
+### My Teetimes
+- Allows the user to see their bookings
 
-<details><summary>See feature images</summary>
+<details><summary>See feature image</summary>
 
-![My Bookings]()
+![Teetimes]()
+</details>  
+
+
+### Booking Form
+- Allows the user to make bookings
+
+<details><summary>See feature image</summary>
+
+![Booking Form]()
 </details>
 
 
 ### Edit Booking
-- Allows the user to edit their booking
-<details><summary>See feature images</summary>
+- Allows the user to see their bookings
 
-![Edit Booking](docs/features/feature-edit-booking.PNG)
-![ImaEdit Bookingge]()
-</details>
+<details><summary>See feature image</summary>
+
+![Edit Booking]()
+</details>  
 
 
-### Cancel Booking 
-- Allows the user to cancel their booking, asks user are they sure
-  
-<details><summary>See feature images</summary>
+### Alert Box
+- Allows the user to see relevant alerts
+
+<details><summary>See feature image</summary>
+
+![Edit Booking]()
+</details>  
+
+
+### Cancel Booking
+- Allows the user to cancel their bookings
+
+<details><summary>See feature image</summary>
 
 ![Cancel Booking]()
-</details>
+</details>  
+
+
+### Shop
+- Allows the user to view the listed products in the shop.
+
+<details><summary>See feature image</summary>
+
+![Shop]()
+</details>  
+
+
+### Sort
+- Allows the user to sort the listed products.
+
+<details><summary>See feature image</summary>
+
+![Sort1]()
+![Sort2]()
+</details>  
+
+
+### product Detail
+- Allows the user to view the products details.
+
+<details><summary>See feature image</summary>
+
+![product Detail]()
+</details>  
+
+
+### Search
+- Allows the user to search for products.
+
+<details><summary>See feature image</summary>
+
+![Search]()
+</details>  
+
+
+### Basket
+- Allows the user to view the basket with their items.
+- Pops up as items are added and removed
+
+<details><summary>See feature image</summary>
+
+![Basket1]()
+![Basket2]()
+</details>  
+
+
+### Checkout
+- Allows the user to purchase items in their basket.
+
+<details><summary>See feature image</summary>
+
+![Checkout]()
+</details>  
+
+
+### Stripe
+- Allows the user to use stripe for card payments.
+
+<details><summary>See feature image</summary>
+
+![Stripe]()
+</details>  
+
+
+### Email Confirmation
+- Allows the user to receive an email confirmation for their order.
+
+<details><summary>See feature image</summary>
+
+![Email Confirmation]()
+</details>  
+
+
+### Profile
+- Allows the user to update their information and see their order history.
+
+<details><summary>See feature image</summary>
+
+![Profile]()
+</details>  
+
+
+### Add Product
+- Allows the Admin to add new products.
+
+<details><summary>See feature image</summary>
+
+![Add Product]()
+</details>  
+
+
+### Edit Product
+- Allows the user to edit the products.
+
+<details><summary>See feature image</summary>
+
+![Edit Product]()
+</details>  
+
+
+### Delete Product
+- Allows the user to delete products, includes confirmation prompt before deletion.
+
+<details><summary>See feature image</summary>
+
+![Delete Product]()
+</details>  
 
 
 ### Blog
@@ -696,24 +864,24 @@ I used Balsamiq to create wireframes for my project. It's a user-friendly wirefr
 </details>
 
 
-### Contact Us
-- 
-- 
+### Contact Us / Send Message
+- A contact page with all contact details listed
+- Users can send a message via the message form
 - 
   
 <details><summary>See feature images</summary>
 
 ![Contact Us]()
-![Contact Us]()
+![Message]()
 </details>
 
 
 ### Social Media Links
-- A logo and link is used for each social media displayed
-- All links open in a new tab to ensure user is not directed away from the business
-- Displayed on all pages
+- A logo and link is used for the Facebook business page and Instagram page.
+- All links open in a new tab to ensure the user is not directed away from the business.
+- noopener, noreferrer, nofollow used to communicate with web crawlers and for security and privacy concerns.
   
-<details><summary>See feature images</summary>
+<details><summary>See feature image</summary>
 
 ![Social Media Links]()
 </details>
