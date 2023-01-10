@@ -282,7 +282,8 @@ It contains an email sign up form and useful links as well as contact informatio
   - Register
   - 404
 
-  ##### Back to [top](#table-of-contents)<hr>
+  ##### Back to [top](#table-of-contents)
+  <hr>
 
 ## AWS 
 
@@ -294,72 +295,177 @@ It contains an email sign up form and useful links as well as contact informatio
 ![aws media](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/aws/aws-s3-bucket-media.PNG)
 ![aws static](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/aws/aws-s3-bucket-static.PNG)
 </details>
+<hr>
 
 
 ## Database
 
 - Built with Python and the Django framework with a Postgres database for the deployed Heroku version(production)
 
-<details><summary>Show diagram</summary>
-<img src="">
-</details>
+<a href="https://docs.google.com/spreadsheets/d/13d5eeCcBG7GWVxWo78qZi8OyIZ10Tu6Ze7brLsul9qo/edit?usp=sharing" target="_blank">Link Database Schema</a>
+<hr>
 
+## Models  
 
-#### User Model
-The User Model contains the following:
-- user_id
-- password
-- last_login
-- is_superuser
-- username
-- first_name
-- last_name
-- email
-- is_staff
-- is_active
-- date_joined
+### User Model
 
-#### Post Model
-The Model contains the following:
-- title: A char field
-- slug: A slug field
-- post_id: An auto field
-- author: A foreign key field
-- created_date: A date-time field
-- updated_date: A date-time field
-- content: A text field
-- featured_image: An image field
-- excerpt: A text field
-- status: An integer field
+| Key        | Name         | Type        |
+| ---------- | ------------ | ----------- |
+| PrimaryKey | user_id      | AutoField   |
+|            | password     | VARCHAR(45) |
+|            |              |             |
+|            | last_login   | VARCHAR(45) |
+|            | is_superuser | BOOLEAN     |
+|            |              |             |
+|            | username     | VARCHAR(45) |
+|            | first_name   | VARCHAR(45) |
+|            | last_name    | VARCHAR(45) |
+|            | email        | VARCHAR(45) |
+|            | is_staff     | BOOLEAN     |
+|            |              |             |
+|            | is_active    | BOOLEAN     |
+|            | date_joined  | VARCHAR(45) |
 
-##### Booking Model
-The Booking Model contains the following:
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
+### User Profile Model
 
-##### Comment Model
-The Comment Model contains the following:
-- post (ForeignKey)
-- name
-- email
-- body
-- created_date
-- approved
-- Meta: created_on
+| Key        | Name                 | Type          |
+| ---------- | -------------------- | ------------- |
+| PrimaryKey | user_profile_id      | AutoField     |
+| ForeignKey | user                 | User model    |
+|            | default_phone_number | CharField[20] |
+|            | default_address1     | CharField[80] |
+|            | default_address2     | CharField[80] |
+|            | default_town_city    | CharField[40] |
+|            | default_county       | CharField[80] |
+|            | default_postcode     | CharField[20] |
+|            | default_country      | CharField[40] |
 
-##### ContactUs Model
-The ContactUs Model contains the following:
-- contact_id (PrimaryKey)
-- name (ForeignKey)
-- email (ForeignKey)
-- phone (ForeignKey)
-- body
+### Club Model
+
+| Key        | Name           | Type          |
+| ---------- | -------------- | ------------- |
+| PrimaryKey | club_id        | AutoField     |
+|            | golf_club_name | CharField[50] |
+|            | slug           | SlugField     |
+|            | description    | TextField     |
+|            | available      | BooleanField  |
+|            | image          | ImageField    |
+|            | excerpt        | TextField     |
+
+#### Booking Model
+
+| Key        | Name           | Type            |
+| ---------- | -------------- | --------------- |
+| PrimaryKey | booking_id     | AutoField       |
+|            | created_date   | DateTime        |
+|            | requested_date | DateTime        |
+|            | requested_time | CharField[10]   |
+| ForeignKey | golf_club_name | Golf club model |
+| ForeignKey | user           | User model      |
+|            | name           | CharField[50]   |
+|            | email          | EmailField      |
+|            | phone          | PhoneNumField   |
+|            | status         | CharField[50]   |
+|            | players        | Tuple           |
+|            | player_count   | intField        |
+
+### Product Model
+
+| Key        | Name        | Type           |
+| ---------- | ----------- | -------------- |
+| PrimaryKey | product_id  | AutoField      |
+|            | code        | CharField[50]  |
+|            | brand       | CharField[50]  |
+|            | name        | CharField[50]  |
+|            | description | TextField      |
+|            | has_sizes   | BooleanField   |
+|            | price       | DecimalField   |
+| ForeignKey | category    | Category model |
+|            | rating      | DecimalField   |
+|            | image       | ImageField     |
+
+### Category Model  
+
+| Key        | Name          | Type      |
+| ---------- | ------------- | --------- |
+| PrimaryKey | category_id   | AutoField |
+|            | name          | Char[254] |
+|            | friendly_name | Char[254] |
+
+### Order Model  
+
+| Key        | Name            | Type               |
+| ---------- | --------------- | ------------------ |
+| PrimaryKey | order_id        | AutoField          |
+|            | order_number    | CharField[40]      |
+| ForeignKey | user_profile    | User profile Model |
+|            | full_name       | CharField[50]      |
+|            | email           | EmailField[254]    |
+|            | phone_number    | CharField[20]      |
+|            | address1        | CharField[80]      |
+|            | address2        | CharField[80]      |
+|            | town_city       | CharField[40]      |
+|            | postcode        | CharField[20]      |
+|            | county          | CharField[80]      |
+|            | country         | CharField[40]      |
+|            | date            | DateTimeField      |
+|            | delivery_cost   | DecimalField[6]    |
+|            | order_total     | DecimalField[10]   |
+|            | grand_total     | DecimalField[10]   |
+|            | original_basket | TextField          |
+|            | stripe_pid      | CharField          |
+
+### OrderLineItem Model  
+
+| Key        | Name             | Type            |
+| ---------- | ---------------- | --------------- |
+| PrimaryKey | OrderLineItem_id | AutoField       |
+| ForeignKey | order            | Order Model     |
+| ForeignKey | product          | Product Model   |
+|            | product_size     | CharField[2]    |
+|            | quantity         | IntegerField    |
+|            | line_item_total  | DecimalField[6] |
+
+### Post Model
+
+| Key        | Name           | Type                |
+| ---------- | -------------- | ------------------- |
+|            | title (unique) | Char[200]           |
+|            | slug (unique)  |                     |
+| PrimaryKey | post_id        | AutoField           |
+| ForeignKey | author         | User model          |
+|            | created_date   | DateTime            |
+|            | updated_date   | DateTime            |
+|            | content        | TextField           |
+|            | featured_image | Cloudinary<br>image |
+|            | excerpt        | TextField           |
+|            | status         | Integer             |
+
+#### Comment Model
+
+| Key        | Name         | Type                                   |
+| ---------- | ------------ | -------------------------------------- |
+| ForeignKey | post         | Post model<br>Cascade on<br>delete     |
+|            | name         | CharField[80]                          |
+|            | email        | EmailField                             |
+|            | body         | TextField                              |
+|            | created_date | DateTimeField<br>auto_now_<br>add_true |
+|            | approved     | BooleanField<br>default False          |
+|            |              |                                        |
+|            |              |                                        |
+|            | Meta         | created_on                             |
+
+#### ContactUs Model
+
+| Key        | Name         | Type             |
+| ---------- | ------------ | ---------------- |
+| PrimaryKey | message_id   | AutoField        |
+|            | created_date | DateTimeField    |
+| ForeignKey | user         | User model       |
+|            | name         | CharField        |
+|            | email        | EmailField       |
+|            | phone        | PhoneNumberField |
+|            | body         | TextField        |
 
 
 ### Wireframes
