@@ -25,7 +25,9 @@
     - [Fonts](#fonts)
     - [Structure](#structure)
       - [Website pages](#website-pages)
+      - [AWS](#aws)
       - [Database](#database)
+      - [Models](#models)
     - [Wireframes](#wireframes)
   - [Technologies Used](#technologies-used)
   - [Features](#features)
@@ -252,12 +254,14 @@ The color I chose was dark green with a light background.
 </details>
 <hr>
 
-## Structure
+# Structure
 
 The site was designed for the user to be familiar with the layout such as a navigation bar along the top of the pages and a hamburger menu button for smaller screen.
 
 The footer contains all relevant social media links that the business has so the user can visit any social media site and follow the business there to expand the businesses followers, likes and shares.
 It contains an email sign up form and useful links as well as contact information.
+
+## Website pages
 
 - The site consists of the following pages:
   - Home
@@ -471,9 +475,44 @@ I built my database using PostgreSQL. It's a powerful and open-source object-rel
 
 
 ### Wireframes
-I used Balsamiq to create wireframes for my project. It's a user-friendly wireframing tool that enables me to quickly and easily create mockups for my website or application. It offers a wide range of pre-built UI elements, and allows for easy collaboration with my team. I linked a pdf of my wireframes, which you can access it and check it out the design, layout and the flow of the project before implementing it in the real product.
-<a href="https://github.com/ArronBeale/CI_PP5_tee_time/blob/main/docs/wireframes/wireframes-teetime.pdf" target="_blank">Link to Wireframes PDF</a>  
-(Ctrl + click to open in new tab)
+I used Balsamiq to create wireframes for my project. It's a user-friendly wireframing tool that enables me to quickly and easily create mockups for my website or application. It offers a wide range of pre-built UI elements, and allows for easy collaboration with my team. I linked a pdf of my wireframes, which you can access it and check it out the design, layout and the flow of the project before implementing it in the real product.  
+
+<a href="https://github.com/ArronBeale/CI_PP5_tee_time/blob/main/docs/wireframes/wireframes-teetime.pdf" target="_blank">Download Wireframes PDF</a>  
+(Ctrl + click to open in new tab)  
+
+<details><summary>Wireframe Home</summary>
+![Epics](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-home.PNG)
+</details>
+
+<details><summary>Wireframe Profile</summary>
+![Epic 1](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-profile.PNG)
+</details>
+
+<details><summary>Wireframe Clubs</summary>
+![Epic 2](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-clubs.PNG)
+</details>
+
+<details><summary>Wireframe Club Detail</summary>
+![Epic 3](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-club-detail-01.PNG)
+![Epic 3](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-club-detail-02.PNG)
+</details>
+
+<details><summary>Wireframe Shop</summary>
+![Epic 4](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-shop.PNG)
+</details>  
+
+<details><summary>Wireframe Product Detail</summary>
+![Epic 4](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-product-detail.PNG)
+</details> 
+
+<details><summary>Wireframe Checkout</summary>
+![Epic 4](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-checkout.PNG)
+</details>
+
+<details><summary>Wireframe Checkout</summary>
+![Epic 4](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-checkout.PNG)
+</details>
+
 <hr>
 
 
