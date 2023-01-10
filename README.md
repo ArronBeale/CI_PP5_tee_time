@@ -287,7 +287,7 @@ It contains an email sign up form and useful links as well as contact informatio
 
 ## AWS 
 
-- Media and static folders are hosted using Amazon AWS S3 buckets
+I am using AWS S3 buckets to store my data. S3 is a highly scalable and durable cloud storage service provided by Amazon Web Services. It allows me to easily store and retrieve large amounts of data, and its built-in security features provide added protection for my files. I chose S3 for its scalability, durability, and security features.
 
 <details><summary>See AWS Images</summary>
 
@@ -300,9 +300,10 @@ It contains an email sign up form and useful links as well as contact informatio
 
 ## Database
 
-- Built with Python and the Django framework with a Postgres database for the deployed Heroku version(production)
+I built my database using PostgreSQL. It's a powerful and open-source object-relational database system that is known for its reliability, robustness, and performance. I chose it because it provides a flexible tool for efficiently managing and organizing my data.
 
-<a href="https://docs.google.com/spreadsheets/d/13d5eeCcBG7GWVxWo78qZi8OyIZ10Tu6Ze7brLsul9qo/edit?usp=sharing" target="_blank">Link Database Schema</a>
+<a href="https://docs.google.com/spreadsheets/d/13d5eeCcBG7GWVxWo78qZi8OyIZ10Tu6Ze7brLsul9qo/edit?usp=sharing" target="_blank">Link Database Schema</a>  
+(Ctrl + click to open in new tab)
 <hr>
 
 ## Models  
@@ -313,10 +314,8 @@ It contains an email sign up form and useful links as well as contact informatio
 | ---------- | ------------ | ----------- |
 | PrimaryKey | user_id      | AutoField   |
 |            | password     | VARCHAR(45) |
-|            |              |             |
 |            | last_login   | VARCHAR(45) |
 |            | is_superuser | BOOLEAN     |
-|            |              |             |
 |            | username     | VARCHAR(45) |
 |            | first_name   | VARCHAR(45) |
 |            | last_name    | VARCHAR(45) |
@@ -352,7 +351,7 @@ It contains an email sign up form and useful links as well as contact informatio
 |            | image          | ImageField    |
 |            | excerpt        | TextField     |
 
-#### Booking Model
+### Booking Model
 
 | Key        | Name           | Type            |
 | ---------- | -------------- | --------------- |
@@ -441,7 +440,7 @@ It contains an email sign up form and useful links as well as contact informatio
 |            | excerpt        | TextField           |
 |            | status         | Integer             |
 
-#### Comment Model
+### Comment Model
 
 | Key        | Name         | Type                                   |
 | ---------- | ------------ | -------------------------------------- |
@@ -455,7 +454,7 @@ It contains an email sign up form and useful links as well as contact informatio
 |            |              |                                        |
 |            | Meta         | created_on                             |
 
-#### ContactUs Model
+### ContactUs Model
 
 | Key        | Name         | Type             |
 | ---------- | ------------ | ---------------- |
@@ -465,14 +464,17 @@ It contains an email sign up form and useful links as well as contact informatio
 |            | name         | CharField        |
 |            | email        | EmailField       |
 |            | phone        | PhoneNumberField |
-|            | body         | TextField        |
+|            | body         | TextField        |  
+
+##### Back to [top](#table-of-contents)
+<hr>
 
 
 ### Wireframes
-The wireframes were created using Balsamiq
-<details><summary></summary>
-<img src="">
-</details>
+I used Balsamiq to create wireframes for my project. It's a user-friendly wireframing tool that enables me to quickly and easily create mockups for my website or application. It offers a wide range of pre-built UI elements, and allows for easy collaboration with my team. I linked a pdf of my wireframes, which you can access it and check it out the design, layout and the flow of the project before implementing it in the real product.
+<a href="https://github.com/ArronBeale/CI_PP5_tee_time/blob/main/docs/wireframes/wireframes-teetime.pdf" target="_blank">Link to Wireframes PDF</a>  
+(Ctrl + click to open in new tab)
+<hr>
 
 
 ## Technologies Used
