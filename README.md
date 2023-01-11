@@ -893,54 +893,44 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 ## Validation
 
-The W3C Markup Validation Service
-<details><summary>Home</summary>
-<img src="">
-</details>
+The W3C Markup Validation Service was used to validate the HTML of the website.  
 
-<details><summary>Register</summary>
-<img src="">
-</details>
+### Home  
 
-<details><summary>Login</summary>
-<img src="">
-</details>
+index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/) - No Errors Found
 
-<details><summary>Logout</summary>
-<img src="">
-</details>
+No Errors or Warnings displayed
 
-<details><summary>Bookings</summary>
-<img src="">
-</details>
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A |  
 
-<details><summary>Edit Booking</summary>
-<img src="">
-</details>
 
-<details><summary>Cancel Booking</summary>
-<img src="">
-</details>
+### Golf Clubs  
 
-<details><summary>Blog</summary>
-<img src="">
-</details>
+index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/bookings/golf_clubs) - No Errors Found
 
-<details><summary>Blog Expanded</summary>
-<img src="">
-</details>
+No Errors or Warnings displayed
 
-<details><summary>Contact Us</summary>
-<img src="">
-</details>
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A |  
 
-<details><summary>Confirmed</summary>
-<img src="">
-</details>
 
-<details><summary>404</summary>
-<img src="">
-</details><hr>
+### Golf Club Details  
+
+index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/bookings/druids-vale/) - No Errors Found
+
+2 Errors displayed
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error |  |  |  |
+| Warning | N/A | N/A | N/A |  
+
+
 
 
 ### CSS Validation

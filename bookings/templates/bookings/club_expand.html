@@ -21,7 +21,8 @@
                 <div class="col-12 col-md-6">
                     {% if club.image %}
                     <a href="">
-                        <img class="card-img-top mt-2 p-3 rounded" src="{{ club.image.url }}" alt="A photgraph of {{ club.golf_club_name }}"></a>
+                        <img class="card-img-top mt-2 p-3 rounded" src="{{ club.image.url }}"
+                            alt="A photgraph of {{ club.golf_club_name }}"></a>
                     {% else %}
                     <a href="">
                         <img class="card-img-top mt-2 p-3 rounded" src="{% static 'img/default-image.jpg' %}"
@@ -32,7 +33,7 @@
                     <a href="">
                         <h2 class="card-title text-success">{{ club.golf_club_name }}</h2>
                     </a>
-                    <p class="card-text">{{ club.description|safe }}</p>
+                    {{ club.description|safe }}
                     <a class="btn btn-success btn-sm" href="{% url 'golf_clubs' %}" role="button">Return</a>
                     <hr>
                 </div>
