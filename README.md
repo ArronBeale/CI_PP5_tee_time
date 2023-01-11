@@ -1064,6 +1064,99 @@ No Errors or Warnings displayed
 | Warning | N/A | N/A | N/A | 
 
 
+### Profile  
+
+<details><summary>profile.html</summary>
+
+![profile](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/html/validation-html-profile.PNG)
+</details>
+
+No Errors or Warnings displayed
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A | 
+
+
+### Blog  
+
+blog.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/blog/) - No Errors Found
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A |  
+
+
+### Blog Expand 
+
+blog_expand.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/golf-etiquette/) - 405 Errors Found (Summernote Editor)
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | Blog Expand | CSS / Parse Error | These errors are caused by the Summernote editor and not by code written by the developer of this project. Time constraints did not allow me to resolve these issues at the present time |
+| Warning | N/A | N/A | N/A |  
+
+
+### Contact 
+
+contact.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/contact/) - No Errors Found
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A |  
+
+
+### Sign In 
+
+login.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/accounts/login/) - No Errors Found
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A |  
+
+
+### Sign Out  
+
+logout.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/accounts/logout/) - No Errors Found  
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A | 
+
+
+### Register  
+
+signup.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/accounts/signup/) - No Errors Found
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A |  
+
+
+### 404  
+
+404.html [results](https://validator.w3.org/nu/?checkerrorpages=yes&useragent=Validator.nu%2FLV+http%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com%2Faccounts%2F404%2F) - No Errors Found
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A |  
+
+##### Back to [top](#table-of-contents)<hr>  
+
 
 ### CSS Validation
 The W3C Jigsaw CSS Validation Service
