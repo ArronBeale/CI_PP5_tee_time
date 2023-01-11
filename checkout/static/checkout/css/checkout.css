@@ -41,11 +41,6 @@ select option {
   color: #000000;
 }
 
-select:invalid,
-select option[value=""] {
-  color: #006400 !important;
-}
-
 #spinner-overlay {
   display: none;
   position: fixed;
