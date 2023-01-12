@@ -16,6 +16,9 @@
      - [Operations and Management](#operations-and-management)
      - [Financial Plan](#financial-plan)
      - [Conclusion](#conclusion)
+  - [Marketing](#marketing)
+     - [Social Media](#social-media)
+     - [Mailing List](#mailing-list)
   - [User Goals](#user-goals)
   - [Site Owner Goals](#site-owner-goals)
   - [User Experience](#user-experience)
@@ -93,6 +96,25 @@ In terms of profitability, we expect to break even within the first year of oper
 
 Teetime is a unique and innovative platform that aims to connect golfers with golf clubs and societies, while also offering a convenient and user-friendly platform for booking tee times and purchasing golf-related products. With strong growth potential and a clear revenue model, we believe that Teetime has the potential to become a leading player in the golf industry.
 ##### Back to [top](#table-of-contents)<hr>
+
+## Marketing  
+
+### Social Media  
+The web app "teetime" has a presence on both Facebook and Instagram. The Facebook page serves as a platform to promote upcoming events, post updates on the latest features, and share user-generated content. The Instagram page primarily focuses on showcasing beautiful golf courses, highlighting new products in the shop, and providing a behind-the-scenes look at the company. These social media accounts allow users to stay informed and connected with the "teetime" community.
+
+[Facebook](https://www.facebook.com/profile.php?id=100088722476900)  
+[Instagram](https://www.instagram.com/teetimegolfapp/)
+
+### Mailing List  
+
+Teetime uses Mailchimp to manage its mailing list. By joining the mailing list, users will receive updates on new features, upcoming events, and exclusive promotions. The process to join the mailing list is simple, users just need to provide their email address on the website, and they will start receiving email updates. Mailchimp allows the "teetime" team to segment the mailing list, personalize emails and track the success of email campaigns. By joining the mailing list, users will stay informed and be the first to know about new developments in the "teetime" web app.  
+
+<details><summary>See Image</summary>
+
+![Mailchimp](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-mailing-list-sign-up.PNG)  
+![Email](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/web-marketing/marketing-mailchimp-01.PNG)
+![Email content](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/web-marketing/marketing-mailchimp-02.PNG)
+</details> 
 
 ## User Goals
 
