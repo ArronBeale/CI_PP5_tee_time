@@ -1174,21 +1174,111 @@ The W3C Jigsaw CSS Validation Service was used to validate the CSS of the websit
 </details><hr>
 
 ### JavaScript Validation
-JSHint JS Validation Service
+JSHint javaScript Validation Service was used to validate all javaScript files.
 
-<details><summary>Script.js</summary>
-<img src="">
-</details><hr>
+<details><summary>stripe_elements.js</summary>  
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/js/validation-js-stripe-elements.PNG">
+</details>  
 
-### PEP8 Validation
-PEP8 Validation Service was used to check the code for PEP8 requirements via Pycodestyle as PEP8online was down
+- one undefined variable Stripe which originates from a external script
 
-<details><summary>Tool used: Pycodestyle</summary>
-<img src="">
+<details><summary>checkout.js</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/js/validation-js-checkout.PNG">
+</details>  
+
+- one undefined variable Stripe which originates from a external script
+
+<details><summary>country_field.js</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/js/validation-js-country-field.PNG">
 </details>
 
-<hr><summary>App</summary><hr>
+- No issues raised  
 
+##### Back to [top](#table-of-contents)<hr>  
+
+## PEP8 Validation
+[CI Python Linter](https://pep8ci.herokuapp.com/) was used to check the code for PEP8 requirements.
+
+
+<hr><summary>Basket</summary>
+
+<details><summary>contexts.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-basket-contexts.PNG">
+</details>
+
+<details><summary>basket_tools.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-basket-tools.PNG">
+</details>
+
+<details><summary>views.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-basket-views.PNG">
+</details>
+
+<details><summary>test_views.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-basket-test-views.PNG">
+</details>
+
+<details><summary>urls.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-basket-urls.PNG">
+</details>
+
+<hr><summary>Blog</summary>
+
+<details><summary>Admin.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-blog-admin.PNG">
+</details>
+
+<details><summary>forms.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-blog-forms.PNG">
+</details>
+
+<details><summary>models.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-blog-models.PNG">
+</details>
+
+<details><summary>urls.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-blog-urls.PNG">
+</details>
+
+<details><summary>views.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-blog-views.PNG">
+</details>
+
+<hr><summary>Bookings</summary>
+
+<details><summary>Admin.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-bookings-admin.PNG">
+</details>
+
+<details><summary>forms.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-bookings-forms.PNG">
+</details>
+
+<details><summary>models.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-bookings-models.PNG">
+</details>
+
+<details><summary>test_models.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-bookings-test-models.PNG">
+</details>
+
+<details><summary>urls.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-bookings-urls.PNG">
+</details>
+
+<details><summary>test_urls.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-bookings-test-urls.PNG">
+</details>
+
+<details><summary>views.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-bookings-views.PNG">
+</details>
+
+<details><summary>test_views.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-bookings-test-views.PNG">
+</details>
+
+<hr><summary>App</summary>
 
 <details><summary>Admin.py</summary>
 <img src="">
@@ -1218,39 +1308,7 @@ PEP8 Validation Service was used to check the code for PEP8 requirements via Pyc
 <img src="">
 </details>
 
-<hr><summary>App</summary><hr>
-
-
-<details><summary>Admin.py</summary>
-<img src="">
-</details>
-
-<details><summary>models.py</summary>
-<img src="">
-</details>
-
-<details><summary>urls.py</summary>
-<img src="">
-</details>
-
-<details><summary>views.py</summary>
-<img src="">
-</details>
-
-<details><summary>test_models.py</summary>
-<img src="">
-</details>
-
-<details><summary>test_views.py</summary>
-<img src="">
-</details>
-
-<details><summary>test_urls.py</summary>
-<img src="">
-</details>
-
-<hr><summary>App</summary><hr>
-
+<hr><summary>App</summary>
 
 <details><summary>Admin.py</summary>
 <img src="">
@@ -1280,8 +1338,7 @@ PEP8 Validation Service was used to check the code for PEP8 requirements via Pyc
 <img src="">
 </details>
 
-<hr><summary>App</summary><hr>
-
+<hr><summary>App</summary>
 
 <details><summary>Admin.py</summary>
 <img src="">
@@ -1311,7 +1368,67 @@ PEP8 Validation Service was used to check the code for PEP8 requirements via Pyc
 <img src="">
 </details>
 
-### Lighthouse
+<hr><summary>App</summary>
+
+<details><summary>Admin.py</summary>
+<img src="">
+</details>
+
+<details><summary>models.py</summary>
+<img src="">
+</details>
+
+<details><summary>urls.py</summary>
+<img src="">
+</details>
+
+<details><summary>views.py</summary>
+<img src="">
+</details>
+
+<details><summary>test_models.py</summary>
+<img src="">
+</details>
+
+<details><summary>test_views.py</summary>
+<img src="">
+</details>
+
+<details><summary>test_urls.py</summary>
+<img src="">
+</details>
+
+<hr><summary>App</summary>
+
+<details><summary>Admin.py</summary>
+<img src="">
+</details>
+
+<details><summary>models.py</summary>
+<img src="">
+</details>
+
+<details><summary>urls.py</summary>
+<img src="">
+</details>
+
+<details><summary>views.py</summary>
+<img src="">
+</details>
+
+<details><summary>test_models.py</summary>
+<img src="">
+</details>
+
+<details><summary>test_views.py</summary>
+<img src="">
+</details>
+
+<details><summary>test_urls.py</summary>
+<img src="">
+</details>
+
+## Lighthouse
 
 Performance, best practices and SEO was tested using Lighthouse.
 
@@ -1405,7 +1522,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 <img src="">
 </details><hr>
 
-### Wave
+## Wave
 WAVE was used to test the websites accessibility.
 
 <details><summary>Index</summary>
