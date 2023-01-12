@@ -1159,10 +1159,18 @@ signup.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teet
 
 
 ### CSS Validation
-The W3C Jigsaw CSS Validation Service
+The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
 
-<details><summary>Style.css</summary>
-<img src="">
+<details><summary>base.css</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/css/validation-base-css.PNG">
+</details> 
+
+<details><summary>profile.css</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/css/validation-base-css.PNG">
+</details>  
+
+<details><summary>checkout.css</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/css/validation-checkout-css.PNG">
 </details><hr>
 
 ### JavaScript Validation
