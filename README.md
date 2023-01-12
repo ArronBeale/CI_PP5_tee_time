@@ -20,6 +20,7 @@
   - [Site Owner Goals](#site-owner-goals)
   - [User Experience](#user-experience)
   - [User Stories](#user-stories)
+  - [Wireframes](#wireframes)
   - [Design](#design)
     - [Colors](#colors)
     - [Fonts](#fonts)
@@ -28,7 +29,6 @@
       - [AWS](#aws)
       - [Database](#database)
       - [Models](#models)
-    - [Wireframes](#wireframes)
   - [Technologies Used](#technologies-used)
   - [Features](#features)
   - [Validation](#validation)
@@ -232,6 +232,49 @@ Teetime is a unique and innovative platform that aims to connect golfers with go
 
 ##### Back to [top](#table-of-contents)<hr>
 
+## Wireframes
+I used Balsamiq to create wireframes for my project. It's a user-friendly wireframing tool that enables me to quickly and easily create mockups for my website or application. It offers a wide range of pre-built UI elements, and allows for easy collaboration with my team. I linked a pdf of my wireframes, which you can access it and check it out the design, layout and the flow of the project before implementing it in the real product.  
+
+<a href="https://github.com/ArronBeale/CI_PP5_tee_time/raw/main/docs/wireframes/wireframes-teetime.pdf" target="_blank">Download Wireframes PDF</a>  
+(Ctrl + click to open in new tab)  
+
+<details><summary>Wireframe Home</summary>  
+
+![Epics](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-home.PNG)
+</details>
+
+<details><summary>Wireframe Profile</summary>  
+
+![Epic 1](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-profile.PNG)
+</details>
+
+<details><summary>Wireframe Clubs</summary>  
+
+![Epic 2](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-clubs.PNG)
+</details>
+
+<details><summary>Wireframe Club Detail</summary>  
+
+![Epic 3](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-club-detail-01.PNG)
+![Epic 3](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-club-detail-02.PNG)
+</details>
+
+<details><summary>Wireframe Shop</summary>  
+
+![Epic 4](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-shop.PNG)
+</details>  
+
+<details><summary>Wireframe Product Detail</summary>  
+
+![Epic 4](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-product-detail.PNG)
+</details> 
+
+<details><summary>Wireframe Checkout</summary>  
+
+![Epic 4](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-checkout.PNG)
+</details>  
+
+<hr>
 
 ## Design
 
@@ -306,7 +349,7 @@ I am using AWS S3 buckets to store my data. S3 is a highly scalable and durable 
 
 I built my database using PostgreSQL. It's a powerful and open-source object-relational database system that is known for its reliability, robustness, and performance. I chose it because it provides a flexible tool for efficiently managing and organizing my data.
 
-<a href="https://docs.google.com/spreadsheets/d/13d5eeCcBG7GWVxWo78qZi8OyIZ10Tu6Ze7brLsul9qo/edit?usp=sharing" target="_blank">Link Database Schema</a>  
+<a href="https://docs.google.com/spreadsheets/d/13d5eeCcBG7GWVxWo78qZi8OyIZ10Tu6Ze7brLsul9qo/edit?usp=sharing" target="_blank">Database Schema</a>  
 (Ctrl + click to open in new tab)
 <hr>
 
@@ -474,49 +517,7 @@ I built my database using PostgreSQL. It's a powerful and open-source object-rel
 <hr>
 
 
-### Wireframes
-I used Balsamiq to create wireframes for my project. It's a user-friendly wireframing tool that enables me to quickly and easily create mockups for my website or application. It offers a wide range of pre-built UI elements, and allows for easy collaboration with my team. I linked a pdf of my wireframes, which you can access it and check it out the design, layout and the flow of the project before implementing it in the real product.  
 
-<a href="https://github.com/ArronBeale/CI_PP5_tee_time/blob/main/docs/wireframes/wireframes-teetime.pdf" target="_blank">Download Wireframes PDF</a>  
-(Ctrl + click to open in new tab)  
-
-<details><summary>Wireframe Home</summary>  
-
-![Epics](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-home.PNG)
-</details>
-
-<details><summary>Wireframe Profile</summary>  
-
-![Epic 1](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-profile.PNG)
-</details>
-
-<details><summary>Wireframe Clubs</summary>  
-
-![Epic 2](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-clubs.PNG)
-</details>
-
-<details><summary>Wireframe Club Detail</summary>  
-
-![Epic 3](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-club-detail-01.PNG)
-![Epic 3](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-club-detail-02.PNG)
-</details>
-
-<details><summary>Wireframe Shop</summary>  
-
-![Epic 4](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-shop.PNG)
-</details>  
-
-<details><summary>Wireframe Product Detail</summary>  
-
-![Epic 4](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-product-detail.PNG)
-</details> 
-
-<details><summary>Wireframe Checkout</summary>  
-
-![Epic 4](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-checkout.PNG)
-</details>  
-
-<hr>
 
 
 ## Technologies Used
@@ -1200,7 +1201,7 @@ JSHint javaScript Validation Service was used to validate all javaScript files.
 [CI Python Linter](https://pep8ci.herokuapp.com/) was used to check the code for PEP8 requirements.
 
 
-<hr><summary>Basket</summary>
+<summary>Basket</summary>
 
 <details><summary>contexts.py</summary>
 <img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-basket-contexts.PNG">
@@ -1278,154 +1279,170 @@ JSHint javaScript Validation Service was used to validate all javaScript files.
 <img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-bookings-test-views.PNG">
 </details>
 
-<hr><summary>App</summary>
+<hr><summary>checkout</summary>
 
 <details><summary>Admin.py</summary>
-<img src="">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-checkout-admin.PNG">
+</details>
+
+<details><summary>forms.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-checkout-forms.PNG">
+</details>  
+
+<details><summary>test-forms.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-checkout-test-forms.PNG">
 </details>
 
 <details><summary>models.py</summary>
-<img src="">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-checkout-models.PNG">
+</details>
+
+<details><summary>test-models.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-checkout-test-models.PNG">
+</details>
+
+<details><summary>signals.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-checkout-signals.PNG">
 </details>
 
 <details><summary>urls.py</summary>
-<img src="">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-checkout-urls.PNG">
 </details>
 
 <details><summary>views.py</summary>
-<img src="">
-</details>
-
-<details><summary>test_models.py</summary>
-<img src="">
-</details>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-checkout-views.PNG">
+</details>  
 
 <details><summary>test_views.py</summary>
-<img src="">
-</details>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-checkout-test-views.PNG">
+</details>  
 
-<details><summary>test_urls.py</summary>
-<img src="">
-</details>
+<details><summary>webhook_handler.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-checkout-webhook-handler.PNG">
+</details>  
 
-<hr><summary>App</summary>
+<details><summary>webhook.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-checkout-webhooks.PNG">
+</details>  
+
+<hr><summary>contact</summary>
 
 <details><summary>Admin.py</summary>
-<img src="">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-contact-admin.PNG">
+</details>
+
+<details><summary>forms.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-contact-forms.PNG">
+</details>
+
+<details><summary>test-forms.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-contact-test-forms.PNG">
 </details>
 
 <details><summary>models.py</summary>
-<img src="">
-</details>
-
-<details><summary>urls.py</summary>
-<img src="">
-</details>
-
-<details><summary>views.py</summary>
-<img src="">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-contact-models.PNG">
 </details>
 
 <details><summary>test_models.py</summary>
-<img src="">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-contact-test-models.PNG">
 </details>
 
-<details><summary>test_views.py</summary>
-<img src="">
+<details><summary>urls.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-contact-urls.PNG">
 </details>
 
-<details><summary>test_urls.py</summary>
-<img src="">
+<details><summary>views.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-contact-views.PNG">
 </details>
 
-<hr><summary>App</summary>
+<hr><summary>home</summary>
+
+<details><summary>urls.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-home-urls.PNG">
+</details>
+
+<details><summary>views.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-home-views.PNG">
+</details>
+
+<hr><summary>products</summary>
 
 <details><summary>Admin.py</summary>
-<img src="">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-products-admin.PNG">
+</details>
+
+<details><summary>forms.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-products-admin.PNG">
 </details>
 
 <details><summary>models.py</summary>
-<img src="">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-products-models.PNG">
+</details>
+
+<details><summary>test-models.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-products-test-models.PNG">
 </details>
 
 <details><summary>urls.py</summary>
-<img src="">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-products-urls.PNG">
 </details>
 
 <details><summary>views.py</summary>
-<img src="">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-products-views.PNG">
+</details>  
+
+<details><summary>test-views.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-products-test-views.PNG">
+</details>  
+
+<details><summary>widgets.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-products-widgets.PNG">
 </details>
 
-<details><summary>test_models.py</summary>
-<img src="">
-</details>
+<hr><summary>profiles</summary>
 
-<details><summary>test_views.py</summary>
-<img src="">
-</details>
-
-<details><summary>test_urls.py</summary>
-<img src="">
-</details>
-
-<hr><summary>App</summary>
-
-<details><summary>Admin.py</summary>
-<img src="">
+<details><summary>forms.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-profiles-forms.PNG">
 </details>
 
 <details><summary>models.py</summary>
-<img src="">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-profiles-models.PNG">
 </details>
 
 <details><summary>urls.py</summary>
-<img src="">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-profiles-urls.PNG">
 </details>
 
 <details><summary>views.py</summary>
-<img src="">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-profiles-views.PNG">
+</details>  
+
+<hr><summary>teetime</summary>
+
+<details><summary>asgi.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-teetime-asgi.PNG">
 </details>
 
-<details><summary>test_models.py</summary>
-<img src="">
-</details>
-
-<details><summary>test_views.py</summary>
-<img src="">
-</details>
-
-<details><summary>test_urls.py</summary>
-<img src="">
-</details>
-
-<hr><summary>App</summary>
-
-<details><summary>Admin.py</summary>
-<img src="">
-</details>
-
-<details><summary>models.py</summary>
-<img src="">
+<details><summary>settings.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-teetime-settings.PNG">
 </details>
 
 <details><summary>urls.py</summary>
-<img src="">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-teetime-urls.PNG">
 </details>
 
 <details><summary>views.py</summary>
-<img src="">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-teetime-views.PNG">
+</details>  
+
+<details><summary>wsgi.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-teetime-wsgi.PNG">
 </details>
 
-<details><summary>test_models.py</summary>
-<img src="">
-</details>
+<hr><summary>root</summary>
 
-<details><summary>test_views.py</summary>
-<img src="">
-</details>
-
-<details><summary>test_urls.py</summary>
-<img src="">
+<details><summary>custom_storages.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-root-custom-storages.PNG">
 </details>
 
 ## Lighthouse
