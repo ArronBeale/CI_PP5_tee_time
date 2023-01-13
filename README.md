@@ -921,7 +921,8 @@ The W3C Markup Validation Service was used to validate the HTML of the website.
 
 ### Home  
 
-index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/) - No Errors Found
+index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/) 
+- No Errors Found
 
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
@@ -932,7 +933,8 @@ index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teeti
 
 ### Golf Clubs  
 
-golf_clubs.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/bookings/golf_clubs) - No Errors Found
+golf_clubs.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/bookings/golf_clubs) 
+- No Errors Found
 
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
@@ -943,7 +945,8 @@ golf_clubs.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-
 
 ### Golf Club Details  
 
-club_expanded.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/bookings/druids-vale/) - No Errors Found
+club_expanded.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/bookings/druids-vale/) 
+- No Errors Found
 
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
@@ -959,7 +962,7 @@ club_expanded.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-p
 ![booking list](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/html/validation-html-booking-list.PNG)
 </details>
 
-No Errors or Warnings displayed
+- No Errors Found
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
 |-------------|-------------|----------------------|-------------|
@@ -974,7 +977,7 @@ No Errors or Warnings displayed
 ![booking list](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/html/validation-html-edit-booking.PNG)
 </details>
 
-No Errors or Warnings displayed
+- No Errors Found
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
 |-------------|-------------|----------------------|-------------|
@@ -989,7 +992,7 @@ No Errors or Warnings displayed
 ![booking list](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/html/validation-html-cancel-booking.PNG)
 </details>
 
-No Errors or Warnings displayed
+- No Errors Found
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
 |-------------|-------------|----------------------|-------------|
@@ -999,7 +1002,8 @@ No Errors or Warnings displayed
 
 ### Shop  
 
-product_list.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/products/) - No Errors Found
+product_list.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/products/) 
+- No Errors Found
 
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
@@ -1010,7 +1014,8 @@ product_list.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp
 
 ### Product Detail  
 
-product_detail.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/products/15/) - No Errors Found
+product_detail.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/products/15/) 
+- No Errors Found
 
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
@@ -1026,7 +1031,7 @@ product_detail.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-
 ![add product](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/html/validation-html-add-product.PNG)
 </details>
 
-No Errors or Warnings displayed
+- No Errors Found
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
 |-------------|-------------|----------------------|-------------|
@@ -1041,7 +1046,7 @@ No Errors or Warnings displayed
 ![edit product](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/html/validation-html-edit-product.PNG)
 </details>
 
-No Errors or Warnings displayed
+- No Errors Found
 1 Info detected
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
@@ -1053,7 +1058,8 @@ No Errors or Warnings displayed
 
 ### Basket  
 
-basket.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/basket/) - No Errors Found
+basket.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/basket/) 
+- No Errors Found
 
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
@@ -1064,7 +1070,8 @@ basket.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teet
 
 ### Checkout  
 
-checkout.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/checkout/) - No Errors Found
+checkout.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/checkout/) 
+- No Errors Found
 
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
@@ -1080,7 +1087,7 @@ checkout.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-te
 ![checkout success](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/html/validation-html-checkout-success.PNG)
 </details>
 
-No Errors or Warnings displayed
+- No Errors Found
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
 |-------------|-------------|----------------------|-------------|
@@ -1095,7 +1102,7 @@ No Errors or Warnings displayed
 ![profile](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/html/validation-html-profile.PNG)
 </details>
 
-No Errors or Warnings displayed
+- No Errors Found
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
 |-------------|-------------|----------------------|-------------|
@@ -1105,7 +1112,8 @@ No Errors or Warnings displayed
 
 ### Blog  
 
-blog.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/blog/) - No Errors Found
+blog.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/blog/) 
+- No Errors Found
 
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
@@ -1127,7 +1135,8 @@ blog_expand.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5
 
 ### Contact 
 
-contact.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/contact/) - No Errors Found
+contact.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/contact/) 
+- No Errors Found
 
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
@@ -1138,7 +1147,8 @@ contact.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-tee
 
 ### Sign In 
 
-login.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/accounts/login/) - No Errors Found
+login.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/accounts/login/) 
+- No Errors Found
 
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
@@ -1149,7 +1159,8 @@ login.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teeti
 
 ### Sign Out  
 
-logout.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/accounts/logout/) - No Errors Found  
+logout.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/accounts/logout/) 
+- No Errors Found  
 
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
@@ -1160,7 +1171,8 @@ logout.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teet
 
 ### Register  
 
-signup.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/accounts/signup/) - No Errors Found
+signup.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/accounts/signup/) 
+- No Errors Found
 
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
@@ -1171,7 +1183,8 @@ signup.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teet
 
 ### 404  
 
-404.html [results](https://validator.w3.org/nu/?checkerrorpages=yes&useragent=Validator.nu%2FLV+http%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com%2Faccounts%2F404%2F) - No Errors Found
+404.html [results](https://validator.w3.org/nu/?checkerrorpages=yes&useragent=Validator.nu%2FLV+http%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com%2Faccounts%2F404%2F) 
+- No Errors Found
 
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
@@ -1656,43 +1669,155 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 ### Manual testing
 
-1. As a User I
+| User Story ID | As A/AN             | I CAN...                | SO THAT I CAN...                    |
+| ------------- | ------------------- | ----------------------- | ----------------------------------- |
+| 1             | Shopper / Site User | register for an account | have an account and view my profile |  
 
-**Step** | **Expected Result** | **Actual Result**
------------- | ------------ | ------------ |
-| Click on the 'Home' link in the navigation bar | Homepage will load| Works as expected |
+| Feature | Action | Expected Result | Actual Result     |
+| ------- | ------ | --------------- | ----------------- |
+|         |        |                 | Works as expected |  
+
+| User Story ID | As A/AN             | I CAN...         | SO THAT I CAN...                                          |
+| ------------- | ------------------- | ---------------- | --------------------------------------------------------- |
+| 2             | Shopper / Site User | login and logout | have an account with my information stored for fast usage |  
+
+| User Story ID | As A/AN             | I CAN...            | SO THAT I CAN...                  |
+| ------------- | ------------------- | ------------------- | --------------------------------- |
+| 3             | Shopper / Site User | recover my password | set a new password if I forgot it |  
+
+| User Story ID | As A/AN             | I CAN...                                         | SO THAT I CAN...                        |
+| ------------- | ------------------- | ------------------------------------------------ | --------------------------------------- |
+| 4             | Shopper / Site User | receive an email confirmation after registration | be notified registration was successful |  
+
+| User Story ID | As A/AN             | I CAN...       | SO THAT I CAN...                                        |
+| ------------- | ------------------- | -------------- | ------------------------------------------------------- |
+| 5             | Shopper / Site User | have a profile | store my information for faster checkouts in the future |  
+
+| User Story ID | As A/AN             | I CAN...                 | SO THAT I CAN...                 |
+| ------------- | ------------------- | ------------------------ | -------------------------------- |
+| 6             | Shopper / Site User | navigate across the site | can access all parts of the site |  
+
+| User Story ID | As A/AN             | I CAN...                               | SO THAT I CAN...                                    |
+| ------------- | ------------------- | -------------------------------------- | --------------------------------------------------- |
+| 7             | Shopper / Site User | use a navbar, footer, and social icons | navigate the site, access menus, and access socials |  
+
+| User Story ID | As A/AN             | I CAN...                  | SO THAT I CAN...                                      |
+| ------------- | ------------------- | ------------------------- | ----------------------------------------------------- |
+| 8             | Shopper / Site User | be notified of my actions | be aware the action was completed successfully or not |  
+
+| User Story ID | As A/AN             | I CAN...            | SO THAT I CAN...              |
+| ------------- | ------------------- | ------------------- | ----------------------------- |
+| 9             | Shopper / Site User | see my login status | know if I am logged in or not |  
+
+| User Story ID | As A/AN             | I CAN...       | SO THAT I CAN...            |
+| ------------- | ------------------- | -------------- | --------------------------- |
+| 10            | Shopper / Site User | visit the shop | view all products available |  
+
+| User Story ID | As A/AN             | I CAN...                                  | SO THAT I CAN...                                |
+| ------------- | ------------------- | ----------------------------------------- | ----------------------------------------------- |
+| 11            | Shopper / Site User | view my basket and total cost at any time | so I am aware of what I am buying and it's cost |  
+
+| User Story ID | As A/AN             | I CAN...                | SO THAT I CAN...             |
+| ------------- | ------------------- | ----------------------- | ---------------------------- |
+| 12            | Shopper / Site User | view a list of products | select a product to purchase |  
+
+| User Story ID | As A/AN             | I CAN...                           | SO THAT I CAN...                         |
+| ------------- | ------------------- | ---------------------------------- | ---------------------------------------- |
+| 13            | Shopper / Site User | view an individual product details | view a more detailed view of the product |  
+
+| User Story ID | As A/AN             | I CAN...                    | SO THAT I CAN...                       |
+| ------------- | ------------------- | --------------------------- | -------------------------------------- |
+| 14            | Shopper / Site User | view a list of golf courses | select a golf course I want to play on |  
+
+| User Story ID | As A/AN             | I CAN...                            | SO THAT I CAN...                       |
+| ------------- | ------------------- | ----------------------------------- | -------------------------------------- |
+| 15            | Shopper / Site User | view individual golf course details | see more detailed information about it |  
+
+| User Story ID | As A/AN             | I CAN...                                                | SO THAT I CAN...               |
+| ------------- | ------------------- | ------------------------------------------------------- | ------------------------------ |
+| 16            | Shopper / Site User | view a list of tee times available for each golf course | select a date and time to play |  
+
+| User Story ID | As A/AN             | I CAN...                                    | SO THAT I CAN...       |
+| ------------- | ------------------- | ------------------------------------------- | ---------------------- |
+| 17            | Shopper / Site User | search for a product by name or description | find a certain product |  
+
+| User Story ID | As A/AN             | I CAN...              | SO THAT I CAN...                 |
+| ------------- | ------------------- | --------------------- | -------------------------------- |
+| 18            | Shopper / Site User | see my search results | only see what I am searching for |  
+
+| User Story ID | As A/AN             | I CAN...         | SO THAT I CAN...                      |
+| ------------- | ------------------- | ---------------- | ------------------------------------- |
+| 19            | Shopper / Site User | sort by category | select products of a certain category |  
+
+| User Story ID | As A/AN             | I CAN...                                  | SO THAT I CAN...                     |
+| ------------- | ------------------- | ----------------------------------------- | ------------------------------------ |
+| 20            | Shopper / Site User | sort by price low to high and high to low | view products according to my budget |  
+
+| User Story ID | As A/AN             | I CAN...                          | SO THAT I CAN...                        |
+| ------------- | ------------------- | --------------------------------- | --------------------------------------- |
+| 21            | Shopper / Site User | select only available dates/times | I can only purchase available tee slots |  
+
+| User Story ID | As A/AN             | I CAN...                         | SO THAT I CAN...     |
+| ------------- | ------------------- | -------------------------------- | -------------------- |
+| 22            | Shopper / Site User | use a card as the payment method | complete my purchase |  
+
+| User Story ID | As A/AN             | I CAN...                                  | SO THAT I CAN...                       |
+| ------------- | ------------------- | ----------------------------------------- | -------------------------------------- |
+| 23            | Shopper / Site User | select the size and quantity of a product | select a size and quantity to my needs |  
+
+| User Story ID | As A/AN             | I CAN...                | SO THAT I CAN...                           |
+| ------------- | ------------------- | ----------------------- | ------------------------------------------ |
+| 24            | Shopper / Site User | view items in my basket | be aware of what I am buying and it's cost |  
+
+| User Story ID | As A/AN             | I CAN...                          | SO THAT I CAN...                                    |
+| ------------- | ------------------- | --------------------------------- | --------------------------------------------------- |
+| 25            | Shopper / Site User | adjust item quantity in my basket | increase or reduce item count according to my needs |  
+
+| User Story ID | As A/AN             | I CAN...                   | SO THAT I CAN...                  |
+| ------------- | ------------------- | -------------------------- | --------------------------------- |
+| 26            | Shopper / Site User | receive order confirmation | be notified of a successful order |  
+
+| User Story ID | As A/AN             | I CAN...                   | SO THAT I CAN...             |
+| ------------- | ------------------- | -------------------------- | ---------------------------- |
+| 27            | Shopper / Site User | receive email confirmation | have a record of my purchase |  
+
+| User Story ID | As A/AN             | I CAN...      | SO THAT I CAN...             |
+| ------------- | ------------------- | ------------- | ---------------------------- |
+| 28            | Store Owner / Admin | add a product | add new products to the shop |  
+
+| User Story ID | As A/AN             | I CAN...       | SO THAT I CAN...                   |
+| ------------- | ------------------- | -------------- | ---------------------------------- |
+| 29            | Store Owner / Admin | edit a product | edit existing products in the shop |  
+
+| User Story ID | As A/AN             | I CAN...         | SO THAT I CAN...                       |
+| ------------- | ------------------- | ---------------- | -------------------------------------- |
+| 30            | Store Owner / Admin | delete a product | delete existing products from the shop |  
+
+| User Story ID | As A/AN             | I CAN...        | SO THAT I CAN...            |
+| ------------- | ------------------- | --------------- | --------------------------- |
+| 31            | Store Owner / Admin | add a golf club | add a golf club to the site |  
+
+| User Story ID | As A/AN             | I CAN...         | SO THAT I CAN...                       |
+| ------------- | ------------------- | ---------------- | -------------------------------------- |
+| 32            | Store Owner / Admin | edit a golf club | edit an existing golf club on the site |  
+
+| User Story ID | As A/AN             | I CAN...           | SO THAT I CAN...                        |
+| ------------- | ------------------- | ------------------ | --------------------------------------- |
+| 33            | Store Owner / Admin | delete a golf club | delete existing golf club from the site |  
+
+| User Story ID | As A/AN             | I CAN...       | SO THAT I CAN...              |
+| ------------- | ------------------- | -------------- | ----------------------------- |
+| 34            | Store Owner / Admin | add a tee time | add a tee time to a golf club |  
+
+| User Story ID | As A/AN             | I CAN...        | SO THAT I CAN...                         |
+| ------------- | ------------------- | --------------- | ---------------------------------------- |
+| 35            | Store Owner / Admin | edit a tee time | edit an existing tea time on a golf club |  
+
+| User Story ID | As A/AN             | I CAN...          | SO THAT I CAN...                   |
+| ------------- | ------------------- | ----------------- | ---------------------------------- |
+| 36            | Store Owner / Admin | delete a tee time | delete a tee time from a golf club |  
 
 
-<details><summary></summary>
-<img src="">
-<img src="">
-<img src="">
-<img src="">
-<img src="">
-<img src="">
-<img src="">
-<img src="">
-<img src="">
-<img src="">
-<img src="">
-
-</details>
-
-
-
-9. As an Admin / Authorised User I can log in so that I can access the back end of the site
-
-**Step** | **Expected Result** | **Actual Result**
------------- | ------------ | ------------ |
-| Visit the admin page  | Enter admin login credentials, gain access to back end |  |
-
-
-<details><summary></summary>
-<img src="">
-<img src="">
-
-
-</details>
 
 
 ### Automated testing
