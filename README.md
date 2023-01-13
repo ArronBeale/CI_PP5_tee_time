@@ -1566,158 +1566,85 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 Performance, best practices and SEO was tested using Lighthouse.
 
 #### Desktop
-<details><summary>Index</summary>
-<img src="">
+<details><summary>Home</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-home.PNG">
 </details>
 
-<details><summary>Register</summary>
-<img src="">
+<details><summary>Sign Up</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-sign-up.PNG">
 </details>
 
-<details><summary>Login</summary>
-<img src="">
+<details><summary>Sign In</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-login.PNG">
 </details>
 
-<details><summary>Logout</summary>
-<img src="">
+<details><summary>Sign Out</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-logout.PNG">
 </details>
 
-<details><summary>Blog</summary>
-<img src="">
+<details><summary>Golf Clubs</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-golf-clubs.PNG">
 </details>
 
-<details><summary>Blog Expanded</summary>
-<img src="">
-</details>
-
-<details><summary>Book</summary>
-<img src="">
+<details><summary>Club Expand</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-club-expand.PNG">
 </details>
 
 <details><summary>Booking List</summary>
-<img src="">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-booking-list.PNG">
 </details>
 
 <details><summary>Edit Booking</summary>
-<img src="">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-edit-booking.PNG">
 </details>
 
 <details><summary>Cancel Booking</summary>
-<img src="">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-cancel-booking.PNG">
 </details>
 
-<details><summary>Contact Us</summary>
-<img src="">
+<details><summary>Product List</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-product-list.PNG">
 </details>
 
-#### Mobile
-<details><summary>Index</summary>
-<img src="">
-</details>
+<details><summary>Product Expand</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-product-expand.PNG">
+</details>  
 
-<details><summary>Register</summary>
-<img src="">
-</details>
+<details><summary>Add Product</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-add-product.PNG">
+</details>  
 
-<details><summary>Login</summary>
-<img src="">
-</details>
+<details><summary>Edit Product</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-edit-product.PNG">
+</details>  
 
-<details><summary>Logout</summary>
-<img src="">
-</details>
+<details><summary>Basket</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-basket.PNG">
+</details>  
+
+<details><summary>Checkout</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-checkout.PNG">
+</details>  
+
+<details><summary>Checkout Success</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-checkout-success.PNG">
+</details>  
 
 <details><summary>Blog</summary>
-<img src="">
-</details>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-blog.PNG">
+</details>  
 
-<details><summary>Blog Expanded</summary>
-<img src="">
-</details>
+<details><summary>Blog Expand</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-blog-expand.PNG">
+</details>  
 
-<details><summary>Book</summary>
-<img src="">
-</details>
+<details><summary>Contact</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-contact.PNG">
+</details>  
 
-<details><summary>Booking List</summary>
-<img src="">
-</details>
-
-<details><summary>Edit Booking</summary>
-<img src="">
-</details>
-
-<details><summary>Cancel Booking</summary>
-<img src="">
-</details>
-
-<details><summary>Contact Us</summary>
-<img src="">
-</details><hr>
-
-## Wave
-WAVE was used to test the websites accessibility.
-
-<details><summary>Index</summary>
-<img src="">
-<img src="">
-</details>
-
-<details><summary>Register</summary>
-<img src="">
-<img src="">
-</details>
-
-<details><summary>Login</summary>
-<img src="">
-<img src="">
-</details>
-
-<details><summary>Logout</summary>
-<img src="">
-<img src="">
-</details>
-
-<details><summary>Book</summary>
-<img src="">
-<img src="">
-</details>
-
-<details><summary>My Bookings</summary>
-<img src="">
-<img src="">
-</details>
-
-<details><summary>Edit Booking</summary>
-<img src="">
-<img src="">
-</details>
-
-<details><summary>Cancel Booking</summary>
-<img src="">
-<img src="">
-</details>
-
-<details><summary>Blog</summary>
-<img src="">
-<img src="">
-</details>
-
-<details><summary>Blog Expanded</summary>
-<img src="">
-<img src="">
-</details>
-
-<details><summary>Contact Us</summary>
-<img src="">
-<img src="">
-</details>
-
-<details><summary>404</summary>
-<img src="">
-<img src="">
-</details>
-
+<details><summary>Profile</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-profile.PNG">
+</details>  
 
 ##### Back to [top](#table-of-contents)<hr>
 
