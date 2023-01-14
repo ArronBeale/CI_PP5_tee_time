@@ -1739,13 +1739,13 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|     Categories    |   Select a category on the side panel, select Gents Polo Shirts     |     User is brought to the selected category of product and all products are listed            | Works as expected
+|     Categories    |   Select a category on the side panel, select Gents Polos     |     User is brought to the selected category of product and all products are listed            | Works as expected
 
 13.	As A/AN Shopper / Site User	I CAN view an individual product details SO THAT I CAN view a more detailed view of the product  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|    Product Detail     |   Click on any item image in the shop, or the details button     |  User is borught to the product detail page where product details are displayed                | Works as expected
+|    Product Detail     |   Click on any item image in the shop, or the view button     |  User is borught to the product detail page where product details are displayed                | Works as expected
 
 14.	As A/AN Shopper / Site User	I CAN view a list of golf courses	SO THAT I CAN select a golf course I want to play on  
 
@@ -1769,13 +1769,13 @@ Performance, best practices and SEO was tested using Lighthouse.
  
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|     Search    |  Search box in the navigation bar, input keyword to search such as "red", click search icon     |   All items with the relevant keyword will be displayed              | Works as expected
+|     Search    |  Search box in the navigation bar, input keyword to search such as "blue", click search      |   All items with the relevant keyword will be displayed              | Works as expected
 
 18.	As A/AN Shopper / Site User	I CAN see my search results	SO THAT I CAN only see what I am searching for  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|    Search     |    Input a keyword into the search box in the navbar anc click the search icon    |     All items matching the search critearia are only displayed            | Works as expected
+|    Search     |    Input a keyword into the search box in the navbar and click search    |     All items matching the search critearia are only displayed            | Works as expected
 
 19.	As A/AN Shopper / Site User	I CAN sort by category SO THAT I CAN select products of a certain category  
 
@@ -1801,7 +1801,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|    Checkout     |    From the basket select secure checkout    |      Input user information, input card number 4242 4242 4242 4242 04/24 424 24242, patment is successful      | Works as expected
+|    Checkout     |    From the basket select secure checkout    |      Input user information, input card number 4242 4242 4242 4242 04/24 424 24242, payment is successful      | Works as expected
 
 23.	As A/AN Shopper / Site User	I CAN select the size and quantity of a product	SO THAT I CAN select a size and quantity to my needs  
 
@@ -1833,6 +1833,12 @@ Performance, best practices and SEO was tested using Lighthouse.
 | ------- | ------ | --------------- | ------------- |
 |     Email Confirmation    |  Upon a successful checkout a confirmation email will be sent to the provided email address which contains the details of the order      |     Email confirmation arrives into inbox           | Works as expected
 
+28.	As A/AN Store Owner / Admin	I CAN add a product SO THAT I CAN add new products to the shop  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+|     Add Product    |  From the navbar select the profile button as an admin logged in, click add product from the dropdown      |     The add product page will appear allowing the addition of a new product via the add product form           | Works as expected
+
 29.	As A/AN Store Owner / Admin	I CAN edit a product SO THAT I CAN edit existing products in the shop  
 
 | Feature | Action | Expected Result | Actual Result |
@@ -1851,7 +1857,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 | ------- | ------ | --------------- | ------------- |
 |    Golf Clubs      |   In the url address go to https://ci-pp5-teetime.herokuapp.com/admin/, log in as admin and select clubs in the side panel to the left, the clubs screen will appear and then click add club button on the top right of the screen. Add club page will appear     |    Add club page will appear and the user can then add information for a new golf club             | Works as expected
 
-32.	As A/AN Store Owner / Admin	I CAN edit a golf clubSO THAT I CAN edit an existing golf club on the site  
+32.	As A/AN Store Owner / Admin	I CAN edit a golf club SO THAT I CAN edit an existing golf club on the site  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
