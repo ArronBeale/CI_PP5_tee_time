@@ -1664,160 +1664,220 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 ## Testing
 
-1. Manual testing
+1. Manual testing User Stories
 2. Automated testing
 
 ### Manual testing
 
-| User Story ID | As A/AN             | I CAN...                | SO THAT I CAN...                    |
-| ------------- | ------------------- | ----------------------- | ----------------------------------- |
-| 1             | Shopper / Site User | register for an account | have an account and view my profile |  
+1.	As A/AN Shopper / Site User	I CAN register for an account	SO THAT I CAN have an account and view my profile  
 
-| Feature | Action | Expected Result | Actual Result     |
-| ------- | ------ | --------------- | ----------------- |
-|         |        |                 | Works as expected |  
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Sign Up | Click pofile button and select register, user is brought to the sign up page| User is brought to the sign up page | Works as expected  
 
-| User Story ID | As A/AN             | I CAN...         | SO THAT I CAN...                                          |
-| ------------- | ------------------- | ---------------- | --------------------------------------------------------- |
-| 2             | Shopper / Site User | login and logout | have an account with my information stored for fast usage |  
+2.	As A/AN Shopper / Site User	I CAN login and logout SO THAT I CAN have an account with my information stored for fast usage  
 
-| User Story ID | As A/AN             | I CAN...            | SO THAT I CAN...                  |
-| ------------- | ------------------- | ------------------- | --------------------------------- |
-| 3             | Shopper / Site User | recover my password | set a new password if I forgot it |  
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+|         |        |                 |
 
-| User Story ID | As A/AN             | I CAN...                                         | SO THAT I CAN...                        |
-| ------------- | ------------------- | ------------------------------------------------ | --------------------------------------- |
-| 4             | Shopper / Site User | receive an email confirmation after registration | be notified registration was successful |  
+3.	As A/AN Shopper / Site User	I CAN recover my password	SO THAT I CAN set a new password if I forgot it  
 
-| User Story ID | As A/AN             | I CAN...       | SO THAT I CAN...                                        |
-| ------------- | ------------------- | -------------- | ------------------------------------------------------- |
-| 5             | Shopper / Site User | have a profile | store my information for faster checkouts in the future |  
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+|         |        |                 |
 
-| User Story ID | As A/AN             | I CAN...                 | SO THAT I CAN...                 |
-| ------------- | ------------------- | ------------------------ | -------------------------------- |
-| 6             | Shopper / Site User | navigate across the site | can access all parts of the site |  
+4.	As A/AN Shopper / Site User	I CAN receive an email confirmation after registration	SO THAT I CAN be notified registration was successful  
 
-| User Story ID | As A/AN             | I CAN...                               | SO THAT I CAN...                                    |
-| ------------- | ------------------- | -------------------------------------- | --------------------------------------------------- |
-| 7             | Shopper / Site User | use a navbar, footer, and social icons | navigate the site, access menus, and access socials |  
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+|         |        |                 |
 
-| User Story ID | As A/AN             | I CAN...                  | SO THAT I CAN...                                      |
-| ------------- | ------------------- | ------------------------- | ----------------------------------------------------- |
-| 8             | Shopper / Site User | be notified of my actions | be aware the action was completed successfully or not |  
+5.	As A/AN Shopper / Site User	I CAN have a profile SO THAT I CAN store my information for faster checkouts in the future  
 
-| User Story ID | As A/AN             | I CAN...            | SO THAT I CAN...              |
-| ------------- | ------------------- | ------------------- | ----------------------------- |
-| 9             | Shopper / Site User | see my login status | know if I am logged in or not |  
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+|         |        |                 |
 
-| User Story ID | As A/AN             | I CAN...       | SO THAT I CAN...            |
-| ------------- | ------------------- | -------------- | --------------------------- |
-| 10            | Shopper / Site User | visit the shop | view all products available |  
+6.	As A/AN Shopper / Site User	I CAN navigate across the site 	SO THAT I CAN can access all parts of the site  
 
-| User Story ID | As A/AN             | I CAN...                                  | SO THAT I CAN...                                |
-| ------------- | ------------------- | ----------------------------------------- | ----------------------------------------------- |
-| 11            | Shopper / Site User | view my basket and total cost at any time | so I am aware of what I am buying and it's cost |  
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+|         |        |                 |
 
-| User Story ID | As A/AN             | I CAN...                | SO THAT I CAN...             |
-| ------------- | ------------------- | ----------------------- | ---------------------------- |
-| 12            | Shopper / Site User | view a list of products | select a product to purchase |  
+7.	As A/AN Shopper / Site User	I CAN use a navbar, footer, and social icons  SO THAT I CAN navigate the site, access menus, and access socials  
 
-| User Story ID | As A/AN             | I CAN...                           | SO THAT I CAN...                         |
-| ------------- | ------------------- | ---------------------------------- | ---------------------------------------- |
-| 13            | Shopper / Site User | view an individual product details | view a more detailed view of the product |  
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+|         |        |                 |
 
-| User Story ID | As A/AN             | I CAN...                    | SO THAT I CAN...                       |
-| ------------- | ------------------- | --------------------------- | -------------------------------------- |
-| 14            | Shopper / Site User | view a list of golf courses | select a golf course I want to play on |  
+8.	As A/AN Shopper / Site User	I CAN be notified of my actions	SO THAT I CAN be aware the action was completed successfully or not  
 
-| User Story ID | As A/AN             | I CAN...                            | SO THAT I CAN...                       |
-| ------------- | ------------------- | ----------------------------------- | -------------------------------------- |
-| 15            | Shopper / Site User | view individual golf course details | see more detailed information about it |  
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+|         |        |                 |
 
-| User Story ID | As A/AN             | I CAN...                                                | SO THAT I CAN...               |
-| ------------- | ------------------- | ------------------------------------------------------- | ------------------------------ |
-| 16            | Shopper / Site User | view a list of tee times available for each golf course | select a date and time to play |  
+9.	As A/AN Shopper / Site User	I CAN see my login status	SO THAT I CAN know if I am logged in or not  
 
-| User Story ID | As A/AN             | I CAN...                                    | SO THAT I CAN...       |
-| ------------- | ------------------- | ------------------------------------------- | ---------------------- |
-| 17            | Shopper / Site User | search for a product by name or description | find a certain product |  
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+|         |        |                 |
 
-| User Story ID | As A/AN             | I CAN...              | SO THAT I CAN...                 |
-| ------------- | ------------------- | --------------------- | -------------------------------- |
-| 18            | Shopper / Site User | see my search results | only see what I am searching for |  
+10.	As A/AN Shopper / Site User	I CAN visit the shop SO THAT I CAN view all products available  
 
-| User Story ID | As A/AN             | I CAN...         | SO THAT I CAN...                      |
-| ------------- | ------------------- | ---------------- | ------------------------------------- |
-| 19            | Shopper / Site User | sort by category | select products of a certain category |  
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+|         |        |                 |
 
-| User Story ID | As A/AN             | I CAN...                                  | SO THAT I CAN...                     |
-| ------------- | ------------------- | ----------------------------------------- | ------------------------------------ |
-| 20            | Shopper / Site User | sort by price low to high and high to low | view products according to my budget |  
+11.	As A/AN Shopper / Site User	I CAN view my basket and total cost at any time	so I am aware of what I am buying and it's cost  
 
-| User Story ID | As A/AN             | I CAN...                          | SO THAT I CAN...                        |
-| ------------- | ------------------- | --------------------------------- | --------------------------------------- |
-| 21            | Shopper / Site User | select only available dates/times | I can only purchase available tee slots |  
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+|         |        |                 |
 
-| User Story ID | As A/AN             | I CAN...                         | SO THAT I CAN...     |
-| ------------- | ------------------- | -------------------------------- | -------------------- |
-| 22            | Shopper / Site User | use a card as the payment method | complete my purchase |  
+12.	As A/AN Shopper / Site User	I CAN view a list of products	SO THAT I CAN select a product to purchase  
 
-| User Story ID | As A/AN             | I CAN...                                  | SO THAT I CAN...                       |
-| ------------- | ------------------- | ----------------------------------------- | -------------------------------------- |
-| 23            | Shopper / Site User | select the size and quantity of a product | select a size and quantity to my needs |  
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+|         |        |                 |
 
-| User Story ID | As A/AN             | I CAN...                | SO THAT I CAN...                           |
-| ------------- | ------------------- | ----------------------- | ------------------------------------------ |
-| 24            | Shopper / Site User | view items in my basket | be aware of what I am buying and it's cost |  
+13.	As A/AN Shopper / Site User	I CAN view an individual product details SO THAT I CAN view a more detailed view of the product  
 
-| User Story ID | As A/AN             | I CAN...                          | SO THAT I CAN...                                    |
-| ------------- | ------------------- | --------------------------------- | --------------------------------------------------- |
-| 25            | Shopper / Site User | adjust item quantity in my basket | increase or reduce item count according to my needs |  
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+|         |        |                 |
 
-| User Story ID | As A/AN             | I CAN...                   | SO THAT I CAN...                  |
-| ------------- | ------------------- | -------------------------- | --------------------------------- |
-| 26            | Shopper / Site User | receive order confirmation | be notified of a successful order |  
+14.	As A/AN Shopper / Site User	I CAN view a list of golf courses	SO THAT I CAN select a golf course I want to play on  
 
-| User Story ID | As A/AN             | I CAN...                   | SO THAT I CAN...             |
-| ------------- | ------------------- | -------------------------- | ---------------------------- |
-| 27            | Shopper / Site User | receive email confirmation | have a record of my purchase |  
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+|         |        |                 |
 
-| User Story ID | As A/AN             | I CAN...      | SO THAT I CAN...             |
-| ------------- | ------------------- | ------------- | ---------------------------- |
-| 28            | Store Owner / Admin | add a product | add new products to the shop |  
+15.	As A/AN Shopper / Site User	I CAN view individual golf course details	SO THAT I CAN see more detailed information about it  
 
-| User Story ID | As A/AN             | I CAN...       | SO THAT I CAN...                   |
-| ------------- | ------------------- | -------------- | ---------------------------------- |
-| 29            | Store Owner / Admin | edit a product | edit existing products in the shop |  
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+|         |        |                 |
 
-| User Story ID | As A/AN             | I CAN...         | SO THAT I CAN...                       |
-| ------------- | ------------------- | ---------------- | -------------------------------------- |
-| 30            | Store Owner / Admin | delete a product | delete existing products from the shop |  
+16.	As A/AN Shopper / Site User	I CAN view a list of tee times available for each golf course	SO THAT I CAN select a date and time to play  
 
-| User Story ID | As A/AN             | I CAN...        | SO THAT I CAN...            |
-| ------------- | ------------------- | --------------- | --------------------------- |
-| 31            | Store Owner / Admin | add a golf club | add a golf club to the site |  
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+|         |        |                 |
 
-| User Story ID | As A/AN             | I CAN...         | SO THAT I CAN...                       |
-| ------------- | ------------------- | ---------------- | -------------------------------------- |
-| 32            | Store Owner / Admin | edit a golf club | edit an existing golf club on the site |  
+17.	As A/AN Shopper / Site User	I CAN search for a product by name or description	SO THAT I CAN find a certain product 
+ 
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+|         |        |                 |
 
-| User Story ID | As A/AN             | I CAN...           | SO THAT I CAN...                        |
-| ------------- | ------------------- | ------------------ | --------------------------------------- |
-| 33            | Store Owner / Admin | delete a golf club | delete existing golf club from the site |  
+18.	As A/AN Shopper / Site User	I CAN see my search results	SO THAT I CAN only see what I am searching for  
 
-| User Story ID | As A/AN             | I CAN...       | SO THAT I CAN...              |
-| ------------- | ------------------- | -------------- | ----------------------------- |
-| 34            | Store Owner / Admin | add a tee time | add a tee time to a golf club |  
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+|         |        |                 |
 
-| User Story ID | As A/AN             | I CAN...        | SO THAT I CAN...                         |
-| ------------- | ------------------- | --------------- | ---------------------------------------- |
-| 35            | Store Owner / Admin | edit a tee time | edit an existing tea time on a golf club |  
+19.	As A/AN Shopper / Site User	I CAN sort by category SO THAT I CAN select products of a certain category  
 
-| User Story ID | As A/AN             | I CAN...          | SO THAT I CAN...                   |
-| ------------- | ------------------- | ----------------- | ---------------------------------- |
-| 36            | Store Owner / Admin | delete a tee time | delete a tee time from a golf club |  
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+|         |        |                 |
 
+20.	As A/AN Shopper / Site User	I CAN sort by price low to high and high to low	SO THAT I CAN view products according to my budget 
+ 
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+|         |        |                 |
 
+21.	As A/AN Shopper / Site User	I CAN select only available dates/times	SO THAT I CAN I can only purchase available tee slots  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+|         |        |                 |
+
+22.	As A/AN Shopper / Site User	I CAN use a card as the payment method SO THAT I CAN complete my purchase  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+|         |        |                 |
+
+23.	As A/AN Shopper / Site User	I CAN select the size and quantity of a product	SO THAT I CAN select a size and quantity to my needs  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+|         |        |                 |
+
+24.	As A/AN Shopper / Site User	I CAN view items in my basket	SO THAT I CAN be aware of what I am buying and it's cost  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+|         |        |                 |
+
+25.	As A/AN Shopper / Site User	I CAN adjust item quantity in my basket	SO THAT I CAN increase or reduce item count according to my needs  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+|         |        |                 |
+
+26.	As A/AN Shopper / Site User	I CAN receive order confirmation SO THAT I CAN be notified of a successful order  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+|         |        |                 |
+
+27.	As A/AN Shopper / Site User	I CAN receive email confirmation SO THAT I CAN have a record of my purchased28	Store Owner / Admin	add a product	add new products to the shop  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+|         |        |                 |
+
+29.	As A/AN Store Owner / Admin	I CAN edit a product SO THAT I CAN edit existing products in the shop  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+|         |        |                 |
+
+30.	As A/AN Store Owner / Admin	I CAN delete a product SO THAT I CAN delete existing products from the shop  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+|         |        |                 |
+
+31.	As A/AN Store Owner / Admin	I CAN add a golf club	SO THAT I CAN add a golf club to the site  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+|         |        |                 |
+
+32.	As A/AN Store Owner / Admin	I CAN edit a golf clubSO THAT I CAN edit an existing golf club on the site  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+|         |        |                 |
+
+33.	As A/AN Store Owner / Admin	I CAN delete a golf clubSO THAT I CAN delete existing golf club from the site  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+|         |        |                 |
+
+34.	As A/AN Store Owner / Admin	I CAN add a tee timeSO THAT I CAN add a tee time to a golf club  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+|         |        |                 |
+
+35.	As A/AN Store Owner / Admin	I CAN edit a tee time	SO THAT I CAN edit an existing tea time on a golf club  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+|         |        |                 |
+
+36.	As A/AN Store Owner / Admin	I CAN delete a tee time	SO THAT I CAN delete a tee time from a golf club  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+|         |        |                 |
 
 
 ### Automated testing
