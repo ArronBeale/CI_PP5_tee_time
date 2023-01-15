@@ -2127,28 +2127,28 @@ This allowed me to test on real devices and not just device emulators.
 
 The following devices were used to test my site:
 
-<details><summary>Samsung Galaxy S22 Ultra</summary>
-<img src="">
+<details><summary>Apple iPhone 12</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/browsertack/browserstack-iphone12.PNG">
 </details>
 
-<details><summary>Apple iPhone 13</summary>
-<img src="">
-</details>
-
-<details><summary>Google Pixel 5</summary>
-<img src="">
+<details><summary>Samsung Galaxy S21</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/browsertack/browserstack-galaxy-s21.PNG">
 </details>
 
 <details><summary>Mozilla Firefox (v105 latest)</summary>
-<img src="">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/browsertack/browserstack-firefox.PNG">
 </details>
 
 <details><summary>Google Chrome (v106 latest)</summary>
-<img src="">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/browsertack/browserstack-chrome.PNG">
 </details>
 
 <details><summary>Safari (Monteray v15.3 latest)</summary>
-<img src="">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/browsertack/browserstack-safari.PNG">
+</details>
+
+<details><summary>Microsoft Edge</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/browsertack/browserstack-edge.PNG">
 </details>
 
 
