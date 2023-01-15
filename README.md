@@ -2369,18 +2369,18 @@ You can clone the repository by following these steps:
 
 ## Credits
 
-### Images
+### Code  
+- Code Institute for the bag and checkout app as a basis for my checkout and basket apps
+- Code Institute Slack community for guidance on many of my bug fixes.
 
-
-
-### Code
-
-
+### Media
+[Pexels](https://www.pexels.com/)
 
 ##### Back to [top](#table-of-contents)<hr>
 
 ## Acknowledgements
 
 ### Special thanks to the following:
-- Code Institute
-- My Mentor Mo Shami
+- My Mentor Mo Shami for his excellent guidance and valuable advice  
+- Code Institute Slack Community
+- Code Institute Tutor Support
