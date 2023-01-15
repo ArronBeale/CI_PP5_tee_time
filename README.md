@@ -2121,7 +2121,7 @@ A Python test plugin called coverage was used to generate the following results 
 
 ### Device Testing & Browser compatibility
 
-The site uses to test on various real world devices was [BrowserStack]()  
+The site uses to test on various real world devices was [BrowserStack](https://www.browserstack.com/)  
 
 This allowed me to test on real devices and not just device emulators.
 
@@ -2159,11 +2159,56 @@ The following devices were used to test my site:
 
 | **Bug** | **Fix** |
 | ------- | ------- |
-| | |
+| Bookings made for same club, date and time | UniqueTogether was used to ensure no double bookings could be made |
+| Increment and decrement product queantity in basket not working | Increment and decrement buttons being linked to jQuery script solved this |
+| Webhooks not working | Endpoint was not fully configured, adding the correct settings resolved this |
+| Payment intent not being created | Both local and deployed endpoints had incorrect initial settings which was corrected and allowed the payment intent to succeed |
+
 
 
 ##### Back to [top](#table-of-contents)<hr>
 
+### AWS S3 Bucket Setup  
+
+To set up an AWS S3 bucket:
+
+1. Sign in to the AWS Management Console and open the Amazon S3 console.  
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/aws/aws-setup-01a.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/aws/aws-setup-01b.PNG">
+</details>
+
+2. Click on the "Create Bucket" button.  
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/aws/aws-setup-02.PNG">
+</details>
+
+3. Enter a unique name for your bucket, and select the region where you want the bucket to be located.
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/aws/aws-setup-03a.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/aws/aws-setup-03b.PNG">
+</details>
+
+4. Configure any additional options, such as versioning, object-level logging, and object tagging, as needed.  
+
+5. Click on the "Create" button to create the bucket.
+
+6. Set up the appropriate permissions for the bucket, such as access control lists (ACLs) and bucket policies, to control who can access the data in the bucket.  
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/aws/aws-setup-06a.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/aws/aws-setup-06b.PNG">
+</details>
+
+7. Upload files to the bucket using the AWS S3 console, the AWS S3 CLI, or the AWS S3 SDK.  
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/aws/aws-setup-07a.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/aws/aws-setup-07b.PNG">
+</details>
+
+8. Access your files through the AWS S3 Console, AWS S3 CLI, or the AWS S3 SDK.  
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/aws/aws-setup-08.PNG">
+</details>
 
 ### Heroku Deployment
 
