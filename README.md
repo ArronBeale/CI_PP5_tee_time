@@ -1688,7 +1688,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 <details><summary>See Images</summary>
 <img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-01a.PNG">
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-02b.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-02-b.PNG">
 </details>  
 
 3.	As A/AN Shopper / Site User	I CAN recover my password	SO THAT I CAN set a new password if I forgot it  
@@ -1731,7 +1731,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 <details><summary>See Images</summary>
 <img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-06.PNG">
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-02b.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-02-b.PNG">
 </details>  
 
 7.	As A/AN Shopper / Site User	I CAN use a navbar, footer, and social icons  SO THAT I CAN navigate the site, access menus, and access socials  
@@ -2041,21 +2041,21 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|     Future Feature    |   N/A     |       N/A          |
+| Future Feature | N/A | N/A |
 
 35.	As A/AN Store Owner / Admin	I CAN edit a tee time	SO THAT I CAN edit an existing tea time on a golf club 
 - Time constraints did not allow this to happen, the path chosen was to preload the standard tee times for golf clubs to cover all times during the year. 
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|    Future Feature     |    N/A    |        N/A         |
+| Future Feature | N/A | N/A |
 
 36.	As A/AN Store Owner / Admin	I CAN delete a tee time	SO THAT I CAN delete a tee time from a golf club  
 - Time constraints did not allow this to happen, the path chosen was to preload the standard tee times for golf clubs to cover all times during the year.
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|    Future Feature     |   N/A     |       N/A          |
+| Future Feature | N/A | N/A |
 
 
 ### Automated testing
@@ -2064,20 +2064,58 @@ Performance, best practices and SEO was tested using Lighthouse.
 - Coverage was also usesd to generate a report
 
 
-<details><summary> App, test_models.py</summary>
-<img src="">
+<details><summary> Basket, test_views.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/auto-tests/auto-test-basket-test-views.PNG">
 </details>
 
-<details><summary> App, test_views.py</summary>
-<img src="">
+<details><summary> Bookings, test_views.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/auto-tests/auto-test-bookings-test-views.PNG">
 </details>
 
-<details><summary> App, test_urls.py</summary>
-<img src="">
+<details><summary> Bookings, test-models.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/auto-tests/auto-test-bookings-test-models.PNG">
 </details>
 
-<details><summary> App, Coverage</summary>
-<img src="">
+<details><summary> Bookings, Test-urls</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/auto-tests/auto-test-bookings-test-urls.PNG">
+</details>  
+<details><summary> Checkout, test-forms.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/auto-tests/auto-test-checkout-test-forms.PNG">
+</details>
+
+<details><summary> Checkout, test_models.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/auto-tests/auto-test-checkout-test-models.PNG">
+</details>
+
+<details><summary> Checkout, test_views.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/auto-tests/auto-test-checkout-test-views.PNG">
+</details>
+
+<details><summary> contact, forms</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/auto-tests/auto-test-contact-test-forms.PNG">
+</details>  
+<details><summary> Contact, test_models.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/auto-tests/auto-test-contact-test-models.PNG">
+</details>
+
+<details><summary> Contact, test_models.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/auto-tests/auto-test-contact-test-models.PNG">
+</details>
+
+<details><summary> Products, test_models.py</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/auto-tests/auto-test-products-test-models.PNG">
+</details>
+
+<details><summary> Products, test-views</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/auto-tests/auto-test-contact-test-views.PNG">
+</details>  
+
+### Coverage  
+A Python test plugin called coverage was used to generate the following results and display how much of the code was covered by the unittest module.
+
+<details><summary> Coverage</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/auto-tests/auto-test-coverage-01.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/auto-tests/auto-test-coverage-02.PNG">
 </details>
 
 
