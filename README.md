@@ -1675,119 +1675,216 @@ Performance, best practices and SEO was tested using Lighthouse.
 | ------- | ------ | --------------- | ------------- |
 | Sign Up | Click pofile button and select register, user is brought to the sign up page| User is brought to the sign up page | Works as expected  
 
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-01a.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-01b.PNG">
+</details>  
+
 2.	As A/AN Shopper / Site User	I CAN login and logout SO THAT I CAN have an account with my information stored for fast usage  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|    Sign In     |   Click pofile button and select login, user is brought to the sign in page     |       User is brought to the sign in page          | Works as expected
+| Sign In | Click pofile button and select login, user is brought to the sign in page | User is brought to the sign in page | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-01a.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-02b.PNG">
+</details>  
 
 3.	As A/AN Shopper / Site User	I CAN recover my password	SO THAT I CAN set a new password if I forgot it  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|    Reset Password     |   Click pofile button and select login, user is brought to the sign in page, click forgot password to go to password reset page     |      User is brought to password reset page           | Works as expected
+| Reset Password | Click pofile button and select login, user is brought to the sign in page, click forgot password to go to password reset page | User is brought to password reset page | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-01a.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-02-b.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-03b.PNG">
+</details>  
 
 4.	As A/AN Shopper / Site User	I CAN receive an email confirmation after registration	SO THAT I CAN be notified registration was successful  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|    Registration     |   Upon registration an email is sent to verify the email address submitted     |     Registration email arrives into inbox of the email address used to sign up            | Works as expected
+| Registration | Upon registration an email is sent to verify the email address submitted | Registration email arrives into inbox of the email address used to sign up | Works as expected  
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-04b.PNG">
+</details>  
 
 5.	As A/AN Shopper / Site User	I CAN have a profile SO THAT I CAN store my information for faster checkouts in the future  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|    Profile     |    From the Nav click the profile icon, select profile from dropdown and be broought to the profile page where user information is stored    |     Be brought to profile page            | Works as expected
+| Profile | From the Nav click the profile icon, select profile from dropdown and be broought to the profile page where user information is stored | Be brought to profile page | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-05.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-05b.PNG">
+</details>  
 
 6.	As A/AN Shopper / Site User	I CAN navigate across the site 	SO THAT I CAN can access all parts of the site  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|     Navbar     |    Click on any link in the navbar to be brought to relevant page, shop for example    |        Be brought to shop to view all products after clicking all products in the navbar         | Works as expected
+| Navbar | Click on any link in the navbar to be brought to a relevant page, shop for example | Be brought to shop to view all products after clicking all products in the navbar | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-06.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-02b.PNG">
+</details>  
 
 7.	As A/AN Shopper / Site User	I CAN use a navbar, footer, and social icons  SO THAT I CAN navigate the site, access menus, and access socials  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|   Navbar/Footer      |    Scoll to footer, click on the Instagram logo    |      A new tab will open and bring user to the Teetime Instagram page           | Works as expected
+| Navbar/Footer | Scoll to footer, click on the Instagram logo | A new tab will open and bring user to the Teetime Instagram page | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-07.PNG">
+</details>  
 
 8.	As A/AN Shopper / Site User	I CAN be notified of my actions	SO THAT I CAN be aware the action was completed successfully or not  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|   Alert Box      |   Add an item from the shop to the basket     |     A message will appear in the alert box on screen to notify the user of this action            | Works as expected
+| Alert Box | Add an item from the shop to the basket | A message will appear in the alert box on screen to notify the user of this action | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-08a.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-08b.PNG">
+</details>  
 
 9.	As A/AN Shopper / Site User	I CAN see my login status	SO THAT I CAN know if I am logged in or not  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|    Navigarion     |   While logged out the profile icon in the navbar will be gray, log in it will change to a green color     |     Once logged in the profile icon will be green           | Works as expected
+| Navigation | While logged out the profile icon in the navbar will be gray, log in it will change to a green color | Once logged in the profile icon will be green | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-06.PNG">
+</details>  
 
 10.	As A/AN Shopper / Site User	I CAN visit the shop SO THAT I CAN view all products available  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|    Shop     |   Click shop in the navbar, select all products     |        User is then brought to the all products page of the shop         | Works as expected
+| Shop | Click shop in the navbar, select all products | User is then brought to the all products page of the shop | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-06.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-10.PNG">
+</details>  
 
 11.	As A/AN Shopper / Site User	I CAN view my basket and total cost at any time	so I am aware of what I am buying and it's cost  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|     Basket    |    Click the basket icon in the navbar    |      User is brought to the basket page where all products in basket are displayed along with their price and total cost           | Works as expected
+| Basket | Click the basket icon in the navbar | User is brought to the basket page where all products in basket are displayed along with their price and total cost | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-11a.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-11b.PNG">
+</details>  
 
 12.	As A/AN Shopper / Site User	I CAN view a list of products	SO THAT I CAN select a product to purchase  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|     Categories    |   Select a category on the side panel, select Gents Polos     |     User is brought to the selected category of product and all products are listed            | Works as expected
+| Categories | Select a category on the side panel, select Gents Polos     |     User is brought to the selected category of product and all products are listed | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-12.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-12b.PNG">
+</details>  
 
 13.	As A/AN Shopper / Site User	I CAN view an individual product details SO THAT I CAN view a more detailed view of the product  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|    Product Detail     |   Click on any item image in the shop, or the view button     |  User is borught to the product detail page where product details are displayed                | Works as expected
+| Product Detail | Click on any item image in the shop, or the view button     |  User is borught to the product detail page where product details are displayed | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-13.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-13b.PNG">
+</details>  
 
 14.	As A/AN Shopper / Site User	I CAN view a list of golf courses	SO THAT I CAN select a golf course I want to play on  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|     Golf Clubs    |  From the navbar click Clubs      |     User is brought to the Golf Clubs List page            | Works as expected
+| Golf Clubs |  From the navbar click Clubs | User is brought to the Golf Clubs List page | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-06.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-14b.PNG">
+</details>  
 
 15.	As A/AN Shopper / Site User	I CAN view individual golf course details	SO THAT I CAN see more detailed information about it  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|    Golf Club Details    |   From the Golf Clubs List page select a club and click the view golf club button     |       User is brought to the details page for the selected golf club          | Works as expected
+| Golf Club Details | From the Golf Clubs List page select a club and click the view golf club button | User is brought to the details page for the selected golf club | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-15.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-15b.PNG">
+</details>  
 
 16.	As A/AN Shopper / Site User	I CAN view a list of tee times available for each golf course	SO THAT I CAN select a date and time to play  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|     Book a Tee Time    |  From golf club details page find the book a teetime form on the page, select a club, date and time      |      User is then brought to a confirmation page           | Works as expected
+| Book a Tee Time | From golf club details page find the book a teetime form on the page, select a club, date and time | User is then brought to a confirmation page | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-16.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-16b.PNG">
+</details>  
 
 17.	As A/AN Shopper / Site User	I CAN search for a product by name or description	SO THAT I CAN find a certain product 
  
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|     Search    |  Search box in the navigation bar, input keyword to search such as "blue", click search      |   All items with the relevant keyword will be displayed              | Works as expected
+| Search | Search box in the navigation bar, input keyword to search such as "blue", click search | All items with the relevant keyword will be displayed | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-17a.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-17b.PNG">
+</details>  
 
 18.	As A/AN Shopper / Site User	I CAN see my search results	SO THAT I CAN only see what I am searching for  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|    Search     |    Input a keyword into the search box in the navbar and click search    |     All items matching the search critearia are only displayed            | Works as expected
+| Search | Input a keyword into the search box in the navbar and click search | All items matching the search critearia are only displayed | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-18a.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-18b.PNG">
+</details>  
 
 19.	As A/AN Shopper / Site User	I CAN sort by category SO THAT I CAN select products of a certain category  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|     Sort    |     From the shop page, click a category on the side panel such as headwear   |      User is brought to the headwear page where only products classed as headwear are displayed           | Works as expected
+| Sort | From the shop page, click a category on the side panel such as headwear | User is brought to the headwear page where only products classed as headwear are displayed | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-19a.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-19b.PNG">
+</details>  
 
 20.	As A/AN Shopper / Site User	I CAN sort by price low to high and high to low	SO THAT I CAN view products according to my budget 
  
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|    Sort     |   From the shop page, click the sort box and select price from high to low     |     All items will be sorted from the highest price to the lowest price            |
+| Sort | From the shop page, click the sort box and select price from high to low | All items will be sorted from the highest price to the lowest price | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-20.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-20b.PNG">
+</details>  
 
 21.	As A/AN Shopper / Site User	I CAN select only available dates/times	SO THAT I CAN I can only purchase available tee slots  
 
@@ -1795,79 +1892,149 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|    Book a tee time     |   From golf club detail page, select a date and time for selected club     |      If time is available a confirmation page will appear, if the time is already booked an error message will appear asking the user to select another time.           | Works as expected
+| Book a tee time | From golf club detail page, select a date and time for selected club | If time is available a confirmation page will appear, if the time is already booked an error message will appear asking the user to select another time. | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-21.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-21b.PNG">
+</details>  
 
 22.	As A/AN Shopper / Site User	I CAN use a card as the payment method SO THAT I CAN complete my purchase  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|    Checkout     |    From the basket select secure checkout    |      Input user information, input card number 4242 4242 4242 4242 04/24 424 24242, payment is successful      | Works as expected
+| Checkout | From the basket select secure checkout | Input user information, input card number 4242 4242 4242 4242 04/24 424 24242, payment is successful | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-22.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-22b.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-22c.PNG">
+</details>  
 
 23.	As A/AN Shopper / Site User	I CAN select the size and quantity of a product	SO THAT I CAN select a size and quantity to my needs  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|     Product Details    |    From Product details page select a size for the product in the size box, increase or decrease quantity from the quantity box    |     Sizes will be selected and quantity adjusted            | Works as expected
+| Product Details | From Product details page select a size for the product in the size box, increase or decrease quantity from the quantity box | Sizes will be selected and quantity adjusted | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-23.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-23b.PNG">
+</details>  
 
 24.	As A/AN Shopper / Site User	I CAN view items in my basket	SO THAT I CAN be aware of what I am buying and it's cost  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|    Basket     |    Click the basket icon in the navbar    |    The basket page will appear and display all items in the basket and their cost alongside total price for all items             | Works as expected
+| Basket | Click the basket icon in the navbar | The basket page will appear and display all items in the basket and their cost alongside total price for all items | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-24a.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-24b.PNG">
+</details>  
 
 25.	As A/AN Shopper / Site User	I CAN adjust item quantity in my basket	SO THAT I CAN increase or reduce item count according to my needs  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|    Basket     |   From the basket press the increase/ decrease button to desired number, click update     |     The basket will update with the desired quantity            | Works as expected
+| Basket | From the basket press the increase/ decrease button to desired number, click update | The basket will update with the desired quantity | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-24b.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-25b.PNG">
+</details>  
 
 26.	As A/AN Shopper / Site User	I CAN receive order confirmation SO THAT I CAN be notified of a successful order  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|     Alert Box    |   Upon a successful checkout an alert box will be visible to the user     |     Alert box pops up with the order details            | Works as expected
+| Alert Box | Upon a successful checkout an alert box will be visible to the user | Alert box pops up with the order details | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-25b.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-26.PNG">
+</details>  
 
 27.	As A/AN Shopper / Site User	I CAN receive email confirmation SO THAT I CAN have a record of my purchased28	Store Owner / Admin	add a product	add new products to the shop  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|     Email Confirmation    |  Upon a successful checkout a confirmation email will be sent to the provided email address which contains the details of the order      |     Email confirmation arrives into inbox           | Works as expected
+| Email Confirmation | Upon a successful checkout a confirmation email will be sent to the provided email address which contains the details of the order |     Email confirmation arrives into inbox | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-27.PNG">
+</details>  
 
 28.	As A/AN Store Owner / Admin	I CAN add a product SO THAT I CAN add new products to the shop  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|     Add Product    |  From the navbar select the profile button as an admin logged in, click add product from the dropdown      |     The add product page will appear allowing the addition of a new product via the add product form           | Works as expected
+| Add Product | From the navbar select the profile button as an admin logged in, click add product from the dropdown | The add product page will appear allowing the addition of a new product via the add product form | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-28a.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-28b.PNG">
+</details>  
 
 29.	As A/AN Store Owner / Admin	I CAN edit a product SO THAT I CAN edit existing products in the shop  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|     Edit Product    |   From product detail as an admin account, find a edit button on the page, click edit      |     Admin is brought to the edit product page where they can adjust any part of the product            | Works as expected
+| Edit Product | From product detail as an admin account, find a edit button on the page, click edit | Admin is brought to the edit product page where they can adjust any part of the product | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-29a.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-29b.PNG">
+</details>  
 
 30.	As A/AN Store Owner / Admin	I CAN delete a product SO THAT I CAN delete existing products from the shop  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|    Delete Product     |  From product detail as an admin account, find a delete button on the page, click delete      |     A modal pops up and asks the admin to confirm they wish to delete the product      |      Works as expected           |
+| Delete Product  | From product detail as an admin account, find a delete button on the page, click delete | A modal pops up and asks the admin to confirm they wish to delete the product | Works as expected |  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-29a.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-30b.PNG">
+</details>  
 
 31.	As A/AN Store Owner / Admin	I CAN add a golf club	SO THAT I CAN add a golf club to the site  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|    Golf Clubs      |   In the url address go to https://ci-pp5-teetime.herokuapp.com/admin/, log in as admin and select clubs in the side panel to the left, the clubs screen will appear and then click add club button on the top right of the screen. Add club page will appear     |    Add club page will appear and the user can then add information for a new golf club             | Works as expected
+| Golf Clubs | In the url address go to https://ci-pp5-teetime.herokuapp.com/admin/, log in as admin and select clubs in the side panel to the left, the clubs screen will appear and then click add club button on the top right of the screen. Add club page will appear | Add club page will appear and the user can then add information for a new golf club | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-admin-login.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-31.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-31b.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-31c.PNG">
+</details>  
 
 32.	As A/AN Store Owner / Admin	I CAN edit a golf club SO THAT I CAN edit an existing golf club on the site  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|    Golf Clubs      |   In the url address go to https://ci-pp5-teetime.herokuapp.com/admin/, log in as admin and select clubs in the side panel to the left, the clubs screen will appear and then click a club that you desire to edit. The club page will appear allowing the user to edit information     |    The club page will appear and the user can then edit information for the golf club             | Works as expected
+| Golf Clubs | In the url address go to https://ci-pp5-teetime.herokuapp.com/admin/, log in as admin and select clubs in the side panel to the left, the clubs screen will appear and then click a club that you desire to edit. The club page will appear allowing the user to edit information | The club page will appear and the user can then edit information for the golf club             | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-admin-login.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-31.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-31b.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-32b.PNG">
+</details>  
 
 33.	As A/AN Store Owner / Admin	I CAN delete a golf club SO THAT I CAN delete existing golf club from the site  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|    Golf Clubs      |   In the url address go to https://ci-pp5-teetime.herokuapp.com/admin/, log in as admin and select clubs in the side panel to the left, the clubs screen will appear, select the club using the checkbox and cick the action dropdown above, choose delete selected clubs and press go    |    The club will be deleted             | Works as expected
+| Golf Clubs | In the url address go to https://ci-pp5-teetime.herokuapp.com/admin/, log in as admin and select clubs in the side panel to the left, the clubs screen will appear, select the club using the checkbox and cick the action dropdown above, choose delete selected clubs and press go | The club will be deleted | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-admin-login.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-31.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/manual-testing/user-story-33b.PNG">
+</details>  
 
 34.	As A/AN Store Owner / Admin	I CAN add a tee time SO THAT I CAN add a tee time to a golf club  
 - Time constraints did not allow this to happen, the path chosen was to preload the standard tee times for golf clubs to cover all times during the year.
