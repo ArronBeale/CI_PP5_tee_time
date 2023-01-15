@@ -41,7 +41,7 @@
     - [Tests on various devices](#tests-on-various-devices)
     - [Browser compatibility](#browser-compatibility)
   - [Bugs](#bugs)
-  - [Heroku Deployment](#heroku-deployment)
+  - [Deployment](#deployment)
   - [Credits](#credits)
   - [Acknowledgements](#acknowledgements)
 
@@ -2168,6 +2168,7 @@ The following devices were used to test my site:
 
 ##### Back to [top](#table-of-contents)<hr>
 
+## Deployment  
 ### AWS S3 Bucket Setup  
 
 To set up an AWS S3 bucket:
@@ -2208,34 +2209,73 @@ To set up an AWS S3 bucket:
 8. Access your files through the AWS S3 Console, AWS S3 CLI, or the AWS S3 SDK.  
 <details><summary>See Images</summary>
 <img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/aws/aws-setup-08.PNG">
-</details>
+</details>  
 
-### Heroku Deployment
+### Stripe Endpoint
+
+1. Register for a Stripe account at stripe.com
+2. Log into your Stripe account and navigate to the Developers section  
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/stripe/stripe-setup-02a.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/stripe/stripe-setup-02b.PNG">
+</details>  
+
+3. In the Developers section, locate the API keys section and take note of the publishable and secret keys  
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/stripe/stripe-setup-03a.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/stripe/stripe-setup-03b.PNG">
+</details> 
+
+4. Create environment variables in your local environment and on Heroku, such as STRIPE_PUBLIC_KEY and STRIPE_SECRET_KEY, with the values of the publishable and secret keys  
+
+5. Return to the Developers section of your Stripe account and click on the Webhooks tab  
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/stripe/stripe-setup-05a.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/stripe/stripe-setup-05b.PNG">
+</details> 
+
+6. Create a webhook with the URL of your website, such as https://example.com/checkout/wh/  
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/stripe/stripe-setup-06a.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/stripe/stripe-setup-06b.PNG">
+</details> 
+
+7. Choose the events you want to receive, such as payment_intent.payment_failed and payment_intent.succeeded  
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/stripe/stripe-setup-07a.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/stripe/stripe-setup-07b.PNG">
+</details> 
+
+8. Take note of the key generated for this webhook  
+
+9. Create an environment variable, such as STRIPE_WH_SECRET, with the value of the webhook secret key on your local environment and Heroku  
+
+10. Test the webhook to ensure it is working properly and troubleshoot any issues that may arise.  
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/stripe/stripe-setup-10.PNG">
+</details> 
+
+### Heroku  
 
 [Official Page](https://devcenter.heroku.com/articles/git) (Ctrl + click)
 
 This application has been deployed from Github using Heroku. Here's how:
 
 1. Create an account at heroku.com
-<details>
+<details><summary>See Images</summary>
 <img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/heroku/heroku-deployment-01.PNG">
 </details>
 
 2. Create an app, give it a name for such as ci-pp4-the-diplomat, and select a region
-<details>
+<details><summary>See Images</summary>
 <img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/heroku/heroku-deployment-02.PNG">
 <img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/heroku/heroku-deployment-03.PNG">
 </details>
 
 3. Under resources search for postgres, and add a Postgres database to the app
-<details>
+<details><summary>See Images</summary>
 <img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/heroku/heroku-deployment-04.PNG">
 </details>
 
 Heroku Postgres
 
 1. Note the DATABASE_URL, this can be set as an environment variable in Heroku and your local deployment(env.py)
-<details>
+<details><summary>See Images</summary>
 <img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/heroku/heroku-deployment-18.PNG">
 <img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/heroku/heroku-deployment-17.PNG">
 </details>
@@ -2243,24 +2283,24 @@ Heroku Postgres
 2. Install the plugins dj-database-url and psycopg2-binary.
 
 3. Run pip3 freeze > requirements.txt so both are added to the requirements.txt file
-<details>
+<details><summary>See Images</summary>
 <img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/heroku/heroku-deployment-05.PNG">
 </details>
 
 4. Create a Procfile with the text: web: gunicorn the_diplomat.wsgi
-<details>
+<details><summary>See Images</summary>
 <img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/heroku/heroku-deployment-06.PNG">
 </details>
 
 5. In the settings.py ensure the connection is to the Heroku postgres database, no indentation if you are not using a seperate test database.
 I store mine in env.py
-<details>
+<details><summary>See Images</summary>
 <img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/heroku/heroku-deployment-07.PNG">
 <img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/heroku/heroku-deployment-08.PNG">
 </details>
 
 6. Ensure debug is set to false in the settings.py file
-<details>
+<details><summary>See Images</summary>
 <img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/heroku/heroku-deployment-09.PNG">
 </details>
 
@@ -2279,14 +2319,14 @@ I store mine in env.py
 13. Install gunicorn and add it to the requirements.txt file using the command pip3 freeze > requirements.txt
 
 14. Disable collectstatic in Heroku before any code is pushed using the command heroku config:set DISABLE_COLLECTSTATIC=1 -a ci-pp4-the-diplomat
-<details>
+<details><summary>See Images</summary>
 <img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/heroku/heroku-deployment-19.PNG">
 <img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/heroku/heroku-deployment-10.PNG">
 </details>
 
 
 15. Ensure the following environment variables are set in Heroku
-<details>
+<details><summary>See Images</summary>
 <img src="https://raw.githubusercontent.com/ArronBeale/CI_PP4_the_diplomat/main/docs/heroku/heroku-deployment-11.PNG">
 </details>
 
