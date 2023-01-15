@@ -2128,7 +2128,7 @@ This allowed me to test on real devices and not just device emulators.
 The following devices were used to test my site:
 
 <details><summary>Apple iPhone 12</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/browsertack/browserstack-iphone12.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/browsertack/browserstack-iphone-12.PNG">
 </details>
 
 <details><summary>Samsung Galaxy S21</summary>
