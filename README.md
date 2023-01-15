@@ -2221,6 +2221,7 @@ To set up an AWS S3 bucket:
 </details>  
 
 3. In the Developers section, locate the API keys section and take note of the publishable and secret keys  
+<details><summary>See Images</summary>
 <img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/stripe/stripe-setup-03a.PNG">
 <img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/stripe/stripe-setup-03b.PNG">
 </details> 
@@ -2228,16 +2229,19 @@ To set up an AWS S3 bucket:
 4. Create environment variables in your local environment and on Heroku, such as STRIPE_PUBLIC_KEY and STRIPE_SECRET_KEY, with the values of the publishable and secret keys  
 
 5. Return to the Developers section of your Stripe account and click on the Webhooks tab  
+<details><summary>See Images</summary>
 <img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/stripe/stripe-setup-05a.PNG">
 <img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/stripe/stripe-setup-05b.PNG">
 </details> 
 
 6. Create a webhook with the URL of your website, such as https://example.com/checkout/wh/  
+<details><summary>See Images</summary>
 <img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/stripe/stripe-setup-06a.PNG">
 <img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/stripe/stripe-setup-06b.PNG">
 </details> 
 
 7. Choose the events you want to receive, such as payment_intent.payment_failed and payment_intent.succeeded  
+<details><summary>See Images</summary>
 <img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/stripe/stripe-setup-07a.PNG">
 <img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/stripe/stripe-setup-07b.PNG">
 </details> 
@@ -2247,6 +2251,7 @@ To set up an AWS S3 bucket:
 9. Create an environment variable, such as STRIPE_WH_SECRET, with the value of the webhook secret key on your local environment and Heroku  
 
 10. Test the webhook to ensure it is working properly and troubleshoot any issues that may arise.  
+<details><summary>See Images</summary>
 <img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/stripe/stripe-setup-10.PNG">
 </details> 
 
