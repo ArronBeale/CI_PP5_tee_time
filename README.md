@@ -2107,7 +2107,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 </details>
 
 <details><summary> Products, test-views</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/auto-tests/auto-test-contact-test-views.PNG">
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/auto-tests/auto-test-products-test-views.PNG">
 </details>  
 
 ### Coverage  
