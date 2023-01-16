@@ -378,8 +378,9 @@ I built my database using PostgreSQL. It's a powerful and open-source object-rel
 <a href="https://github.com/ArronBeale/CI_PP5_tee_time/raw/main/docs/database/db-schema.pdf" target="_blank">Download Schema PDF</a>  
 <a href="https://docs.google.com/spreadsheets/d/13d5eeCcBG7GWVxWo78qZi8OyIZ10Tu6Ze7brLsul9qo/edit?usp=sharing" target="_blank">Database Schema</a>  
 (Ctrl + click to open in new tab)  
+
 <details><summary>See Database Image</summary>
-![schema](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/database/image-db-schema.PNG)
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/database/image-db-schema.PNG">
 </details>
 <hr>
 
