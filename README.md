@@ -160,47 +160,51 @@ Teetime uses Mailchimp to manage its mailing list. By joining the mailing list, 
 
 | User Story ID                  | As A/AN             | I CAN...                                                | SO THAT I CAN...                                          |
 |--------------------------------|---------------------|---------------------------------------------------------|-----------------------------------------------------------|
-| Registration and User Accounts |                     |                                                         |                                                           |
-| 1                              | Shopper / Site User | register for an account                                 | have an account and view my profile                       |
-| 2                              | Shopper / Site User | login and logout                                        | have an account with my information stored for fast usage |
-| 3                              | Shopper / Site User | recover my password                                     | set a new password if I forgot it                         |
-| 4                              | Shopper / Site User | receive an email confirmation after registration        | be notified registration was successful                   |
-| 5                              | Shopper / Site User | have a profile                                          | store my information for faster checkouts in the future   |
-| Viewing and navigation         |                     |                                                         |                                                           |
-| 6                              | Shopper / Site User | navigate across the site                                | can access all parts of the site                          |
-| 7                              | Shopper / Site User | use a navbar, footer, and social icons                  | navigate the site, access menus, and access socials       |
-| 8                              | Shopper / Site User | be notified of my actions                               | be aware the action was completed successfully or not     |
-| 9                              | Shopper / Site User | see my login status                                     | know if I am logged in or not                             |
-| 10                             | Shopper / Site User | visit the shop                                          | view all products available                               |
-| 11                             | Shopper / Site User | view my basket and total cost at any time               | so I am aware of what I am buying and it's cost           |
-| 12                             | Shopper / Site User | view a list of products                                 | select a product to purchase                              |
-| 13                             | Shopper / Site User | view an individual product details                      | view a more detailed view of the product                  |
-| 14                             | Shopper / Site User | view a list of golf courses                             | select a golf course I want to play on                    |
-| 15                             | Shopper / Site User | view individual golf course details                     | see more detailed information about it                    |
-| 16                             | Shopper / Site User | view a list of tee times available for each golf course | select a date and time to play                            |
-| Sorting and Searching          |                     |                                                         |                                                           |
-| 17                             | Shopper / Site User | search for a product by name or description             | find a certain product                                    |
-| 18                             | Shopper / Site User | see my search results                                   | only see what I am searching for                          |
-| 19                             | Shopper / Site User | sort by category                                        | select products of a certain category                     |
-| 20                             | Shopper / Site User | sort by price low to high and high to low               | view products according to my budget                      |
-| 21                             | Shopper / Site User | select only available dates/times                       | I can only purchase available tee slots                   |
-| Purchasing and Checkout        |                     |                                                         |                                                           |
-| 22                             | Shopper / Site User | use a card as the payment method                        | complete my purchase                                      |
-| 23                             | Shopper / Site User | select the size and quantity of a product               | select a size and quantity to my needs                    |
-| 24                             | Shopper / Site User | view items in my basket                                 | be aware of what I am buying and it's cost                |
-| 25                             | Shopper / Site User | adjust item quantity in my basket                       | increase or reduce item count according to my needs       |
-| 26                             | Shopper / Site User | receive order confirmation                              | be notified of a successful order                         |
-| 27                             | Shopper / Site User | receive email confirmation                              | have a record of my purchase                              |
-| Admin and Store Management     |                     |                                                         |                                                           |
-| 28                             | Store Owner / Admin | add a product                                           | add new products to the shop                              |
-| 29                             | Store Owner / Admin | edit a product                                          | edit existing products in the shop                        |
-| 30                             | Store Owner / Admin | delete a product                                        | delete existing products from the shop                    |
-| 31                             | Store Owner / Admin | add a golf club                                         | add a golf club to the site                               |
-| 32                             | Store Owner / Admin | edit a golf club                                        |edit an existing golf club on the site|
-| 33 | Store Owner / Admin | delete a golf club | delete existing golf club from the site  |
-| 34 | Store Owner / Admin | add a tee time     | add a tee time to a golf club            |
-| 35 | Store Owner / Admin | edit a tee time    | edit an existing tea time on a golf club |
-| 36 | Store Owner / Admin | delete a tee time  | delete a tee time from a golf club       |
+| Registration and User Accounts ||||
+| 1 | Shopper / Site User | register for an account | have an account and view my profile |
+| 2 | Shopper / Site User | login and logout | have an account with my information stored for fast usage |
+| 3 | Shopper / Site User | recover my password | set a new password if I forgot it                         |
+| 4 | Shopper / Site User | receive an email confirmation after registration| be notified registration was successful                   |
+| 5 | Shopper / Site User | have a profile | store my information for faster checkouts in the future |
+| Viewing and navigation ||||
+| 6 | Shopper / Site User | navigate across the site | can access all parts of the site                          |
+| 7 | Shopper / Site User | use a navbar, footer, and social icons | navigate the site, access menus, and access socials       |
+| 8 | Shopper / Site User | be notified of my actions | be aware the action was completed successfully or not     |
+| 9 | Shopper / Site User | see my login status | know if I am logged in or not |
+| 10 | Shopper / Site User | visit the shop| view all products available |
+| 11 | Shopper / Site User | view my basket and total cost at any time | so I am aware of what I am buying and it's cost |
+| 12 | Shopper / Site User | view a list of products | select a product to purchase                              |
+| 13 | Shopper / Site User | view an individual product details | view a more detailed view of the product |
+| 14 | Shopper / Site User | view a list of golf courses | select a golf course I want to play on |
+| 15 | Shopper / Site User | view individual golf course details | see more detailed information about it |
+| 16 | Shopper / Site User | view a list of tee times available for each golf course | select a date and time to play |
+| Sorting and Searching ||||
+| 17 | Shopper / Site User | search for a product by name or description | find a certain product                                    |
+| 18 | Shopper / Site User | see my search results | only see what I am searching for |
+| 19 | Shopper / Site User | sort by category | select products of a certain category |
+| 20 | Shopper / Site User | sort by price low to high and high to low | view products according to my budget |
+| 21 | Shopper / Site User | select only available dates/times | I can only purchase available tee slots |
+| Purchasing and Checkout ||||
+| 22 | Shopper / Site User | use a card as the payment method | complete my purchase                                      |
+| 23 | Shopper / Site User | select the size and quantity of a product | select a size and quantity to my needs |
+| 24 | Shopper / Site User | view items in my basket | be aware of what I am buying and it's cost |
+| 25 | Shopper / Site User | adjust item quantity in my basket | increase or reduce item count according to my needs |
+| 26 | Shopper / Site User | receive order confirmation | be notified of a successful order |
+| 27 | Shopper / Site User | receive email confirmation | have a record of my purchase |
+| Admin and Store Management | | | |
+| 28 | Store Owner / Admin | add a product | add new products to the shop |
+| 29 | Store Owner / Admin | edit a product | edit existing products in the shop |
+| 30 | Store Owner / Admin | delete a product | delete existing products from the shop |
+| 31 | Store Owner / Admin | add a golf club | add a golf club to the site |
+| 32 | Store Owner / Admin | edit a golf club |edit an existing golf club on the site|
+| 33 | Store Owner / Admin | delete a golf club | delete existing golf club from the site |
+| 34 | Store Owner / Admin | add a tee time | add a tee time to a golf club |
+| 35 | Store Owner / Admin | edit a tee time | edit an existing tea time on a golf club |
+| 36 | Store Owner / Admin | delete a tee time | delete a tee time from a golf club |
+| 37 | Shopper / Site User | book a tee time | book a tee time for a golf club |
+| 38 | Shopper / Site User | edit a tee time booking | edit a tee time booking as I alter my schedule to play golf |
+| 39 | Shopper / Site User | delete a tee time booking | delete a tee time booking if I need to cancel |
+| 40 | Shopper / Site User | view my tee time bookings | view my tee time bookings |
 
 
 ### Kanban, Epics & User Stories
@@ -594,7 +598,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 </details>  
 
 ### Home page
-- Home page includes nav bar, main body and a footer
+- Home page includes nav bar, main body and a footer.
 
 
 <details><summary>See feature images</summary>
@@ -604,7 +608,8 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 
 ### Logo
-- A custom logo for the business
+- A custom logo for the business.
+- User stories covered: 6, 7
 
 <details><summary>See feature images</summary>
 
@@ -613,10 +618,11 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 
 ### Navigation
-- Fully Responsive
-- On small screens switches to hamburger menu
-- Indicates login/logout in status
-- displayed on all pages
+- Fully Responsive.
+- On small screens switches to hamburger menu.
+- Indicates login/logout in status.
+- displayed on all pages.  
+- User stories covered: 6, 7
 
 <details><summary>See feature images</summary>
 
@@ -625,8 +631,9 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 
 ### Footer
-- Contains social media links, privacy policy, and copyright
-- displayed across all pages
+- Contains social media links, privacy policy, and copyright.
+- displayed across all pages.  
+- User stories covered: 6, 7
 
 <details><summary>See feature images</summary>
 
@@ -634,7 +641,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 </details>  
 
 ### Mailing List Sign Up
-- Mailchimp signup for email mailing list
+- Mailchimp signup for email mailing list.  
 
 <details><summary>See feature images</summary>
 
@@ -643,7 +650,8 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 
 ### Sign up / Register
-- Allow users to register an acoount
+- Allow users to register an acoount.
+- User stories covered: 1  
 
 <details><summary>See feature image</summary>
 
@@ -652,7 +660,8 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 
 ### Sign In
-- User can sign in
+- User can sign in.  
+- User stories covered: 2
 
 <details><summary>See feature images</summary>
 
@@ -661,8 +670,9 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 
 ### Sign Out
-- Allows the user to securely sign out
-- Ask user if they are sure they want to sign out
+- Allows the user to securely sign out.
+- Ask user if they are sure they want to sign out.  
+- User stories covered: 2
 
 <details><summary>See feature image</summary>
 
@@ -671,7 +681,8 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 
 ### Golf Clubs
-- Allows the user to view all listed golf clubs.
+- Allows the user to view all listed golf clubs.  
+- User stories covered: 14
 
 <details><summary>See feature image</summary>
 
@@ -680,7 +691,8 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 
 ### Golf Club Detail
-- Allows the user to view details of a specific golf club.
+- Allows the user to view details of a specific golf club.  
+- User stories covered: 15
 
 <details><summary>See feature image</summary>
 
@@ -689,8 +701,9 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 
 ### Book a Tee Time
-- Allows the user to book a tee time
-- Messages are displayed if the data is not valid such as phone number lenght is too short and the email address is not a valid format
+- Allows the user to book a tee time.
+- Messages are displayed if the data is not valid such as phone number lenght is too short and the email address is not a valid format.  
+- User stories covered: 37
 
 <details><summary>See feature images</summary>
 
@@ -699,7 +712,8 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 
 ### My Teetimes
-- Allows the user to see their bookings
+- Allows the user to see their bookings.  
+- User stories covered: 40
 
 <details><summary>See feature image</summary>
 
@@ -708,7 +722,8 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 
 ### Edit Booking
-- Allows the user to see their bookings
+- Allows the user to edit their bookings.  
+- User stories covered: 38
 
 <details><summary>See feature image</summary>
 
@@ -717,7 +732,8 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 
 ### Cancel Booking
-- Allows the user to cancel their bookings
+- Allows the user to cancel their bookings.  
+- User stories covered: 39
 
 <details><summary>See feature image</summary>
 
@@ -726,7 +742,8 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 
 ### Alert Box
-- Allows the user to see relevant alerts
+- Allows the user to see relevant alerts.  
+- User stories covered: 8
 
 <details><summary>See feature image</summary>
 
@@ -735,7 +752,8 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 
 ### Shop
-- Allows the user to view the listed products in the shop.
+- Allows the user to view the listed products in the shop.  
+- User stories covered: 10
 
 <details><summary>See feature image</summary>
 
@@ -744,7 +762,8 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 
 ### Sort
-- Allows the user to sort the listed products.
+- Allows the user to sort the listed products.  
+- User stories covered: 19, 20
 
 <details><summary>See feature images</summary>
 
@@ -754,7 +773,8 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 
 ### product Detail
-- Allows the user to view the products details.
+- Allows the user to view the products details.  
+- User stories covered: 13
 
 <details><summary>See feature image</summary>
 
@@ -763,7 +783,8 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 
 ### Search
-- Allows the user to search for products.
+- Allows the user to search for products.  
+- User stories covered: 17, 18
 
 <details><summary>See feature image</summary>
 
@@ -773,7 +794,8 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 ### Basket
 - Allows the user to view the basket with their items.
-- Pops up as items are added and removed
+- Pops up as items are added and removed.  
+- User stories covered: 24, 11
 
 <details><summary>See feature image</summary>
 
@@ -783,7 +805,8 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 
 ### Checkout
-- Allows the user to purchase items in their basket.
+- Allows the user to purchase items in their basket.  
+- User stories covered: 22, 23, 24, 25
 
 <details><summary>See feature image</summary>
 
@@ -792,7 +815,8 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 
 ### Stripe
-- Allows the user to use stripe for card payments.
+- Allows the user to use stripe for card payments.  
+- User stories covered: 22
 
 <details><summary>See feature image</summary>
 
@@ -801,7 +825,8 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 
 ### Email Confirmation
-- Allows the user to receive an email confirmation for their order.
+- Allows the user to receive an email confirmation for their order.  
+- User stories covered: 27
 
 <details><summary>See feature image</summary>
 
@@ -810,7 +835,8 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 
 ### Profile
-- Allows the user to update their information and see their order history.
+- Allows the user to update their information and see their order history.  
+- User stories covered: 5
 
 <details><summary>See feature image</summary>
 
@@ -819,7 +845,8 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 
 ### Add Product
-- Allows the Admin to add new products.
+- Allows the Admin to add new products.  
+- User stories covered: 28
 
 <details><summary>See feature image</summary>
 
@@ -828,7 +855,8 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 
 ### Edit Product
-- Allows the user to edit the products.
+- Allows the user to edit the products.  
+- User stories covered: 29
 
 <details><summary>See feature image</summary>
 
@@ -837,7 +865,8 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 
 ### Delete Product
-- Allows the user to delete products, includes confirmation prompt before deletion.
+- Allows the user to delete products, includes confirmation prompt before deletion.  
+- User stories covered: 30
 
 <details><summary>See feature image</summary>
 
@@ -847,7 +876,8 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 ### Blog
 - The blog displays each post made by a staff member
-- Paginations is used to display 4 posts per page
+- Paginations is used to display 4 posts per page  
+- User stories covered: extra feature
   
 <details><summary>See feature images</summary>
 
@@ -859,7 +889,8 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 - Expands into the selected blog the user wishes to read
 - Displays a featured image uploaded by the poster
 - If no image is uploaded a default image is then used
-- Registerd user can comment on the blog
+- Registerd user can comment on the blog  
+- User stories covered: extra feature
   
 <details><summary>See feature images</summary>
 
@@ -870,7 +901,8 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 ### Comments
 - Comments made are set to pending approval status to ensure nothing bad is displayed
 - Only registered users can comment on a blog post
-- Staff can approve comments via the admin panel on the backend
+- Staff can approve comments via the admin panel on the backend  
+- User stories covered: extra feature
   
 <details><summary>See feature images</summary>
 
@@ -880,8 +912,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 ### Contact Us / Send Message
 - A contact page with all contact details listed
-- Users can send a message via the message form
-- 
+- Users can send a message via the message form  
   
 <details><summary>See feature images</summary>
 
@@ -893,7 +924,8 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 ### Social Media Links
 - A logo and link is used for the Facebook business page and Instagram page.
 - All links open in a new tab to ensure the user is not directed away from the business.
-- noopener, noreferrer, nofollow used to communicate with web crawlers and for security and privacy concerns.
+- noopener, noreferrer, nofollow used to communicate with web crawlers and for security and privacy concerns.  
+- User stories covered: 7
   
 <details><summary>See feature image</summary>
 
@@ -903,7 +935,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 ### Pagination
 - Pagination is used on the
-- Ensures the page is kept tidy
+- Ensures the page is kept tidy  
   
 <details><summary>See feature images</summary>
 
