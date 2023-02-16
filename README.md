@@ -60,7 +60,7 @@ Overall, Teetime aims to become the go-to destination for golfers looking to boo
 
 ### Market Analysis:
 
-The golf industry is a multi-billion dollar industry, with a large and dedicated consumer base. While traditional methods of booking tee times (such as calling the club or booking in-person) are still popular, there is a growing trend towards online booking platforms. This shift towards online booking presents a significant opportunity for Teetime to establish itself as a leading player in the market.
+The golf industry is a multi-billion euro industry, with a large and dedicated consumer base. While traditional methods of booking tee times (such as calling the club or booking in-person) are still popular, there is a growing trend towards online booking platforms. This shift towards online booking presents a significant opportunity for Teetime to establish itself as a leading player in the market.
 
 In terms of competition, Teetime will face other online booking platforms as well as traditional methods of booking. However, we believe that our user-friendly platform and wide range of products in our ecommerce shop will differentiate us from competitors and make us a preferred choice for golfers.
 
