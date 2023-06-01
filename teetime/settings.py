@@ -32,7 +32,9 @@ development = os.environ.get('DEVELOPMENT', False)
 DEBUG = development
 
 if development:
-    ALLOWED_HOSTS = ['localhost', '127.0.0.1', '127.0.0.1:8000']
+    ALLOWED_HOSTS = ['localhost', '127.0.0.1',
+                     '127.0.0.1:8000',
+                     '8000-arronbeale-cipp5teetime-pl1m51wsnst.ws-eu98.gitpod.io']
 else:
     ALLOWED_HOSTS = ['ci-pp5-teetime.herokuapp.com', '*']
 
