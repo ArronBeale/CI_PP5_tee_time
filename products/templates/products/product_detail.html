@@ -69,6 +69,12 @@
                             class="fa-sharp fa-solid fa-star"></i>{{product.rating}}</span>
                     {% endif %}</p>
                 <p class="text-success">{{ product.category.friendly_name }}</p>
+                {% if product.stock < 5 and product.stock > 0 %}
+                <p class="text-danger low-stock rounded col-3">Only {{ product.stock }} left!</p>
+                {% endif %}
+                {% if product.stock == 0 %}
+                <p class="text-danger">Out of Stock!</p>
+                {% endif %}
                 <p class="mt-4">{{ product.description }}</p>
                 <form class="form" action="{% url 'add_to_basket' product.id %}" method="POST">
                     {% csrf_token %}
@@ -76,6 +82,7 @@
                         {% with product.has_sizes as s %}
                         {% if s %}
                         <div class="col-12">
+                            {% if product.stock > 0 %}
                             <label for="id_product_size">Size</label>
                             <select class="form-control rounded w-50" name="product_size" id='id_product_size'>
                                 <option value="xs">XS</option>
@@ -84,9 +91,11 @@
                                 <option value="l">L</option>
                                 <option value="xl">XL</option>
                             </select>
+                            {% endif %}
                         </div>
                         {% endif %}
                         <div class="col-12">
+                            {% if product.stock > 0 %}
                             <p class="mt-3"><strong>Quantity:</strong></p>
                             <div class="form-group w-50">
                                 <div class="input-group input-group-{{ product.id }}">
@@ -98,7 +107,7 @@
                                         </button>
                                     </div>
                                     <input class="form-control qty_input rounded h-100 w-25 id_qty_{{ product.id }}"
-                                        type="number" name="quantity" value="1" min="1" max="99"
+                                        type="number" name="quantity" value="1" min="1" data-max="{{ product.stock }}"
                                         data-item_id="{{ product.id }}" aria-label="add to basket">
                                     <div class="input-group-append">
                                         <button
@@ -107,15 +116,16 @@
                                             <span class="icon">+</span>
                                         </button>
                                     </div>
+                                    {% endif %}
                                     {% if request.user.is_superuser %}
                                     <small class="my-5">
                                         <a href="#" class="btn open btn-danger">Delete</a>
                                         <a class="btn btn-outline-success"
                                             href="{% url 'edit_product' product.id %}">Edit</a>
                                     </small>
-                                    {% endif %}
                                 </div>
                             </div>
+                            {% endif %}
                         </div>
                         <div class="col{% if s %}-12 mt-2{% endif %}">
                             <a href="{% url 'products' %}" class="btn btn-outline-secondary rounded mt-5 h-100">
@@ -124,8 +134,10 @@
                                 </span>
                                 <span class="text-uppercase">Return</span>
                             </a>
+                            {% if product.stock > 0 %}
                             <input type="submit" class="btn text-uppercase btn-success rounded mt-5 h-100"
                                 value="Add to Basket">
+                            {% endif %}
                         </div>
                         <input type="hidden" name="redirect_url" value="{{ request.path }}">
                         {% endwith %}
@@ -152,6 +164,25 @@
         });
         $('.close, .popupOverlay').click(function () {
             $('.popupOverlay, .popupContent').removeClass('active');
+        });
+    });
+</script>
+<script>
+    $(document).ready(function() {
+        const incrementButtons = $('.increment-qty');
+        incrementButtons.each(function() {
+            $(this).on('click', function() {
+                let productId = $(this).data('item_id');
+                let quantityInput = $('.id_qty_' + productId);
+                let maxStock = quantityInput.data('max');
+                let currentValue = parseInt(quantityInput.val());
+                if (currentValue < maxStock) {
+                    quantityInput.val(currentValue + 1);
+                }
+                if (currentValue + 1 >= maxStock) {
+                    $(this).prop('disabled', true);
+                }
+            });
         });
     });
 </script>

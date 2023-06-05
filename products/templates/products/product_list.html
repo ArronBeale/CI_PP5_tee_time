@@ -101,6 +101,13 @@
                                 <a class="btn btn-outline-success btn-sm" href="{% url 'product_detail' product.id %}"
                                     role="button">View</a>
                                 <p class="text-success">{{ product.category.friendly_name }}</p>
+                                
+                                {% if product.stock < 5 and product.stock > 0 %}
+                                <p class="text-danger low-stock rounded">Only {{ product.stock }} left!</p>
+                                {% endif %}
+                                {% if product.stock == 0 %}
+                                <p class="text-danger">Out of Stock!</p>
+                                {% endif %}
                         </div>
                     </div>
                     {% empty %}
